@@ -1,0 +1,164 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "ID": 1, "AREA_SOSTA": "Duomo\/Fontana", "LOCALIZ": "Via Beccaria angolo piazza Fontana", "ZONA": 1.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.19429716725177, 45.463722054255349 ] } }
+,
+{ "type": "Feature", "id": 1, "properties": { "ID": 2, "AREA_SOSTA": "Loreto", "LOCALIZ": "Viale Andrea Doria angolo piazzale Loreto, 1", "ZONA": 3.0, "COMUNE": "MILANO", "POSTI_AUTO": 4.0 }, "geometry": { "type": "Point", "coordinates": [ 9.215230755640631, 45.486177491707124 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "ID": 3, "AREA_SOSTA": "Porta Genova\/Colombo", "LOCALIZ": "Corso Colombo angolo piazzale Porta Genova", "ZONA": 6.0, "COMUNE": "MILANO", "POSTI_AUTO": 4.0 }, "geometry": { "type": "Point", "coordinates": [ 9.170512424713715, 45.45371671468434 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "ID": 4, "AREA_SOSTA": "Cantore", "LOCALIZ": "Piazzale Cantore, 1 angolo corso Genova", "ZONA": 1.0, "COMUNE": "MILANO", "POSTI_AUTO": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 9.173681484053978, 45.456146852981341 ] } }
+,
+{ "type": "Feature", "id": 4, "properties": { "ID": 5, "AREA_SOSTA": "Stazione Cadorna", "LOCALIZ": "Piazzale Cadorna angolo via Paleocapa", "ZONA": 1.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.17657041539818, 45.468578009397156 ] } }
+,
+{ "type": "Feature", "id": 5, "properties": { "ID": 6, "AREA_SOSTA": "Stazione Centrale", "LOCALIZ": "Piazza Luigi di Savoia (uscita stazione) angolo viale Andrea Doria", "ZONA": 2.0, "COMUNE": "MILANO", "POSTI_AUTO": 4.0 }, "geometry": { "type": "Point", "coordinates": [ 9.206410460316928, 45.485406382881337 ] } }
+,
+{ "type": "Feature", "id": 6, "properties": { "ID": 7, "AREA_SOSTA": "Missori\/Statale", "LOCALIZ": "Largo Richini angolo via Pantano", "ZONA": 1.0, "COMUNE": "MILANO", "POSTI_AUTO": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 9.192699192843577, 45.459236983024553 ] } }
+,
+{ "type": "Feature", "id": 7, "properties": { "ID": 8, "AREA_SOSTA": "Porta Romana", "LOCALIZ": "Corso Lodi, 3 angolo piazza Medaglie d'oro", "ZONA": 4.0, "COMUNE": "MILANO", "POSTI_AUTO": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 9.203554766230685, 45.451557905493218 ] } }
+,
+{ "type": "Feature", "id": 8, "properties": { "ID": 9, "AREA_SOSTA": "Sant'Agostino", "LOCALIZ": "Piazza Sant'Agostino, 24", "ZONA": 1.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.169481301579493, 45.458750853088432 ] } }
+,
+{ "type": "Feature", "id": 9, "properties": { "ID": 10, "AREA_SOSTA": "Solferino\/Palermo", "LOCALIZ": "Via Palermo fronte civico 1", "ZONA": 1.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.186319737240249, 45.475203169952458 ] } }
+,
+{ "type": "Feature", "id": 10, "properties": { "ID": 11, "AREA_SOSTA": "Cenisio\/Messina", "LOCALIZ": "Via Messina (vicinanze n. 55)", "ZONA": 8.0, "COMUNE": "MILANO", "POSTI_AUTO": 4.0 }, "geometry": { "type": "Point", "coordinates": [ 9.17105299519474, 45.488757234382263 ] } }
+,
+{ "type": "Feature", "id": 11, "properties": { "ID": 12, "AREA_SOSTA": "Larga", "LOCALIZ": "Via Larga angolo via Palazzo Reale", "ZONA": 1.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.192911189029287, 45.4621490397382 ] } }
+,
+{ "type": "Feature", "id": 12, "properties": { "ID": 13, "AREA_SOSTA": "Corso Europa", "LOCALIZ": "Largo Bersaglieri angolo corso Europa", "ZONA": 1.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.195557230313519, 45.463448033317079 ] } }
+,
+{ "type": "Feature", "id": 13, "properties": { "ID": 14, "AREA_SOSTA": "Cordusio", "LOCALIZ": "via Broletto, 28 fronte via S.Tomaso", "ZONA": 1.0, "COMUNE": "MILANO", "POSTI_AUTO": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 9.185782866188335, 45.467458019038759 ] } }
+,
+{ "type": "Feature", "id": 14, "properties": { "ID": 15, "AREA_SOSTA": "Gioia\/Pirelli", "LOCALIZ": "Via Pirelli angolo Piazza Einaudi (Area Gioia)", "ZONA": 9.0, "COMUNE": "MILANO", "POSTI_AUTO": 5.0 }, "geometry": { "type": "Point", "coordinates": [ 9.196030063804802, 45.484045292491238 ] } }
+,
+{ "type": "Feature", "id": 15, "properties": { "ID": 16, "AREA_SOSTA": "Palestro", "LOCALIZ": "Via Palestro angolo via Marina", "ZONA": 1.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.201291395062361, 45.472355219621605 ] } }
+,
+{ "type": "Feature", "id": 16, "properties": { "ID": 17, "AREA_SOSTA": "Arena Civica", "LOCALIZ": "Via Canonica angolo viale Elvezia", "ZONA": 1.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.178001359844156, 45.477271078099839 ] } }
+,
+{ "type": "Feature", "id": 17, "properties": { "ID": 18, "AREA_SOSTA": "Rotonda della Besana", "LOCALIZ": "Via San Barnaba fronte civico 45", "ZONA": 1.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.204116605845098, 45.460069076519439 ] } }
+,
+{ "type": "Feature", "id": 18, "properties": { "ID": 19, "AREA_SOSTA": "S.Ambrogio\/Cattolica", "LOCALIZ": "Largo Gemelli, 1", "ZONA": 1.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.176498549426006, 45.463014912545752 ] } }
+,
+{ "type": "Feature", "id": 19, "properties": { "ID": 20, "AREA_SOSTA": "Repubblica", "LOCALIZ": "Piazza della Repubblica fronte civico n. 6", "ZONA": 2.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.196929182326569, 45.477675194290725 ] } }
+,
+{ "type": "Feature", "id": 20, "properties": { "ID": 21, "AREA_SOSTA": "Turro", "LOCALIZ": "Viale Monza, 137\/139 (Area Turro)", "ZONA": 2.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.22076880865294, 45.500073677048697 ] } }
+,
+{ "type": "Feature", "id": 21, "properties": { "ID": 22, "AREA_SOSTA": "Stazione Lambrate", "LOCALIZ": "Via Salieri angolo piazza Bottini", "ZONA": 3.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.235734602806286, 45.485230563861847 ] } }
+,
+{ "type": "Feature", "id": 22, "properties": { "ID": 23, "AREA_SOSTA": "Piola\/Politecnico", "LOCALIZ": "Piazza Leonardo da Vinci, 26", "ZONA": 3.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.226336306549658, 45.476793387090432 ] } }
+,
+{ "type": "Feature", "id": 23, "properties": { "ID": 24, "AREA_SOSTA": "Lambrate\/Casoretto", "LOCALIZ": "Via Casoretto angolo via Teodosio, 89", "ZONA": 3.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.229519309870591, 45.489089565981487 ] } }
+,
+{ "type": "Feature", "id": 24, "properties": { "ID": 25, "AREA_SOSTA": "Corso Indipendenza", "LOCALIZ": "Corso Indipendenza, 18 angolo via Bronzetti", "ZONA": 3.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.214387941505951, 45.467587176843452 ] } }
+,
+{ "type": "Feature", "id": 25, "properties": { "ID": 26, "AREA_SOSTA": "Susa\/Argonne", "LOCALIZ": "Viale Argonne, 12 nel collegamento tra i controviali", "ZONA": 3.0, "COMUNE": "MILANO", "POSTI_AUTO": 4.0 }, "geometry": { "type": "Point", "coordinates": [ 9.226589459239902, 45.467841294400181 ] } }
+,
+{ "type": "Feature", "id": 26, "properties": { "ID": 27, "AREA_SOSTA": "Udine", "LOCALIZ": "Piazza Udine, 3", "ZONA": 3.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.236592501690495, 45.490814657609228 ] } }
+,
+{ "type": "Feature", "id": 27, "properties": { "ID": 28, "AREA_SOSTA": "Corvetto", "LOCALIZ": "Viale Martini, 13\/15", "ZONA": 4.0, "COMUNE": "MILANO", "POSTI_AUTO": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 9.224224731414672, 45.438251910873483 ] } }
+,
+{ "type": "Feature", "id": 28, "properties": { "ID": 29, "AREA_SOSTA": "Corsica", "LOCALIZ": "Viale Corsica angolo Battistotti Sassi", "ZONA": 4.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.227988503160484, 45.462434236920906 ] } }
+,
+{ "type": "Feature", "id": 29, "properties": { "ID": 30, "AREA_SOSTA": "Cinque Giornate", "LOCALIZ": "Piazza 5 Giornate, 3 angolo viale Premuda", "ZONA": 4.0, "COMUNE": "MILANO", "POSTI_AUTO": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 9.207201738221439, 45.462708119877092 ] } }
+,
+{ "type": "Feature", "id": 30, "properties": { "ID": 31, "AREA_SOSTA": "Meda\/Spaventa", "LOCALIZ": "Via Spaventa, 19 angolo via Meda", "ZONA": 5.0, "COMUNE": "MILANO", "POSTI_AUTO": 4.0 }, "geometry": { "type": "Point", "coordinates": [ 9.178271885720688, 45.44069061237375 ] } }
+,
+{ "type": "Feature", "id": 31, "properties": { "ID": 32, "AREA_SOSTA": "P.ta Ticinese\/Custodi", "LOCALIZ": "Via Custodi, 14", "ZONA": 5.0, "COMUNE": "MILANO", "POSTI_AUTO": 1.0 }, "geometry": { "type": "Point", "coordinates": [ 9.182143909080137, 45.450560757925366 ] } }
+,
+{ "type": "Feature", "id": 32, "properties": { "ID": 33, "AREA_SOSTA": "P.ta Ticinese\/24 Maggio", "LOCALIZ": "Piazza 24 Maggio fronte civico 7", "ZONA": 5.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.180913779868181, 45.452478793042886 ] } }
+,
+{ "type": "Feature", "id": 33, "properties": { "ID": 34, "AREA_SOSTA": "Napoli", "LOCALIZ": "Piazza Napoli, 27 lato giardino", "ZONA": 6.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.154516806029344, 45.452657685568219 ] } }
+,
+{ "type": "Feature", "id": 34, "properties": { "ID": 35, "AREA_SOSTA": "Bande Nere", "LOCALIZ": "Piazzale Bande Nere, 2 angolo via Caterina da Forlì", "ZONA": 7.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.137905957777782, 45.46176469593555 ] } }
+,
+{ "type": "Feature", "id": 35, "properties": { "ID": 36, "AREA_SOSTA": "Wagner\/Piemonte", "LOCALIZ": "Via Cuneo, 8 angolo piazza Piemonte", "ZONA": 7.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.154855592340297, 45.466963803781894 ] } }
+,
+{ "type": "Feature", "id": 36, "properties": { "ID": 37, "AREA_SOSTA": "Wagner\/Sardegna", "LOCALIZ": "Via Sardegna, 27 angolo piazza Sicilia", "ZONA": 7.0, "COMUNE": "MILANO", "POSTI_AUTO": 4.0 }, "geometry": { "type": "Point", "coordinates": [ 9.152792572732496, 45.463858785761609 ] } }
+,
+{ "type": "Feature", "id": 37, "properties": { "ID": 38, "AREA_SOSTA": "Sempione\/Massena", "LOCALIZ": "Corso Sempione, 17 angolo via Massena", "ZONA": 8.0, "COMUNE": "MILANO", "POSTI_AUTO": 4.0 }, "geometry": { "type": "Point", "coordinates": [ 9.168391043109885, 45.478200056399061 ] } }
+,
+{ "type": "Feature", "id": 38, "properties": { "ID": 39, "AREA_SOSTA": "Cenisio\/Diocleziano", "LOCALIZ": "Piazza Diocleziano angolo via Losanna", "ZONA": 8.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.166008830137542, 45.487351209019579 ] } }
+,
+{ "type": "Feature", "id": 39, "properties": { "ID": 40, "AREA_SOSTA": "Firenze", "LOCALIZ": "Piazza Firenze angolo Viale Certosa (Area Certosa-Monteceneri)", "ZONA": 8.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.155035324678758, 45.48820309574517 ] } }
+,
+{ "type": "Feature", "id": 40, "properties": { "ID": 41, "AREA_SOSTA": "Fiera City\/Tiziano", "LOCALIZ": "Via Tiziano angolo via Luca della Robbia fronte civico 10", "ZONA": 8.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.159544725437669, 45.47298899044015 ] } }
+,
+{ "type": "Feature", "id": 41, "properties": { "ID": 42, "AREA_SOSTA": "Lotto\/Stuparich", "LOCALIZ": "Viale Salmoiraghi, 1 angolo piazzale Stuparich", "ZONA": 8.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.142146915020586, 45.483419968380304 ] } }
+,
+{ "type": "Feature", "id": 42, "properties": { "ID": 43, "AREA_SOSTA": "Stazione Garibaldi", "LOCALIZ": "Via de Tocqueville angolo collegamento Corso Como (Area Stazione Garibaldi)", "ZONA": 9.0, "COMUNE": "MILANO", "POSTI_AUTO": 4.0 }, "geometry": { "type": "Point", "coordinates": [ 9.186198698593467, 45.482511196889895 ] } }
+,
+{ "type": "Feature", "id": 43, "properties": { "ID": 44, "AREA_SOSTA": "Farini\/Longoni", "LOCALIZ": "Via Farini angolo via Longoni (Area Farini)", "ZONA": 9.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.18362649760326, 45.490884297680459 ] } }
+,
+{ "type": "Feature", "id": 44, "properties": { "ID": 45, "AREA_SOSTA": "Lugano", "LOCALIZ": "Piazzale Lugano, 10 (Area Lancetti - Dergano)", "ZONA": 9.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.165960655463055, 45.49881736957154 ] } }
+,
+{ "type": "Feature", "id": 45, "properties": { "ID": 46, "AREA_SOSTA": "Cairoli\/Ricasoli", "LOCALIZ": "Via Bettino Ricasoli angolo Foro Buonaparte", "ZONA": 1.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.179355587814527, 45.467863979785641 ] } }
+,
+{ "type": "Feature", "id": 46, "properties": { "ID": 47, "AREA_SOSTA": "Duca D'Aosta\/Pirelli", "LOCALIZ": "Via Pirelli angolo piazza Duca D'Aosta (Area Stazione Centrale)", "ZONA": 2.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.201522252483514, 45.484223389873875 ] } }
+,
+{ "type": "Feature", "id": 47, "properties": { "ID": 48, "AREA_SOSTA": "Lima\/Ozanam", "LOCALIZ": "Via Ozanam, 9", "ZONA": 3.0, "COMUNE": "MILANO", "POSTI_AUTO": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 9.21255168905946, 45.480449399933747 ] } }
+,
+{ "type": "Feature", "id": 48, "properties": { "ID": 49, "AREA_SOSTA": "Buenos Aires\/Regina Giovanna", "LOCALIZ": "Corso Buenos Aires, 14 angolo v.le Regina Giovanna", "ZONA": 3.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.207431618211595, 45.476633307457504 ] } }
+,
+{ "type": "Feature", "id": 49, "properties": { "ID": 50, "AREA_SOSTA": "Buenos Aires\/Castaldi", "LOCALIZ": "Corso Buenos Aires angolo via Panfilo Castaldi", "ZONA": 3.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.205889509314803, 45.475512240007014 ] } }
+,
+{ "type": "Feature", "id": 50, "properties": { "ID": 51, "AREA_SOSTA": "Friuli", "LOCALIZ": "Via Friuli angolo Via Maj", "ZONA": 4.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.213123021609086, 45.454205053679672 ] } }
+,
+{ "type": "Feature", "id": 51, "properties": { "ID": 52, "AREA_SOSTA": "Brenta", "LOCALIZ": "Via Brenta angolo Via Giovanni Bosco (Area Brenta MM3)", "ZONA": 4.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.215885275031186, 45.441412834588739 ] } }
+,
+{ "type": "Feature", "id": 52, "properties": { "ID": 53, "AREA_SOSTA": "Porta Vittoria", "LOCALIZ": "Via Cadore angolo Via Bezzecca", "ZONA": 4.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.214298998530095, 45.46097407464044 ] } }
+,
+{ "type": "Feature", "id": 53, "properties": { "ID": 54, "AREA_SOSTA": "Meda", "LOCALIZ": "Via Meda, 11", "ZONA": 5.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.179302858123494, 45.445296663237563 ] } }
+,
+{ "type": "Feature", "id": 54, "properties": { "ID": 55, "AREA_SOSTA": "Abbiategrasso", "LOCALIZ": "Via Medeghino, 32", "ZONA": 5.0, "COMUNE": "MILANO", "POSTI_AUTO": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 9.178982035388433, 45.430844472335885 ] } }
+,
+{ "type": "Feature", "id": 55, "properties": { "ID": 56, "AREA_SOSTA": "Bocconi", "LOCALIZ": "Via Sarfatti angolo via Sabbatini", "ZONA": 5.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.18822219767395, 45.448262797643508 ] } }
+,
+{ "type": "Feature", "id": 56, "properties": { "ID": 57, "AREA_SOSTA": "Romolo\/Cassala", "LOCALIZ": "Viale Cassala, 46", "ZONA": 6.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.16674035437649, 45.443981567488912 ] } }
+,
+{ "type": "Feature", "id": 57, "properties": { "ID": 58, "AREA_SOSTA": "Tortona", "LOCALIZ": "Via Tortona angolo via Bergognone", "ZONA": 6.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.164102111527869, 45.452231718236462 ] } }
+,
+{ "type": "Feature", "id": 58, "properties": { "ID": 59, "AREA_SOSTA": "Primaticcio", "LOCALIZ": "Viale Legioni Romane, 55 angolo via Primaticcio", "ZONA": 7.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.12916168522883, 45.459310563025632 ] } }
+,
+{ "type": "Feature", "id": 59, "properties": { "ID": 60, "AREA_SOSTA": "Tripoli", "LOCALIZ": "Piazza Tripoli", "ZONA": 7.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.148550418624488, 45.45968572811492 ] } }
+,
+{ "type": "Feature", "id": 60, "properties": { "ID": 61, "AREA_SOSTA": "Lorenteggio\/Frattini", "LOCALIZ": "Piazza Frattini angolo via Lorenteggio", "ZONA": 7.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.141533301926689, 45.451759583452791 ] } }
+,
+{ "type": "Feature", "id": 61, "properties": { "ID": 62, "AREA_SOSTA": "Fiera City\/Giulio Cesare", "LOCALIZ": "Piazza Giulio Cesare angolo via Buonarroti", "ZONA": 8.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.155865548080751, 45.473228945251016 ] } }
+,
+{ "type": "Feature", "id": 62, "properties": { "ID": 63, "AREA_SOSTA": "Sempione\/Losanna", "LOCALIZ": "Via Piero della Francesca angolo via Losanna", "ZONA": 8.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.162384682399679, 45.484834132984162 ] } }
+,
+{ "type": "Feature", "id": 63, "properties": { "ID": 64, "AREA_SOSTA": "Mac Mahon", "LOCALIZ": "Via Arimondi angolo via Mac Mahon", "ZONA": 8.0, "COMUNE": "MILANO", "POSTI_AUTO": 4.0 }, "geometry": { "type": "Point", "coordinates": [ 9.159089437403486, 45.492763218994199 ] } }
+,
+{ "type": "Feature", "id": 64, "properties": { "ID": 65, "AREA_SOSTA": "Maciachini", "LOCALIZ": "Pizzale Maciachini, 1 angolo viale Marche (Area Maciachini)", "ZONA": 9.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.187472573037116, 45.497678483645124 ] } }
+,
+{ "type": "Feature", "id": 65, "properties": { "ID": 66, "AREA_SOSTA": "Bicocca", "LOCALIZ": "Via dell'Innovazione edificio U9 (Area Bicocca)", "ZONA": 9.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.211643270606123, 45.511751825038083 ] } }
+,
+{ "type": "Feature", "id": 66, "properties": { "ID": 67, "AREA_SOSTA": "Niguarda\/Cà Granda", "LOCALIZ": "Viale Cà Granda (Area Niguarda)", "ZONA": 9.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.190730494656766, 45.508550608576847 ] } }
+,
+{ "type": "Feature", "id": 67, "properties": { "ID": 68, "AREA_SOSTA": "Jenner", "LOCALIZ": "Via Guerzoni vicinanze n. 48", "ZONA": 9.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.17555003400966, 45.501700427790176 ] } }
+,
+{ "type": "Feature", "id": 68, "properties": { "ID": 69, "AREA_SOSTA": "Gioia\/Einaudi", "LOCALIZ": "Piazza Einaudi", "ZONA": 9.0, "COMUNE": "MILANO", "POSTI_AUTO": 4.0 }, "geometry": { "type": "Point", "coordinates": [ 9.194818957654704, 45.484052310611965 ] } }
+,
+{ "type": "Feature", "id": 69, "properties": { "ID": 70, "AREA_SOSTA": "Bonola\/Uruguay", "LOCALIZ": "Via Uruguay, 2 angolo via Quarenghi", "ZONA": 8.0, "COMUNE": "MILANO", "POSTI_AUTO": 2.0 }, "geometry": { "type": "Point", "coordinates": [ 9.115339687541489, 45.496667040537645 ] } }
+,
+{ "type": "Feature", "id": 70, "properties": { "ID": 71, "AREA_SOSTA": "Linate", "LOCALIZ": "Aeroporto", "ZONA": 4.0, "COMUNE": "MILANO", "POSTI_AUTO": 1.0 }, "geometry": { "type": "Point", "coordinates": [ 9.278744560168077, 45.46224053860513 ] } }
+,
+{ "type": "Feature", "id": 71, "properties": { "ID": 72, "AREA_SOSTA": "Monza\/Arengario", "LOCALIZ": "Piazza Roma (Area Monza Centro)", "ZONA": 0.0, "COMUNE": "MONZA", "POSTI_AUTO": 1.0 }, "geometry": { "type": "Point", "coordinates": [ 9.274375915012612, 45.58457511174916 ] } }
+,
+{ "type": "Feature", "id": 72, "properties": { "ID": 73, "AREA_SOSTA": "Monza Stazione FS", "LOCALIZ": "Piazza Castello (Area Monza Stazione)", "ZONA": 0.0, "COMUNE": "MONZA", "POSTI_AUTO": 1.0 }, "geometry": { "type": "Point", "coordinates": [ 9.275516019315896, 45.578574069813328 ] } }
+,
+{ "type": "Feature", "id": 73, "properties": { "ID": 74, "AREA_SOSTA": "Sesto S.Giovanni\/MM Rondò", "LOCALIZ": "Via Roma, 1 (Area Sesto San Giovanni - Rondò)", "ZONA": 0.0, "COMUNE": "SESTO SAN GIOVANNI", "POSTI_AUTO": 1.0 }, "geometry": { "type": "Point", "coordinates": [ 9.231125856770451, 45.533879169361356 ] } }
+,
+{ "type": "Feature", "id": 74, "properties": { "ID": 75, "AREA_SOSTA": "Sesto S.Giovanni\/Municipio", "LOCALIZ": "Piazza della Resistenza (Area Sesto San Giovanni - Municipio)", "ZONA": 0.0, "COMUNE": "SESTO SAN GIOVANNI", "POSTI_AUTO": 1.0 }, "geometry": { "type": "Point", "coordinates": [ 9.23648904936498, 45.534148268354969 ] } }
+,
+{ "type": "Feature", "id": 75, "properties": { "ID": 76, "AREA_SOSTA": "Sesto S.Giovanni\/MM Marelli", "LOCALIZ": "Viale Edison angolo viale Monza (Area Sesto San Giovanni - Marelli)", "ZONA": 0.0, "COMUNE": "SESTO SAN GIOVANNI", "POSTI_AUTO": 1.0 }, "geometry": { "type": "Point", "coordinates": [ 9.228157849429371, 45.52351307215875 ] } }
+,
+{ "type": "Feature", "id": 76, "properties": { "ID": 77, "AREA_SOSTA": "Sesto S.Giovanni\/Stazione FS", "LOCALIZ": "Piazza 1° Maggio (Area Sesto San Giovanni - Stazione FS)", "ZONA": 0.0, "COMUNE": "SESTO SAN GIOVANNI", "POSTI_AUTO": 1.0 }, "geometry": { "type": "Point", "coordinates": [ 9.23815495815408, 45.541288328654183 ] } }
+,
+{ "type": "Feature", "id": 77, "properties": { "ID": 78, "AREA_SOSTA": "Segrate\/Passante FS", "LOCALIZ": "Via Caravaggio", "ZONA": 0.0, "COMUNE": "SEGRATE", "POSTI_AUTO": 1.0 }, "geometry": { "type": "Point", "coordinates": [ 9.298130055728162, 45.481832897722917 ] } }
+,
+{ "type": "Feature", "id": 78, "properties": { "ID": 79, "AREA_SOSTA": "Bollate", "LOCALIZ": "Vicolo Concordia, Municipio", "ZONA": 0.0, "COMUNE": "BOLLATE", "POSTI_AUTO": 1.0 }, "geometry": { "type": "Point", "coordinates": [ 9.118016170679686, 45.543700628420254 ] } }
+
+]
+}

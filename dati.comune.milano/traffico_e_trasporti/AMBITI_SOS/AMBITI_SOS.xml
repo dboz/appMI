@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dato>
+    <titolo>Ambiti della sosta</titolo> 
+    <descrizione>Ambiti e regolamentazione della sosta attuata e prevista.</descrizione>
+    <tipoDato>Dato geografico</tipoDato>
+    <licenza>CC-BY</licenza> 
+    <URLlicenza>http://creativecommons.org/licenses/by/3.0/</URLlicenza>
+    <URLServizio></URLServizio>
+    <dataCreazione>venerdì 20 luglio 2012 16:38:55</dataCreazione>
+    <dataModificaDato>lunedì 15 aprile 2013 16:38:57</dataModificaDato>
+    <dataModificaMetadato>giovedì 06 giugno 2013 11:51:41</dataModificaMetadato>
+    <dataScadenza>martedì 15 ottobre 2013 16:39:04</dataScadenza>
+    <frequenzaAgg>Semestrale</frequenzaAgg>
+    <fileURL>AMBITI_SOS</fileURL>
+    <fileTipo>SHP</fileTipo> 
+    <fileDimensione></fileDimensione>
+    <fileDescrizione />
+    <sistemaRiferimento>Gauss-Boaga fuso ovest</sistemaRiferimento>
+    <scala>1:2000</scala>
+    <enti>
+        <ente>AMAT - Agenzia Mobilità Ambiente e Territorio del Comune di Milano</ente>
+    </enti>
+    <argomenti>
+        <argomento>Mobilità</argomento>
+    </argomenti>
+    <tags>
+        <tag>mobilità</tag>
+    </tags>
+    
+    
+</dato>

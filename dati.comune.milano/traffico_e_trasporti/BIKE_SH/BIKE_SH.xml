@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dato>
+    <titolo>Bike sharing</titolo> 
+    <descrizione>Localizzazione, collocazione e numero di stalli offerti delle stazioni del bike sharing.</descrizione>
+    <tipoDato>Dato geografico</tipoDato>
+    <licenza>CC-BY</licenza> 
+    <URLlicenza>http://creativecommons.org/licenses/by/3.0/</URLlicenza>
+    <URLServizio></URLServizio>
+    <dataCreazione>giovedì 14 giugno 2012 16:46:36</dataCreazione>
+    <dataModificaDato>venerdì 31 maggio 2013 15:00:00</dataModificaDato>
+    <dataModificaMetadato>giovedì 06 giugno 2013 12:25:06</dataModificaMetadato>
+    <dataScadenza>domenica 30 giugno 2013 12:00:00</dataScadenza>
+    <frequenzaAgg>Mensile</frequenzaAgg>
+    <fileURL>BIKE_SH</fileURL>
+    <fileTipo>SHP</fileTipo> 
+    <fileDimensione></fileDimensione>
+    <fileDescrizione />
+    <sistemaRiferimento>Gauss-Boaga fuso ovest</sistemaRiferimento>
+    <scala>1:5000</scala>
+    <enti>
+        <ente>AMAT - Agenzia Mobilità Ambiente e Territorio del Comune di Milano</ente>
+    </enti>
+    <argomenti>
+        <argomento>Mobilità</argomento>
+    </argomenti>
+    <tags>
+        <tag>mobilità</tag>
+    </tags>
+    
+    
+</dato>

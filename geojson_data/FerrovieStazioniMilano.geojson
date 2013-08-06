@@ -1,0 +1,48 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "ID": 385, "nome": "MI-P.TA VITTORIA", "gestore": "FS" }, "geometry": { "type": "Point", "coordinates": [ 9.219996275886794, 45.459363898296779 ] } }
+,
+{ "type": "Feature", "id": 1, "properties": { "ID": 402, "nome": "MI-P.TA ROMANA", "gestore": "FS" }, "geometry": { "type": "Point", "coordinates": [ 9.200883400463148, 45.445338167968927 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "ID": 379, "nome": "MI-CADORNA", "gestore": "FNM" }, "geometry": { "type": "Point", "coordinates": [ 9.1754465158141, 45.468399839923457 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "ID": 1001, "nome": "MI-REPUBBLICA", "gestore": "FNM-FS" }, "geometry": { "type": "Point", "coordinates": [ 9.197966781387297, 45.480668489825817 ] } }
+,
+{ "type": "Feature", "id": 4, "properties": { "ID": 1002, "nome": "MI-LANCETTI", "gestore": "FNM-FS" }, "geometry": { "type": "Point", "coordinates": [ 9.172717281780656, 45.494613909951319 ] } }
+,
+{ "type": "Feature", "id": 5, "properties": { "ID": 348, "nome": "MI-BOVISA", "gestore": "FNM-FS" }, "geometry": { "type": "Point", "coordinates": [ 9.158895141287363, 45.501845482868404 ] } }
+,
+{ "type": "Feature", "id": 6, "properties": { "ID": 365, "nome": "MILANO CENTRALE", "gestore": "FS" }, "geometry": { "type": "Point", "coordinates": [ 9.203481361924814, 45.485386702859294 ] } }
+,
+{ "type": "Feature", "id": 7, "properties": { "ID": 337, "nome": "MI-GRECO PIRELLI", "gestore": "FS" }, "geometry": { "type": "Point", "coordinates": [ 9.214848147012248, 45.513216683179778 ] } }
+,
+{ "type": "Feature", "id": 8, "properties": { "ID": 367, "nome": "MI-LAMBRATE", "gestore": "FS" }, "geometry": { "type": "Point", "coordinates": [ 9.236154858351208, 45.486205297481156 ] } }
+,
+{ "type": "Feature", "id": 9, "properties": { "ID": 407, "nome": "MI-ROGOREDO", "gestore": "FS" }, "geometry": { "type": "Point", "coordinates": [ 9.238410020734277, 45.4343209474414 ] } }
+,
+{ "type": "Feature", "id": 10, "properties": { "ID": 403, "nome": "S.CRISTOFORO", "gestore": "FS" }, "geometry": { "type": "Point", "coordinates": [ 9.130101090902336, 45.442452409653733 ] } }
+,
+{ "type": "Feature", "id": 11, "properties": { "ID": 663, "nome": "MI-BULLONA", "gestore": "FNM" }, "geometry": { "type": "Point", "coordinates": [ 9.160680794852418, 45.486602364287897 ] } }
+,
+{ "type": "Feature", "id": 12, "properties": { "ID": 346, "nome": "MI-CERTOSA", "gestore": "FS" }, "geometry": { "type": "Point", "coordinates": [ 9.134348136069059, 45.506892329493404 ] } }
+,
+{ "type": "Feature", "id": 13, "properties": { "ID": 322, "nome": "MI-QUARTO OGGIARO", "gestore": "FNM" }, "geometry": { "type": "Point", "coordinates": [ 9.144904491959826, 45.519713805738874 ] } }
+,
+{ "type": "Feature", "id": 14, "properties": { "ID": 325, "nome": "MI-AFFORI", "gestore": "FNM" }, "geometry": { "type": "Point", "coordinates": [ 9.166747221090045, 45.519902667535717 ] } }
+,
+{ "type": "Feature", "id": 15, "properties": { "ID": 318, "nome": "BRUZZANO", "gestore": "FNM" }, "geometry": { "type": "Point", "coordinates": [ 9.171788668760875, 45.529679139441257 ] } }
+,
+{ "type": "Feature", "id": 16, "properties": { "ID": 389, "nome": "MI-P.TA GENOVA", "gestore": "FS" }, "geometry": { "type": "Point", "coordinates": [ 9.169452573800072, 45.452836977058865 ] } }
+,
+{ "type": "Feature", "id": 17, "properties": { "ID": 364, "nome": "MI-P.TA GARIBALDI", "gestore": "FNM-FS" }, "geometry": { "type": "Point", "coordinates": [ 9.186749671243895, 45.484661256445726 ] } }
+,
+{ "type": "Feature", "id": 18, "properties": { "ID": 1003, "nome": "MI-P.TA VENEZIA", "gestore": "FNM-FS" }, "geometry": { "type": "Point", "coordinates": [ 9.20820100773469, 45.475987819079911 ] } }
+,
+{ "type": "Feature", "id": 19, "properties": { "ID": 1004, "nome": "MI-DATEO", "gestore": "FNM-FS" }, "geometry": { "type": "Point", "coordinates": [ 9.217279709788889, 45.468099763386043 ] } }
+,
+{ "type": "Feature", "id": 20, "properties": { "ID": 1005, "nome": "MI-VILLAPIZZONE", "gestore": "FNM-FS" }, "geometry": { "type": "Point", "coordinates": [ 9.150620896524332, 45.502190478573901 ] } }
+
+]
+}

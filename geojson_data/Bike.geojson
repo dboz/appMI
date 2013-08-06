@@ -1,0 +1,372 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "ID": 2, "BIKE_SH": "002 San Babila", "INDIRIZZO": "P.za S.Babila", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.197583379174054, 45.466472877583051 ] } }
+,
+{ "type": "Feature", "id": 1, "properties": { "ID": 3, "BIKE_SH": "003 Cadorna 1", "INDIRIZZO": "P.za Cadorna", "ANNO": "2008", "STALLI": 21, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.175661640836314, 45.468002901526347 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "ID": 4, "BIKE_SH": "004 Lanza", "INDIRIZZO": "L.go Greppi", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.181970120449471, 45.472274003292647 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "ID": 5, "BIKE_SH": "005 Università Cattolica", "INDIRIZZO": "P.za S.Ambrogio", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.176497894604568, 45.463041732015007 ] } }
+,
+{ "type": "Feature", "id": 4, "properties": { "ID": 6, "BIKE_SH": "006 San Giorgio", "INDIRIZZO": "P.za S.Giorgio", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.183620940504659, 45.46088945727795 ] } }
+,
+{ "type": "Feature", "id": 5, "properties": { "ID": 7, "BIKE_SH": "007 Santa Maria Beltrade", "INDIRIZZO": "P.za S.Maria Beltrade", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.186769165340541, 45.462785773527088 ] } }
+,
+{ "type": "Feature", "id": 6, "properties": { "ID": 8, "BIKE_SH": "008 Velasca", "INDIRIZZO": "P.za Velasca", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.190214604055894, 45.460053254008535 ] } }
+,
+{ "type": "Feature", "id": 7, "properties": { "ID": 9, "BIKE_SH": "009 Santo Stefano", "INDIRIZZO": "P.za S.Stefano", "ANNO": "2008", "STALLI": 18, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.195326400189599, 45.462364979789157 ] } }
+,
+{ "type": "Feature", "id": 8, "properties": { "ID": 10, "BIKE_SH": "010 Missori", "INDIRIZZO": "P.za Missori", "ANNO": "2008", "STALLI": 21, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.188151988046812, 45.461295083444057 ] } }
+,
+{ "type": "Feature", "id": 9, "properties": { "ID": 12, "BIKE_SH": "012 San Lorenzo \"Colonne\"", "INDIRIZZO": "Via Pio IV", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.181479448452109, 45.458602143646132 ] } }
+,
+{ "type": "Feature", "id": 10, "properties": { "ID": 13, "BIKE_SH": "013 Senato", "INDIRIZZO": "Via Senato", "ANNO": "2008", "STALLI": 18, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.197453380582335, 45.47054671412053 ] } }
+,
+{ "type": "Feature", "id": 11, "properties": { "ID": 14, "BIKE_SH": "014 San Barnaba \"H Mangiagalli\"", "INDIRIZZO": "Via S. Barnaba", "ANNO": "2008", "STALLI": 21, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.198520917934518, 45.459516004188629 ] } }
+,
+{ "type": "Feature", "id": 12, "properties": { "ID": 15, "BIKE_SH": "015 Cantore", "INDIRIZZO": "P.za Cantore", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.172811604634566, 45.455800879284581 ] } }
+,
+{ "type": "Feature", "id": 13, "properties": { "ID": 16, "BIKE_SH": "016 Moscova", "INDIRIZZO": "L.go La Foppa", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.184603117550656, 45.477530063079996 ] } }
+,
+{ "type": "Feature", "id": 14, "properties": { "ID": 17, "BIKE_SH": "017 Legnano \"Arena civica\"", "INDIRIZZO": "Via Legnano", "ANNO": "2008", "STALLI": 18, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.180863176143303, 45.477203774869835 ] } }
+,
+{ "type": "Feature", "id": 15, "properties": { "ID": 18, "BIKE_SH": "018 Tommaseo", "INDIRIZZO": "P.za Tommaseo", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.166540850990758, 45.469505139711373 ] } }
+,
+{ "type": "Feature", "id": 16, "properties": { "ID": 19, "BIKE_SH": "019 Santa Sofia", "INDIRIZZO": "Via S.Sofia", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.188160616736235, 45.45633329057889 ] } }
+,
+{ "type": "Feature", "id": 17, "properties": { "ID": 20, "BIKE_SH": "020 Erculea", "INDIRIZZO": "P.za Erculea", "ANNO": "2008", "STALLI": 21, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.189607002525591, 45.459084117539085 ] } }
+,
+{ "type": "Feature", "id": 18, "properties": { "ID": 21, "BIKE_SH": "021 Università Bocconi 1", "INDIRIZZO": "Via Bocconi", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.190441308541562, 45.448577978451617 ] } }
+,
+{ "type": "Feature", "id": 19, "properties": { "ID": 22, "BIKE_SH": "022 Medaglie d'Oro 1", "INDIRIZZO": "C.so Lodi", "ANNO": "2008", "STALLI": 21, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.204089236151681, 45.451210382564014 ] } }
+,
+{ "type": "Feature", "id": 20, "properties": { "ID": 23, "BIKE_SH": "023 Regina Margherita", "INDIRIZZO": "V.le Regina Margherita", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.205259981549299, 45.458248684192704 ] } }
+,
+{ "type": "Feature", "id": 21, "properties": { "ID": 24, "BIKE_SH": "024 Tricolore", "INDIRIZZO": "C.so Concordia", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.207325082259384, 45.467964942433014 ] } }
+,
+{ "type": "Feature", "id": 22, "properties": { "ID": 25, "BIKE_SH": "025 Centrale 1", "INDIRIZZO": "P.za Duca d'Aosta sx", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.202482634621163, 45.485421410866948 ] } }
+,
+{ "type": "Feature", "id": 23, "properties": { "ID": 26, "BIKE_SH": "026 Centrale 2", "INDIRIZZO": "P.za Duca d'Aosta dx", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.204244276003431, 45.484539303625311 ] } }
+,
+{ "type": "Feature", "id": 24, "properties": { "ID": 27, "BIKE_SH": "027 P.ta Venezia - Oberdan", "INDIRIZZO": "Bastioni di P.ta Venezia", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.204549351989696, 45.474673373856781 ] } }
+,
+{ "type": "Feature", "id": 25, "properties": { "ID": 28, "BIKE_SH": "028 San Giovanni sul Muro", "INDIRIZZO": "L.go Callas", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.181446126612734, 45.467465787322169 ] } }
+,
+{ "type": "Feature", "id": 26, "properties": { "ID": 29, "BIKE_SH": "029 San Pietro in Gessate \"Tribunale\"", "INDIRIZZO": "C.so P.ta Vittoria", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.201391123804912, 45.462395233694352 ] } }
+,
+{ "type": "Feature", "id": 27, "properties": { "ID": 30, "BIKE_SH": "030 Crocetta", "INDIRIZZO": "L.go Crocetta", "ANNO": "2008", "STALLI": 21, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.195667156176782, 45.456244025097604 ] } }
+,
+{ "type": "Feature", "id": 28, "properties": { "ID": 31, "BIKE_SH": "031 Conca del Naviglio", "INDIRIZZO": "Via Conca del Naviglio", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.177471741321183, 45.455620147424106 ] } }
+,
+{ "type": "Feature", "id": 29, "properties": { "ID": 32, "BIKE_SH": "032 Manin - Bastioni", "INDIRIZZO": "Via Manin", "ANNO": "2008", "STALLI": 30, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.198315731047783, 45.476859878260761 ] } }
+,
+{ "type": "Feature", "id": 30, "properties": { "ID": 33, "BIKE_SH": "033 Alemagna \"Triennale\"", "INDIRIZZO": "Via Alemagna", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.173477252837699, 45.471877896296114 ] } }
+,
+{ "type": "Feature", "id": 31, "properties": { "ID": 34, "BIKE_SH": "034 Cairoli", "INDIRIZZO": "L.go Cairoli", "ANNO": "2008", "STALLI": 21, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.182302171241929, 45.467996835812301 ] } }
+,
+{ "type": "Feature", "id": 32, "properties": { "ID": 35, "BIKE_SH": "035 Torino - Carrobbio", "INDIRIZZO": "Via Torino", "ANNO": "2008", "STALLI": 21, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.18172400153721, 45.460434231432671 ] } }
+,
+{ "type": "Feature", "id": 33, "properties": { "ID": 36, "BIKE_SH": "036 San Vito", "INDIRIZZO": "Via S.Vito", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.183707549301703, 45.459201914318264 ] } }
+,
+{ "type": "Feature", "id": 34, "properties": { "ID": 37, "BIKE_SH": "037 Italia - San Martino", "INDIRIZZO": "C.so Italia", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.186953745066461, 45.452968017142737 ] } }
+,
+{ "type": "Feature", "id": 35, "properties": { "ID": 38, "BIKE_SH": "038 XXIV Maggio", "INDIRIZZO": "P.le XXIV Maggio", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.179159817289442, 45.452153250621471 ] } }
+,
+{ "type": "Feature", "id": 36, "properties": { "ID": 39, "BIKE_SH": "039 XXV Aprile", "INDIRIZZO": "C.so Garibaldi", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.186692785801551, 45.480227320375576 ] } }
+,
+{ "type": "Feature", "id": 37, "properties": { "ID": 40, "BIKE_SH": "040 Morozzo della Rocca", "INDIRIZZO": "Via Morozzo della Rocca", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.168913823602868, 45.463973013543033 ] } }
+,
+{ "type": "Feature", "id": 38, "properties": { "ID": 41, "BIKE_SH": "041 Conciliazione", "INDIRIZZO": "P.za Conciliazione", "ANNO": "2008", "STALLI": 18, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.166941212364034, 45.46768756264035 ] } }
+,
+{ "type": "Feature", "id": 39, "properties": { "ID": 42, "BIKE_SH": "042 San Pietro all'Orto", "INDIRIZZO": "Via S.Pietro all'Orto", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.195602928574099, 45.466083093061677 ] } }
+,
+{ "type": "Feature", "id": 40, "properties": { "ID": 43, "BIKE_SH": "043 Festa del Perdono", "INDIRIZZO": "Via Festa del Perdono", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.194705615784075, 45.461306258453533 ] } }
+,
+{ "type": "Feature", "id": 41, "properties": { "ID": 45, "BIKE_SH": "045 Cantù", "INDIRIZZO": "Via Cantù", "ANNO": "2008", "STALLI": 21, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.186625910793843, 45.464190196478441 ] } }
+,
+{ "type": "Feature", "id": 42, "properties": { "ID": 46, "BIKE_SH": "046 Porta Nuova", "INDIRIZZO": "P.le Principessa Clotilde", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.192821856511186, 45.480001889726488 ] } }
+,
+{ "type": "Feature", "id": 43, "properties": { "ID": 47, "BIKE_SH": "047 Gorizia 1 \"Navigli\"", "INDIRIZZO": "V.le Gorizia", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.177443814556316, 45.452325114777082 ] } }
+,
+{ "type": "Feature", "id": 44, "properties": { "ID": 48, "BIKE_SH": "048 Gorizia 2 \"Navigli\"", "INDIRIZZO": "V.le Gorizia", "ANNO": "2008", "STALLI": 21, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.177298751545946, 45.452340368770194 ] } }
+,
+{ "type": "Feature", "id": 45, "properties": { "ID": 49, "BIKE_SH": "049 San Paolo - P.za Meda", "INDIRIZZO": "Via S.Paolo", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.193016116405449, 45.46644656500024 ] } }
+,
+{ "type": "Feature", "id": 46, "properties": { "ID": 50, "BIKE_SH": "050 Beccaria", "INDIRIZZO": "P.za Beccaria", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.194826903820168, 45.464371456051857 ] } }
+,
+{ "type": "Feature", "id": 47, "properties": { "ID": 51, "BIKE_SH": "051 Santa Maria delle Grazie", "INDIRIZZO": "Via F.lli Ruffini", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.169786666085683, 45.466506245458611 ] } }
+,
+{ "type": "Feature", "id": 48, "properties": { "ID": 52, "BIKE_SH": "052 Vittor Pisani", "INDIRIZZO": "Via Vittor Pisani", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.199137086129776, 45.480431776725517 ] } }
+,
+{ "type": "Feature", "id": 49, "properties": { "ID": 53, "BIKE_SH": "053 Palestro 1", "INDIRIZZO": "Via Palestro", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.201707938326038, 45.472338556997279 ] } }
+,
+{ "type": "Feature", "id": 50, "properties": { "ID": 54, "BIKE_SH": "054 Sant'Eustorgio - P.ta Ticinese", "INDIRIZZO": "C.so P.ta Ticinese", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.180693713597163, 45.455166840682466 ] } }
+,
+{ "type": "Feature", "id": 51, "properties": { "ID": 55, "BIKE_SH": "055 Cinque Giornate", "INDIRIZZO": "P.za Cinque Giornate", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.207056507008513, 45.462653575943499 ] } }
+,
+{ "type": "Feature", "id": 52, "properties": { "ID": 57, "BIKE_SH": "057 Brera", "INDIRIZZO": "Via Brera", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.187541742893474, 45.471789835980516 ] } }
+,
+{ "type": "Feature", "id": 53, "properties": { "ID": 58, "BIKE_SH": "058 Sant'Agostino", "INDIRIZZO": "Via Numa Pompilio", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.169519984154695, 45.45891881627189 ] } }
+,
+{ "type": "Feature", "id": 54, "properties": { "ID": 60, "BIKE_SH": "060 Edison", "INDIRIZZO": "Via della Posta", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.183544120261598, 45.464330623109426 ] } }
+,
+{ "type": "Feature", "id": 55, "properties": { "ID": 61, "BIKE_SH": "061 Augusto", "INDIRIZZO": "L.go Augusto", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.198160388642458, 45.463429155516167 ] } }
+,
+{ "type": "Feature", "id": 56, "properties": { "ID": 62, "BIKE_SH": "062 Treves", "INDIRIZZO": "L.go Treves", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.186787851252024, 45.475045006193703 ] } }
+,
+{ "type": "Feature", "id": 57, "properties": { "ID": 63, "BIKE_SH": "063 Sant'Ambrogio", "INDIRIZZO": "Via S.Vittore", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.174004148534793, 45.461967952480329 ] } }
+,
+{ "type": "Feature", "id": 58, "properties": { "ID": 64, "BIKE_SH": "064 Diaz", "INDIRIZZO": "Via Marconi", "ANNO": "2008", "STALLI": 33, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.189862267079604, 45.462995140991829 ] } }
+,
+{ "type": "Feature", "id": 59, "properties": { "ID": 65, "BIKE_SH": "065 Bertarelli", "INDIRIZZO": "P.za Bertarelli", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.187517926737632, 45.458538501118866 ] } }
+,
+{ "type": "Feature", "id": 60, "properties": { "ID": 66, "BIKE_SH": "066 Cavour \"Giardini Pubblici\"", "INDIRIZZO": "P.za Cavour", "ANNO": "2008", "STALLI": 27, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.196388080276863, 45.472969764730159 ] } }
+,
+{ "type": "Feature", "id": 61, "properties": { "ID": 67, "BIKE_SH": "067 Repubblica", "INDIRIZZO": "P.za della Repubblica", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.196570204448269, 45.478938075669362 ] } }
+,
+{ "type": "Feature", "id": 62, "properties": { "ID": 68, "BIKE_SH": "068 Rotonda della Besana", "INDIRIZZO": "Via Visconti Venosta", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.205338193804298, 45.460564382340486 ] } }
+,
+{ "type": "Feature", "id": 63, "properties": { "ID": 69, "BIKE_SH": "069 San Nazaro in Brolo", "INDIRIZZO": "P.za S.Nazaro in Brolo", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.192702158871901, 45.458248204075069 ] } }
+,
+{ "type": "Feature", "id": 64, "properties": { "ID": 70, "BIKE_SH": "070 Fatebenefratelli", "INDIRIZZO": "Via Fatebenefratelli", "ANNO": "2008", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.190161922099504, 45.473112123369603 ] } }
+,
+{ "type": "Feature", "id": 65, "properties": { "ID": 71, "BIKE_SH": "071 Medaglie d'Oro 2", "INDIRIZZO": "P.za Medaglie d'Oro", "ANNO": "2009", "STALLI": 18, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.202963437352443, 45.451961323681793 ] } }
+,
+{ "type": "Feature", "id": 66, "properties": { "ID": 72, "BIKE_SH": "072 Cardinal Ferrari", "INDIRIZZO": "Via S.Calimero", "ANNO": "2008", "STALLI": 21, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.19269306357368, 45.456627860865567 ] } }
+,
+{ "type": "Feature", "id": 67, "properties": { "ID": 73, "BIKE_SH": "073 Majno - Baretti", "INDIRIZZO": "Via Baretti", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.204976062897627, 45.471485898814414 ] } }
+,
+{ "type": "Feature", "id": 68, "properties": { "ID": 74, "BIKE_SH": "074 Dante - San Tomaso", "INDIRIZZO": "Via S.Tomaso", "ANNO": "2009", "STALLI": 15, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.184010320708357, 45.467083984926752 ] } }
+,
+{ "type": "Feature", "id": 69, "properties": { "ID": 75, "BIKE_SH": "075 Cusani", "INDIRIZZO": "Via Cusani", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.184881793992028, 45.468716975018125 ] } }
+,
+{ "type": "Feature", "id": 70, "properties": { "ID": 76, "BIKE_SH": "076 Mentana", "INDIRIZZO": "P.za Mentana", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.181937818654557, 45.461755376237555 ] } }
+,
+{ "type": "Feature", "id": 71, "properties": { "ID": 77, "BIKE_SH": "077 Sant'Angelo - P.ta Nuova", "INDIRIZZO": "C.so P.ta Nuova", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.19176921520266, 45.476615092396422 ] } }
+,
+{ "type": "Feature", "id": 72, "properties": { "ID": 78, "BIKE_SH": "078 Aquileia", "INDIRIZZO": "P.le Aquileia", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.163338030559231, 45.46085819538343 ] } }
+,
+{ "type": "Feature", "id": 73, "properties": { "ID": 79, "BIKE_SH": "079 Baracca", "INDIRIZZO": "P.le Baracca", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.165055744219743, 45.466458448762481 ] } }
+,
+{ "type": "Feature", "id": 74, "properties": { "ID": 80, "BIKE_SH": "080 Manzoni - Sant'Erasmo", "INDIRIZZO": "P.za S. Erasmo", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.192450283410045, 45.471193750629467 ] } }
+,
+{ "type": "Feature", "id": 75, "properties": { "ID": 81, "BIKE_SH": "081 Università Bocconi 2", "INDIRIZZO": "V.le Bach", "ANNO": "2009", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.191003610346826, 45.448275377785215 ] } }
+,
+{ "type": "Feature", "id": 76, "properties": { "ID": 82, "BIKE_SH": "082 dell'Umanitaria", "INDIRIZZO": "P.za dell'Umanitaria", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.200593745852814, 45.458172724942642 ] } }
+,
+{ "type": "Feature", "id": 77, "properties": { "ID": 83, "BIKE_SH": "083 Rastrelli - Larga", "INDIRIZZO": "Via Rastrelli", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.191457287707063, 45.462052217304809 ] } }
+,
+{ "type": "Feature", "id": 78, "properties": { "ID": 84, "BIKE_SH": "084 Cadorna 2", "INDIRIZZO": "Via Paleocapa", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.176135595416836, 45.469054481609447 ] } }
+,
+{ "type": "Feature", "id": 79, "properties": { "ID": 85, "BIKE_SH": "085 D'Ancona", "INDIRIZZO": "Via Buttinone", "ANNO": "2009", "STALLI": 21, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.175783461981958, 45.465685169170172 ] } }
+,
+{ "type": "Feature", "id": 80, "properties": { "ID": 86, "BIKE_SH": "086 Mascagni", "INDIRIZZO": "Via Conservatorio", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.20308748285189, 45.465388342762964 ] } }
+,
+{ "type": "Feature", "id": 81, "properties": { "ID": 87, "BIKE_SH": "087 P.ta Genova", "INDIRIZZO": "P.ale Stazione Genova", "ANNO": "2012", "STALLI": 27, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.169620755541796, 45.452977560912068 ] } }
+,
+{ "type": "Feature", "id": 82, "properties": { "ID": 88, "BIKE_SH": "088 Filippetti - Cassolo", "INDIRIZZO": "V.le Filippetti Angelo", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.197570215260194, 45.452200430735353 ] } }
+,
+{ "type": "Feature", "id": 83, "properties": { "ID": 89, "BIKE_SH": "089 Patellani - Bligny", "INDIRIZZO": "Via Patellani", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.194173415281181, 45.451094087137299 ] } }
+,
+{ "type": "Feature", "id": 84, "properties": { "ID": 90, "BIKE_SH": "090 Gioia - Sassetti", "INDIRIZZO": "Via Filippo Sassetti", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.194719709970496, 45.484648153104516 ] } }
+,
+{ "type": "Feature", "id": 85, "properties": { "ID": 91, "BIKE_SH": "091 Gioia - Pirelli", "INDIRIZZO": "Via Pirelli", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.195909826883378, 45.484091125626534 ] } }
+,
+{ "type": "Feature", "id": 86, "properties": { "ID": 92, "BIKE_SH": "092 Casati - Cordusio", "INDIRIZZO": "Via Gabrio Casati", "ANNO": "2009", "STALLI": 30, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.185506573273262, 45.465485511783292 ] } }
+,
+{ "type": "Feature", "id": 87, "properties": { "ID": 93, "BIKE_SH": "093 Borgogna", "INDIRIZZO": "Via Borgogna", "ANNO": "2009", "STALLI": 30, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.200038909552712, 45.465831627911072 ] } }
+,
+{ "type": "Feature", "id": 88, "properties": { "ID": 94, "BIKE_SH": "094 Cadorna 3", "INDIRIZZO": "P.le Cadorna", "ANNO": "2012", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.176119472425388, 45.468041795581236 ] } }
+,
+{ "type": "Feature", "id": 89, "properties": { "ID": 95, "BIKE_SH": "095 Resistenza Partigiana", "INDIRIZZO": "P.za Resistenza Partigiana", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.177485946725845, 45.458775977334064 ] } }
+,
+{ "type": "Feature", "id": 90, "properties": { "ID": 96, "BIKE_SH": "096 Donizzetti \"Provincia\"", "INDIRIZZO": "Via Donizzetti", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.204427503332189, 45.467367191448169 ] } }
+,
+{ "type": "Feature", "id": 91, "properties": { "ID": 97, "BIKE_SH": "097 Molino delle Armi", "INDIRIZZO": "Via Molino delle Armi", "ANNO": "2009", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.182027151783469, 45.457189163613798 ] } }
+,
+{ "type": "Feature", "id": 92, "properties": { "ID": 98, "BIKE_SH": "098 San Marco", "INDIRIZZO": "Via San Marco", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.189206903091117, 45.478684463888825 ] } }
+,
+{ "type": "Feature", "id": 93, "properties": { "ID": 99, "BIKE_SH": "099 Arco della Pace 1", "INDIRIZZO": "Via Bertani", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.173514475953667, 45.476350304222116 ] } }
+,
+{ "type": "Feature", "id": 94, "properties": { "ID": 100, "BIKE_SH": "100 Palazzo Marino", "INDIRIZZO": "Via Case Rotte", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.191654713385285, 45.467002681153922 ] } }
+,
+{ "type": "Feature", "id": 95, "properties": { "ID": 102, "BIKE_SH": "102 Duomo 2", "INDIRIZZO": "Via Arcivescovado", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.192942807148187, 45.463783472571279 ] } }
+,
+{ "type": "Feature", "id": 96, "properties": { "ID": 103, "BIKE_SH": "103 Arco della Pace 2", "INDIRIZZO": "Via Sempione", "ANNO": "2009", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.171656169699398, 45.475036035038954 ] } }
+,
+{ "type": "Feature", "id": 97, "properties": { "ID": 104, "BIKE_SH": "104 Gioia - Algarotti RL", "INDIRIZZO": "Via Melchiorre Gioia", "ANNO": "2011", "STALLI": 36, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.196867640043616, 45.486223880838622 ] } }
+,
+{ "type": "Feature", "id": 98, "properties": { "ID": 105, "BIKE_SH": "105 P.le Lodi", "INDIRIZZO": "C.so Lodi + P.le Lodi", "ANNO": "2011", "STALLI": 33, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.209906039545418, 45.447748548559886 ] } }
+,
+{ "type": "Feature", "id": 99, "properties": { "ID": 106, "BIKE_SH": "106 Restelli - Galvani RL 1", "INDIRIZZO": "Viale Restelli", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.194679061950508, 45.487280470490354 ] } }
+,
+{ "type": "Feature", "id": 100, "properties": { "ID": 107, "BIKE_SH": "107 S. Gioacchimo", "INDIRIZZO": "P.zza San Gioachimo", "ANNO": "2012", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.197770251101645, 45.481294045290298 ] } }
+,
+{ "type": "Feature", "id": 101, "properties": { "ID": 108, "BIKE_SH": "108 Tunisia - Piscina Cozzi", "INDIRIZZO": "V.le Tunisia - Cozzi", "ANNO": "2011", "STALLI": 27, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.201507842715069, 45.478988702940654 ] } }
+,
+{ "type": "Feature", "id": 102, "properties": { "ID": 112, "BIKE_SH": "112 Napo Torriani - De Lellis", "INDIRIZZO": "Via Napo Torriani", "ANNO": "2011", "STALLI": 27, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.20323877253167, 45.48238851545139 ] } }
+,
+{ "type": "Feature", "id": 103, "properties": { "ID": 113, "BIKE_SH": "113 Buenos Aires - Lima", "INDIRIZZO": "P.za Lima", "ANNO": "2012", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.211074854619401, 45.480194839638372 ] } }
+,
+{ "type": "Feature", "id": 104, "properties": { "ID": 114, "BIKE_SH": "114 Buenos Aires - Argentina", "INDIRIZZO": "P.za Argentina", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.214653236900237, 45.483784453401618 ] } }
+,
+{ "type": "Feature", "id": 105, "properties": { "ID": 116, "BIKE_SH": "116 Morgagni - Redi", "INDIRIZZO": "Via Morgagni", "ANNO": "2012", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.211879672936604, 45.477850703085977 ] } }
+,
+{ "type": "Feature", "id": 106, "properties": { "ID": 119, "BIKE_SH": "119 Settembrini - Vitruvio", "INDIRIZZO": "Via Settembrini", "ANNO": "2012", "STALLI": 33, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.206805572350058, 45.482472298604819 ] } }
+,
+{ "type": "Feature", "id": 107, "properties": { "ID": 120, "BIKE_SH": "120 Filzi - Pirelli", "INDIRIZZO": "Via Filzi", "ANNO": "2011", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.20040766477312, 45.484401556738618 ] } }
+,
+{ "type": "Feature", "id": 108, "properties": { "ID": 124, "BIKE_SH": "124 P.ta Venezia 2", "INDIRIZZO": "P.za Oberdan", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.204661965778854, 45.47518218218039 ] } }
+,
+{ "type": "Feature", "id": 109, "properties": { "ID": 125, "BIKE_SH": "125 Fratelli Bandiera", "INDIRIZZO": "Via F.lli Bandiera 2", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.210412784411389, 45.470542784367474 ] } }
+,
+{ "type": "Feature", "id": 110, "properties": { "ID": 126, "BIKE_SH": "126 Modena - Castel Morrone", "INDIRIZZO": "Via Modena 15", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.21440663206304, 45.470852780769 ] } }
+,
+{ "type": "Feature", "id": 111, "properties": { "ID": 128, "BIKE_SH": "128 Indipendenza - Castel Morrone", "INDIRIZZO": "C.so Indipendenza angolo Castel Morrone", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Monofacciale" }, "geometry": { "type": "Point", "coordinates": [ 9.214342987796197, 45.468279770716741 ] } }
+,
+{ "type": "Feature", "id": 112, "properties": { "ID": 130, "BIKE_SH": "130 XXII Marzo S.M. del Sufragio", "INDIRIZZO": "C.so XXII Marzo", "ANNO": "2011", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.212473880719282, 45.46215875124517 ] } }
+,
+{ "type": "Feature", "id": 113, "properties": { "ID": 136, "BIKE_SH": "136 Monte Nero - Spartaco", "INDIRIZZO": "V.le Monte Nero", "ANNO": "2011", "STALLI": 27, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.207644045605717, 45.460128605343463 ] } }
+,
+{ "type": "Feature", "id": 114, "properties": { "ID": 137, "BIKE_SH": "137 Sempione - RAI", "INDIRIZZO": "C.so Sempione", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.16676880154688, 45.47942815773709 ] } }
+,
+{ "type": "Feature", "id": 115, "properties": { "ID": 141, "BIKE_SH": "141 Caldara - Curtatone", "INDIRIZZO": "V.le Caldara", "ANNO": "2011", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.202936115127635, 45.455110386559255 ] } }
+,
+{ "type": "Feature", "id": 116, "properties": { "ID": 143, "BIKE_SH": "143 Lodi - Buozzi - Papi", "INDIRIZZO": "Via Lazzaro Papi", "ANNO": "2011", "STALLI": 21, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.206625283351283, 45.449773379780098 ] } }
+,
+{ "type": "Feature", "id": 117, "properties": { "ID": 147, "BIKE_SH": "147 Ripamonti - Bellezza", "INDIRIZZO": "Via Ripamonti intersezione Bellezza", "ANNO": "2012", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.19722441514994, 45.448804974873831 ] } }
+,
+{ "type": "Feature", "id": 118, "properties": { "ID": 148, "BIKE_SH": "148 Bocconi - Bligny", "INDIRIZZO": "Via Bocconi", "ANNO": "2011", "STALLI": 33, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.19058979782014, 45.451091382674782 ] } }
+,
+{ "type": "Feature", "id": 119, "properties": { "ID": 151, "BIKE_SH": "151 Balilla", "INDIRIZZO": "Via Balilla", "ANNO": "2011", "STALLI": 36, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.182742959629126, 45.444561181155095 ] } }
+,
+{ "type": "Feature", "id": 120, "properties": { "ID": 161, "BIKE_SH": "161 Coni Zugna - Solari", "INDIRIZZO": "Via Solari", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.167983002946171, 45.457082486402342 ] } }
+,
+{ "type": "Feature", "id": 121, "properties": { "ID": 166, "BIKE_SH": "166 Coni Zugna - Foppa", "INDIRIZZO": "Via Foppa", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.165394627728288, 45.459179717480083 ] } }
+,
+{ "type": "Feature", "id": 122, "properties": { "ID": 168, "BIKE_SH": "168 Carbonari", "INDIRIZZO": "Via Keplero", "ANNO": "2011", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.199331011403562, 45.492478547652212 ] } }
+,
+{ "type": "Feature", "id": 123, "properties": { "ID": 170, "BIKE_SH": "170 S. Michele del Carso", "INDIRIZZO": "Via Andrea Verga", "ANNO": "2011", "STALLI": 33, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.163581634045366, 45.463475077521245 ] } }
+,
+{ "type": "Feature", "id": 124, "properties": { "ID": 175, "BIKE_SH": "175 Pagano - G. d'Arezzo", "INDIRIZZO": "Via Pagano \/ Burchiello", "ANNO": "2011", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.160453670745511, 45.468139974910322 ] } }
+,
+{ "type": "Feature", "id": 125, "properties": { "ID": 178, "BIKE_SH": "178 V Alpini", "INDIRIZZO": "L.go V Alpini", "ANNO": "2012", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.166764672648277, 45.471574242197143 ] } }
+,
+{ "type": "Feature", "id": 126, "properties": { "ID": 180, "BIKE_SH": "180 Canova - Sangiorgio", "INDIRIZZO": "Via Canova", "ANNO": "2012", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.168282307735268, 45.475408403473814 ] } }
+,
+{ "type": "Feature", "id": 127, "properties": { "ID": 181, "BIKE_SH": "181 Sempione - Melzi d'Eril", "INDIRIZZO": "C.so Sempione", "ANNO": "2012", "STALLI": 27, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.169760722422392, 45.47784543426971 ] } }
+,
+{ "type": "Feature", "id": 128, "properties": { "ID": 182, "BIKE_SH": "182 Melzi d'Eril - Cagnola", "INDIRIZZO": "Via Melzi d'Eril", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.172919296205585, 45.478308407653834 ] } }
+,
+{ "type": "Feature", "id": 129, "properties": { "ID": 184, "BIKE_SH": "184 P.ta Volta", "INDIRIZZO": "Bastioni P.ta Volta", "ANNO": "2011", "STALLI": 33, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.182294753388412, 45.480181494044082 ] } }
+,
+{ "type": "Feature", "id": 130, "properties": { "ID": 185, "BIKE_SH": "185 SS. Trinità", "INDIRIZZO": "Via Cesariano", "ANNO": "2012", "STALLI": 35, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.176409778637147, 45.478037416643971 ] } }
+,
+{ "type": "Feature", "id": 131, "properties": { "ID": 187, "BIKE_SH": "187 Sarpi - Albertini", "INDIRIZZO": "Via Alfredo Albertini", "ANNO": "2011", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.172174826279177, 45.481011256915082 ] } }
+,
+{ "type": "Feature", "id": 132, "properties": { "ID": 188, "BIKE_SH": "188 Sarpi - Niccolini", "INDIRIZZO": "Via Paolo Sarpi", "ANNO": "2011", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.178117837627296, 45.481632663730608 ] } }
+,
+{ "type": "Feature", "id": 133, "properties": { "ID": 192, "BIKE_SH": "192 Col di Lana - Col Moschin", "INDIRIZZO": "Via Col Moschin", "ANNO": "2011", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.184594122028896, 45.451845200434185 ] } }
+,
+{ "type": "Feature", "id": 134, "properties": { "ID": 193, "BIKE_SH": "193 Garibaldi - Pepe", "INDIRIZZO": "Via Guglielmo Pepe", "ANNO": "2012", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.184991306352071, 45.486745955883684 ] } }
+,
+{ "type": "Feature", "id": 135, "properties": { "ID": 194, "BIKE_SH": "194 Borsieri - Confalonieri", "INDIRIZZO": "Via De Castillia", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.188386404677528, 45.485545290614141 ] } }
+,
+{ "type": "Feature", "id": 136, "properties": { "ID": 195, "BIKE_SH": "195 Pola RL", "INDIRIZZO": "Via Pola", "ANNO": "2012", "STALLI": 27, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.193320761136283, 45.489072402670949 ] } }
+,
+{ "type": "Feature", "id": 137, "properties": { "ID": 196, "BIKE_SH": "196 Lagosta", "INDIRIZZO": "P.ale Lagosta", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.190996226725028, 45.489169990408492 ] } }
+,
+{ "type": "Feature", "id": 138, "properties": { "ID": 200, "BIKE_SH": "200 Luigi di Savoia - Doria", "INDIRIZZO": "P.za Luigi di Savoia", "ANNO": "2011", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.205953305103929, 45.48501771058212 ] } }
+,
+{ "type": "Feature", "id": 139, "properties": { "ID": 201, "BIKE_SH": "201 IV Novembre", "INDIRIZZO": "Via Sammartini", "ANNO": "2011", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.203585898971307, 45.487196303829414 ] } }
+,
+{ "type": "Feature", "id": 140, "properties": { "ID": 203, "BIKE_SH": "203 Taramelli RL", "INDIRIZZO": "Via Taramelli", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.193826988180122, 45.490771720625297 ] } }
+,
+{ "type": "Feature", "id": 141, "properties": { "ID": 118, "BIKE_SH": "118 Otto Novembre", "INDIRIZZO": "P.zza Otto Novembre", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.211121156913947, 45.47506848169175 ] } }
+,
+{ "type": "Feature", "id": 142, "properties": { "ID": 123, "BIKE_SH": "123 Castel Morrone - M.A. di Savoia", "INDIRIZZO": "VIa Castel Morrone 35", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.214576054999156, 45.47257946134188 ] } }
+,
+{ "type": "Feature", "id": 143, "properties": { "ID": 129, "BIKE_SH": "129 Fiamma", "INDIRIZZO": "Via Fiamma tra 18 e 20", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Monofacciale" }, "geometry": { "type": "Point", "coordinates": [ 9.211362705598988, 45.46445468765198 ] } }
+,
+{ "type": "Feature", "id": 144, "properties": { "ID": 139, "BIKE_SH": "139 Lazio - Vasari - Morosini", "INDIRIZZO": "Via Lazio angolo via Morosini", "ANNO": "2012", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.208091962567867, 45.455325122853473 ] } }
+,
+{ "type": "Feature", "id": 145, "properties": { "ID": 154, "BIKE_SH": "154 Ascanio Sforza - Pavia", "INDIRIZZO": "Via Pavia civici dispari fronte civico 10", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.177482364461293, 45.447357778846076 ] } }
+,
+{ "type": "Feature", "id": 146, "properties": { "ID": 110, "BIKE_SH": "110 S. Francesca Romana", "INDIRIZZO": "P.zza S. Francesca Romana", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.208569227564215, 45.476422721769708 ] } }
+,
+{ "type": "Feature", "id": 147, "properties": { "ID": 163, "BIKE_SH": "163 Rosario", "INDIRIZZO": "P.zza del Rosario marciapiede Esselunga", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.162794172914238, 45.454823551450929 ] } }
+,
+{ "type": "Feature", "id": 148, "properties": { "ID": 127, "BIKE_SH": "127 Risorgimento", "INDIRIZZO": "Piazza Risorgimento lato nord parterre centrale", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.210706999823804, 45.468046598936766 ] } }
+,
+{ "type": "Feature", "id": 149, "properties": { "ID": 131, "BIKE_SH": "131 Emilia - Piceno", "INDIRIZZO": "P.za Emilia 1 - ang XXII Marzo", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.216045574273174, 45.462335561671523 ] } }
+,
+{ "type": "Feature", "id": 150, "properties": { "ID": 160, "BIKE_SH": "160 Zara M3", "INDIRIZZO": "Viale Zara civ.13 angolo via Arese", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.191869209259446, 45.4915546414733 ] } }
+,
+{ "type": "Feature", "id": 151, "properties": { "ID": 167, "BIKE_SH": "167 Foppa - Caravaggio", "INDIRIZZO": "Via Foppa 17", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.161915726357909, 45.458057505439342 ] } }
+,
+{ "type": "Feature", "id": 152, "properties": { "ID": 189, "BIKE_SH": "189 Procaccini - Cimitero Monumentale", "INDIRIZZO": "P.zza Cimitero Maggiore angolo via Niccolini", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.177199982637164, 45.483892950974258 ] } }
+,
+{ "type": "Feature", "id": 153, "properties": { "ID": 150, "BIKE_SH": "150 Sraffa", "INDIRIZZO": "Via Castelbarco di fronte civico 13", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.186030621540537, 45.448361596245448 ] } }
+,
+{ "type": "Feature", "id": 154, "properties": { "ID": 152, "BIKE_SH": "152 S. Gottardo - Gentilino", "INDIRIZZO": "Via Gentilino 1-5", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.179866556002734, 45.448882802640455 ] } }
+,
+{ "type": "Feature", "id": 155, "properties": { "ID": 206, "BIKE_SH": "206 Friuli - Comelico", "INDIRIZZO": "Via Friuli 50", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.213589965780942, 45.454809759010864 ] } }
+,
+{ "type": "Feature", "id": 156, "properties": { "ID": 140, "BIKE_SH": "140 Cirene - Friuli", "INDIRIZZO": "Viale Cirene angolo Friuli (parterre)", "ANNO": "2013", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.212481270262165, 45.453441380048766 ] } }
+,
+{ "type": "Feature", "id": 157, "properties": { "ID": 155, "BIKE_SH": "155 Naviglio Pavese - Torricelli", "INDIRIZZO": "Via Sforza angolo Tibadi (parterre)", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.176359531268808, 45.444268902868892 ] } }
+,
+{ "type": "Feature", "id": 158, "properties": { "ID": 179, "BIKE_SH": "179 Giovanni XXIII", "INDIRIZZO": "P.zza Giovannoi XXIII angolo via Monti", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.164224034614607, 45.474879640012162 ] } }
+,
+{ "type": "Feature", "id": 159, "properties": { "ID": 174, "BIKE_SH": "174 Vercelli - Piemonte", "INDIRIZZO": "Via Buonarroti 4", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.155359225839192, 45.467365038000871 ] } }
+,
+{ "type": "Feature", "id": 160, "properties": { "ID": 171, "BIKE_SH": "171 Elba - Cimarosa", "INDIRIZZO": "Via Elba 26", "ANNO": "2012", "STALLI": 33, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.157286209768335, 45.463358718240912 ] } }
+,
+{ "type": "Feature", "id": 161, "properties": { "ID": 173, "BIKE_SH": "173 Vercelli - Cherubini", "INDIRIZZO": "Via Cherubini 3-4 (parterre)", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.159426407671667, 45.467044554155571 ] } }
+,
+{ "type": "Feature", "id": 162, "properties": { "ID": 133, "BIKE_SH": "133 Dateo", "INDIRIZZO": "P.zzale Dateo lato nord su Park", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.216498557921849, 45.468396934800971 ] } }
+,
+{ "type": "Feature", "id": 163, "properties": { "ID": 132, "BIKE_SH": "132 Bronzetti - Archimede", "INDIRIZZO": "F.lli Bronzetti 20 angolo Archimede", "ANNO": "2012", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.214537185902191, 45.465326048243242 ] } }
+,
+{ "type": "Feature", "id": 164, "properties": { "ID": 176, "BIKE_SH": "176 Buonarroti", "INDIRIZZO": "Via Buonarroti angolo piazza Buonarroti (parterre)", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.155392535729941, 45.470818990638712 ] } }
+,
+{ "type": "Feature", "id": 165, "properties": { "ID": 121, "BIKE_SH": "121 Galvani - Copernico", "INDIRIZZO": "Via Gioia, angolo Galvani", "ANNO": "2013", "STALLI": 27, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.197959426096517, 45.48669356816923 ] } }
+,
+{ "type": "Feature", "id": 166, "properties": { "ID": 138, "BIKE_SH": "138 Cadore - Pinaroli", "INDIRIZZO": "Via Cadore centro piazza", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.213132429122986, 45.458304665641343 ] } }
+,
+{ "type": "Feature", "id": 167, "properties": { "ID": 169, "BIKE_SH": "169 Vesuvio - Lipari", "INDIRIZZO": "P.zza Vesuvio uffici postali lato bus", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.159349671947862, 45.459598669225954 ] } }
+,
+{ "type": "Feature", "id": 168, "properties": { "ID": 111, "BIKE_SH": "111 B. Marcello - Boscovich", "INDIRIZZO": "Via Benedetto Marcello", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.207542238726216, 45.480188343099307 ] } }
+,
+{ "type": "Feature", "id": 169, "properties": { "ID": 215, "BIKE_SH": "215 Politecnico 1", "INDIRIZZO": "piazzale Leonardo da Vinci lato nord", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.226199737790589, 45.47865672545602 ] } }
+,
+{ "type": "Feature", "id": 170, "properties": { "ID": 164, "BIKE_SH": "164 Bergognone - Tortona", "INDIRIZZO": "Via Bergognone area verde", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.165067175845087, 45.452309796131345 ] } }
+,
+{ "type": "Feature", "id": 171, "properties": { "ID": 109, "BIKE_SH": "109 Tunisia - Lecco - Bellintani", "INDIRIZZO": "V.le Tunisia - Bellintani", "ANNO": "2013", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.204933434516745, 45.477372795347151 ] } }
+,
+{ "type": "Feature", "id": 172, "properties": { "ID": 115, "BIKE_SH": "115 Caiazzo", "INDIRIZZO": "P.zza Caiazzo", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.209151212772815, 45.485256514423526 ] } }
+,
+{ "type": "Feature", "id": 173, "properties": { "ID": 135, "BIKE_SH": "135 Umbria - Muratori", "INDIRIZZO": "Via Muratori angolo Viale Umbria", "ANNO": "2013", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.212439903921215, 45.450818012480767 ] } }
+,
+{ "type": "Feature", "id": 174, "properties": { "ID": 158, "BIKE_SH": "158 Naviglio Grande - Valenza", "INDIRIZZO": "Ripa di Porta Ticinese - Giardini Powell", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.167402767127404, 45.449847020120529 ] } }
+,
+{ "type": "Feature", "id": 175, "properties": { "ID": 212, "BIKE_SH": "212 Verrocchio - Juvara", "INDIRIZZO": "Via Juvara angolo Verrocchio fronte civico 3", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.219764452226878, 45.473256901732832 ] } }
+,
+{ "type": "Feature", "id": 176, "properties": { "ID": 213, "BIKE_SH": "213 Novelli - Carnaghi", "INDIRIZZO": "Via Carnaghi 2", "ANNO": "2013", "STALLI": 36, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.220537885663781, 45.470799908216662 ] } }
+,
+{ "type": "Feature", "id": 177, "properties": { "ID": 1, "BIKE_SH": "001 Duomo 1", "INDIRIZZO": "P.za Duomo", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.189029840450521, 45.464736478933368 ] } }
+,
+{ "type": "Feature", "id": 178, "properties": { "ID": 44, "BIKE_SH": "044 Richini \"Univ. Statale\"", "INDIRIZZO": "L.go Richini", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.192925000903299, 45.459359175569993 ] } }
+,
+{ "type": "Feature", "id": 179, "properties": { "ID": 56, "BIKE_SH": "056 Bastioni di P.ta Venezia", "INDIRIZZO": "V.le Città di Fiume", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.20058671933722, 45.475910076146754 ] } }
+,
+{ "type": "Feature", "id": 180, "properties": { "ID": 59, "BIKE_SH": "059 Palestro 2", "INDIRIZZO": "Via Palestro", "ANNO": "2008", "STALLI": 24, "LOCALIZ": "Carreggiata" }, "geometry": { "type": "Point", "coordinates": [ 9.201501619662153, 45.472436204783769 ] } }
+,
+{ "type": "Feature", "id": 181, "properties": { "ID": 101, "BIKE_SH": "101 Gadio - Paleocapa", "INDIRIZZO": "Via Gadio", "ANNO": "2009", "STALLI": 30, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.175606640338245, 45.470065755255575 ] } }
+,
+{ "type": "Feature", "id": 182, "properties": { "ID": 11, "BIKE_SH": "011 Castello \"Acquario civico\"", "INDIRIZZO": "Via Gadio", "ANNO": "2008", "STALLI": 18, "LOCALIZ": "Marciapiede" }, "geometry": { "type": "Point", "coordinates": [ 9.179424446815972, 45.472453152470969 ] } }
+
+]
+}
