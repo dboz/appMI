@@ -1,0 +1,942 @@
+Ubicazione;TipoVia;DescrizioneVia;Civico;CodiceVia;ZD;insegna;settore_merceologico;superficie_altri_usi;superficie_totale;superficie_vendita
+"VIA VENINI GIULIO E CORRADO N. 46 ; isolato:346; accesso: accesso esterno; (z.d. 2)";VIA ;VENINI GIULIO E CORRADO;46;2258;2;;non alimentare;22;273;251
+"VIA SANDRI SANDRO N. 2 ; isolato:179; accesso: accesso esterno; (z.d. 1)";VIA ;SANDRI SANDRO;2;1046;1;;non alimentare;;251;251
+"CSO MATTEOTTI GIACOMO N. 3 ;cso matteotti giacomo 003; isolato:362; accesso: accesso esterno; (z.d. 1)";CSO ;MATTEOTTI GIACOMO;3;218;1;lalique;non alimentare;10;262;252
+"VIA SARPI FRA' PAOLO N. 44 ; isolato:073; accesso: accesso esterno; (z.d. 8)";VIA ;SARPI FRA' PAOLO;44;7210;8;;"alimentare;non alimentare";;252;252
+"VIA VILLAPIZZONE num.012; isolato:171; accesso: accesso esterno; (z.d. 8)";VIA ;VILLAPIZZONE;;7272;8;verzeri;non alimentare;;252;252
+"VIA MUSSI GIUSEPPE N. 5 ; isolato:056; accesso: accesso interno; (z.d. 8)";VIA ;MUSSI GIUSEPPE;5;7199;8;riparaz. contachilometri;non alimentare;;252;252
+"VIA QUINTILIANO MARCO FABIO N. 33 ; isolato:073; accesso: area ap.rec.; (z.d. 4)";VIA ;QUINTILIANO MARCO FABIO;33;3358;4;spaccio aziendale;non alimentare;;252;252
+"VIA GALLARATE N. 219 ; isolato:179; accesso: accesso interno; (z.d. 8)";VIA ;GALLARATE;219;7420;8;;non alimentare;;253;253
+"VIA SAN SISTO N. 3 ;via san sisto 003; isolato:335; accesso: accesso esterno; (z.d. 1)";VIA ;SAN SISTO;3;513;1;il bagno ideale;non alimentare;;254;254
+"VIA F.LLI LORENZETTI N. 4 ; isolato:010; accesso: accesso interno; (z.d. 7)";VIA ;F.LLI LORENZETTI;4;6604;7;spaccio zucchi;non alimentare;;254;254
+"CSO LODI N. 60 ; isolato:021; accesso: accesso esterno; (z.d. 4)";CSO ;LODI;60;4068;4;;non alimentare;;255;255
+"VIA CAPECELATRO ALFONSO N. 9 ; isolato:278; accesso: accesso esterno; (z.d. 7)";VIA ;CAPECELATRO ALFONSO;9;6575;7;mercato dell usato;non alimentare;;255;255
+"VIA SANTA CECILIA N. 4 ;via santa cecilia 004; isolato:190; accesso: accesso esterno; (z.d. 1)";VIA ;SANTA CECILIA;4;349;1;;non alimentare;;255;255
+"VIA TITO LIVIO N. 30 ; isolato:146; accesso: accesso esterno; (z.d. 4)";VIA ;TITO LIVIO;30;4086;4;mercedes benz milano;non alimentare;;255;255
+"VIA ARBE N. 47 interno superspacci alimentari; isolato:086; accesso: accesso esterno; (z.d. 2)";VIA ;ARBE;47;1352;2;il mercatino di via arbe;"alimentare;non alimentare";80;336;256
+"VIA VIGEVANO N. 22 ; isolato:052; accesso: accesso esterno; (z.d. 6)";VIA ;VIGEVANO;22;5116;6;fontana arredamenti;non alimentare;;256;256
+"CSO SEMPIONE N. 21 ; isolato:096; accesso: accesso esterno; (z.d. 8)";CSO ;SEMPIONE;21;7137;8;;non alimentare;18;274;256
+"VIA ARIMONDI GIUSEPPE N. 55 ; isolato:308; accesso: accesso esterno; (z.d. 8)";VIA ;ARIMONDI GIUSEPPE;55;7179;8;autoriparazioni salvioni;non alimentare;300;556;256
+"PZA MENTANA N. 3 ;pza mentana 003; isolato:349; accesso: accesso esterno; (z.d. 1)";PZA ;MENTANA;3;560;1;arc linea;non alimentare;;257;257
+"VIA TRIVULZIO ANTONIO TOLOMEO N. 15 ; isolato:014; accesso: accesso interno; (z.d. 7)";VIA ;TRIVULZIO ANTONIO TOLOMEO;15;6277;7;italbar;"alimentare;non alimentare";;257;257
+"VIA MANZONI ALESSANDRO N. 31 ;via manzoni alessandro 031; isolato:254; accesso: accesso esterno; (z.d. 1)";VIA ;MANZONI ALESSANDRO;31;230;1;armani giorgio retail srl;non alimentare;;257;257
+"CSO MAGENTA N. 31 ;cso magenta 031; isolato:341; accesso: accesso esterno; (z.d. 1)";CSO ;MAGENTA;31;604;1;buscemi dischi;non alimentare;;258;258
+"PZA DELLA SCALA N. 5 ;pza della scala 005; isolato:479; accesso: accesso esterno; (z.d. 1)";PZA ;DELLA SCALA;5;201;1;trussardi;Non Alimentare;;258;258
+"VIA ROSMINI ANTONIO N. 11 ; isolato:110; accesso: accesso esterno; (z.d. 1)";VIA ;ROSMINI ANTONIO;11;7132;1;kathay china food store;"alimentare;non alimentare";;259;259
+"VIA SANTA TECLA N. 5 ;via santa tecla 005; isolato:389; accesso: accesso esterno; (z.d. 1)";VIA ;SANTA TECLA;5;321;1;il libraccio;non alimentare;;260;260
+"VIA MAMBRETTI ANTONIO N. 29 ; isolato:112; accesso: accesso esterno; (z.d. 8)";VIA ;MAMBRETTI ANTONIO;29;7455;8;salina albera;non alimentare;;260;260
+"CSO VENEZIA N. 29 ;cso venezia 029; isolato:186; accesso: accesso esterno; (z.d. 1)";CSO ;VENEZIA;29;238;1;renco di macri  roberto;non alimentare;214;474;260
+"CSO MONFORTE N. 2 ;cso monforte 002; isolato:264; accesso: accesso esterno; (z.d. 1)";CSO ;MONFORTE;2;348;1;splendori;non alimentare;;260;260
+"VIA BERTANI AGOSTINO N. 2 ; isolato:135; accesso: accesso esterno; (z.d. 1)";VIA ;BERTANI AGOSTINO;2;7112;1;di  x di;"alimentare;non alimentare";;365;260
+VIA CUSANI N. 10 (z.d. 1);VIA ;CUSANI;10;719;1;;non alimentare;;261;261
+"VIA OLONA N. 25 ; isolato:224; accesso: accesso interno; (z.d. 1)";VIA ;OLONA;25;5090;1;;non alimentare;;261;261
+"VIA MONTE NAPOLEONE N. 20 ;via monte napoleone 020/4; isolato:258; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;20;219;1;salvatore ferragamo;Non Alimentare;;579;263
+"CSO LODI N. 47 ; isolato:182; accesso: accesso esterno; (z.d. 4)";CSO ;LODI;47;4068;4;;non alimentare;52;315;263
+"VIA QUARENGHI GIACOMO N. 23 ; isolato:300; accesso: accesso interno; (z.d. 8)";VIA ;QUARENGHI GIACOMO;23;7478;8;libri e cose;non alimentare;2;265;263
+"VIA INGANNI ANGELO N. 64 ; isolato:055; accesso: accesso esterno; (z.d. 6)";VIA ;INGANNI ANGELO;64;6672;6;2f climatizzazione;non alimentare;;300;264
+VIA SAVONA N. 25 (z.d. 5);VIA ;SAVONA;25;5122;6;;non alimentare;;265;265
+VIA VISCONTI DI MODRONE UBERTO N. 12 (z.d. 1);VIA ;VISCONTI DI MODRONE UBERTO;12;361;1;;non alimentare;;265;265
+"VIA MOROSINI EMILIO N. 7 ; isolato:046; accesso: accesso esterno; (z.d. 4)";VIA ;MOROSINI EMILIO;7;3073;4;bellani;non alimentare;;265;265
+"VIA LAMARMORA ALFONSO N. 21 ; isolato:114; accesso: accesso esterno; (z.d. 1)";VIA ;LAMARMORA ALFONSO;21;4103;1;willy sport;non alimentare;;266;266
+"VIA DELLA SPIGA num.019/a; isolato:260; accesso: accesso esterno; (z.d. 1)";VIA ;DELLA SPIGA;;226;1;tiffany;non alimentare;;266;266
+"PZA OTTO NOVEMBRE N. 6 ; isolato:149; accesso: accesso esterno; (z.d. 3)";PZA ;OTTO NOVEMBRE;6;2187;3;;non alimentare;3;270;267
+"CSO MATTEOTTI GIACOMO N. 14 ;cso matteotti giacomo 014; isolato:316; accesso: accesso esterno; (z.d. 1)";CSO ;MATTEOTTI GIACOMO;14;218;1;;non alimentare;;267;267
+"VIA VERRI PIETRO N. 8 ;via verri pietro 008; isolato:315; accesso: accesso esterno; (z.d. 1)";VIA ;VERRI PIETRO;8;223;1;;non alimentare;;364;267
+"VIA DELL' ORSO num.007/a; isolato:311; accesso: accesso esterno; (z.d. 1)";VIA ;DELL' ORSO;;123;1;;non alimentare;172;441;269
+"VIA ENNIO N. 6 ; isolato:121; accesso: accesso esterno; (z.d. 4)";VIA ;ENNIO;6;4090;4;il caminetto;non alimentare;;269;269
+"VIA SAN MARCO N. 26 ; isolato:177; accesso: accesso esterno; (z.d. 1)";VIA ;SAN MARCO;26;1036;1;carrefour;"alimentare;non alimentare";95;364;269
+"VIA DANTE ALIGHIERI N. 7 ;via dante alighieri 007; isolato:375; accesso: accesso esterno; (z.d. 1)";VIA ;DANTE ALIGHIERI;7;612;1;max  E  co.;non alimentare;;270;270
+"VIA PETITTI CARLO ILARIONE N. 5 ; isolato:330; accesso: accesso esterno; (z.d. 8)";VIA ;PETITTI CARLO ILARIONE;5;7161;8;;non alimentare;100;370;270
+"VIA SANTA CROCE N. 8 ; isolato:212; accesso: accesso esterno; (z.d. 1)";VIA ;SANTA CROCE;8;5188;1;;non alimentare;130;400;270
+"VIA TORINO N. 21 ;via torino 021; isolato:446; accesso: accesso esterno; (z.d. 1)";VIA ;TORINO;21;543;1;;non alimentare;;270;270
+"VLE PISA N. 10 aff. az. tacit. rinnov.; isolato:200; accesso: accesso esterno; (z.d. 7)";VLE ;PISA;10;6615;7;punto sma;"alimentare;non alimentare";140;691;270
+"VIA STRIGELLI GAETANO num.013/int; isolato:078; accesso: accesso esterno; (z.d. 4)";VIA ;STRIGELLI GAETANO;;3214;4;;non alimentare;;270;270
+"VIA VENINI GIULIO E CORRADO N. 87 ; isolato:320; accesso: accesso esterno; (z.d. 2)";VIA ;VENINI GIULIO E CORRADO;87;2258;2;;non alimentare;;270;270
+"VIA BIGLI N. 19 ;via bigli 019; isolato:363; accesso: accesso esterno; (z.d. 1)";VIA ;BIGLI;19;224;1;;non alimentare;110;380;270
+"RIP DI PTA TICINESE N. 73 ; isolato:068; accesso: accesso esterno; (z.d. 6)";RIP ;DI PTA TICINESE;73;5150;6;ecliss top garden;non alimentare;;270;270
+"VLE ARETUSA N. 37 ; isolato:003; accesso: accesso esterno; (z.d. 7)";VLE ;ARETUSA;37;6565;7;euronics point;non alimentare;63;333;270
+"VIA MOLINO DELLE ARMI N. 49 ;via molino delle armi 049; isolato:126; accesso: accesso esterno; (z.d. 1)";VIA ;MOLINO DELLE ARMI;49;591;1;mornata art decor;non alimentare;;270;270
+"VIA FARA GUSTAVO N. 35 ; isolato:289; accesso: accesso esterno; (z.d. 9)";VIA ;FARA GUSTAVO;35;1183;9;natura si;"alimentare;non alimentare";;270;270
+"VIA MONTE NAPOLEONE num.006/a; (z.d. 1)";VIA ;MONTE NAPOLEONE;;219;1;;;;270;270
+"CSO SAN GOTTARDO N. 11 ; isolato:095; accesso: accesso esterno; (z.d. 5)";CSO ;SAN GOTTARDO;11;5203;5;prenatal;non alimentare;21;291;270
+"VIA BORGOGNA N. 2 allo sportello x distribuzione;gll strasburgo 000; isolato:317; accesso: accesso esterno; (z.d. 1)";VIA ;BORGOGNA;2;301;1;;non alimentare;;270;270
+"VIA MONTE NAPOLEONE N. 10 199,63+71,53;via monte napoleone 010; isolato:260; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;10;219;1;iceberg;non alimentare;;271;271
+"VIA BIANCHI MOSE' N. 94 loc. interno; isolato:220; accesso: accesso interno; (z.d. 7)";VIA ;BIANCHI MOSE';94;6385;7;;"alimentare;non alimentare";;271;271
+VLE MONZA N. 289 (z.d. 2);VLE ;MONZA;289;2274;2;;non alimentare;;378;272
+"LGO AUGUSTO N. 10 ;lgo augusto 010; isolato:267; accesso: accesso esterno; (z.d. 1)";LGO ;AUGUSTO;10;315;1;giovenzana;non alimentare;;314;273
+CSO GARIBALDI GIUSEPPE N. 127 (z.d. 1);CSO ;GARIBALDI GIUSEPPE;127;1010;1;;non alimentare;;273;273
+"VIA ALDINI ANTONIO num.028/b; isolato:097; accesso: accesso esterno; (z.d. 8)";VIA ;ALDINI ANTONIO;;7461;8;;non alimentare;138;414;276
+"VIA TORINO N. 34 ;via torino 034; isolato:441; accesso: accesso esterno; (z.d. 1)";VIA ;TORINO;34;543;1;datch;non alimentare;;311;276
+"VIA SANT' ANDREA N. 11 ;via sant' andrea 011; isolato:260; accesso: accesso esterno; (z.d. 1)";VIA ;SANT' ANDREA;11;222;1;;non alimentare;;300;277
+"VIA TITO LIVIO N. 28 ; isolato:146; accesso: accesso esterno; (z.d. 4)";VIA ;TITO LIVIO;28;4086;4;milano star mercedes benz;non alimentare;;277;277
+"VIA LIPPI FILIPPINO N. 19 ; isolato:045; accesso: accesso esterno; (z.d. 3)";VIA ;LIPPI FILIPPINO;19;2196;3;ronchi arredamenti snc;non alimentare;;277;277
+VIA TORINO N. 44 (z.d. 1);VIA ;TORINO;44;543;1;;Non Alimentare;;419;277
+"VIA MANZONI ALESSANDRO N. 7 ;via manzoni alessandro 007; isolato:364; accesso: accesso esterno; (z.d. 1)";VIA ;MANZONI ALESSANDRO;7;230;1;tenda davide cenci;non alimentare;;278;278
+"VLE GIOVANNI DA CERMENATE N. 27 ; isolato:010; accesso: accesso esterno; (z.d. 5)";VLE ;GIOVANNI DA CERMENATE;27;5261;5;di per di;"alimentare;non alimentare";;366;278
+"VIA DELLE ORCHIDEE N. 4 interno superspacci alimentari; isolato:035; accesso: accesso esterno; (z.d. 6)";VIA ;DELLE ORCHIDEE;4;6717;6;di per di;"alimentare;non alimentare";;520;280
+"VLE TIBALDI N. 3 ; isolato:160; accesso: accesso esterno; (z.d. 5)";VLE ;TIBALDI;3;5234;5;;non alimentare;;280;280
+"LGO TREVES CLAUDIO N. 2 ; isolato:247; accesso: accesso esterno; (z.d. 3)";LGO ;TREVES CLAUDIO;2;1026;1;argenteria dabbene;non alimentare;180;460;280
+"VIA GAGGIA PIETRO N. 1 ; isolato:070; accesso: accesso esterno; (z.d. 4)";VIA ;GAGGIA PIETRO;1;4187;4;;non alimentare;20;300;280
+"VIA MAGGI CARLO MARIA N. 10 aff. az.tacit. rinnov.; isolato:124; accesso: accesso esterno; (z.d. 1)";VIA ;MAGGI CARLO MARIA;10;7115;1;punto sma;alimentare;;458;280
+"VIA CACCIATORI BENEDETTO N. 12 ; isolato:063; accesso: accesso interno; (z.d. 7)";VIA ;CACCIATORI BENEDETTO;12;6305;7;;non alimentare;;280;280
+"VIA PAISIELLO GIOVANNI N. 1 ; isolato:063; accesso: accesso esterno; (z.d. 3)";VIA ;PAISIELLO GIOVANNI;1;2245;3;;non alimentare;270;550;280
+"VLE BLIGNY N. 54 ; isolato:108; accesso: accesso esterno; (z.d. 5)";VLE ;BLIGNY;54;4045;5;crai;"alimentare;non alimentare";;280;280
+"codvia 0198 num.010 ; isolato:065; accesso: accesso esterno; (z.d. 6)";;;;;;;non alimentare;;280;280
+"VIA CASORETTO N. 45 ; isolato:006; accesso: accesso esterno; (z.d. 3)";VIA ;CASORETTO;45;2420;3;sonia cars;non alimentare;;280;280
+"CSO VERCELLI N. 8 ; isolato:217; accesso: accesso esterno; (z.d. 6)";CSO ;VERCELLI;8;6193;7;dev;non alimentare;;281;281
+"CSO SAN GOTTARDO N. 19 ; isolato:095; accesso: accesso esterno; (z.d. 5)";CSO ;SAN GOTTARDO;19;5203;5;gottardo sport;non alimentare;;283;283
+"PZA DEL DUOMO N. 17 ;pza dei mercanti 021; isolato:436; accesso: accesso esterno; (z.d. 1)";PZA ;DEL DUOMO;17;1;1;dolomiti sport;non alimentare;;286;286
+"VIA NOVARA N. 127 ; isolato:038; accesso: accesso esterno; (z.d. 7)";VIA ;NOVARA;127;6624;7;;non alimentare;;286;286
+"VIA CATULLO N. 8 loc. interno; (z.d. 8)";VIA ;CATULLO;8;7428;8;;non alimentare;;286;286
+"VIA GALLI MARIO N. 19 ; isolato:013; accesso: accesso interno; (z.d. 9)";VIA ;GALLI MARIO;19;1304;9;;non alimentare;71;358;287
+"CSO BUENOS AIRES N. 55 ; isolato:035; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;55;2129;3;gbc componenti elettronic;non alimentare;;288;288
+"VIA SANT' ANDREA N. 15 sportello distribuzione + fall;via sant' andrea 021; isolato:260; accesso: accesso esterno; (z.d. 1)";VIA ;SANT' ANDREA;15;222;1;gianfranco ferre;non alimentare;;289;289
+"VIA QUARENGHI GIACOMO N. 23 centro commerciale bonola; isolato:300; accesso: accesso interno; (z.d. 8)";VIA ;QUARENGHI GIACOMO;23;7478;8;master special;non alimentare;;290;290
+"VIA CASORETTO N. 33 ; isolato:006; accesso: accesso esterno; (z.d. 3)";VIA ;CASORETTO;33;2420;3;;non alimentare;;290;290
+"PZA DE ANGELI ERNESTO N. 1 ; isolato:218; accesso: accesso esterno; (z.d. 7)";PZA ;DE ANGELI ERNESTO;1;6276;7;hi-fi;non alimentare;;290;290
+"VIA OROBIA N. 11 ; isolato:014; accesso: accesso esterno; (z.d. 5)";VIA ;OROBIA;11;4137;5;boschi;non alimentare;;290;290
+"VIA SANT' ANDREA num.010/a; (z.d. 1)";VIA ;SANT' ANDREA;;222;1;;non alimentare;;290;290
+"CSO ITALIA N. 40 ;via molino delle armi 004; isolato:476; accesso: accesso esterno; (z.d. 1)";CSO ;ITALIA;40;526;1;;non alimentare;100;392;292
+"PZA CORDUSIO N. 2 ;pza cordusio 002; isolato:436; accesso: accesso esterno; (z.d. 1)";PZA ;CORDUSIO;2;626;1;;;;292;292
+"VLE ABRUZZI N. 51 ; isolato:029; accesso: accesso esterno; (z.d. 3)";VLE ;ABRUZZI;51;2177;3;;non alimentare;;292;292
+"VIA FALLOPPIO GABRIELE N. 11 ; isolato:009; accesso: accesso esterno; (z.d. 3)";VIA ;FALLOPPIO GABRIELE;11;2424;3;;non alimentare;;292;292
+"PZA DE ANGELI ERNESTO N. 3 ; isolato:218; accesso: accesso esterno; (z.d. 7)";PZA ;DE ANGELI ERNESTO;3;6276;7;photodiscount;non alimentare;;292;292
+"VIA VOLTRI N. 8 ; isolato:231; accesso: accesso esterno; (z.d. 6)";VIA ;VOLTRI;8;5354;6;carrefour;"alimentare;non alimentare";;422;292
+"LGO RICHINI FRANCESCO N. 1 ;lgo richini francesco 001; isolato:325; accesso: accesso esterno; (z.d. 1)";LGO ;RICHINI FRANCESCO;1;331;1;;non alimentare;37;330;293
+"VIA BOSCOVICH RUGGERO N. 49 ; isolato:074; accesso: accesso esterno; (z.d. 3)";VIA ;BOSCOVICH RUGGERO;49;2131;3;blockbuster;"alimentare;non alimentare";;376;293
+"VIA MEDA GIUSEPPE N. 16 ; isolato:160; accesso: accesso esterno; (z.d. 5)";VIA ;MEDA GIUSEPPE;16;5242;5;cai;non alimentare;;294;294
+"VIA TAGIURA N. 19 ; isolato:042; accesso: accesso esterno; (z.d. 6)";VIA ;TAGIURA;19;6125;6;;non alimentare;;294;294
+"VIA SANTA MARIA VALLE N. 1 ;via santa maria valle 001; isolato:397; accesso: accesso esterno; (z.d. 1)";VIA ;SANTA MARIA VALLE;1;535;1;;non alimentare;;294;294
+"VIA VAL DI BONDO N. 15 aff. az. tacit. rinnov.; isolato:031; accesso: accesso esterno; (z.d. 9)";VIA ;VAL DI BONDO;15;1648;9;punto sma;"alimentare;non alimentare";;396;295
+"VIA SETTEMBRINI LUIGI N. 11 ; isolato:073; accesso: accesso esterno; (z.d. 2)";VIA ;SETTEMBRINI LUIGI;11;2127;2;belmonte camiciaio italia;non alimentare;;295;295
+CSO VITTORIO EMANUELE II N. 30 (z.d. 1);CSO ;VITTORIO EMANUELE II;30;214;1;;"Alimentare;Non Alimentare";;525;295
+"GLL BUENOS AIRES N. 9 ; isolato:060; accesso: accesso esterno; (z.d. 3)";GLL ;BUENOS AIRES;9;2146;3;celio;non alimentare;;298;298
+VIA TORINO N. 23 (z.d. 1);VIA ;TORINO;23;543;1;;non alimentare;;397;298
+"VIA PASSARELLA N. 4 ;gll passarella 004*; isolato:386; accesso: accesso esterno; (z.d. 1)";VIA ;PASSARELLA;4;298;1;caractere;non alimentare;;480;300
+"VIA SAN GREGORIO N. 48 ; isolato:069; accesso: accesso esterno; (z.d. 2)";VIA ;SAN GREGORIO;48;2123;2;;non alimentare;250;550;300
+"VIA DEL DUCA CINO N. 12 ;via del duca cino 012; isolato:191; accesso: accesso esterno; (z.d. 1)";VIA ;DEL DUCA CINO;12;362;1;;non alimentare;110;410;300
+"VIA ROSSI PELLEGRINO N. 15 ; isolato:182; accesso: accesso esterno; (z.d. 9)";VIA ;ROSSI PELLEGRINO;15;1510;9;;non alimentare;30;330;300
+"VIA VARESINA N. 92 ; isolato:237; accesso: accesso esterno; (z.d. 8)";VIA ;VARESINA;92;7290;8;unes;"alimentare;non alimentare";;560;300
+"VIA MELZO N. 7 ; isolato:150; accesso: accesso esterno; (z.d. 3)";VIA ;MELZO;7;2184;3;jannelli e volpi;non alimentare;;300;300
+"VLE ABRUZZI num.013/a; isolato:067; accesso: accesso interno; (z.d. 3)";VLE ;ABRUZZI;;2177;3;;non alimentare;;300;300
+"RIP DI PTA TICINESE N. 47 ; isolato:072; accesso: accesso interno; (z.d. 6)";RIP ;DI PTA TICINESE;47;5150;6;;non alimentare;;300;300
+"VIA PROCACCINI GIULIO CESARE N. 32 ; isolato:054; accesso: accesso esterno; (z.d. 8)";VIA ;PROCACCINI GIULIO CESARE;32;7204;8;bassetti;non alimentare;;300;300
+"VIA CARNEVALI ANTONIO N. 28 ; isolato:043; accesso: accesso interno; (z.d. 9)";VIA ;CARNEVALI ANTONIO;28;1268;9;;non alimentare;50;350;300
+"VIA TEODOSIO N. 55 ; isolato:015; accesso: accesso esterno; (z.d. 3)";VIA ;TEODOSIO;55;2550;3;garage porpora autofficin;non alimentare;350;650;300
+"GLL UNIONE N. 1 ;pza missori giuseppe 000; isolato:470; accesso: accesso esterno; (z.d. 1)";GLL ;UNIONE;1;510;1;libreria esoterica;non alimentare;;300;300
+VIA PONTE VETERO N. 14 (z.d. 1);VIA ;PONTE VETERO;14;718;1;;"alimentare;non alimentare";;300;300
+"VIA ALESSANDRIA N. 3 ; isolato:052; accesso: accesso esterno; (z.d. 6)";VIA ;ALESSANDRIA;3;5109;6;spazionavigli;non alimentare;;300;300
+VIA PONTACCIO N. 3 (z.d. 1);VIA ;PONTACCIO;3;143;1;;non alimentare;;300;300
+"CSO VERCELLI N. 20 ; isolato:216; accesso: accesso esterno; (z.d. 7)";CSO ;VERCELLI;20;6193;7;carrefour;"alimentare;non alimentare";;388;300
+"VLE PASUBIO N. 13 ; isolato:318; accesso: accesso esterno; (z.d. 1)";VLE ;PASUBIO;13;1112;1;;non alimentare;;300;300
+"VIA BRIZI EUGENIO N. 4 ; isolato:070; accesso: accesso esterno; (z.d. 4)";VIA ;BRIZI EUGENIO;4;4186;4;;non alimentare;;300;300
+"VIA ZOCCHI CESARE N. 1 ; isolato:025; accesso: accesso esterno; (z.d. 9)";VIA ;ZOCCHI CESARE;1;1301;9;discount;"alimentare;non alimentare";;450;300
+"VIA PORRO LAMBERTENGHI LUIGI N. 16 ; isolato:264; accesso: accesso esterno; (z.d. 9)";VIA ;PORRO LAMBERTENGHI LUIGI;16;1142;9;carrefour;"alimentare;non alimentare";;386;300
+"RIP DI PTA TICINESE N. 73 ; isolato:068; accesso: accesso interno; (z.d. 6)";RIP ;DI PTA TICINESE;73;5150;6;ecliss;non alimentare;;300;300
+"VIA BIGLI N. 2 ;via bigli 002; isolato:314; accesso: accesso esterno; (z.d. 1)";VIA ;BIGLI;2;224;1;;non alimentare;;300;300
+CSO BUENOS AIRES N. 18 (z.d. 3);CSO ;BUENOS AIRES;18;2129;3;;non alimentare;;300;300
+"CSO DI PORTA VIGENTINA N. 36 ; isolato:119; accesso: accesso esterno; (z.d. 1)";CSO ;DI PORTA VIGENTINA;36;4026;1;carrefour;"alimentare;non alimentare";;389;300
+"VIA ARONA num.015; isolato:311; accesso: accesso esterno; (z.d. 8)";VIA ;ARONA;;7169;8;arona spa-alfaromeo fiat;non alimentare;;300;300
+"VLE LANCETTI VINCENZO N. 46 ; isolato:097; accesso: area ap.rec.; (z.d. 9)";VLE ;LANCETTI VINCENZO;46;1221;9;porsche;non alimentare;;300;300
+VIA LITTA MODIGNANI ALESSANDRO N. 112 ();VIA ;LITTA MODIGNANI ALESSANDRO;112;1539;9;;non alimentare;;0;300
+"VIA TADINO ALESSANDRO N. 53 ; accesso: accesso esterno; (z.d. 3)";VIA ;TADINO ALESSANDRO;53;2109;3;la libreria dei ragazzi;non alimentare;;600;300
+"VIA CALZECCHI TEMISTOCLE N. 17 ; isolato:164; accesso: accesso esterno; (z.d. 3)";VIA ;CALZECCHI TEMISTOCLE;17;3241;3;;non alimentare;291;0;300
+"PZA RISORGIMENTO N. 10 ; isolato:005; accesso: accesso esterno; (z.d. 4)";PZA ;RISORGIMENTO;10;3117;4;;non alimentare;19;321;302
+"VIA GAMBOLOITA N. 4 ; isolato:052; accesso: accesso esterno; (z.d. 4)";VIA ;GAMBOLOITA;4;4160;4;concessionari ricamb.fiat;non alimentare;300;605;305
+"VIA COSTA ANDREA N. 1 ; isolato:358; accesso: accesso esterno; (z.d. 2)";VIA ;COSTA ANDREA;1;2276;2;centro sposi paradiso;"alimentare;non alimentare";;305;305
+"VLE ESPINASSE CARLO N. 106 ; isolato:194; accesso: accesso interno; (z.d. 8)";VLE ;ESPINASSE CARLO;106;7390;8;;non alimentare;;305;305
+VIA CASSINIS GIOVANNI BATTISTA N. 7 (z.d. 4);VIA ;CASSINIS GIOVANNI BATTISTA;7;4309;4;;non alimentare;;305;305
+"VIA VICO GIAN BATTISTA N. 14 ; isolato:225; accesso: accesso esterno; (z.d. 1)";VIA ;VICO GIAN BATTISTA;14;6219;1;;non alimentare;15;322;307
+"VIA DOLCI CARLO N. 8 ; isolato:255; accesso: accesso esterno; (z.d. 7)";VIA ;DOLCI CARLO;8;6555;7;carrefour;"alimentare;non alimentare";;444;308
+"VLE ELVEZIA N. 22 loc.interno; isolato:126; accesso: area ap.rec.; (z.d. 1)";VLE ;ELVEZIA;22;7085;1;la casa italiana;non alimentare;;666;309
+"VIA FERRUCCI FRANCESCO N. 2 ; isolato:085; accesso: accesso esterno; (z.d. 8)";VIA ;FERRUCCI FRANCESCO;2;7150;8;;non alimentare;20;330;310
+"VIA VAL DI SOLE N. 12 ; isolato:166; accesso: accesso esterno; (z.d. 5)";VIA ;VAL DI SOLE;12;4295;5;unes supermercati;"alimentare;non alimentare";310;620;310
+"VIA CASATI FELICE N. 32 ; isolato:096; accesso: accesso esterno; (z.d. 2)";VIA ;CASATI FELICE;32;2122;2;di per di;"alimentare;non alimentare";;379;310
+VIA BALESTRIERI DOMENICO N. 6 (z.d. 1);VIA ;BALESTRIERI DOMENICO;6;7116;1;;non alimentare;;0;310
+"VIA DANTE ALIGHIERI N. 7 ;via dante alighieri 007; isolato:375; accesso: accesso esterno; (z.d. 1)";VIA ;DANTE ALIGHIERI;7;612;1;guess;non alimentare;;485;311
+"VIA SERLIO SEBASTIANO num.008/2; isolato:027; accesso: accesso esterno; (z.d. 4)";;;;;;dugan;"alimentare;non alimentare";;528;312
+"VIA VIPACCO N. 36 ; isolato:026; accesso: accesso esterno; (z.d. 2)";VIA ;VIPACCO;36;2444;2;;non alimentare;;312;312
+"VIA MARGHERA N. 36 ; isolato:212; accesso: accesso esterno; (z.d. 7)";VIA ;MARGHERA;36;6280;7;;"alimentare;non alimentare";;314;314
+"VIA FELTRE N. 17 ; isolato:059; (z.d. 3)";VIA ;FELTRE;17;2652;3;;non alimentare;;314;314
+VIA MANZONI ALESSANDRO N. 38 (z.d. 1);VIA ;MANZONI ALESSANDRO;38;230;1;;Non Alimentare;;403;314
+"VIA IMPERIA N. 15 ; isolato:051; accesso: accesso esterno; (z.d. 5)";VIA ;IMPERIA;15;5266;5;;non alimentare;550;865;315
+"CSO BUENOS AIRES N. 2 loc. interno; isolato:143; accesso: accesso interno; (z.d. 3)";CSO ;BUENOS AIRES;2;2129;3;;non alimentare;17;332;315
+"VIA SANT' ANDREA N. 21 ;via sant' andrea 021; isolato:260; accesso: accesso esterno; (z.d. 1)";VIA ;SANT' ANDREA;21;222;1;hermes;non alimentare;;513;317
+"VIA OSOPPO N. 21 ; isolato:001; accesso: accesso interno; (z.d. 7)";VIA ;OSOPPO;21;6596;7;libero srl.;non alimentare;;317;317
+"VIA ROSSI PELLEGRINO N. 93 ; isolato:153; accesso: accesso esterno; (z.d. 9)";VIA ;ROSSI PELLEGRINO;93;1510;9;;non alimentare;;317;317
+"VIA OLGETTINA N. 60 interno osp. san raffaele; isolato:004; accesso: accesso interno; (z.d. 3)";VIA ;OLGETTINA;60;2530;3;di  per di;"alimentare;non alimentare";;495;317
+"VIA MEDEGHINO N. 9 ; isolato:047; accesso: accesso esterno; (z.d. 5)";VIA ;MEDEGHINO;9;5335;5;;non alimentare;;359;319
+"VIA AGNELLO N. 2 ;via agnello 002; isolato:385; accesso: accesso esterno; (z.d. 1)";VIA ;AGNELLO;2;209;1;celio;non alimentare;;473;320
+"VIA VENINI GIULIO E CORRADO N. 37 aff. az. tacit. rinnov.; isolato:342; accesso: accesso esterno; (z.d. 2)";VIA ;VENINI GIULIO E CORRADO;37;2258;2;punto sma;"alimentare;non alimentare";;721;320
+"VIA GIOIA MELCHIORRE N. 62 ; isolato:240; accesso: accesso esterno; (z.d. 2)";VIA ;GIOIA MELCHIORRE;62;1108;2;;non alimentare;50;370;320
+"VIA MELZO N. 36 ; isolato:140; accesso: accesso esterno; (z.d. 3)";VIA ;MELZO;36;2184;3;guess;non alimentare;;320;320
+"CSO MONFORTE N. 19 ;via santa cecilia 000; isolato:190; accesso: accesso esterno; (z.d. 1)";CSO ;MONFORTE;19;348;1;artemide;non alimentare;;397;320
+"VIA LESMI N. 7 ; isolato:458; accesso: accesso interno; (z.d. 1)";VIA ;LESMI;7;5095;1;;non alimentare;;320;320
+"PLE AQUILEIA N. 6 ; isolato:260; accesso: accesso esterno; (z.d. 7)";PLE ;AQUILEIA;6;6205;7;;non alimentare;;320;320
+VIA PETITTI CARLO ILARIONE N. 6 (z.d. 8);VIA ;PETITTI CARLO ILARIONE;6;7161;8;;non alimentare;;320;320
+"LGO SCALABRINI GIOVANNI BATTISTA N. 1 ; isolato:142; accesso: accesso esterno; (z.d. 6)";LGO ;SCALABRINI GIOVANNI BATTISTA;1;5392;6;di  per di;"alimentare;non alimentare";;680;320
+"GLL SAN CARLO N. 6 ;gll san carlo 006; isolato:360; accesso: accesso esterno; (z.d. 1)";GLL ;SAN CARLO;6;302;1;;Non Alimentare;;774;322
+"VLE DORIA ANDREA N. 24 ; isolato:016; accesso: accesso interno; (z.d. 3)";VLE ;DORIA ANDREA;24;2230;3;;non alimentare;;322;322
+"VLE TESTI FULVIO N. 29 ; isolato:141; accesso: accesso esterno; (z.d. 9)";VLE ;TESTI FULVIO;29;1441;9;spotorno car srl;non alimentare;;323;323
+"VIA MONTE NAPOLEONE N. 12 ;via monte napoleone 012; isolato:260; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;12;219;1;cornegliani;non alimentare;;324;324
+"VIA LOSANNA N. 46 ; isolato:031; accesso: accesso esterno; (z.d. 8)";VIA ;LOSANNA;46;7190;8;carretti hi-tech;non alimentare;;325;325
+"VIA PASSIONE num.002/a; isolato:194; accesso: accesso esterno; (z.d. 1)";VIA ;PASSIONE;;3033;1;schiffini;non alimentare;;328;328
+VIA DURINI N. 1 (z.d. 1);VIA ;DURINI;1;313;1;;non alimentare;;422;329
+"PZA DUCA D'AOSTA int. stazione centrale num.000; accesso: accesso interno; ()";PZA ;DUCA D'AOSTA;;1200;2;dufry profumery;non alimentare;;329;329
+"PLE SELINUNTE N. 2 int. mercato comunale coperto; accesso: accesso esterno; (z.d. 7)";PLE ;SELINUNTE;2;6566;7;;"alimentare;non alimentare";323;652;329
+"PLE SELINUNTE N. 2 int. m.c.c. selinunte; accesso: accesso esterno; (z.d. 7)";PLE ;SELINUNTE;2;6566;7;;"alimentare;non alimentare";;753;329
+"VIA TORINO N. 51 ;via torino 051; isolato:397; accesso: accesso esterno; (z.d. 1)";VIA ;TORINO;51;543;1;blue basic;non alimentare;;394;330
+"VIA DURINI N. 25 ;via durini 025; isolato:317; accesso: accesso esterno; (z.d. 1)";VIA ;DURINI;25;313;1;;non alimentare;;450;330
+"PLE SELINUNTE N. 2 int. m.c.c. selinunte; (z.d. 7)";PLE ;SELINUNTE;2;6566;7;;alimentare;;753;330
+"VIA SANT' ANDREA N. 5 ;via sant' andrea 005; isolato:260; accesso: accesso esterno; (z.d. 1)";VIA ;SANT' ANDREA;5;222;1;;non alimentare;;331;331
+"VIA GUINTELLINO GUGLIELMO num.026/28; isolato:027; accesso: accesso esterno; (z.d. 6)";VIA ;GUINTELLINO GUGLIELMO;;5369;6;magia 2;non alimentare;;333;333
+"VIA OREFICI N. 2 ;via orefici 002; isolato:436; accesso: accesso esterno; (z.d. 1)";VIA ;OREFICI;2;547;1;vodafone one;non alimentare;;337;337
+"VIA SANTO SPIRITO N. 19 ;via santo spirito 019; isolato:258; accesso: accesso esterno; (z.d. 1)";VIA ;SANTO SPIRITO;19;228;1;;non alimentare;;500;337
+"VIA CAMOZZI GABRIELE N. 7 art. 38 c.4 r.r. 3/2000; isolato:133; accesso: accesso esterno; (z.d. 7)";VIA ;CAMOZZI GABRIELE;7;6769;7;edil piave srl;non alimentare;;2000;340
+"PZA SAN MARCO N. 1 ; isolato:299; accesso: accesso esterno; (z.d. 1)";PZA ;SAN MARCO;1;1040;1;;non alimentare;57;397;340
+"VIA PORTA CARLO N. 1 ; isolato:093; accesso: accesso esterno; (z.d. 1)";VIA ;PORTA CARLO;1;1051;1;;non alimentare;35;375;340
+"VIA WILDT ADOLFO N. 2 ; isolato:018; accesso: accesso interno; (z.d. 3)";VIA ;WILDT ADOLFO;2;2554;3;finporte snc;non alimentare;52;392;340
+"CSO LODI N. 9 ; isolato:170; accesso: accesso esterno; (z.d. 4)";CSO ;LODI;9;4068;4;;non alimentare;;340;340
+"CSO VERCELLI num.023/25; isolato:235; pto strada:1 ; accesso: accesso esterno; (z.d. 7)";CSO ;VERCELLI;;6193;7;frette;non alimentare;;395;340
+PZA VETRA N. 21 (z.d. 1);PZA ;VETRA;21;515;1;;non alimentare;;340;340
+"VLE DORIA ANDREA N. 17 aff. az. tacit. rinnov.; isolato:033; accesso: accesso esterno; (z.d. 3)";VLE ;DORIA ANDREA;17;2230;3;pd discount;"alimentare;non alimentare";;443;340
+"VIA DELLA SPIGA N. 30 ;via della spiga 030; isolato:184; accesso: accesso esterno; (z.d. 1)";VIA ;DELLA SPIGA;30;226;1;just cavalli;non alimentare;;492;343
+"VLE MONZA N. 2 ; isolato:352; accesso: accesso esterno; (z.d. 2)";VLE ;MONZA;2;2274;2;marionnaud parfumeries;non alimentare;;548;344
+"VIA VENINI GIULIO E CORRADO num.038/2; isolato:346; accesso: accesso esterno; (z.d. 2)";;;;;;;non alimentare;25;370;345
+"VIA PASSARELLA N. 4 ;cso vittorio emanuele ii 018*; isolato:386; accesso: accesso esterno; (z.d. 1)";VIA ;PASSARELLA;4;298;1;vergelio;non alimentare;;345;345
+CSO DI PORTA NUOVA N. 52 (z.d. 1);CSO ;DI PORTA NUOVA;52;1044;1;;Non Alimentare;;580;345
+"VIA SOLFERINO N. 11 ; isolato:172; accesso: accesso interno; (z.d. 1)";VIA ;SOLFERINO;11;1028;1;;non alimentare;;347;347
+"VIA MANZONI ALESSANDRO N. 12 ;via manzoni alessandro 012; isolato:363; accesso: accesso esterno; (z.d. 1)";VIA ;MANZONI ALESSANDRO;12;230;1;fondamentali;non alimentare;;349;349
+"CSO BUENOS AIRES N. 54 ; isolato:045; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;54;2129;3;;non alimentare;;349;349
+"VIA MEDA GIUSEPPE N. 11 ; isolato:130; accesso: accesso interno; (z.d. 5)";VIA ;MEDA GIUSEPPE;11;5242;5;;non alimentare;1260;1610;350
+"VIA LORENTEGGIO N. 27 ; isolato:152; accesso: accesso esterno; (z.d. 6)";VIA ;LORENTEGGIO;27;5132;6;;non alimentare;;350;350
+"VIA SAN SIRO N. 31 ; isolato:173; accesso: accesso interno; (z.d. 7)";VIA ;SAN SIRO;31;6282;7;;non alimentare;;350;350
+"VIA MACCHI MAURO N. 42 ; isolato:031; accesso: accesso interno; (z.d. 2)";VIA ;MACCHI MAURO;42;2133;2;;"non alimentare;tabella speciale monopolio";475;825;350
+"VLE SABOTINO N. 4 ; isolato:171; accesso: accesso esterno; (z.d. 5)";VLE ;SABOTINO;4;4046;5;;non alimentare;;350;350
+"VIA MESSINA N. 43 ; isolato:020; accesso: accesso esterno; (z.d. 8)";VIA ;MESSINA;43;7211;8;autosport milano;non alimentare;100;450;350
+"VIA BONCOMPAGNI CARLO num.067/int; isolato:072; accesso: accesso esterno; (z.d. 4)";;;;;;;non alimentare;;442;350
+"VIA LARIO num.011/a; isolato:212; accesso: accesso esterno; (z.d. 9)";VIA ;LARIO;;1171;9;;non alimentare;15;365;350
+"VLE SABOTINO N. 4 ; isolato:171; accesso: accesso interno; (z.d. 5)";VLE ;SABOTINO;4;4046;5;;non alimentare;;350;350
+"CSO GENOVA N. 19 ; isolato:132; accesso: accesso esterno; (z.d. 1)";CSO ;GENOVA;19;5164;1;la coloniale;"alimentare;non alimentare";;350;350
+VIA COLONNA MARCO ANTONIO N. 35 (z.d. 8);VIA ;COLONNA MARCO ANTONIO;35;7158;8;;non alimentare;;350;350
+"VLE CATERINA DA FORLI' num.024/2; isolato:020; accesso: accesso interno; (z.d. 7)";;;;;;;non alimentare;;350;350
+"CSO VERCELLI N. 38 ; isolato:215; accesso: accesso esterno; (z.d. 7)";CSO ;VERCELLI;38;6193;7;borghi;non alimentare;;350;350
+"VLE MARCHE N. 63 ; isolato:165; accesso: accesso esterno; (z.d. 9)";VLE ;MARCHE;63;1360;9;blockbuster;"alimentare;non alimentare";;380;350
+"VIA ARONA N. 4 ; isolato:040; accesso: accesso esterno; (z.d. 8)";VIA ;ARONA;4;7169;8;;non alimentare;;350;350
+"VLE ESPINASSE CARLO N. 110 ; isolato:194; accesso: accesso esterno; (z.d. 8)";VLE ;ESPINASSE CARLO;110;7390;8;concess.lancia saicar;non alimentare;;350;350
+"VIA PISANI VITTOR N. 8 ; isolato:093; accesso: accesso esterno; (z.d. 2)";VIA ;PISANI VITTOR;8;1201;2;gabbai;non alimentare;;350;350
+"PZA DUCA D'AOSTA int. staz centrale num.000; accesso: accesso interno; ()";PZA ;DUCA D'AOSTA;;1200;2;bershka;non alimentare;;491;350
+"VIA MANZONI ALESSANDRO num.021/23; isolato:313; accesso: accesso esterno; (z.d. 1)";VIA ;MANZONI ALESSANDRO;;230;1;le copen;non alimentare;;521;351
+"VIA LENTASIO N. 1 ;via lentasio 001; isolato:270; accesso: accesso esterno; (z.d. 1)";VIA ;LENTASIO;1;410;1;;non alimentare;250;605;355
+"PLE BAIAMONTI ANTONIO N. 4 aff. az. tacit. rinnov.; isolato:313; accesso: accesso esterno; (z.d. 9)";PLE ;BAIAMONTI ANTONIO;4;7235;9;punto sma;"alimentare;non alimentare";;566;355
+"VIA RUTILIA num.010/8; isolato:001; accesso: accesso interno; (z.d. 5)";;;;;;acquazzurra;"alimentare;non alimentare";;450;355
+"VIA BODONI GIAMBATTISTA N. 2 ; isolato:299; accesso: accesso esterno; (z.d. 8)";VIA ;BODONI GIAMBATTISTA;2;7261;8;;non alimentare;;356;356
+"GLL STRASBURGO N. 3 ;gll strasburgo 003; isolato:317; accesso: accesso esterno; (z.d. 1)";GLL ;STRASBURGO;3;297;1;;non alimentare;;357;357
+"VIA VALTELLINA N. 17 ; isolato:105; accesso: accesso interno; (z.d. 7)";VIA ;VALTELLINA;17;1188;9;;non alimentare;;358;358
+"VIA SAN BARNABA N. 27 ; isolato:201; (z.d. 1)";VIA ;SAN BARNABA;27;3010;1;;non alimentare;;358;358
+"VIA SOLARI ANDREA N. 6 ; isolato:019; accesso: accesso esterno; (z.d. 6)";VIA ;SOLARI ANDREA;6;5111;6;salvini;"alimentare;non alimentare";;360;360
+"VIA AMADEO GIAN ANTONIO N. 40 ; isolato:200; accesso: accesso esterno; (z.d. 3)";VIA ;AMADEO GIAN ANTONIO;40;3228;3;;non alimentare;224;584;360
+"VIA RISMONDO FRANCESCO N. 1 ; isolato:137; accesso: accesso esterno; (z.d. 7)";VIA ;RISMONDO FRANCESCO;1;6756;7;coeco elettro zanoni;non alimentare;;360;360
+"VIA SAPRI N. 83 ; isolato:145; accesso: accesso esterno; (z.d. 8)";VIA ;SAPRI;83;7441;8;;"alimentare;non alimentare";;360;360
+"VIA AMPERE ANDREA MARIA N. 103 ; isolato:011; accesso: accesso esterno; (z.d. 3)";VIA ;AMPERE ANDREA MARIA;103;2428;3;carrefour;"alimentare;non alimentare";;423;360
+"VIA ROSSI PELLEGRINO N. 80 ; isolato:183; accesso: accesso esterno; (z.d. 9)";VIA ;ROSSI PELLEGRINO;80;1510;9;conad;"alimentare;non alimentare";;680;360
+"VLE LIGURIA num.028; isolato:156; accesso: accesso esterno; (z.d. 6)";VLE ;LIGURIA;;5264;6;;non alimentare;;361;361
+"VIA MANZONI ALESSANDRO N. 30 ;via manzoni alessandro 030; isolato:255; accesso: accesso esterno; (z.d. 1)";VIA ;MANZONI ALESSANDRO;30;230;1;;non alimentare;;423;361
+"VIA NERINO N. 12 ;via nerino 012; isolato:349; accesso: accesso esterno; (z.d. 1)";VIA ;NERINO;12;564;1;;non alimentare;225;587;362
+"VIA SANT' ANDREA N. 9 ;via sant' andrea 009; isolato:260; accesso: accesso esterno; (z.d. 1)";VIA ;SANT' ANDREA;9;222;1;;non alimentare;;364;364
+"VIA ARCO N. 2 aff. az. tacit. rinnov.;via arco 002; isolato:295; accesso: accesso esterno; (z.d. 1)";VIA ;ARCO;2;714;1;;"alimentare;non alimentare";;991;364
+VIA CIRCO N. 1 (z.d. 1);VIA ;CIRCO;1;557;1;;"Alimentare;Non Alimentare";;791;364
+"VIA MONTE NAPOLEONE N. 5 ;via monte napoleone 005; isolato:315; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;5;219;1;etro;non alimentare;;365;365
+"VLE MONZA N. 75 ; isolato:322; accesso: accesso esterno; (z.d. 2)";VLE ;MONZA;75;2274;2;morotti arredamenti;non alimentare;;568;366
+"VIA SAN SENATORE N. 16 ;via santa sofia 022; isolato:271; accesso: accesso esterno; (z.d. 1)";VIA ;SAN SENATORE;16;404;1;carrefour;"alimentare;non alimentare";;424;368
+"VIA LEOPARDI GIACOMO N. 7 ; isolato:289; accesso: accesso esterno; (z.d. 1)";VIA ;LEOPARDI GIACOMO;7;6156;1;;non alimentare;50;420;370
+"VIA ASTESANI ALESSANDRO N. 17 ; isolato:100; accesso: accesso esterno; (z.d. 8)";VIA ;ASTESANI ALESSANDRO;17;1558;9;;;;370;370
+"VLE ABRUZZI N. 54 ; isolato:065; accesso: accesso esterno; (z.d. 3)";VLE ;ABRUZZI;54;2177;3;carrefour;"alimentare;non alimentare";;413;370
+"VIA MAESTRI CAMPIONESI N. 25 ; isolato:074; accesso: accesso esterno; (z.d. 4)";VIA ;MAESTRI CAMPIONESI;25;3197;4;super union;non alimentare;;370;370
+"VIA BASSI UGO N. 5 ; isolato:257; accesso: accesso esterno; (z.d. 9)";VIA ;BASSI UGO;5;1143;9;bernardi abbigliamento;non alimentare;;371;371
+"VIA MOROSINI EMILIO N. 7 ; isolato:046; accesso: accesso esterno; (z.d. 4)";VIA ;MOROSINI EMILIO;7;3073;4;;non alimentare;;371;371
+VIA LOPEZ SABATINO N. 9 (z.d. 8);VIA ;LOPEZ SABATINO;9;7369;8;;"Alimentare;Non Alimentare";;594;372
+"VLE CERTOSA N. 36 ; isolato:316; accesso: accesso esterno; (z.d. 8)";VLE ;CERTOSA;36;7174;8;;non alimentare;326;700;374
+"VIA VODICE N. 3 ; isolato:252; accesso: accesso esterno; (z.d. 7)";VIA ;VODICE;3;6552;7;;non alimentare;;375;375
+"VIA LACAITA GIACOMO FILIPPO N. 2 ; isolato:076; accesso: accesso interno; (z.d. 4)";VIA ;LACAITA GIACOMO FILIPPO;2;4308;4;evolution;non alimentare;;375;375
+"VIA TRAIANO MARCO ULPIO N. 79 pii portello comp u2-lotto 2a; isolato:249; (z.d. 9)";VIA ;TRAIANO MARCO ULPIO;79;7157;8;;non alimentare;;503;375
+"VIA TAZZOLI ENRICO N. 11 loc. interno; isolato:293; accesso: accesso interno; (z.d. 9)";VIA ;TAZZOLI ENRICO;11;1118;9;;non alimentare;;376;376
+"VLE PAPINIANO N. 16 ; isolato:282; accesso: accesso esterno; (z.d. 1)";VLE ;PAPINIANO;16;5097;1;;"Alimentare;Non Alimentare";;504;376
+"VIA ZANELLA GIACOMO N. 36 ; isolato:253; accesso: accesso esterno; (z.d. 4)";VIA ;ZANELLA GIACOMO;36;3257;4;;non alimentare;;378;378
+"GLL SAN BABILA num.004/c; isolato:264; accesso: accesso esterno; (z.d. 1)";GLL ;SAN BABILA;;360;1;vannucci;non alimentare;;505;380
+"VIA TOCE N. 11 ; isolato:207; accesso: accesso esterno; (z.d. 9)";VIA ;TOCE;11;1325;9;;non alimentare;8;388;380
+"PZA BRUZZANO N. 5 aff. az. tacit. rinnov.; isolato:042; accesso: accesso esterno; (z.d. 9)";PZA ;BRUZZANO;5;1655;9;punto sma;"alimentare;non alimentare";50;1200;380
+"VIA MAGISTRETTI PIETRO num.007; accesso: accesso esterno; (z.d. 2)";VIA ;MAGISTRETTI PIETRO;;2466;2;carrefour;"alimentare;non alimentare";;476;380
+"VIA LEPONTINA N. 12 ; isolato:206; accesso: accesso interno; (z.d. 9)";VIA ;LEPONTINA;12;1147;9;;non alimentare;10;390;380
+"VIA FERRUCCI FRANCESCO N. 6 ; isolato:085; accesso: accesso esterno; (z.d. 8)";VIA ;FERRUCCI FRANCESCO;6;7150;8;grimaldi motors;non alimentare;44;424;380
+"VIA EDOLO N. 26 ; isolato:146; accesso: accesso esterno; (z.d. 2)";VIA ;EDOLO;26;1217;2;carrefour;"alimentare;non alimentare";;459;380
+"VIA CASTALDI PANFILO N. 41 ; isolato:131; accesso: accesso esterno; (z.d. 3)";VIA ;CASTALDI PANFILO;41;2119;3;matuella;non alimentare;;630;380
+"VIA ALUNNO NICOLO' N. 23 ; isolato:197; accesso: accesso esterno; (z.d. 7)";VIA ;ALUNNO NICOLO';23;6640;7;;non alimentare;;380;380
+"VIA MEDA GIUSEPPE num.052/b; isolato:008; accesso: accesso esterno; (z.d. 1)";VIA ;MEDA GIUSEPPE;;5242;5;hass dal 1811;non alimentare;;380;380
+"VIA S. GIOV. SUL MURO N. 18 in distribuzione;via s. giov. sul muro 018; isolato:291; accesso: accesso esterno; (z.d. 1)";VIA ;S. GIOV. SUL MURO;18;609;1;brandy;non alimentare;;380;380
+"VIA DE MARCHI EMILIO N. 37 ; isolato:064; accesso: accesso esterno; (z.d. 2)";VIA ;DE MARCHI EMILIO;37;1418;2;castelli elaborazioni elt;"non alimentare;tabella speciale carburanti";;380;380
+"LGO AUGUSTO N. 8 ;lgo augusto 008; isolato:320; accesso: accesso esterno; (z.d. 1)";LGO ;AUGUSTO;8;315;1;picking pack service;non alimentare;;380;380
+"VIA PIERO DELLA FRANCESCA N. 57 aff. az. tacit. rinnov.; isolato:025; accesso: accesso esterno; (z.d. 8)";VIA ;PIERO DELLA FRANCESCA;57;7188;8;punto sma;"alimentare;non alimentare";;410;380
+BST DI PORTA VOLTA N. 7 (z.d. 1);BST ;DI PORTA VOLTA;7;1066;1;;non alimentare;;595;380
+"CSO BUENOS AIRES N. 23 ; isolato:078; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;23;2129;3;gb sportelli;non alimentare;;445;381
+"VIA PIRELLI GIOVANNI BATTISTA N. 30 ; isolato:297; accesso: accesso esterno; (z.d. 9)";VIA ;PIRELLI GIOVANNI BATTISTA;30;1195;9;;"alimentare;non alimentare";;381;381
+CSO BUENOS AIRES N. 23 (z.d. 3);CSO ;BUENOS AIRES;23;2129;3;;non alimentare;;445;381
+CSO BUENOS AIRES N. 23 (z.d. 3);CSO ;BUENOS AIRES;23;2129;3;;Non Alimentare;;445;381
+"VIA PARAVIA PIER ALESSANDRO N. 77 ; isolato:241; accesso: accesso esterno; (z.d. 7)";VIA ;PARAVIA PIER ALESSANDRO;77;6571;7;di per di;"alimentare;non alimentare";;556;382
+"VIA GIOIA MELCHIORRE num.177/179; isolato:120; accesso: accesso esterno; (z.d. 2)";;;;;;flli fumagalli garden;non alimentare;;382;382
+"GLL PASSARELLA N. 2 ;gll passarella 002; isolato:360; accesso: accesso esterno; (z.d. 1)";GLL ;PASSARELLA;2;303;1;nadine;non alimentare;;472;382
+CSO VITTORIO EMANUELE II N. 37B (z.d. 1);CSO ;VITTORIO EMANUELE II;37B;214;1;;Non Alimentare;;676;382
+"VIA SPADARI N. 1 ;via spadari 001; isolato:440; accesso: accesso esterno; (z.d. 1)";VIA ;SPADARI;1;518;1;bershka;non alimentare;;695;384
+"CSO MATTEOTTI GIACOMO N. 14 ;cso matteotti giacomo 014; isolato:316; accesso: accesso esterno; (z.d. 1)";CSO ;MATTEOTTI GIACOMO;14;218;1;;"alimentare;non alimentare";;384;384
+"VIA PANZERI PIETRO N. 10 ; isolato:053; accesso: accesso esterno; (z.d. 1)";VIA ;PANZERI PIETRO;10;5183;1;;non alimentare;;384;384
+"VIA VESPRI SICILIANI N. 51 ; isolato:148; accesso: accesso interno; (z.d. 6)";VIA ;VESPRI SICILIANI;51;5137;6;proto arredamenti;non alimentare;;384;384
+"CSO SAN GOTTARDO N. 35 ; isolato:114; accesso: accesso esterno; (z.d. 5)";CSO ;SAN GOTTARDO;35;5203;5;;non alimentare;;450;384
+"VIA SISMONDI GIANCARLO N. 70 loc,interno; isolato:247; accesso: accesso interno; (z.d. 4)";VIA ;SISMONDI GIANCARLO;70;3256;4;;non alimentare;;385;385
+"VLE CASSALA N. 15 ; isolato:059; accesso: accesso esterno; (z.d. 6)";VLE ;CASSALA;15;5275;6;;"alimentare;non alimentare";;385;385
+"VIA SANT' ANDREA num.008/a; isolato:261; accesso: accesso esterno; (z.d. 1)";VIA ;SANT' ANDREA;;222;1;banner;non alimentare;;0;386
+"VLE MONZA N. 9 ; isolato:346; accesso: accesso esterno; (z.d. 2)";VLE ;MONZA;9;2274;2;;non alimentare;;387;387
+"VIA CANONICA LUIGI N. 54 aff. az. tacit. rinnov.; isolato:106; accesso: accesso esterno; (z.d. 1)";VIA ;CANONICA LUIGI;54;7121;1;punto sma;"alimentare;non alimentare";;833;388
+"VLE DI PORTA VERCELLINA N. 16 ; isolato:237; accesso: accesso esterno; (z.d. 1)";VLE ;DI PORTA VERCELLINA;16;6213;1;;non alimentare;;0;388
+"PTA GIORDANO UMBERTO N. 4 aff.za tacitamente rinnovabile;pta giordano umberto 004; isolato:264; accesso: accesso esterno; (z.d. 1)";PTA ;GIORDANO UMBERTO;4;345;1;;non alimentare;;390;390
+"VIA GIULINI GIORGIO N. 2 ;via giulini giorgio 002; isolato:371; accesso: accesso esterno; (z.d. 1)";VIA ;GIULINI GIORGIO;2;613;1;;non alimentare;81;471;390
+"VIA QUARENGHI GIACOMO N. 23 ; isolato:300; accesso: accesso interno; (z.d. 8)";VIA ;QUARENGHI GIACOMO;23;7478;8;interno ipercoop;non alimentare;;390;390
+VIA SANTA MARIA VALLE N. 3 (z.d. 1);VIA ;SANTA MARIA VALLE;3;535;1;;non alimentare;510;900;390
+"VIA MONVISO N. 34 ; isolato:055; accesso: accesso esterno; (z.d. 8)";VIA ;MONVISO;34;7212;8;pabocar service;non alimentare;;390;390
+"VIA PORPORA NICOLA ANTONIO N. 125 ; isolato:014; accesso: accesso esterno; (z.d. 3)";VIA ;PORPORA NICOLA ANTONIO;125;2229;3;carrefour;"alimentare;non alimentare";;507;390
+"VIA TEANO N. 6 ; isolato:006; accesso: accesso esterno; (z.d. 9)";VIA ;TEANO;6;1632;9;carrefour;"alimentare;non alimentare";;444;390
+VIA QUARENGHI GIACOMO N. 40 (z.d. 8);VIA ;QUARENGHI GIACOMO;40;7478;8;;non alimentare;;390;390
+"VIA MAFFUCCI ANGIOLO N. 4 ; isolato:063; accesso: accesso esterno; (z.d. 9)";VIA ;MAFFUCCI ANGIOLO;4;1276;9;idea bricolage;non alimentare;;390;390
+"VIA NOE ENRICO N. 43 aff. az. tacit. rinnov.; isolato:092; accesso: accesso esterno; (z.d. 3)";VIA ;NOE ENRICO;43;2211;3;punto sma;"alimentare;non alimentare";;390;390
+"VIA DARWIN CARLO ROBERTO N. 2 ; isolato:081; accesso: accesso esterno; (z.d. 6)";VIA ;DARWIN CARLO ROBERTO;2;5238;6;di perdi;"alimentare;non alimentare";;518;390
+"VIA CASATI FELICE N. 8 aff. az. tacit. rinnov.; isolato:075; accesso: accesso esterno; (z.d. 3)";VIA ;CASATI FELICE;8;2122;3;euro discount;"alimentare;non alimentare";;500;390
+"VLE CERTOSA N. 177 ; isolato:222; accesso: accesso esterno; (z.d. 8)";VLE ;CERTOSA;177;7174;8;elettrica ceriani/murrina;non alimentare;;391;391
+"VIA DELLA SPIGA N. 2 ;via della spiga 002; isolato:189; accesso: accesso esterno; (z.d. 1)";VIA ;DELLA SPIGA;2;226;1;dolce e gabbana;non alimentare;;392;392
+"VLE PIAVE N. 27 ; isolato:152; accesso: accesso esterno; (z.d. 1)";VLE ;PIAVE;27;2179;1;spotti modern living;non alimentare;;393;393
+"VIA TOFFETTI VINCENZO N. 9 ; isolato:074; accesso: accesso interno; (z.d. 4)";VIA ;TOFFETTI VINCENZO;9;4188;4;docks dora;non alimentare;;393;393
+"VLE MONZA N. 23 ; isolato:346; accesso: accesso esterno; (z.d. 2)";VLE ;MONZA;23;2274;2;mobili vercesi;non alimentare;75;470;395
+"VIA LOMAZZO PAOLO N. 41 ; isolato:054; accesso: accesso esterno; (z.d. 8)";VIA ;LOMAZZO PAOLO;41;7079;8;carrefour;"alimentare;non alimentare";;467;395
+"PZA SANTA FRANCESCA ROMANA N. 3 ; isolato:108; accesso: accesso esterno; (z.d. 3)";PZA ;SANTA FRANCESCA ROMANA;3;2183;3;playlife;"alimentare;non alimentare";;500;395
+VIA TORINO N. 44 (z.d. 1);VIA ;TORINO;44;543;1;;non alimentare;;621;395
+"VIA PELLINI EUGENIO N. 3 ; isolato:123; accesso: accesso esterno; (z.d. 2)";VIA ;PELLINI EUGENIO;3;1482;2;;non alimentare;;396;396
+CSO EUROPA N. 12 (z.d. 1);CSO ;EUROPA;12;300;1;;"Alimentare;Tabella speciale Farmacie";;792;396
+"VIA SANTA MARIA ALLA PORTA N. 1 ;vlo santa maria alla porta 001; isolato:346; accesso: accesso esterno; (z.d. 1)";VIA ;SANTA MARIA ALLA PORTA;1;620;1;ader;Non Alimentare;;506;397
+"VIA CANONICA LUIGI N. 54 ; isolato:106; accesso: accesso esterno; (z.d. 1)";VIA ;CANONICA LUIGI;54;7121;1;supermercato;"alimentare;non alimentare";;397;397
+"VLE TESTI FULVIO N. 90 ; isolato:145; accesso: accesso esterno; (z.d. 9)";VLE ;TESTI FULVIO;90;1441;9;farmacia scevola;tabella speciale farmacie;;624;397
+"VIA SAN MARCO N. 26 ; isolato:177; accesso: accesso esterno; (z.d. 1)";VIA ;SAN MARCO;26;1036;1;;non alimentare;105;503;398
+"VIA VALLAZZE N. 104 ; accesso: accesso esterno; (z.d. 3)";VIA ;VALLAZZE;104;2250;3;unes  u! come tu mi vuoi;"alimentare;non alimentare";;418;398
+"VIA INAMA VIRGILIO N. 4 ; isolato:162; accesso: accesso esterno; (z.d. 3)";VIA ;INAMA VIRGILIO;4;3169;3;carrefour;"alimentare;non alimentare";;761;398
+"VIA SISMONDI GIANCARLO N. 35 ; isolato:218; accesso: accesso esterno; (z.d. 4)";VIA ;SISMONDI GIANCARLO;35;3256;4;carrefour;"alimentare;non alimentare";;800;398
+"VIA GROSSICH ANTONIO N. 3 ; isolato:079; accesso: accesso esterno; (z.d. 3)";VIA ;GROSSICH ANTONIO;3;2576;3;carrefour;"alimentare;non alimentare";;670;398
+"CSO BUENOS AIRES N. 36 ; isolato:079; accesso: accesso interno; (z.d. 3)";CSO ;BUENOS AIRES;36;2129;3;diecidecimi spazi moda;non alimentare;;640;398
+"VIA VARESINA N. 25 ; isolato:271; accesso: accesso esterno; (z.d. 8)";VIA ;VARESINA;25;7290;8;in s mercato;"alimentare;non alimentare";;399;399
+"PZA NAPOLI N. 11 ; isolato:013; accesso: accesso esterno; (z.d. 6)";PZA ;NAPOLI;11;5131;6;punto sma;"alimentare;non alimentare";;399;399
+"PLE SUSA N. 12 ; isolato:214; accesso: accesso esterno; (z.d. 4)";PLE ;SUSA;12;3101;4;frigerio gomme;non alimentare;20;420;400
+"FOR BUONAPARTE N. 53 ;for buonaparte 053; isolato:238; accesso: accesso esterno; (z.d. 1)";FOR ;BUONAPARTE;53;711;1;buffwtti;non alimentare;1000;1400;400
+"PTA BOSSI MAURILIO N. 4 ;pta bossi maurilio 004; isolato:367; accesso: accesso esterno; (z.d. 1)";PTA ;BOSSI MAURILIO;4;116;1;;non alimentare;800;1200;400
+"VLE GORIZIA N. 14 ; isolato:056; accesso: accesso interno; (z.d. 6)";VLE ;GORIZIA;14;5156;6;;non alimentare;400;402;400
+"VIA PASSO BUOLE N. 4 ; isolato:198; accesso: accesso interno; (z.d. 5)";VIA ;PASSO BUOLE;4;4218;5;;non alimentare;;400;400
+"VLE CASSALA N. 61 ; isolato:067; accesso: accesso esterno; (z.d. 6)";VLE ;CASSALA;61;5275;6;giaguaro srl;non alimentare;400;800;400
+"LGO BOCCIONI UMBERTO N. 6 ; isolato:093; accesso: accesso esterno; (z.d. 8)";LGO ;BOCCIONI UMBERTO;6;7467;8;;non alimentare;40;440;400
+"VIA BUONARROTI MICHELANGELO N. 11 aff. az. tacit. rinnov.; isolato:194; accesso: accesso esterno; (z.d. 7)";VIA ;BUONARROTI MICHELANGELO;11;6253;7;punto sma;"alimentare;non alimentare";450;1030;400
+"VIA PADOVA N. 111 ; isolato:279; accesso: accesso esterno; (z.d. 2)";VIA ;PADOVA;111;2275;2;pam;;;1129;400
+"VIA FOSCOLO UGO num.001/3; isolato:471; accesso: accesso esterno; (z.d. 1)";VIA ;FOSCOLO UGO;;205;1;autogrill;non alimentare;;400;400
+"VIA LOMELLINA N. 64 ; isolato:219; accesso: accesso interno; (z.d. 4)";VIA ;LOMELLINA;64;3280;4;a. bellomi;non alimentare;500;900;400
+"VIA ALUNNO NICOLO' N. 23 ; isolato:197; accesso: accesso esterno; (z.d. 7)";VIA ;ALUNNO NICOLO';23;6640;7;;non alimentare;;400;400
+"VIA VARANINI LUIGI N. 28 ; isolato:321; accesso: accesso esterno; (z.d. 2)";VIA ;VARANINI LUIGI;28;2288;2;;non alimentare;;400;400
+"VLE FORLANINI ENRICO num.031; isolato:164; accesso: accesso esterno; (z.d. 4)";;;;;;aica concessionaria fiat;non alimentare;;400;400
+"VIA SETTEMBRINI LUIGI N. 20 ; isolato:056; accesso: accesso esterno; (z.d. 3)";VIA ;SETTEMBRINI LUIGI;20;2127;3;avalon;non alimentare;;400;400
+"VLE PICENO N. 19 ; isolato:030; accesso: accesso esterno; (z.d. 4)";VLE ;PICENO;19;3114;4;blockbuster;"alimentare;non alimentare";;415;400
+"VIA GALLARATE N. 221 ; isolato:179; accesso: accesso esterno; (z.d. 8)";VIA ;GALLARATE;221;7420;8;golf house;non alimentare;;400;400
+"VLE SABOTINO N. 15 ; isolato:092; accesso: accesso esterno; (z.d. 5)";VLE ;SABOTINO;15;4046;5;;Non Alimentare;;480;400
+"VIA VERRI PIETRO N. 6 ;via verri pietro 006; isolato:362; accesso: accesso esterno; (z.d. 1)";VIA ;VERRI PIETRO;6;223;1;jil sander;non alimentare;;400;400
+"CSO VERCELLI N. 35 ; isolato:235; accesso: accesso esterno; (z.d. 7)";CSO ;VERCELLI;35;6193;7;della fonte;non alimentare;;460;400
+"VLE JENNER EDOARDO N. 29 spaccio interno; isolato:100; (z.d. 9)";VLE ;JENNER EDOARDO;29;1230;9;;non alimentare;;900;400
+"VIA PRINA GIUSEPPE N. 11 ; isolato:102; accesso: accesso interno; (z.d. 8)";VIA ;PRINA GIUSEPPE;11;7135;8;emporio isola;non alimentare;;400;400
+"CSO MATTEOTTI GIACOMO N. 1 ;cso matteotti giacomo 001; isolato:362; (z.d. 1)";CSO ;MATTEOTTI GIACOMO;1;218;1;alviero martini;non alimentare;;535;400
+"VIA MANZONI ALESSANDRO N. 31 ;via manzoni alessandro 031; isolato:254; accesso: accesso esterno; (z.d. 1)";VIA ;MANZONI ALESSANDRO;31;230;1;armani/emporio armani;non alimentare;;402;402
+"VIA TEANO N. 6 ; isolato:006; accesso: accesso esterno; (z.d. 9)";VIA ;TEANO;6;1632;9;;non alimentare;;403;403
+"VIA LAZZARETTO N. 17 ; isolato:098; accesso: accesso esterno; (z.d. 2)";VIA ;LAZZARETTO;17;2112;2;;non alimentare;15;420;405
+"PZA DEL DUOMO N. 20 ;pza del duomo 020; isolato:420; accesso: accesso interno; (z.d. 1)";PZA ;DEL DUOMO;20;1;1;libreria san paolo;non alimentare;;564;406
+"VIA PACINI GIOVANNI N. 64 ; isolato:083; accesso: accesso esterno; (z.d. 3)";VIA ;PACINI GIOVANNI;64;2571;3;;non alimentare;10;416;406
+"VIA SAN PAOLO N. 1 ;cso vittorio emanuele ii 003*; accesso: accesso esterno; (z.d. 1)";VIA ;SAN PAOLO;1;212;1;antiquario;non alimentare;;406;406
+"VIA PRINETTI LUIGI N. 44 ; isolato:281; accesso: accesso esterno; (z.d. 2)";VIA ;PRINETTI LUIGI;44;2329;2;;non alimentare;250;659;409
+"VIA MANZONI ALESSANDRO N. 31 ;via manzoni alessandro 031; isolato:254; accesso: accesso esterno; (z.d. 1)";VIA ;MANZONI ALESSANDRO;31;230;1;armani/armani jeans;non alimentare;;409;409
+"VIA CARETTA ANNIBALE N. 1 ; isolato:008; accesso: accesso esterno; (z.d. 3)";VIA ;CARETTA ANNIBALE;1;2241;3;boggi milano e brian berr;non alimentare;;410;410
+"VIA LIPARI N. 9 ; isolato:273; accesso: accesso esterno; (z.d. 7)";VIA ;LIPARI;9;6203;7;citroen;non alimentare;;410;410
+"CSO VENEZIA N. 5 ;cso venezia 005; isolato:261; accesso: accesso esterno; (z.d. 1)";CSO ;VENEZIA;5;238;1;;non alimentare;;707;410
+"VLE MONZA N. 237 ; isolato:099; accesso: accesso esterno; (z.d. 2)";VLE ;MONZA;237;2274;2;;non alimentare;;414;414
+"CSO SEMPIONE N. 6 ; isolato:136; accesso: accesso esterno; (z.d. 1)";CSO ;SEMPIONE;6;7137;1;sempione;non alimentare;;454;414
+VIA BAGUTTA N. 2 (z.d. 1);VIA ;BAGUTTA;2;221;1;;Non Alimentare;;542;414
+"CSO VITTORIO EMANUELE II N. 30 ;cso vittorio emanuele ii 030; isolato:360; accesso: accesso esterno; (z.d. 1)";CSO ;VITTORIO EMANUELE II;30;214;1;liu.jo;Non Alimentare;;729;417
+"VLE MONTE CENERI N. 75 ; isolato:331; accesso: accesso esterno; (z.d. 8)";VLE ;MONTE CENERI;75;7176;8;hb casa;non alimentare;;417;417
+"PZA SANTA MARIA BELTRADE N. 1 ;pza santa maria beltrade 001; isolato:441; accesso: accesso esterno; (z.d. 1)";PZA ;SANTA MARIA BELTRADE;1;514;1;;non alimentare;;782;417
+"CSO MATTEOTTI GIACOMO N. 11 ;cso matteotti giacomo 011; isolato:263; accesso: accesso esterno; (z.d. 1)";CSO ;MATTEOTTI GIACOMO;11;218;1;boss hugo boss;non alimentare;;420;420
+"VIA MONTE SAN GABRIELE N. 8 ; isolato:180; accesso: accesso esterno; (z.d. 2)";VIA ;MONTE SAN GABRIELE;8;2481;2;;non alimentare;;420;420
+"VIA MINERBI ARRIGO N. 1 ; isolato:075; accesso: accesso esterno; (z.d. 5)";VIA ;MINERBI ARRIGO;1;5441;5;unes supermercati;"alimentare;non alimentare";;840;420
+"VLE CIRENE N. 22 ; isolato:142; accesso: accesso interno; (z.d. 4)";VLE ;CIRENE;22;4085;4;;non alimentare;;420;420
+"CSO BUENOS AIRES N. 39 ; isolato:059; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;39;2129;3;;non alimentare;;490;425
+"VIA F.LLI BRONZETTI N. 16 ; isolato:020; accesso: accesso interno; (z.d. 4)";VIA ;F.LLI BRONZETTI;16;3089;4;;non alimentare;;428;428
+"VIA PAULLO N. 11 ; isolato:058; accesso: accesso interno; (z.d. 4)";VIA ;PAULLO;11;3177;4;;non alimentare;330;758;428
+"GLL BUENOS AIRES N. 13 ; isolato:060; accesso: accesso esterno; (z.d. 3)";GLL ;BUENOS AIRES;13;2146;3;emporio del libro;non alimentare;;460;430
+"VLE FAMAGOSTA N. 44 ; isolato:077; accesso: accesso esterno; (z.d. 6)";VLE ;FAMAGOSTA;44;5353;6;;non alimentare;;430;430
+"VIA BIGLI N. 22 ;via bigli 022; isolato:314; accesso: accesso esterno; (z.d. 1)";VIA ;BIGLI;22;224;1;tecno;non alimentare;;430;430
+"VIA BOVISASCA interno centro commerciale num.173; accesso: accesso interno; (z.d. 9)";;;;;;centro moda l E m;non alimentare;;430;430
+VIA PLANA GIOVANNI ANTONIO N. 38 (z.d. 8);VIA ;PLANA GIOVANNI ANTONIO;38;7177;8;;non alimentare;900;1333;433
+"CSO SEMPIONE N. 43 ; isolato:083; accesso: accesso esterno; (z.d. 8)";CSO ;SEMPIONE;43;7137;8;piaggio;non alimentare;;434;434
+"VIA VERRI PIETRO num.001/3; accesso: accesso esterno; ()";VIA ;VERRI PIETRO;;223;1;canali;non alimentare;;544;434
+"CSO COMO N. 10 ; isolato:322; accesso: accesso interno; (z.d. 9)";CSO ;COMO;10;1111;9;;non alimentare;;436;436
+"GLL PASSARELLA N. 1 ;gll passarella 001; isolato:360; accesso: accesso esterno; (z.d. 1)";GLL ;PASSARELLA;1;303;1;sisley;non alimentare;;454;437
+"CSO DI PORTA ROMANA N. 132 ; isolato:039; accesso: accesso esterno; (z.d. 1)";CSO ;DI PORTA ROMANA;132;402;1;spazio fitecarraldo;non alimentare;;1274;439
+VIA BOSCOVICH RUGGERO N. 58 (z.d. 3);VIA ;BOSCOVICH RUGGERO;58;2131;3;;Non Alimentare;;515;439
+"VIA CONCA DEL NAVIGLIO N. 37 ; isolato:128; accesso: accesso esterno; (z.d. 1)";VIA ;CONCA DEL NAVIGLIO;37;5180;1;di per di;"alimentare;non alimentare";;513;440
+"VIA DE AMICIS EDMONDO num.020/22; isolato:220; accesso: accesso esterno; (z.d. 1)";VIA ;DE AMICIS EDMONDO;;574;1;saro;non alimentare;2362;2802;440
+"VLE TESTI FULVIO N. 260 ; isolato:045; accesso: area ap.rec.; (z.d. 9)";VLE ;TESTI FULVIO;260;1441;9;sagam;non alimentare;;1080;440
+"VIA VERRI PIETRO num.001/3; ()";VIA ;VERRI PIETRO;;223;1;;non alimentare;;807;440
+VIA BRERA N. 21 (z.d. 1);VIA ;BRERA;21;122;1;;Non Alimentare;;620;442
+"VIA BIGLI N. 22 ;via bigli 022; isolato:314; accesso: accesso esterno; (z.d. 1)";VIA ;BIGLI;22;224;1;tecno;non alimentare;;445;445
+"GLL SAN BABILA num.004/a; isolato:264; accesso: accesso esterno; (z.d. 1)";GLL ;SAN BABILA;;360;1;smart;non alimentare;;450;450
+"VLE AFFORI N. 19 ; isolato:145; accesso: accesso esterno; (z.d. 9)";VLE ;AFFORI;19;1545;9;;non alimentare;150;600;450
+"VIA SCIESA AMATORE N. 21 ; isolato:056; accesso: accesso esterno; (z.d. 4)";VIA ;SCIESA AMATORE;21;3072;4;;non alimentare;60;510;450
+"CSO INDIPENDENZA N. 1 ; isolato:177; accesso: accesso esterno; (z.d. 3)";CSO ;INDIPENDENZA;1;3118;3;;non alimentare;1550;2000;450
+"VIA MEDA GIUSEPPE N. 27 ; isolato:002; accesso: accesso esterno; (z.d. 5)";VIA ;MEDA GIUSEPPE;27;5242;5;autogiolli;non alimentare;;450;450
+"VIA PADOVA N. 15 ; isolato:352; accesso: accesso esterno; (z.d. 2)";VIA ;PADOVA;15;2275;2;mercedes benz milano;non alimentare;;450;450
+"VIA NEGROTTO MICHELE PERICLE num.049/6; isolato:161; accesso: accesso esterno; (z.d. 8)";;;;;;;non alimentare;;450;450
+"VIA GIOVANNI DA PROCIDA N. 6 ; isolato:085; accesso: accesso interno; (z.d. 8)";VIA ;GIOVANNI DA PROCIDA;6;7151;8;prodotti per non vedenti;non alimentare;;450;450
+"GLL SAN BABILA num.004/b; isolato:264; accesso: accesso esterno; (z.d. 1)";GLL ;SAN BABILA;;360;1;guess;non alimentare;;500;450
+"VIA GADAMES num.057; isolato:203; accesso: accesso esterno; (z.d. 8)";VIA ;GADAMES;;7423;8;;non alimentare;;450;450
+CSO MATTEOTTI GIACOMO N. 18 (z.d. 1);CSO ;MATTEOTTI GIACOMO;18;218;1;;Non Alimentare;;543;451
+VIA MONTE NAPOLEONE N. 12 (z.d. 1);VIA ;MONTE NAPOLEONE;12;219;1;;Non Alimentare;;634;452
+"VIA MONTE NAPOLEONE N. 11 ;via monte napoleone 011; isolato:314; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;11;219;1;versace;"alimentare;non alimentare";;454;454
+"VIA DELLA MOSCOVA N. 30 ; isolato:009; accesso: accesso esterno; (z.d. 1)";VIA ;DELLA MOSCOVA;30;1016;1;carrefour;"alimentare;non alimentare";;612;454
+CSO BUENOS AIRES N. 54 (z.d. 3);CSO ;BUENOS AIRES;54;2129;3;;Non Alimentare;;548;454
+"VLE MONZA N. 113 ; isolato:293; accesso: accesso esterno; (z.d. 2)";VLE ;MONZA;113;2274;2;;non alimentare;100;555;455
+"VIA CARLI GIAN RINALDO N. 9 ; isolato:051; accesso: accesso interno; (z.d. 9)";VIA ;CARLI GIAN RINALDO;9;1563;9;;non alimentare;90;546;456
+"PZA DEL DUOMO N. 21 ;pza del duomo 021; isolato:471; accesso: accesso esterno; (z.d. 1)";PZA ;DEL DUOMO;21;1;1;stefanel;non alimentare;;499;460
+"ff porta g codvia 9403 num.000 ; isolato:259; accesso: accesso interno; (z.d. 9)";;;;;;farmacia;tabella speciale farmacie;;753;462
+"CSO VERCELLI N. 3 ; isolato:236; accesso: accesso interno; (z.d. 7)";CSO ;VERCELLI;3;6193;7;alberto germani sportrend;non alimentare;;606;464
+"CSO BUENOS AIRES N. 64 ; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;64;2129;3;conbipel;non alimentare;;552;465
+"VIA MANZONI ALESSANDRO N. 31 ;via manzoni alessandro 031; isolato:254; accesso: accesso esterno; (z.d. 1)";VIA ;MANZONI ALESSANDRO;31;230;1;armani/emporio armani;non alimentare;;465;465
+"PZA DIAZ ARMANDO N. 6 ;pza diaz armando 006; isolato:448; accesso: accesso esterno; (z.d. 1)";PZA ;DIAZ ARMANDO;6;339;1;co. import;non alimentare;;525;468
+"VIA MONTE NAPOLEONE N. 3 ;via monte napoleone 003; isolato:315; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;3;219;1;;Non Alimentare;;499;469
+"VIA SAN SISTO N. 9 ;via san sisto 009; isolato:335; accesso: accesso esterno; (z.d. 1)";VIA ;SAN SISTO;9;513;1;meazza;non alimentare;350;820;470
+"VIA NIEVO IPPOLITO N. 41 ; isolato:087; accesso: accesso esterno; (z.d. 8)";VIA ;NIEVO IPPOLITO;41;6354;8;;non alimentare;;470;470
+"VLE MONZA N. 244 fallimento del 30/07/2009; isolato:065; accesso: accesso esterno; (z.d. 2)";VLE ;MONZA;244;2274;2;;non alimentare;;470;470
+VLE COL DI LANA N. 6 (z.d. 5);VLE ;COL DI LANA;6;5198;5;;non alimentare;;470;470
+"VIA PINDARO N. 7 allo sportello x distribuzione; isolato:033; accesso: accesso esterno; (z.d. 2)";VIA ;PINDARO;7;2401;2;melchionni diffusione;non alimentare;;512;470
+"VIA PONTI ETTORE N. 45 aff. az. tacit. rinnov.; isolato:042; accesso: area ap.rec.; (z.d. 6)";VIA ;PONTI ETTORE;45;5297;6;punto market;"alimentare;non alimentare";;769;470
+"VIA GIOVANNI DA PROCIDA num.018; isolato:099; accesso: accesso esterno; (z.d. 8)";;;;;;di x di il supermercato;"alimentare;non alimentare";;665;470
+"CSO VENEZIA N. 2 ;cso venezia 002; isolato:190; accesso: accesso esterno; (z.d. 1)";CSO ;VENEZIA;2;238;1;;non alimentare;;475;475
+"VIA CASARSA N. 9 ; isolato:056; accesso: accesso interno; (z.d. 9)";VIA ;CASARSA;9;1577;9;;non alimentare;14;490;476
+VIA DELLA PECETTA n. 31/33;VIA ;DELLA PECETTA;;7251;8;;"Alimentare;Non Alimentare";;601;477
+"VIA ANDEGARI N. 18 ;via andegari 018*; accesso: accesso esterno; (z.d. 1)";VIA ;ANDEGARI;18;120;1;frette;non alimentare;;480;480
+VIA BORDIGHERA N. 12 (z.d. 5);VIA ;BORDIGHERA;12;5265;5;;non alimentare;;480;480
+"VIA GUINIZELLI GUIDO N. 22 ; isolato:348; accesso: accesso esterno; (z.d. 2)";VIA ;GUINIZELLI GUIDO;22;2281;2;gold market;non alimentare;210;690;480
+"CSO MONFORTE N. 20 angolo visconti di modrone;cso monforte 020; isolato:192; (z.d. 1)";CSO ;MONFORTE;20;348;1;;non alimentare;;575;480
+"VLE VITTORIO VENETO N. 20 ; isolato:134; accesso: accesso esterno; (z.d. 2)";VLE ;VITTORIO VENETO;20;2107;2;euronics;non alimentare;;481;481
+"VIA CONFALONIERI FEDERICO N. 34 ; isolato:283; accesso: accesso esterno; (z.d. 9)";VIA ;CONFALONIERI FEDERICO;34;1125;9;;non alimentare;82;567;485
+"VLE CERTOSA N. 148 ; isolato:220; accesso: accesso esterno; (z.d. 8)";VLE ;CERTOSA;148;7174;8;mitsubishi motors;non alimentare;;485;485
+VIA SAN DAMIANO N. 4 (z.d. 1);VIA ;SAN DAMIANO;4;351;1;;non alimentare;;485;485
+"VIA CORRENTI CESARE N. 10 ;via correnti cesare 010; isolato:281; accesso: accesso esterno; (z.d. 1)";VIA ;CORRENTI CESARE;10;555;1;centro botanico;"alimentare;non alimentare";;646;489
+"VIA ARONA N. 4 ; isolato:040; accesso: accesso esterno; (z.d. 8)";VIA ;ARONA;4;7169;8;;non alimentare;150;640;490
+"VLE UMBRIA N. 126 ; isolato:260; accesso: accesso interno; (z.d. 4)";VLE ;UMBRIA;126;3145;4;;non alimentare;;490;490
+"VIA SAN RAFAEL DELLE ANDE num.006/8; isolato:067; accesso: accesso esterno; (z.d. 2)";VIA ;SAN RAFAEL DELLE ANDE;;1457;2;ld discount;"alimentare;non alimentare";;490;490
+"LGO ISARCO N. 2 ; isolato:013; (z.d. 5)";LGO ;ISARCO;2;4129;5;;non alimentare;;500;492
+"VIA DELLA SPIGA N. 22 ;via della spiga 022; isolato:184; accesso: accesso esterno; (z.d. 1)";VIA ;DELLA SPIGA;22;226;1;tod s;non alimentare;;920;495
+"VIA CORREGGIO N. 8 ; isolato:173; accesso: accesso interno; (z.d. 7)";VIA ;CORREGGIO;8;6287;7;f.lli civeni ass. e vend.;non alimentare;70;568;498
+"VIA RUBENS PIETRO N. 8 ; isolato:119; accesso: accesso esterno; (z.d. 7)";VIA ;RUBENS PIETRO;8;6597;7;ld market;"alimentare;non alimentare";;832;498
+"VIA ROSSI PELLEGRINO N. 80 ; isolato:183; accesso: accesso esterno; (z.d. 9)";VIA ;ROSSI PELLEGRINO;80;1510;9;giussani;non alimentare;;499;499
+"CSO BUENOS AIRES N. 28 ; isolato:082; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;28;2129;3;prenatal;non alimentare;;500;500
+"VIA FERRARIS GALILEO N. 7 ; isolato:019; accesso: accesso esterno; (z.d. 8)";VIA ;FERRARIS GALILEO;7;7237;8;e.manfredini-forniture id;non alimentare;;500;500
+"VIA FELTRE num.034/5; isolato:067; accesso: accesso interno; (z.d. 3)";;;;;;;non alimentare;;500;500
+"VIA SOLONE N. 8 ; isolato:071; accesso: accesso esterno; (z.d. 2)";VIA ;SOLONE;8;2346;2;;non alimentare;;500;500
+"CSO SAN GOTTARDO N. 42 ; isolato:113; accesso: accesso interno; (z.d. 5)";CSO ;SAN GOTTARDO;42;5203;5;;non alimentare;250;750;500
+"CSO BUENOS AIRES N. 41 ; isolato:059; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;41;2129;3;frigerio pellicce;non alimentare;;500;500
+"mm1 cadorn codvia 9115 num.000 ; isolato:994; accesso: accesso interno; (z.d. 1)";;;;;;cervi arredamenti;non alimentare;100;600;500
+"VIA MONTALBINO N. 4 ; isolato:079; accesso: accesso interno; (z.d. 9)";VIA ;MONTALBINO;4;1340;9;cdc poin spa;non alimentare;;500;500
+"VIA MADERNA BRUNO N. 2 ; isolato:072; accesso: accesso esterno; (z.d. 4)";VIA ;MADERNA BRUNO;2;3382;4;;non alimentare;;500;500
+"VIA MILLELIRE DOMENICO N. 14 ; isolato:106; accesso: accesso interno; (z.d. 7)";VIA ;MILLELIRE DOMENICO;14;6620;7;naturasi;"alimentare;non alimentare";;775;500
+"VIA MONTE NAPOLEONE num.027/c;via formentini marco 009; isolato:302; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;;219;1;;non alimentare;;500;500
+"VIA MONTE NAPOLEONE N. 8 ;via monte napoleone 008; isolato:262; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;8;219;1;prada;non alimentare;;1280;500
+"VIA PALESTRO N. 24 ; isolato:095; accesso: accesso esterno; (z.d. 1)";VIA ;PALESTRO;24;2102;1;gianni campagna;non alimentare;;500;500
+"VIA VERRI PIETRO N. 10 ;via monte napoleone 007; isolato:183; accesso: accesso esterno; (z.d. 1)";VIA ;VERRI PIETRO;10;223;1;larusmiani;non alimentare;;500;500
+"VIA CUNEO N. 4 ; isolato:214; accesso: accesso esterno; (z.d. 7)";VIA ;CUNEO;4;6281;7;combipel;non alimentare;;1530;500
+"VIA WITTGENS FERNANDA N. 5 ;via wittgens fernanda 005; isolato:275; accesso: accesso esterno; (z.d. 1)";VIA ;WITTGENS FERNANDA;5;597;1;;non alimentare;;502;502
+"CSO BUENOS AIRES N. 36 ; isolato:079; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;36;2129;3;muji;non alimentare;;505;505
+"VIA TARTINI GIUSEPPE aff. az. tacit. rinnov. num.003/a; isolato:057; accesso: accesso esterno; (z.d. 9)";;;;;;punto sma;"alimentare;non alimentare";;900;505
+"VIA MAMBRETTI ANTONIO N. 9 ; isolato:118; accesso: accesso esterno; (z.d. 8)";VIA ;MAMBRETTI ANTONIO;9;7455;8;;non alimentare;;945;506
+"VIA MONCUCCO num.036/a; accesso: accesso esterno; (z.d. 6)";VIA ;MONCUCCO;;5320;6;penny market;"Alimentare;non alimentare";;750;506
+"VIA POERIO CARLO N. 3 ; isolato:175; accesso: accesso esterno; (z.d. 3)";VIA ;POERIO CARLO;3;3181;3;m.c. selvini;non alimentare;;800;508
+"VIA STAMIRA D'ANCONA N. 28 ; isolato:195; accesso: area ap.rec.; (z.d. 2)";VIA ;STAMIRA D'ANCONA;28;2337;2;penny market;"alimentare;non alimentare";;772;510
+"VIA SANT' ANDREA num.010/a; isolato:261; accesso: accesso esterno; (z.d. 1)";VIA ;SANT' ANDREA;;222;1;chanel;Non Alimentare;;742;511
+"VIA SCANINI ALESSANDRO N. 9 ; isolato:080; accesso: accesso esterno; (z.d. 7)";VIA ;SCANINI ALESSANDRO;9;6755;7;;non alimentare;;512;512
+"VIA DURINI N. 23 ;via durini 023; isolato:317; accesso: accesso esterno; (z.d. 1)";VIA ;DURINI;23;313;1;vetrofania;non alimentare;;1056;514
+"FOR BUONAPARTE N. 24 ;for buonaparte 024; isolato:296; (z.d. 1)";FOR ;BUONAPARTE;24;711;1;;non alimentare;;742;519
+"VIA KULISCIOFF ANNA N. 6 loc.interno; isolato:053; accesso: accesso esterno; (z.d. 6)";VIA ;KULISCIOFF ANNA;6;6812;6;sveziacar spa;non alimentare;;520;520
+"VIA MERULA GIORGIO num.009/3; isolato:035; accesso: accesso interno; (z.d. 6)";;;;;;;non alimentare;;523;523
+"VIA PARRI FERRUCCIO num.060; ()";VIA ;PARRI FERRUCCIO;;7585;6;;non alimentare;;0;524
+"VIA TORINO N. 61 ;via torino 061; isolato:399; (z.d. 1)";VIA ;TORINO;61;543;1;terranova;non alimentare;;883;525
+"VIA GIOVANNI DA UDINE N. 3 ; isolato:220; accesso: accesso esterno; (z.d. 8)";VIA ;GIOVANNI DA UDINE;3;7408;8;;non alimentare;337;867;530
+"VLE TESTI FULVIO N. 260 ; isolato:045; accesso: accesso esterno; (z.d. 9)";VLE ;TESTI FULVIO;260;1441;9;;non alimentare;;2770;530
+"CSO MAGENTA N. 10 ;cso magenta 010; isolato:291; accesso: accesso esterno; (z.d. 1)";CSO ;MAGENTA;10;604;1;;non alimentare;;580;530
+"VIA RONCHI N. 2 ; isolato:093; accesso: accesso esterno; (z.d. 3)";VIA ;RONCHI;2;2655;3;tessuti raponi;non alimentare;;1050;531
+VIA MAGREGLIO N. 10 (z.d. 8);VIA ;MAGREGLIO;10;7486;8;;"alimentare;non alimentare";;820;535
+"PLE FERRARA N. 2 interno merc. comun. coperto; isolato:125; pto strada:cs; accesso: accesso interno; (z.d. 4)";PLE ;FERRARA;2;4158;4;;"alimentare;non alimentare";1;54;536
+"VIA CHIOSTERGI GIUSEPPE N. 13 ; isolato:018; accesso: accesso esterno; (z.d. 7)";VIA ;CHIOSTERGI GIUSEPPE;13;6850;7;;";Non Alimentare";;1384;536
+"VIA VOLTERRA N. 12 sopralluogo spac 07/09/2006; isolato:250; accesso: accesso esterno; (z.d. 7)";VIA ;VOLTERRA;12;6260;7;;non alimentare;110;650;540
+"CSO EUROPA N. 2 ;cso europa 002; isolato:319; accesso: accesso esterno; (z.d. 1)";CSO ;EUROPA;2;300;1;corso europa emporio casa;non alimentare;80;620;540
+VIA MONTE NAPOLEONE N. 12 (z.d. 1);VIA ;MONTE NAPOLEONE;12;219;1;;Non Alimentare;;735;547
+"VIA SAN MAMETE N. 54 ; isolato:142; accesso: accesso esterno; (z.d. 2)";VIA ;SAN MAMETE;54;2413;2;geco sanitari;non alimentare;;548;548
+"VIA TORINO N. 19 ;via torino 019; isolato:446; accesso: accesso esterno; (z.d. 1)";VIA ;TORINO;19;543;1;energia;non alimentare;;750;550
+"VLE MONZA N. 258 ; isolato:040; accesso: accesso esterno; (z.d. 2)";VLE ;MONZA;258;2274;2;f.lli simoni snc.;non alimentare;;550;550
+"VIA IMPERIA N. 33 ; isolato:050; accesso: accesso esterno; (z.d. 6)";VIA ;IMPERIA;33;5266;6;centro marmitte;non alimentare;;550;550
+"VIA MEDA GIUSEPPE N. 11 ; isolato:130; accesso: accesso esterno; (z.d. 5)";VIA ;MEDA GIUSEPPE;11;5242;5;lancia;non alimentare;;550;550
+"VIA SANT' EUFEMIA N. 25 ;via sant' eufemia 025; isolato:271; accesso: accesso esterno; (z.d. 1)";VIA ;SANT' EUFEMIA;25;405;1;fondazione metropolitan;non alimentare;;550;550
+"CSO COMO N. 10 ; isolato:322; accesso: accesso interno; (z.d. 9)";CSO ;COMO;10;1111;9;galleria carla sozzani;non alimentare;;550;550
+"VIA ROMBON N. 34 int. mercato comunale coperto; isolato:098; accesso: accesso esterno; (z.d. 3)";VIA ;ROMBON;34;2659;3;in s mercato;alimentare;215;765;550
+"VIA DEGLI OMENONI N. 2 ;via degli omenoni 002; isolato:383; accesso: accesso esterno; (z.d. 1)";VIA ;DEGLI OMENONI;2;233;1;white star adventure;non alimentare;;597;558
+"VIA TRAIANO MARCO ULPIO N. 79 pii portello comp u2-lotto 2a; isolato:249; accesso: accesso esterno; (z.d. 9)";VIA ;TRAIANO MARCO ULPIO;79;7157;8;;non alimentare;;743;559
+"VLE MONZA N. 16 ; isolato:352; accesso: accesso interno; (z.d. 2)";VLE ;MONZA;16;2274;2;;non alimentare;40;600;560
+"VIA QUARENGHI GIACOMO N. 23 centro commerciale bonola; isolato:300; accesso: accesso interno; (z.d. 8)";VIA ;QUARENGHI GIACOMO;23;7478;8;ipercoop;"alimentare;non alimentare";;560;560
+"VIA DEGLI OMENONI N. 2 ;via degli omenoni 002; isolato:383; accesso: accesso esterno; (z.d. 1)";VIA ;DEGLI OMENONI;2;233;1;;non alimentare;117;680;563
+"LGO DOMODOSSOLA m1e num.001/a; (z.d. 8)";LGO ;DOMODOSSOLA;;6140;8;;non alimentare;;1030;563
+"VIA PALAZZI LAZZARO N. 2 angolo c.so b. aires; (z.d. 3)";VIA ;PALAZZI LAZZARO;2;2171;3;;non alimentare;;1005;563
+"VIA F.LLI GABBA N. 1 ;via f.lli gabba 001; isolato:304; accesso: accesso esterno; (z.d. 1)";VIA ;F.LLI GABBA;1;146;1;;non alimentare;;590;564
+"VIA SAN PIETRO ALL'ORTO N. 10 ;via san pietro all'orto 010; isolato:316; (z.d. 1)";VIA ;SAN PIETRO ALL'ORTO;10;213;1;;non alimentare;;815;565
+"VLE CASSALA N. 14 ; isolato:153; accesso: accesso esterno; (z.d. 6)";VLE ;CASSALA;14;5275;6;;non alimentare;240;806;566
+"VIA ROSSO DI SAN SECONDO N. 15 ; isolato:146; accesso: accesso esterno; (z.d. 3)";VIA ;ROSSO DI SAN SECONDO;15;3009;3;;non alimentare;75;645;570
+"VIA QUARTO CAGNINO N. 24 ; isolato:038; accesso: accesso esterno; (z.d. 7)";VIA ;QUARTO CAGNINO;24;6313;7;ramsa;non alimentare;;570;570
+"VIA MANZONI ALESSANDRO N. 31 piano iø;via manzoni alessandro 031; isolato:254; accesso: accesso esterno; (z.d. 1)";VIA ;MANZONI ALESSANDRO;31;230;1;sony italia spa.;non alimentare;;573;573
+CSO VERCELLI N. 35 (z.d. 6);CSO ;VERCELLI;35;6193;7;;non alimentare;;575;575
+"ff central codvia 9401 num.000 ; accesso: accesso interno; (z.d. 2)";;;;;;free shop;"alimentare;non alimentare";;577;577
+"VIA MONTE NAPOLEONE N. 13 ;via monte napoleone 013; isolato:314; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;13;219;1;aspesi;non alimentare;;660;580
+"CSO VERCELLI N. 16 ; isolato:216; accesso: accesso esterno; (z.d. 7)";CSO ;VERCELLI;16;6193;7;;non alimentare;;582;582
+"VIA APELLE num.036/38; isolato:113; accesso: accesso esterno; (z.d. 2)";VIA ;APELLE;;2454;2;in s mercato;"alimentare;non alimentare";;583;583
+"VLE MONZA N. 289 ; isolato:064; accesso: area ap.rec.; (z.d. 2)";VLE ;MONZA;289;2274;2;;non alimentare;;584;584
+"CSO GENOVA N. 16 ; isolato:218; accesso: accesso esterno; (z.d. 1)";CSO ;GENOVA;16;5164;1;max  E  co max mara;non alimentare;;758;585
+"ff central codvia 9401 num.000 ; accesso: accesso interno; (z.d. 2)";;;;;;;"alimentare;non alimentare";;589;589
+"VLE MONZA num.065/67; isolato:322; accesso: accesso esterno; (z.d. 2)";;;;;;;non alimentare;350;940;590
+"VLE CASSIODORO N. 12 ; isolato:151; accesso: accesso esterno; (z.d. 8)";VLE ;CASSIODORO;12;6359;8;farmacia cassiodoro;tabella speciale farmacie;;776;591
+VIA DEGLI OMENONI N. 2 (z.d. 1);VIA ;DEGLI OMENONI;2;233;1;;Non Alimentare;;646;595
+"PZA DEL LIBERTY N. 8 ;pza del liberty 008; isolato:361; accesso: accesso esterno; (z.d. 1)";PZA ;DEL LIBERTY;8;98;1;ferrari;non alimentare;;840;596
+"VIA MONTE NAPOLEONE num.027/e; isolato:314; (z.d. 1)";VIA ;MONTE NAPOLEONE;;219;1;;non alimentare;;657;597
+CSO MATTEOTTI GIACOMO N. 10 (z.d. 1);CSO ;MATTEOTTI GIACOMO;10;218;1;;Non Alimentare;;1022;598
+"VIA SANT' ARNALDO N. 26 centro strada; isolato:063; pto strada:cs; accesso: accesso esterno; (z.d. 9)";VIA ;SANT' ARNALDO;26;1663;9;;"non alimentare;tabella speciale carburanti";300;600;600
+"VLE CERTOSA N. 9 ; isolato:335; accesso: accesso esterno; (z.d. 8)";VLE ;CERTOSA;9;7174;8;;non alimentare;;600;600
+"PAS DUOMO N. 2 ;pas duomo 002; isolato:436; accesso: accesso interno; (z.d. 1)";PAS ;DUOMO;2;102;1;;non alimentare;150;750;600
+"VIA FOLLI EGIDIO num.096; accesso: accesso esterno; (z.d. 3)";VIA ;FOLLI EGIDIO;;2676;3;;non alimentare;;600;600
+"VIA DURINI N. 16 ;via durini 018; isolato:318; accesso: accesso esterno; (z.d. 1)";VIA ;DURINI;16;313;1;;non alimentare;150;750;600
+"VIA F.LLI ZOIA N. 71 ; isolato:042; accesso: area ap.rec.; (z.d. 7)";VIA ;F.LLI ZOIA;71;6306;7;;non alimentare;10;610;600
+"VIA ALEARDI ALEARDO N. 15 ; isolato:073; accesso: accesso esterno; (z.d. 8)";VIA ;ALEARDI ALEARDO;15;7209;8;;non alimentare;;600;600
+"VLE LIGURIA N. 40 ; isolato:157; accesso: accesso esterno; (z.d. 6)";VLE ;LIGURIA;40;5264;6;il pentagono;non alimentare;;600;600
+"VIA AMMIANO MARCELLINO num.014; isolato:122; accesso: accesso esterno; (z.d. 4)";VIA ;AMMIANO MARCELLINO;;4101;4;sma supermercati alimenta;"alimentare;non alimentare";720;1320;600
+"VIA MURATORI LODOVICO N. 27 ; isolato:166; accesso: accesso esterno; (z.d. 4)";VIA ;MURATORI LODOVICO;27;4076;4;unes;"alimentare;non alimentare";;820;600
+"VIA PIER LOMBARDO N. 2 ; isolato:157; accesso: accesso esterno; (z.d. 4)";VIA ;PIER LOMBARDO;2;4073;4;special market dugan;"alimentare;non alimentare";;879;600
+"VIA BOTTA CARLO N. 7 ; isolato:163; accesso: accesso esterno; (z.d. 4)";VIA ;BOTTA CARLO;7;4069;4;bassetti;non alimentare;;600;600
+VIA CANTONI GIOVANNI N. 7 (z.d. 6);VIA ;CANTONI GIOVANNI;7;6206;7;;non alimentare;;600;600
+"GLL PASSARELLA N. 2 ;gll passarella 002; isolato:360; accesso: accesso esterno; (z.d. 1)";GLL ;PASSARELLA;2;303;1;marina rinaldi;non alimentare;;600;600
+"VIA LUDOVICO DI BREME N. 48 ; isolato:226; accesso: accesso interno; (z.d. 8)";VIA ;LUDOVICO DI BREME;48;7396;8;in s mercato;"alimentare;non alimentare";;600;600
+"VIA CLITUMNO N. 20 ; isolato:317; accesso: accesso esterno; (z.d. 2)";VIA ;CLITUMNO;20;2367;2;in s mercato;"alimentare;non alimentare";;600;600
+"VIA ROSSI PELLEGRINO N. 46 ; isolato:190; accesso: accesso esterno; (z.d. 9)";VIA ;ROSSI PELLEGRINO;46;1510;9;penny market;"alimentare;non alimentare";;935;600
+"CSO LODI N. 65 ; isolato:023; accesso: accesso esterno; (z.d. 4)";CSO ;LODI;65;4068;4;ecom;"alimentare;non alimentare";;900;600
+"VLE MARCHE N. 97 ; isolato:157; accesso: accesso esterno; (z.d. 9)";VLE ;MARCHE;97;1360;9;in s mercato;"alimentare;non alimentare";;600;600
+"VIA MONTE NAPOLEONE N. 6 ;via monte napoleone 006; isolato:262; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;6;219;1;prada;non alimentare;;600;600
+"CSO LODI N. 47 ; isolato:182; accesso: accesso esterno; (z.d. 4)";CSO ;LODI;47;4068;4;chateau d ax;non alimentare;;800;600
+VIA PADOVA N. 237 (z.d. 2);VIA ;PADOVA;237;2275;2;;non alimentare;;600;600
+"VIA BASSI UGO num.001/b  1c; isolato:257; accesso: accesso esterno; (z.d. 9)";VIA ;BASSI UGO;;1143;9;dico;"alimentare;non alimentare";;600;600
+"VIA TESSA DELIO N. 1 sup. vendita computata 1/10; isolato:245; (z.d. 1)";VIA ;TESSA DELIO;1;1020;1;;non alimentare;;600;600
+"VLE STELVIO N. 47 ; isolato:204; accesso: accesso esterno; (z.d. 9)";VLE ;STELVIO;47;1227;9;;non alimentare;;1000;600
+"PLE PRINCIPESSA CLOTILDE num.010/a; isolato:333; accesso: accesso esterno; (z.d. 9)";;;;;;carrefour;"alimentare;non alimentare";;1070;600
+"PZA DEL DUOMO N. 25 ;pza del duomo 025; isolato:416; accesso: accesso esterno; (z.d. 1)";PZA ;DEL DUOMO;25;1;1;;"non alimentare;tabella speciale monopolio";;601;601
+"VIA ARNALDO DA BRESCIA N. 4 ; isolato:252; accesso: accesso interno; (z.d. 2)";VIA ;ARNALDO DA BRESCIA;4;1151;9;;non alimentare;;607;607
+"VIA LORENTEGGIO N. 264 ; isolato:086; accesso: accesso esterno; (z.d. 6)";VIA ;LORENTEGGIO;264;5132;6;midas;non alimentare;;607;607
+"VIA MONTE NAPOLEONE N. 2 ;via durini 027; isolato:317; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;2;219;1;collezioni g. armani;non alimentare;;610;610
+"VIA CASATI FELICE num.001/a; isolato:106; accesso: accesso esterno; (z.d. 3)";;;;;;;non alimentare;;652;610
+"VIA MONTE NAPOLEONE N. 20 ;via monte napoleone 020; isolato:258; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;20;219;1;valentino;non alimentare;;1019;613
+"VIA PITAGORA N. 4 ; isolato:024; accesso: accesso esterno; (z.d. 2)";VIA ;PITAGORA;4;2405;2;toys center;"alimentare;non alimentare";;614;614
+VLE ROMOLO N. 9 (z.d. 6);VLE ;ROMOLO;9;5284;6;;non alimentare;;1073;615
+"VIA DELLE BETULLE num.012; isolato:240; accesso: accesso esterno; (z.d. 7)";VIA ;DELLE BETULLE;;6828;7;in s mercato;;766;1386;620
+PZA DUCA D'AOSTA Int. stazione interno stazione centrale;PZA ;DUCA D'AOSTA;;1200;2;;Non Alimentare;;798;620
+"VIA MANCINI LODOVICO num.004/6; isolato:035; accesso: accesso esterno; (z.d. 4)";VIA ;MANCINI LODOVICO;;3082;4;sma centro freschezza;"alimentare;non alimentare";;1755;630
+"CSO GENOVA N. 20 ; isolato:133; accesso: accesso esterno; (z.d. 1)";CSO ;GENOVA;20;5164;1;trevisan  E  c.;non alimentare;;661;630
+VIA MURATORI LODOVICO N. 27 (z.d. 4);VIA ;MURATORI LODOVICO;27;4076;4;;Non Alimentare;;1055;630
+"VIA MONTE NAPOLEONE N. 27 ;via monte napoleone 027; isolato:314; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;27;219;1;yves saint laurent;non alimentare;;1119;632
+"VIA MAZZINI GIUSEPPE N. 2 ;via mazzini giuseppe 002; isolato:447; accesso: accesso esterno; (z.d. 1)";VIA ;MAZZINI GIUSEPPE;2;516;1;;non alimentare;;648;648
+"VLE BELISARIO N. 3 ; isolato:165; accesso: accesso esterno; (z.d. 8)";VLE ;BELISARIO;3;6360;8;unes;"alimentare;non alimentare";;1770;650
+"PLE CHIESA DAMIANO N. 2 ; isolato:039; accesso: accesso esterno; (z.d. 8)";PLE ;CHIESA DAMIANO;2;7164;8;unes;"alimentare;non alimentare";;2003;650
+VIA LORENTEGGIO N. 246 (z.d. 6);VIA ;LORENTEGGIO;246;5132;6;;Non Alimentare;;685;650
+"VLE STELVIO N. 3 ; isolato:215; accesso: accesso esterno; (z.d. 9)";VLE ;STELVIO;3;1227;9;;non alimentare;1849;2500;651
+"VIA VISCONTI ALEX box in mcc num.024/a; isolato:003; accesso: accesso interno; (z.d. 8)";VIA ;VISCONTI ALEX;;7529;8;;"alimentare;non alimentare";88;741;653
+"VIA FREIKOFEL N. 2 ; isolato:088; accesso: accesso esterno; (z.d. 4)";VIA ;FREIKOFEL;2;4367;4;coop;"alimentare;non alimentare";;654;654
+"CSO VENEZIA N. 7 ;cso venezia 007; isolato:261; accesso: accesso esterno; (z.d. 1)";CSO ;VENEZIA;7;238;1;d. E  g.;non alimentare;;867;656
+"VIA PRINETTI LUIGI N. 44 ; isolato:282; accesso: accesso esterno; (z.d. 2)";VIA ;PRINETTI LUIGI;44;2329;2;arredamenti mobili;non alimentare;;659;659
+"VIA FARINI CARLO N. 47 ; isolato:251; accesso: accesso esterno; (z.d. 9)";VIA ;FARINI CARLO;47;1114;9;;non alimentare;;660;660
+"VLE ESPINASSE CARLO N. 137 ; isolato:103; accesso: accesso esterno; (z.d. 8)";VLE ;ESPINASSE CARLO;137;7390;8;penny market;"alimentare;non alimentare";;879;662
+"VIA DELL' INNOMINATO N. 2 ; isolato:082; accesso: accesso esterno; (z.d. 5)";VIA ;DELL' INNOMINATO;2;5414;5;varco spa.;non alimentare;;7140;664
+"CSO BUENOS AIRES N. 51 ; isolato:044; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;51;2129;3;libreria del corso;non alimentare;121;787;666
+"PLE BOLOGNA N. 7 ; isolato:005; accesso: accesso esterno; (z.d. 4)";PLE ;BOLOGNA;7;4172;4;conad;"alimentare;non alimentare";;1315;670
+"VLE TIBALDI num.040/1; isolato:066; accesso: accesso esterno; (z.d. 5)";VLE ;TIBALDI;;5234;5;lidl;"alimentare;non alimentare";;857;674
+"VIA GROSIO N. 9 ; isolato:202; accesso: accesso esterno; (z.d. 8)";VIA ;GROSIO;9;7483;8;fiat succ. vendita assist;non alimentare;;17858;675
+"VIA MASSARA DE CAPITANI N. 15 ; isolato:036; accesso: area ap.rec.; (z.d. 9)";VIA ;MASSARA DE CAPITANI;15;1261;9;penny market;"alimentare;non alimentare";;762;680
+"VIA SARPI FRA' PAOLO N. 4 ; isolato:068; accesso: accesso interno; (z.d. 8)";VIA ;SARPI FRA' PAOLO;4;7210;8;;non alimentare;;693;693
+"VIA MICHELINO DA BESOZZO N. 14 ; isolato:300; accesso: accesso esterno; (z.d. 8)";VIA ;MICHELINO DA BESOZZO;14;7263;8;sma supermercati alimenta;"alimentare;non alimentare";;1703;695
+"VLE STELVIO N. 47 aff. az. tacit. rinnov.; isolato:204; accesso: accesso esterno; (z.d. 9)";VLE ;STELVIO;47;1227;9;punto sma;"alimentare;non alimentare";;1187;700
+PZA SAN BABILA N. 5 (z.d. 1);PZA ;SAN BABILA;5;216;1;;non alimentare;;1256;700
+VLE MONZA N. 162 (z.d. 2);VLE ;MONZA;162;2274;2;;Non Alimentare;;853;700
+"VIA SPERONARI N. 8 ;via speronari 008; isolato:447; accesso: accesso esterno; (z.d. 1)";VIA ;SPERONARI;8;517;1;;non alimentare;;863;701
+"VIA ASTESANI ALESSANDRO N. 46 ; isolato:052; accesso: accesso esterno; (z.d. 9)";VIA ;ASTESANI ALESSANDRO;46;1558;9;sma supermercati alimenta;"alimentare;non alimentare";;1685;705
+"VIA PETROCCHI POLICARPO N. 36 ; isolato:187; accesso: accesso esterno; (z.d. 2)";VIA ;PETROCCHI POLICARPO;36;2320;2;nuova eco srl.;non alimentare;;705;705
+"VIA MAFFUCCI ANGIOLO N. 40 ; isolato:063; accesso: accesso esterno; (z.d. 9)";VIA ;MAFFUCCI ANGIOLO;40;1276;9;superdi  supermercati;"alimentare;non alimentare";;705;705
+"CSO VITTORIO EMANUELE II N. 13 ;cso vittorio emanuele ii 013; isolato:361; accesso: accesso esterno; (z.d. 1)";CSO ;VITTORIO EMANUELE II;13;214;1;;non alimentare;;969;710
+"CSO VENEZIA N. 15 ;cso venezia 015; isolato:189; accesso: accesso esterno; (z.d. 1)";CSO ;VENEZIA;15;238;1;d  E  g.;non alimentare;;1193;713
+"VLE SABOTINO N. 28 ; isolato:112; accesso: accesso esterno; (z.d. 5)";VLE ;SABOTINO;28;4046;5;darty;non alimentare;;720;720
+"VIA GIULINI GIORGIO N. 2 ;via giulini giorgio 002; isolato:371; accesso: accesso esterno; (z.d. 1)";VIA ;GIULINI GIORGIO;2;613;1;balloon;non alimentare;;1014;720
+"GLL VITTORIO EMANUELE num.063; isolato:354; accesso: accesso esterno; (z.d. 1)";GLL ;VITTORIO EMANUELE;;10;1;prada;non alimentare;;720;720
+"VIA GROSOTTO N. 7 pii portello comp u2 lotto 2a; (z.d. 8)";VIA ;GROSOTTO;7;7328;8;;non alimentare;;780;723
+"CSO GARIBALDI GIUSEPPE num.097/99; isolato:081; accesso: accesso esterno; (z.d. 1)";;;;;;;non alimentare;130;855;725
+VIA ALBERICO DA ROSCIATE N. 5 (z.d. 7);VIA ;ALBERICO DA ROSCIATE;5;6589;7;;;;0;726
+"VIA ALBERICO DA ROSCIATE N. 5 ; isolato:152; accesso: accesso esterno; (z.d. 7)";VIA ;ALBERICO DA ROSCIATE;5;6589;7;;non alimentare;;726;726
+"VIA MARCO D'AGRATE N. 8 ; isolato:115; accesso: accesso esterno; (z.d. 5)";VIA ;MARCO D'AGRATE;8;4276;5;;non alimentare;390;1120;730
+"VIA BOCCONI FERDINANDO N. 8 ; isolato:102; accesso: accesso esterno; (z.d. 5)";VIA ;BOCCONI FERDINANDO;8;4050;5;libreria egea;non alimentare;;733;733
+"PZA NAPOLI N. 2 ; isolato:001; accesso: accesso esterno; (z.d. 6)";PZA ;NAPOLI;2;5131;6;land rover;non alimentare;;741;741
+"VIA DELLA SPIGA N. 4 ;via della spiga 004; isolato:189; accesso: accesso esterno; (z.d. 1)";VIA ;DELLA SPIGA;4;226;1;gio moretti jenny;non alimentare;;745;745
+"PZA DEL LIBERTY N. 4 ;pza del liberty 004; isolato:361; accesso: accesso esterno; (z.d. 1)";PZA ;DEL LIBERTY;4;98;1;max  E  co;non alimentare;;746;746
+"CSO MAGENTA N. 13 ;cso magenta 013; isolato:343; accesso: accesso esterno; (z.d. 1)";CSO ;MAGENTA;13;604;1;bardelli;non alimentare;86;833;747
+"VIA DURINI N. 24 ;via durini 023; isolato:317; accesso: accesso esterno; (z.d. 1)";VIA ;DURINI;24;313;1;armani junior;non alimentare;;900;748
+"VIA DURINI N. 24 ;via durini 024; isolato:318; accesso: accesso esterno; (z.d. 1)";VIA ;DURINI;24;313;1;natuzzi;non alimentare;;900;748
+"VIA TORINO N. 21 ;via torino 021; isolato:446; accesso: accesso esterno; (z.d. 1)";VIA ;TORINO;21;543;1;mango;non alimentare;;1200;748
+"GLL PASSARELLA N. 2 ;gll passarella 002; isolato:360; accesso: accesso esterno; (z.d. 1)";GLL ;PASSARELLA;2;303;1;oviesse;non alimentare;;750;750
+"VIA MARTINI SIMONE N. 3 ; isolato:046; accesso: accesso esterno; (z.d. 6)";VIA ;MARTINI SIMONE;3;5307;6;;non alimentare;;750;750
+"VIA BIGLI N. 2 ;via verri pietro 007*; accesso: accesso esterno; (z.d. 1)";VIA ;BIGLI;2;224;1;burberry italy retail lim;non alimentare;;1082;750
+"VIA BASSO LELIO N. 8 int. m.c.c.; isolato:111; accesso: accesso interno; (z.d. 5)";VIA ;BASSO LELIO;8;5453;5;in s mercato;"alimentare;non alimentare";;750;750
+"VIA SACCARDO PIETRO ANDREA N. 22 ; isolato:128; accesso: accesso esterno; (z.d. 3)";VIA ;SACCARDO PIETRO ANDREA;22;2665;3;lidl;"alimentare;non alimentare";;750;750
+"VIA DON RODRIGO num.007; (z.d. 5)";VIA ;DON RODRIGO;;5416;5;;"alimentare;non alimentare";;1100;751
+VIA BAGAROTTI MAFFEO N. 5 (z.d. 7);VIA ;BAGAROTTI MAFFEO;5;6585;7;;"Alimentare;Non Alimentare";;1158;753
+"VLE MARTINI ENRICO N. 9 sup.di vendita computata al10%; (z.d. 4)";VLE ;MARTINI ENRICO;9;4175;4;;non alimentare;;755;755
+"PZA DEL DUOMO N. 31 ;cso vittorio emanuele ii 001; isolato:419; accesso: accesso esterno; (z.d. 1)";PZA ;DEL DUOMO;31;1;1;;"alimentare;non alimentare";;792;757
+"VIA TOLSTOI LEONE N. 87 ; isolato:041; accesso: accesso esterno; (z.d. 6)";VIA ;TOLSTOI LEONE;87;5133;6;;non alimentare;;762;762
+"VIA CARNEVALI ANTONIO N. 116 ; isolato:034; accesso: accesso interno; (z.d. 9)";VIA ;CARNEVALI ANTONIO;116;1268;9;penny market;"alimentare;non alimentare";;0;765
+"CSO EUROPA N. 12 ;cso europa 012; isolato:317; accesso: accesso esterno; (z.d. 1)";CSO ;EUROPA;12;300;1;koivu;non alimentare;;770;770
+"VIA MURATORI LODOVICO N. 13 ; isolato:165; accesso: accesso esterno; (z.d. 4)";VIA ;MURATORI LODOVICO;13;4076;4;;non alimentare;2052;2824;772
+"VIA GONIN FRANCESCO N. 11 ; isolato:156; accesso: accesso esterno; (z.d. 6)";VIA ;GONIN FRANCESCO;11;5376;6;;non alimentare;1;776;775
+"VIA HOEPLI ULRICO N. 3 ;via hoepli ulrico 003; isolato:384; accesso: accesso esterno; (z.d. 1)";VIA ;HOEPLI ULRICO;3;190;1;;non alimentare;;778;778
+"CSO VERCELLI N. 18 ; isolato:216; accesso: accesso esterno; (z.d. 7)";CSO ;VERCELLI;18;6193;7;germani sport;non alimentare;;936;780
+"PZA VENTICINQUE APRILE N. 12 ; isolato:322; accesso: accesso interno; (z.d. 9)";PZA ;VENTICINQUE APRILE;12;1064;9;;non alimentare;;781;781
+"VIA VALLAZZE N. 87 ; isolato:035; accesso: accesso esterno; (z.d. 3)";VIA ;VALLAZZE;87;2250;3;unes;"alimentare;non alimentare";;790;790
+"VIA LOMELLINA N. 1 ; isolato:255; accesso: accesso esterno; (z.d. 4)";VIA ;LOMELLINA;1;3280;4;sma supermercati alimenta;"alimentare;Non Alimentare";;1450;794
+"VIA FRIULI N. 16 ; isolato:177; accesso: accesso esterno; (z.d. 4)";VIA ;FRIULI;16;3199;4;;non alimentare;406;1200;794
+"VIA DOMENICHINO N. 2 ; isolato:227; accesso: accesso esterno; (z.d. 7)";VIA ;DOMENICHINO;2;6383;7;esselunga;;622;1417;795
+"VIA LOMBROSO CESARE N. 54 interno merc.ingros.ortofrutt.; isolato:091; accesso: accesso esterno; (z.d. 4)";VIA ;LOMBROSO CESARE;54;3334;4;;"alimentare;non alimentare";100;900;800
+"VIA SODERINI LUIGI N. 54 ; isolato:069; accesso: accesso esterno; (z.d. 6)";VIA ;SODERINI LUIGI;54;6675;6;;non alimentare;740;1540;800
+"VIA GALLARATE N. 40 centro strada; isolato:228; pto strada:cs; accesso: accesso esterno; (z.d. 8)";VIA ;GALLARATE;40;7420;8;;tabella speciale carburanti;100;900;800
+"VIA DUPRE' GIOVANNI N. 14 ; isolato:292; accesso: accesso esterno; (z.d. 8)";VIA ;DUPRE' GIOVANNI;14;7252;8;;non alimentare;;800;800
+"VIA GOZZI GASPARE N. 5 ; isolato:183; accesso: accesso esterno; (z.d. 3)";VIA ;GOZZI GASPARE;5;3104;3;susa auto silo;non alimentare;;6490;800
+"VIA FILZI FABIO N. 8 ; isolato:310; accesso: accesso esterno; (z.d. 2)";VIA ;FILZI FABIO;8;1190;2;;non alimentare;150;950;800
+"VIA MONTE NAPOLEONE N. 11 ;via monte napoleone 011; isolato:314; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;11;219;1;;non alimentare;;800;800
+"VIA DEI CROLLALANZA N. 4 ; isolato:067; accesso: accesso esterno; (z.d. 6)";VIA ;DEI CROLLALANZA;4;5311;6;;non alimentare;1490;2290;800
+"VIA FARA GUSTAVO N. 39 ; isolato:289; accesso: accesso esterno; (z.d. 9)";VIA ;FARA GUSTAVO;39;1183;9;;non alimentare;;800;800
+"VLE TIBALDI N. 35 ; isolato:164; accesso: accesso esterno; (z.d. 5)";VLE ;TIBALDI;35;5234;5;pam;"alimentare;non alimentare";;1691;800
+"VIA PICCINNI NICOLA N. 2 ; isolato:027; accesso: accesso esterno; (z.d. 3)";VIA ;PICCINNI NICOLA;2;2236;3;pam;"alimentare;non alimentare";;2040;800
+"VLE ESPINASSE CARLO N. 19 ; isolato:243; accesso: accesso esterno; (z.d. 8)";VLE ;ESPINASSE CARLO;19;7390;8;standa superfresco;"alimentare;non alimentare";;2253;800
+"VIA GONIN FRANCESCO N. 71 ; isolato:155; accesso: accesso esterno; (z.d. 6)";VIA ;GONIN FRANCESCO;71;5376;6;conad;"alimentare;non alimentare";;1292;800
+"VIA DEGLI ZUCCARO N. 9 ; isolato:142; accesso: accesso esterno; (z.d. 6)";VIA ;DEGLI ZUCCARO;9;5390;6;;non alimentare;;800;800
+VIA NERVESA N. 30 (z.d. 4);VIA ;NERVESA;30;4167;4;;non alimentare;;800;800
+RIP DI PTA TICINESE N. 73 (z.d. 1);RIP ;DI PTA TICINESE;73;5150;6;;;;800;800
+"VIA PECCHIO GIUSEPPE N. 10 ; isolato:040; (z.d. 3)";VIA ;PECCHIO GIUSEPPE;10;2240;3;;non alimentare;;800;800
+"PZA SIGMUND FREUD N. 1 interno staz.ffss porta garib.; isolato:259; (z.d. 9)";PZA ;SIGMUND FREUD;1;1705;9;;"alimentare;non alimentare";;900;800
+"LGO CORSIA DEI SERVI N. 11 ;cso vittorio emanuele ii 024; isolato:360; accesso: accesso esterno; (z.d. 1)";LGO ;CORSIA DEI SERVI;11;234;1;replay;non alimentare;;808;808
+"VIA CEFALONIA N. 10 ; isolato:146; accesso: accesso esterno; (z.d. 8)";VIA ;CEFALONIA;10;7439;8;conad;"alimentare;non alimentare";;1269;808
+"CSO BUENOS AIRES N. 63 ; isolato:017; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;63;2129;3;;non alimentare;;1073;812
+"VIA MACCHI MAURO N. 29 ; isolato:039; accesso: accesso esterno; (z.d. 2)";VIA ;MACCHI MAURO;29;2133;2;toys center;"alimentare;non alimentare";227;1040;813
+"VIA DE MARCHI EMILIO N. 10 ; accesso: accesso esterno; (z.d. 2)";VIA ;DE MARCHI EMILIO;10;1418;2;unes;"alimentare;non alimentare";;1350;814
+"VIA TRILUSSA N. 26 ; isolato:063; accesso: accesso esterno; (z.d. 8)";VIA ;TRILUSSA;26;7367;8;unes;"alimentare;non alimentare";;2632;814
+"PLE LODI N. 3 viale umbria ang. v.p.colletta; accesso: accesso esterno; (z.d. 4)";PLE ;LODI;3;4249;4;melablu;non alimentare;;1023;820
+"VIA VASARI GIORGIO N. 2 ; isolato:165; accesso: accesso esterno; (z.d. 4)";VIA ;VASARI GIORGIO;2;4070;4;b 612;non alimentare;;823;823
+"VLE EGINARDO N. 15 ; isolato:209; accesso: accesso esterno; (z.d. 8)";VLE ;EGINARDO;15;6366;8;;non alimentare;;2350;826
+VIA BECCARIA CESARE N. 5 (z.d. 1);VIA ;BECCARIA CESARE;5;307;1;;"Alimentare;Non Alimentare";;1191;828
+"VIA LEONCAVALLO RUGGERO num.015/17; ()";;;;;;;"alimentare;non alimentare";;1250;830
+"VIA LEONCAVALLO RUGGERO num.015/17; ()";;;;;;;"alimentare;non alimentare";;1250;830
+VIA D'ADDA CARLO N. 29 (z.d. 6);VIA ;D'ADDA CARLO;29;5272;6;lucky music strumenti m.;Non Alimentare;;1494;835
+"VIA TIMAVO N. 32 ; isolato:239; accesso: accesso interno; (z.d. 2)";VIA ;TIMAVO;32;1174;2;;non alimentare;346;1186;840
+"VIA BISCEGLIE N. 92 ; isolato:053; accesso: accesso esterno; (z.d. 6)";VIA ;BISCEGLIE;92;6707;6;denicar spa.;non alimentare;;847;847
+"VIA GIAMBELLINO num.069/5; isolato:160; accesso: accesso esterno; (z.d. 6)";;;;;;;non alimentare;;848;848
+"CSO INDIPENDENZA N. 24 ; isolato:007; accesso: accesso esterno; (z.d. 4)";CSO ;INDIPENDENZA;24;3118;4;;non alimentare;630;1480;850
+"VIA TOLSTOI LEONE N. 61 ; isolato:081; accesso: accesso esterno; (z.d. 6)";VIA ;TOLSTOI LEONE;61;5133;6;pam;"alimentare;non alimentare";;1797;850
+"VIA TORINO N. 2 p.terra-interrato e soppalco; (z.d. 1)";VIA ;TORINO;2;543;1;;non alimentare;;850;850
+"VIA ANTONINI GIACOMO N. 26 ; isolato:099; accesso: accesso esterno; (z.d. 5)";VIA ;ANTONINI GIACOMO;26;4250;5;penny market;"alimentare;non alimentare";;1111;857
+VIA LIVIGNO N. 20 (z.d. 9);VIA ;LIVIGNO;20;1296;9;;"Alimentare;Non Alimentare";;1617;860
+"CSO LODI N. 130 ; isolato:055; accesso: accesso esterno; (z.d. 4)";CSO ;LODI;130;4068;4;sma supermercati alimenta;"alimentare;non alimentare";;1478;862
+"VIA SPALLANZANI LAZZARO N. 10 ang. via melzo; isolato:143; accesso: accesso esterno; (z.d. 3)";VIA ;SPALLANZANI LAZZARO;10;2153;3;unes;"alimentare;non alimentare";;1576;865
+"VLE MONZA N. 107 ; isolato:294; accesso: accesso esterno; (z.d. 2)";VLE ;MONZA;107;2274;2;;non alimentare;;868;868
+"VIA MONCALIERI N. 15 ; isolato:128; accesso: accesso esterno; (z.d. 9)";VIA ;MONCALIERI;15;1095;9;oviesse;non alimentare;300;1170;870
+"VIA BELGIRATE N. 24 ; isolato:125; accesso: accesso interno; (z.d. 2)";VIA ;BELGIRATE;24;1406;2;;non alimentare;220;1090;870
+"PZA SANTA MARIA BELTRADE N. 2 angolo via torino;via torino 015; isolato:447; accesso: accesso esterno; (z.d. 1)";PZA ;SANTA MARIA BELTRADE;2;514;1;treesse sport;non alimentare;;1064;870
+"VIA DURINI N. 28 ;via durini 028; isolato:318; accesso: accesso interno; (z.d. 1)";VIA ;DURINI;28;313;1;;non alimentare;2;874;872
+"VIA MANZONI ALESSANDRO N. 30 ;via manzoni alessandro 030; isolato:255; accesso: accesso esterno; (z.d. 1)";VIA ;MANZONI ALESSANDRO;30;230;1;da driade;non alimentare;;892;872
+"ALZ NAVIGLIO GRANDE N. 98 ; isolato:049; accesso: accesso interno; (z.d. 6)";ALZ ;NAVIGLIO GRANDE;98;5144;6;pisotti;non alimentare;;875;875
+"VIA SPALLANZANI LAZZARO N. 5 ; isolato:141; accesso: accesso esterno; (z.d. 3)";VIA ;SPALLANZANI LAZZARO;5;2153;3;;non alimentare;;1183;878
+"VIA URUGUAY N. 6 ; isolato:062; accesso: accesso esterno; (z.d. 8)";VIA ;URUGUAY;6;7495;8;standa superfresco;"alimentare;non alimentare";;1650;880
+VIA CEFALU' N. 2 (z.d. 8);VIA ;CEFALU';2;7370;8;lidl;"alimentare;non alimentare";;1139;884
+"VLE UNGHERIA N. 12 ; isolato:108; accesso: accesso esterno; (z.d. 4)";VLE ;UNGHERIA;12;3357;4;standa;"alimentare;non alimentare";;1427;890
+"PZA ARGENTINA N. 4 ; isolato:019; accesso: accesso esterno; (z.d. 3)";PZA ;ARGENTINA;4;2233;3;giacomelli sport;non alimentare;;1150;891
+"VIA MONTE NAPOLEONE num.004; (z.d. 1)";VIA ;MONTE NAPOLEONE;;219;1;;non alimentare;;1451;891
+"VLE ORTLES N. 7 ; isolato:044; accesso: accesso esterno; (z.d. 5)";VLE ;ORTLES;7;4133;5;lidl;"alimentare;non alimentare";;892;892
+"VIA PADOVA N. 166 ; isolato:285; accesso: accesso esterno; (z.d. 2)";VIA ;PADOVA;166;2275;2;penny market;"alimentare;non alimentare";;1161;893
+"LARGO BALESTRA ANTONIO N. 3 m.c.c. discount; isolato:158; accesso: accesso interno; (z.d. 6)";LARGO ;BALESTRA ANTONIO;3;5464;6;lidl;"alimentare;non alimentare";875;1771;896
+"VIA DELLA SPIGA num.026/ab; isolato:184; accesso: accesso esterno; (z.d. 1)";VIA ;DELLA SPIGA;;226;1;d E g;non alimentare;;1178;898
+"VIA PEDRONI LISIADE num.001/6; isolato:173; accesso: accesso esterno; (z.d. 9)";;;;;;;non alimentare;;900;900
+"VLE SABOTINO N. 6 ; isolato:171; accesso: accesso esterno; (z.d. 5)";VLE ;SABOTINO;6;4046;5;pam;"alimentare;non alimentare";;1822;900
+"VIA GRASSI GIOVANNI BATTISTA N. 15 ; isolato:088; accesso: accesso esterno; (z.d. 8)";VIA ;GRASSI GIOVANNI BATTISTA;15;7465;8;lidl;"alimentare;non alimentare";;900;900
+VIA MANZONI ALESSANDRO N. 31 (z.d. 1);VIA ;MANZONI ALESSANDRO;31;230;1;;non alimentare;;905;905
+"VIA ROSSI PELLEGRINO N. 93 ; isolato:153; accesso: accesso esterno; (z.d. 9)";VIA ;ROSSI PELLEGRINO;93;1510;9;;"non alimentare;tabella speciale carburanti";32;942;910
+"VLE MONTE NERO N. 32 ; isolato:134; accesso: accesso esterno; (z.d. 4)";VLE ;MONTE NERO;32;3062;4;;non alimentare;30;940;910
+"VIA DELL' ANNUNCIATA N. 2 angolo via manzoni;via dell' annunciata 002; isolato:182; accesso: accesso esterno; (z.d. 1)";VIA ;DELL' ANNUNCIATA;2;140;1;;non alimentare;;1110;913
+"PZA DIOCLEZIANO num.004; isolato:013; accesso: accesso esterno; (z.d. 8)";PZA ;DIOCLEZIANO;;7220;8;standa superfresco;"alimentare;non alimentare";;915;915
+"LGO CORSIA DEI SERVI N. 11 tac. rinnovabile ogni 6 anni;lgo corsia dei servi 011; isolato:360; accesso: accesso esterno; (z.d. 1)";LGO ;CORSIA DEI SERVI;11;234;1;benetton;non alimentare;;943;916
+"VIA BAZZINI ANTONIO N. 33 ; isolato:047; accesso: accesso esterno; (z.d. 3)";VIA ;BAZZINI ANTONIO;33;2427;3;pam;"alimentare;non alimentare";;2027;920
+CSO DI PORTA TICINESE N. 12 (z.d. 1);CSO ;DI PORTA TICINESE;12;541;1;;non alimentare;;1190;926
+"VIA VENINI GIULIO E CORRADO N. 50 ; isolato:330; accesso: accesso esterno; (z.d. 2)";VIA ;VENINI GIULIO E CORRADO;50;2258;2;sma supermercati alimenta;"alimentare;non alimentare";;1649;930
+"VIA LORENTEGGIO N. 230 ; isolato:051; accesso: accesso esterno; (z.d. 6)";VIA ;LORENTEGGIO;230;5132;6;media world;non alimentare;;1366;930
+"VIA DURAZZO N. 5 ; isolato:067; accesso: accesso esterno; (z.d. 3)";VIA ;DURAZZO;5;2658;3;unes;"alimentare;non alimentare";;2010;932
+"VIA RISMONDO FRANCESCO num.008; isolato:138; accesso: area ap.rec.; (z.d. 7)";VIA ;RISMONDO FRANCESCO;;6756;7;gs;"alimentare;non alimentare";;1950;939
+"VIA MEDEGHINO N. 11 ; isolato:047; pto strada:1 ; accesso: accesso esterno; (z.d. 5)";VIA ;MEDEGHINO;11;5335;5;;"alimentare;non alimentare";;1637;939
+"PZA ANGILBERTO II N. 9 ; isolato:121; accesso: accesso esterno; (z.d. 5)";PZA ;ANGILBERTO II;9;4278;5;carrefour;"alimentare;non alimentare";;1595;950
+"VIA PADOVA num.022; isolato:353; accesso: accesso esterno; (z.d. 2)";;;;;;pam;"alimentare;non alimentare";;1947;950
+"CSO VITTORIO EMANUELE II N. 1 ;cso vittorio emanuele ii 001; isolato:419; accesso: accesso esterno; (z.d. 1)";CSO ;VITTORIO EMANUELE II;1;214;1;h  E  m;non alimentare;;1279;950
+PZA DELLA TRIVULZIANA N. 6 (z.d. 9);PZA ;DELLA TRIVULZIANA;6;1765;9;;"alimentare;non alimentare";;1570;950
+"PZA DUCA D'AOSTA interno stazione centrale num.000; accesso: accesso interno; ()";PZA ;DUCA D'AOSTA;;1200;2;zara;non alimentare;;1277;950
+"PZA DUCA D'AOSTA int. staz.centrale s12/t16/a11 num.000;ingresso via 9401 num.000; accesso: accesso interno; ()";PZA ;DUCA D'AOSTA;;1200;2;united colors of benettn;non alimentare;;1257;953
+"PTA PATTARI N. 4 pt. + interrato;via beccaria cesare 000; isolato:387; accesso: accesso esterno; (z.d. 1)";PTA ;PATTARI;4;299;1;germani sport;non alimentare;;954;954
+"VLE MONZA N. 204 ; isolato:102; accesso: accesso esterno; (z.d. 2)";VLE ;MONZA;204;2274;2;castoldi;non alimentare;;956;956
+"VIA SPINOZA BENEDETTO N. 4 ; isolato:098; accesso: accesso esterno; (z.d. 3)";VIA ;SPINOZA BENEDETTO;4;2205;3;carrefour;"alimentare;non alimentare";;1955;957
+"VIA DAIMLER GOTTLIEB WILHELM N. 1 1/8 della superficie di vend.; accesso: accesso esterno; (z.d. 8)";VIA ;DAIMLER GOTTLIEB WILHELM;1;7587;8;mercedes benz;non alimentare;;7665;958
+"VIA FOPPA VINCENZO N. 33 ; isolato:006; accesso: accesso esterno; (z.d. 6)";VIA ;FOPPA VINCENZO;33;6109;6;pam;"alimentare;non alimentare";;2195;960
+"VIA OLONA N. 1 ; isolato:460; accesso: accesso esterno; (z.d. 1)";VIA ;OLONA;1;5090;1;pam;"alimentare;non alimentare";;1820;960
+"VLE TOSCANA N. 31 allo sport. in distribuzione; isolato:168; accesso: accesso esterno; (z.d. 5)";VLE ;TOSCANA;31;4210;5;volvo sveziacar;non alimentare;;965;965
+"VIA LEPONTINA N. 2 ; isolato:205; accesso: accesso interno; (z.d. 9)";VIA ;LEPONTINA;2;1147;9;fulgida srl;non alimentare;500;1468;968
+"VLE FAMAGOSTA N. 16 ; isolato:076; accesso: accesso esterno; (z.d. 6)";VLE ;FAMAGOSTA;16;5353;6;carrefour;"alimentare;non alimentare";;1785;980
+"VIA F.LLI BRONZETTI N. 37 ; isolato:040; accesso: accesso esterno; (z.d. 4)";VIA ;F.LLI BRONZETTI;37;3089;4;darty;non alimentare;;986;986
+"VLE TIBALDI N. 7 ; accesso: accesso esterno; (z.d. 5)";VLE ;TIBALDI;7;5234;5;sma supermercati;"alimentare;non alimentare";;1620;990
+"VIA DEI MISSAGLIA N. 34 ; isolato:071; (z.d. 5)";VIA ;DEI MISSAGLIA;34;5340;5;;non alimentare;;990;990
+"VLE LANCETTI VINCENZO N. 17 ; isolato:103; accesso: accesso esterno; (z.d. 9)";VLE ;LANCETTI VINCENZO;17;1221;9;;non alimentare;4600;5600;1000
+"VIA AOSTA N. 6 ; isolato:001; accesso: accesso esterno; (z.d. 8)";VIA ;AOSTA;6;7227;8;;non alimentare;;1000;1000
+"VIA CANONICA LUIGI N. 55 ; isolato:112; accesso: accesso esterno; (z.d. 1)";VIA ;CANONICA LUIGI;55;7121;1;marco polo expert;non alimentare;908;1908;1000
+"VIA LORENTEGGIO ang. v. redaelli 2 num.000; accesso: accesso esterno; (z.d. 6)";;;;;;oviesse;non alimentare;;1000;1000
+"VIA LEONCAVALLO RUGGERO N. 17 ; isolato:114; accesso: accesso esterno; (z.d. 2)";VIA ;LEONCAVALLO RUGGERO;17;2389;2;mobili cucine divani;non alimentare;;1000;1000
+"VLE CERTOSA N. 135 ; isolato:061; accesso: accesso esterno; (z.d. 8)";VLE ;CERTOSA;135;7174;8;;non alimentare;;1000;1000
+"VLE MOLISE N. 56 ; isolato:089; accesso: accesso esterno; (z.d. 4)";VLE ;MOLISE;56;3178;4;;"alimentare;non alimentare";;1000;1000
+"VIA AMORETTI CARLO num.004/6; isolato:045; accesso: accesso esterno; (z.d. 8)";;;;;;;"alimentare;non alimentare";;1564;1000
+"VLE TESTI FULVIO N. 90 ang. santa marcellina n. 8; isolato:145; accesso: accesso esterno; (z.d. 9)";VLE ;TESTI FULVIO;90;1441;9;carrefour;"alimentare;non alimentare";;1530;1008
+"VIA DELLE FORZE ARMATE N. 44 ; isolato:197; accesso: accesso esterno; (z.d. 7)";VIA ;DELLE FORZE ARMATE;44;6643;7;pam;"alimentare;non alimentare";;1856;1010
+"VIA DELLA FERRERA N. 18 centro commerciale 3 castelli; isolato:037; accesso: accesso esterno; (z.d. 6)";VIA ;DELLA FERRERA;18;5451;6;sma;"alimentare;non alimentare";;2108;1010
+"VIA TRAIANO MARCO ULPIO N. 79 pii portello comp u2-lotto 2a; isolato:249; accesso: accesso esterno; (z.d. 9)";VIA ;TRAIANO MARCO ULPIO;79;7157;8;;non alimentare;;1102;1012
+VIA LORENTEGGIO N. 240 (z.d. 6);VIA ;LORENTEGGIO;240;5132;6;;"alimentare;non alimentare";;1252;1012
+"GLL VITTORIO EMANUELE num.079; isolato:415; accesso: accesso esterno; (z.d. 1)";GLL ;VITTORIO EMANUELE;;10;1;libreria rizzoli;non alimentare;;1300;1015
+"VLE CERTOSA N. 21 ; isolato:330; accesso: accesso esterno; (z.d. 8)";VLE ;CERTOSA;21;7174;8;galbiati arreda;non alimentare;;1016;1016
+"VIA CAGLIERO GIOVANNI num.014/a; isolato:123; accesso: accesso esterno; (z.d. 2)";VIA ;CAGLIERO GIOVANNI;;1407;2;esselunga;"alimentare;non alimentare";;1284;1018
+"VIA DURINI N. 28 ;via durini 028; isolato:318; accesso: accesso esterno; (z.d. 1)";VIA ;DURINI;28;313;1;boggi;Non Alimentare;;1290;1026
+"VIA SANT' ANDREA N. 9 ;via sant' andrea 009; isolato:260; accesso: accesso esterno; (z.d. 1)";VIA ;SANT' ANDREA;9;222;1;;non alimentare;;1437;1032
+"VIA LUDOVICO DI BREME N. 25 ; isolato:221; accesso: accesso esterno; (z.d. 8)";VIA ;LUDOVICO DI BREME;25;7396;8;;"alimentare;non alimentare";;1445;1035
+"VIA MARCHESI POMPEO num.005; accesso: accesso esterno; (z.d. 7)";;;;;;ipercoop;"alimentare;non alimentare";;1035;1035
+"PZA DUCA D'AOSTA int.staz.centrale 1øinterrato num.000; accesso: accesso interno; (z.d. 2)";PZA ;DUCA D'AOSTA;;1200;2;suprmercato dufry;"alimentare;non alimentare";;1732;1038
+"PZA SAN BABILA N. 5 ;pza san babila 005; isolato:261; accesso: accesso esterno; (z.d. 1)";PZA ;SAN BABILA;5;216;1;maxmara;non alimentare;;1349;1039
+"PLE SIENA N. 18 ; isolato:199; accesso: accesso esterno; (z.d. 7)";PLE ;SIENA;18;6616;7;carrefour;"alimentare;non alimentare";;2045;1040
+"mm1 s. bab codvia 9111 num.000 ; ()";;;;;;;non alimentare;;1230;1042
+"VIA PESTALOZZI GIOVANNI ENRICO N. 21 ; isolato:009; accesso: accesso esterno; (z.d. 6)";VIA ;PESTALOZZI GIOVANNI ENRICO;21;5294;6;lidl;"Alimentare;Non Alimentare";;1432;1045
+"VIA ORNATO LUIGI N. 148 ; isolato:010; accesso: accesso esterno; (z.d. 9)";VIA ;ORNATO LUIGI;148;1591;9;super di;"alimentare;non alimentare";;2540;1046
+"VIA MODENA GUSTAVO num.008/10; isolato:168; accesso: accesso esterno; (z.d. 3)";VIA ;MODENA GUSTAVO;;3122;3;gs;"alimentare;non alimentare";;2212;1050
+"VIA MORGANTINI MARIO N. 15 ; isolato:280; accesso: accesso esterno; (z.d. 7)";VIA ;MORGANTINI MARIO;15;6568;7;esselunga;"alimentare;non alimentare";594;1654;1060
+"PZA FRATTINI PIETRO num.008; isolato:124; accesso: accesso esterno; (z.d. 6)";PZA ;FRATTINI PIETRO;;5389;6;upim;"alimentare;non alimentare";;1710;1060
+VIA MAFFUCCI ANGIOLO N. 18 (z.d. 9);VIA ;MAFFUCCI ANGIOLO;18;1276;9;;"Non Alimentare;Alimentare";;1175;1070
+"VIA DOGANA N. 4 ;via mazzini giuseppe 002; isolato:447; accesso: accesso esterno; (z.d. 1)";VIA ;DOGANA;4;341;1;sisley;non alimentare;;1595;1076
+"VIA MONTE NAPOLEONE N. 2 ;via monte napoleone 002; isolato:263; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;2;219;1;collezioni g. armani;non alimentare;;1630;1092
+"CSO BUENOS AIRES N. 64 ; isolato:027; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;64;2129;3;euromics galimberti;non alimentare;;1100;1100
+"VIA STRIGELLI GAETANO N. 8 ; isolato:079; accesso: accesso esterno; (z.d. 4)";VIA ;STRIGELLI GAETANO;8;3214;4;pam;"alimentare;non alimentare";;1974;1100
+"VLE MURILLO S.B. N. 5 ; isolato:255; accesso: accesso esterno; (z.d. 7)";VLE ;MURILLO S.B.;5;6551;7;darty;non alimentare;;2000;1100
+"VIA FELTRE N. 30 ; isolato:067; accesso: accesso esterno; (z.d. 3)";VIA ;FELTRE;30;2652;3;;non alimentare;;1100;1100
+PZA DELLA TRIVULZIANA N. 6 (z.d. 9);PZA ;DELLA TRIVULZIANA;6;1765;9;;non alimentare;;1427;1100
+"PZA DELLA TRIVULZIANA N. 5 ; accesso: accesso esterno; (z.d. 9)";PZA ;DELLA TRIVULZIANA;5;1765;9;;non alimentare;;1740;1100
+"CSO LODI N. 6 ; isolato:192; accesso: accesso esterno; (z.d. 5)";CSO ;LODI;6;4068;5;bruno castoldi;non alimentare;;1106;1106
+"VIA OROPA num.004; isolato:015; accesso: accesso esterno; (z.d. 2)";VIA ;OROPA;;2381;2;melablu;non alimentare;;1250;1107
+"VIA LORENTEGGIO N. 240 ; isolato:051; accesso: accesso esterno; (z.d. 6)";VIA ;LORENTEGGIO;240;5132;6;lidl;"alimentare;non alimentare";;1377;1112
+"VIA PADOVA N. 224 ; isolato:232; accesso: accesso esterno; (z.d. 2)";VIA ;PADOVA;224;2275;2;sma supermercati;"alimentare;non alimentare";;2148;1120
+"VIA QUARENGHI GIACOMO N. 23 centro commerciale bonola; isolato:300; accesso: accesso interno; (z.d. 8)";VIA ;QUARENGHI GIACOMO;23;7478;8;brico io;non alimentare;;1125;1125
+"VIA LORENTEGGIO N. 246 ; isolato:051; accesso: accesso esterno; (z.d. 6)";VIA ;LORENTEGGIO;246;5132;6;supermarket del legno;non alimentare;;1128;1128
+"VLE GIOVANNI DA CERMENATE N. 62 ; isolato:023; (z.d. 5)";VLE ;GIOVANNI DA CERMENATE;62;5261;5;;"alimentare;non alimentare";;1952;1130
+PZA DELLA TRIVULZIANA N. 6 (z.d. 9);PZA ;DELLA TRIVULZIANA;6;1765;9;;"alimentare;non alimentare";;1785;1130
+"VLE CERTOSA N. 59 ; isolato:315; accesso: accesso esterno; (z.d. 8)";VLE ;CERTOSA;59;7174;8;esselunga vle certosa;"alimentare;non alimentare";;1530;1144
+"VIA VALSOLDA N. 11 ; isolato:022; accesso: accesso interno; (z.d. 6)";VIA ;VALSOLDA;11;5288;6;;non alimentare;;2150;1150
+VIA ASTESANI ALESSANDRO N. 39 (z.d. 9);VIA ;ASTESANI ALESSANDRO;39;1558;9;;Non Alimentare;;1722;1150
+"VLE CASSALA N. 14 ; isolato:153; accesso: area ap.rec.; (z.d. 6)";VLE ;CASSALA;14;5275;6;lidl;"alimentare;non alimentare";;1353;1154
+"VIA SOLARI ANDREA N. 5 ; isolato:026; accesso: accesso esterno; (z.d. 6)";VIA ;SOLARI ANDREA;5;5111;6;euromics galimberti;non alimentare;;1157;1157
+"VIA SPADARI num.007/9; isolato:440; accesso: accesso esterno; (z.d. 1)";VIA ;SPADARI;;518;1;peck;"alimentare;non alimentare";;1160;1160
+"VIA BOVISASCA int.centro commerciale num.173; accesso: accesso interno; (z.d. 9)";;;;;;conad;"alimentare;non alimentare";;1166;1166
+"CSO BUENOS AIRES num.033/35; isolato:059; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;;2129;3;ricordi medi store;non alimentare;;1743;1190
+"CSO BUENOS AIRES num.033/35; isolato:059; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;;2129;3;ricordi medi store;non alimentare;;1743;1190
+"VLE CASSALA N. 22 ; isolato:154; accesso: accesso esterno; (z.d. 6)";VLE ;CASSALA;22;5275;6;esselunga;"alimentare;non alimentare";;1191;1191
+"VIA ROSSI PELLEGRINO N. 33 ; isolato:182; accesso: accesso esterno; (z.d. 9)";VIA ;ROSSI PELLEGRINO;33;1510;9;supermarket;;;1197;1197
+"VIA SOLFERINO N. 39 ; isolato:006; accesso: accesso interno; (z.d. 1)";VIA ;SOLFERINO;39;1028;1;;non alimentare;8;1208;1200
+"PZA VESUVIO N. 19 ; isolato:280; accesso: accesso esterno; (z.d. 7)";PZA ;VESUVIO;19;6110;7;;non alimentare;1600;2800;1200
+"VIA PASTORELLI GIOVANNI N. 19 ; isolato:061; accesso: accesso esterno; (z.d. 6)";VIA ;PASTORELLI GIOVANNI;19;5274;6;euroarredi;non alimentare;15;1215;1200
+"VIA BERGAMO N. 10 ; isolato:112; accesso: accesso esterno; (z.d. 4)";VIA ;BERGAMO;10;3189;4;esselunga;"alimentare;non alimentare";;1312;1200
+"VIA ORNATO LUIGI N. 28 ; isolato:070; accesso: accesso esterno; (z.d. 9)";VIA ;ORNATO LUIGI;28;1591;9;coop;"alimentare;non alimentare";;1200;1200
+"VIA MAC MAHON N. 128 ; isolato:269; accesso: accesso esterno; (z.d. 8)";VIA ;MAC MAHON;128;7221;8;esselunga;"alimentare;non alimentare";676;1876;1200
+"VIA INGANNI ANGELO num.085/89; isolato:048; accesso: accesso esterno; (z.d. 6)";;;;;;pam;"alimentare;non alimentare";;2040;1200
+"VIA MARCO BRUTO num.016/18; isolato:055; accesso: accesso esterno; (z.d. 4)";VIA ;MARCO BRUTO;;3322;4;betta e cereda srl;non alimentare;;2700;1200
+"VIA PITAGORA N. 7 ; isolato:015; accesso: accesso esterno; (z.d. 2)";VIA ;PITAGORA;7;2405;2;brico io;non alimentare;;1200;1200
+"CSO BUENOS AIRES N. 54 ; isolato:045; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;54;2129;3;impala srl.;non alimentare;;1909;1200
+"VIA OLTROCCHI BALDASSARE N. 11 ; isolato:079; accesso: accesso esterno; (z.d. 4)";VIA ;OLTROCCHI BALDASSARE;11;3217;4;oviesse;"alimentare;non alimentare";;1523;1209
+GLL DEL CORSO N. 4 (z.d. 1);GLL ;DEL CORSO;4;305;1;;non alimentare;;1597;1217
+VIA SAN RAFAEL DELLE ANDE n. 6/1 con ingresso da via de marchi emilio n. 10 (z.d. 2);VIA ;SAN RAFAEL DELLE ANDE;;1457;2;;Non Alimentare;;1410;1219
+"VLE VIGLIANI PAOLO ONORATO num.059; isolato:169; accesso: accesso esterno; (z.d. 8)";VLE ;VIGLIANI PAOLO ONORATO;;6422;8;esselunga;;;1225;1225
+"VIA ARONA num.015; accesso: accesso esterno; (z.d. 8)";VIA ;ARONA;;7169;8;;non alimentare;;1227;1227
+"VIA MEUCCI ANTONIO num.041; accesso: accesso esterno; (z.d. 2)";VIA ;MEUCCI ANTONIO;;2497;2;cargo (high-tech srl);non alimentare;;3600;1244
+"GLL PATTARI N. 2 ;gll pattari 002; isolato:420; accesso: accesso esterno; (z.d. 1)";GLL ;PATTARI;2;296;1;;Non Alimentare;;1344;1244
+"VIA SAN GREGORIO N. 1 ; isolato:105; accesso: accesso esterno; (z.d. 3)";VIA ;SAN GREGORIO;1;2123;3;;non alimentare;;1535;1250
+"VIA DELLE FORZE ARMATE N. 312 ; isolato:158; accesso: accesso esterno; (z.d. 7)";VIA ;DELLE FORZE ARMATE;312;6643;7;standa superfresco;"alimentare;non alimentare";;2875;1250
+"VIA DELLA CHIESA ROSSA N. 43 ; isolato:042; accesso: area ap.rec.; (z.d. 5)";VIA ;DELLA CHIESA ROSSA;43;5321;5;lidl;"alimentare;non alimentare";;1981;1270
+CSO BUENOS AIRES N. 8 (z.d. 3);CSO ;BUENOS AIRES;8;2129;3;;Non Alimentare;;2441;1277
+"VIA AREZZO num.007/1; accesso: accesso esterno; ()";VIA ;AREZZO;;1444;9;dico;"alimentare;non alimentare";;1280;1280
+VIA MONTE NAPOLEONE N. 6A (z.d. 1);VIA ;MONTE NAPOLEONE;6A;219;1;;Non Alimentare;;1640;1290
+"CSO GARIBALDI GIUSEPPE num.072/1; isolato:173; accesso: accesso esterno; (z.d. 1)";;;;;;oviesse;"alimentare;non alimentare";;1328;1300
+"VLE MONZA N. 134 ; isolato:178; accesso: area ap.rec.; (z.d. 2)";VLE ;MONZA;134;2274;2;gs;"alimentare;non alimentare";;2240;1300
+"VIA VALASSINA N. 12 ; isolato:073; accesso: accesso esterno; (z.d. 9)";VIA ;VALASSINA;12;1314;9;lidl supermarket;"alimentare;non alimentare";;1568;1300
+VIA DELLA PECETTA n. 31/33;VIA ;DELLA PECETTA;;7251;8;;"Alimentare;Non Alimentare";;1929;1300
+"VIA SODERINI LUIGI N. 48 ; isolato:070; accesso: accesso esterno; (z.d. 6)";VIA ;SODERINI LUIGI;48;6675;6;carrefour;"alimentare;non alimentare";;2110;1308
+"CSO VITTORIO EMANUELE II num.024/28; (z.d. 1)";CSO ;VITTORIO EMANUELE II;;214;1;;Non Alimentare;;1640;1318
+"VIA LORENTEGGIO N. 3 ; isolato:152; accesso: accesso esterno; (z.d. 6)";VIA ;LORENTEGGIO;3;5132;6;il gigante;"alimentare;non alimentare";;1320;1320
+"PZA SAN BABILA N. 1 ;pza san babila 001; isolato:316; accesso: accesso esterno; (z.d. 1)";PZA ;SAN BABILA;1;216;1;;non alimentare;;1810;1329
+"VIA GATTAMELATA N. 41 ; isolato:328; accesso: accesso esterno; (z.d. 8)";VIA ;GATTAMELATA;41;7156;8;;non alimentare;;1330;1330
+"CSO VITTORIO EMANUELE II N. 22 ;cso vittorio emanuele ii 000; accesso: accesso esterno; (z.d. 1)";CSO ;VITTORIO EMANUELE II;22;214;1;bershka;non alimentare;;2652;1341
+"VIA MARIANI POMPEO N. 2 ; isolato:120; accesso: accesso esterno; (z.d. 2)";VIA ;MARIANI POMPEO;2;2490;2;;non alimentare;;1350;1350
+"VLE FORLANINI ENRICO num.063/75; (z.d. 4)";;;;;;;non alimentare;;1350;1350
+"VIA HOEPLI ULRICO N. 5 ;via hoepli ulrico 005; isolato:384; accesso: accesso esterno; (z.d. 1)";VIA ;HOEPLI ULRICO;5;190;1;;non alimentare;500;1890;1390
+"VLE PAPINIANO N. 27 ; isolato:064; accesso: accesso esterno; (z.d. 1)";VLE ;PAPINIANO;27;5097;1;esselunga;"alimentare;non alimentare";996;2396;1400
+"VIA DELLE FORZE ARMATE N. 199 ; isolato:181; accesso: accesso esterno; (z.d. 7)";VIA ;DELLE FORZE ARMATE;199;6643;7;esselunga;"alimentare;non alimentare";508;1908;1400
+"VIA GROSOTTO N. 7 ex area portello edificio 3; isolato:249; (z.d. 8)";VIA ;GROSOTTO;7;7328;8;;"alimentare;non alimentare";;1636;1400
+"PZA DEL LIBERTY N. 4 ;pza del liberty 004; isolato:361; accesso: accesso esterno; (z.d. 1)";PZA ;DEL LIBERTY;4;98;1;max mara;non alimentare;;2125;1415
+"VIA MAESTRI CAMPIONESI N. 7 ; isolato:072; accesso: accesso esterno; (z.d. 4)";VIA ;MAESTRI CAMPIONESI;7;3197;4;gs supermercato;"alimentare;non alimentare";22;2852;1416
+"CSO VENEZIA N. 14 ;cso venezia 014; isolato:190; accesso: accesso esterno; (z.d. 1)";CSO ;VENEZIA;14;238;1;;non alimentare;190;1625;1435
+"VLE TESTI FULVIO N. 22 ; isolato:156; accesso: accesso esterno; (z.d. 9)";VLE ;TESTI FULVIO;22;1441;9;opel gerli;non alimentare;2000;3440;1440
+VIA ADRIANO PUBLIO ELIO angolo via brambilla;;;;;;;"Alimentare;Non Alimentare";;1887;1458
+VIA RISMONDO FRANCESCO N. 4 (z.d. 7);VIA ;RISMONDO FRANCESCO;4;6756;7;;Non Alimentare;;1672;1458
+"CSO LODI N. 38 ; isolato:200; accesso: accesso esterno; (z.d. 5)";CSO ;LODI;38;4068;5;chateau d ax;non alimentare;;2395;1480
+"VIA MONTE NAPOLEONE N. 5 ;via monte napoleone 005; isolato:315; accesso: accesso esterno; (z.d. 1)";VIA ;MONTE NAPOLEONE;5;219;1;gucci;non alimentare;;2429;1482
+"VIA QUARENGHI GIACOMO N. 23 ; isolato:300; accesso: accesso interno; (z.d. 8)";VIA ;QUARENGHI GIACOMO;23;7478;8;upim;non alimentare;;1836;1490
+"VIA PEZZOTTI GIOVANNI num.000; isolato:017; accesso: accesso esterno; (z.d. 5)";VIA ;PEZZOTTI GIOVANNI;;5244;5;esselunga;"alimentare;non alimentare";;1490;1490
+"VIA RIPAMONTI GIUSEPPE N. 175 ; isolato:109; accesso: accesso esterno; (z.d. 5)";VIA ;RIPAMONTI GIUSEPPE;175;4066;5;oviesse;"alimentare;non alimentare";;2332;1490
+"VIA SANTA RADEGONDA N. 10 mq. 675 i piano mq. 815 ii pia;via santa radegonda 010; isolato:419; accesso: accesso esterno; (z.d. 1)";VIA ;SANTA RADEGONDA;10;208;1;la rinascente;non alimentare;;1490;1490
+VIA GRASSI GIOVANNI BATTISTA N. 15 (z.d. 8);VIA ;GRASSI GIOVANNI BATTISTA;15;7465;8;;Non Alimentare;;1958;1490
+VIA GUINTELLINO GUGLIELMO N. 26 (z.d. 6);VIA ;GUINTELLINO GUGLIELMO;26;5369;6;;"alimentare;non alimentare";;1491;1491
+"VIA GALLARATE N. 199 ; isolato:202; accesso: accesso esterno; (z.d. 8)";VIA ;GALLARATE;199;7420;8;peugeot;non alimentare;;1495;1495
+"CSO MATTEOTTI GIACOMO N. 12 ;cso matteotti giacomo 012; isolato:316; accesso: accesso esterno; (z.d. 1)";CSO ;MATTEOTTI GIACOMO;12;218;1;aber crombie e fich;non alimentare;;2186;1496
+CSO EUROPA N. 22 (z.d. 1);CSO ;EUROPA;22;300;1;;non alimentare;;2260;1496
+"VIA NOVARA num.083; isolato:044; accesso: accesso esterno; (z.d. 7)";;;;;;toys center;"alimentare;non alimentare";;3107;1499
+"VIA ANTONINI GIACOMO N. 26 ; isolato:099; (z.d. 5)";VIA ;ANTONINI GIACOMO;26;4250;5;;non alimentare;;1499;1499
+"VIA ROGOREDO num.000; ()";VIA ;ROGOREDO;;4373;4;;alimentare;;1499;1499
+"VIA ROGOREDO num.000; ()";VIA ;ROGOREDO;;4373;4;;non alimentare;;1499;1499
+"VIA ROGOREDO num.000; ()";VIA ;ROGOREDO;;4373;4;;non alimentare;;1499;1499
+"VIA ROGOREDO num.000; ()";VIA ;ROGOREDO;;4373;4;;non alimentare;;1499;1499
+"VIA ROGOREDO num.000; ()";VIA ;ROGOREDO;;4373;4;;non alimentare;;1499;1499
+VIA ANTONINI GIACOMO N. 32 (z.d. 5);VIA ;ANTONINI GIACOMO;32;4250;5;;"alimentare;non alimentare";;2273;1499
+"VIA ZANELLA GIACOMO N. 61 ; isolato:246; accesso: accesso esterno; (z.d. 4)";VIA ;ZANELLA GIACOMO;61;3257;4;;non alimentare;455;1955;1500
+"VIA ACHILLINI CLAUDIO N. 2 ; isolato:064; accesso: accesso esterno; (z.d. 9)";VIA ;ACHILLINI CLAUDIO;2;1605;9;;non alimentare;;1500;1500
+"VLE PIAVE N. 38 ; isolato:151; accesso: accesso esterno; (z.d. 3)";VLE ;PIAVE;38;2179;3;esselunga;"Alimentare;non alimentare";;1822;1500
+"CSO VITTORIO EMANUELE II N. 9 ;cso vittorio emanuele ii 009; isolato:361; accesso: accesso esterno; (z.d. 1)";CSO ;VITTORIO EMANUELE II;9;214;1;;non alimentare;;1500;1500
+"VIA BENADIR N. 5 ; isolato:288; (z.d. 2)";VIA ;BENADIR;5;2380;2;;non alimentare;;2200;1500
+"VIA BENADIR N. 5 ; isolato:288; accesso: accesso esterno; (z.d. 2)";VIA ;BENADIR;5;2380;2;;non alimentare;;1600;1500
+CSO VITTORIO EMANUELE II N. 24 (z.d. 1);CSO ;VITTORIO EMANUELE II;24;214;1;;non alimentare;;2104;1511
+"VIA SIRTORI GIUSEPPE N. 26 ; isolato:145; accesso: accesso interno; (z.d. 3)";VIA ;SIRTORI GIUSEPPE;26;2180;3;;non alimentare;;1530;1530
+"VIA FARINI CARLO N. 77 ; isolato:153; accesso: accesso esterno; (z.d. 9)";VIA ;FARINI CARLO;77;1114;9;carrefour;"alimentare;non alimentare";;2840;1580
+"VLE CORSICA ang.terenzio (pii 11) num.000; ()";VLE ;CORSICA;;3262;4;;non alimentare;;1675;1581
+"VIA TORINO N. 2 ;via torino 002; isolato:438; accesso: accesso esterno; (z.d. 1)";VIA ;TORINO;2;543;1;zara;Non Alimentare;;2527;1592
+"VIA PADOVA num.200; isolato:230; accesso: accesso esterno;";;;;;;carrefour;Non Alimentare;;1665;1620
+"VIA SPADARI N. 2 ;via spadari 002; isolato:438; accesso: accesso esterno; (z.d. 1)";VIA ;SPADARI;2;518;1;upim;"alimentare;non alimentare";;2692;1652
+"VIA ORSINI VINCENZO GIORDANO N. 2 ; isolato:207; accesso: accesso esterno; (z.d. 7)";VIA ;ORSINI VINCENZO GIORDANO;2;6648;7;io brico;"alimentare;non alimentare";159;1850;1691
+"VLE ZARA N. 123 ; isolato:082; accesso: accesso esterno; (z.d. 9)";VLE ;ZARA;123;1170;9;esselunga;"alimentare;non alimentare";;1700;1700
+"VIA FELTRE num.038; isolato:073; accesso: accesso esterno; (z.d. 3)";;;;;;esselunga;"alimentare;non alimentare";;1700;1700
+"GLL PASSARELLA N. 1 ;gll passarella 001; isolato:360; accesso: accesso esterno; (z.d. 1)";GLL ;PASSARELLA;1;303;1;h.e m. abbigliamento;non alimentare;;2200;1708
+"PZA DUCA D'AOSTA int. staz. centr. t2/a2/f2/m6 num.000; ()";PZA ;DUCA D'AOSTA;;1200;2;;"alimentare;non alimentare";;2566;1772
+"VIA LORENTEGGIO ang. v. redaelli 2 num.000; isolato:125; accesso: accesso esterno; (z.d. 6)";;;;;;oviesse;"alimentare;non alimentare";;5508;1780
+"VIA MARGHERA N. 28 ; isolato:212; accesso: accesso esterno; (z.d. 7)";VIA ;MARGHERA;28;6280;7;mondadori mulitcenter;"alimentare;non alimentare";;1900;1810
+VIA DELLA PECETTA n. 31/33;VIA ;DELLA PECETTA;;7251;8;sma/simply;"alimentare;non alimentare";;3000;1810
+"VIA MASOLINO DA PANICALE N. 7 ; isolato:300; accesso: accesso esterno; (z.d. 8)";VIA ;MASOLINO DA PANICALE;7;7264;8;upim sma;"alimentare;non alimentare";;2604;1819
+"VIA MANCINI LODOVICO N. 2 ; isolato:035; accesso: accesso esterno; (z.d. 4)";VIA ;MANCINI LODOVICO;2;3082;4;upim;"alimentare;non alimentare";;2835;1854
+"VIA GRASSI GIOVANNI BATTISTA N. 98 art. 38 c. 4 r.r. 3/2000; accesso: accesso esterno; (z.d. 8)";VIA ;GRASSI GIOVANNI BATTISTA;98;7465;8;car village;non alimentare;;7596;1899
+"PLE LORETO num.016; isolato:357; accesso: accesso esterno; (z.d. 3)";PLE ;LORETO;;2264;2;coin;"alimentare;non alimentare";1100;3684;1910
+"VIA LEGNONE N. 3 ; isolato:087; accesso: accesso esterno; (z.d. 9)";VIA ;LEGNONE;3;1298;9;esselunga vle jenner;"alimentare;non alimentare";;1920;1920
+"PZA PIEMONTE num.002/4; isolato:133; (z.d. 7)";PZA ;PIEMONTE;;6254;7;fined finanz.editoriale;non alimentare;;2800;1973
+"PLE LODI N. 3 v.le umbria ang. v. p.colletta; isolato:181; accesso: accesso interno; (z.d. 4)";PLE ;LODI;3;4249;4;media world;non alimentare;;2731;1981
+"VIA FOSCOLO UGO N. 3 ;gll vittorio emanuele 000; isolato:480; accesso: accesso esterno; (z.d. 1)";VIA ;FOSCOLO UGO;3;205;1;ricordi media store;non alimentare;;2510;2086
+"VIA DOGANA N. 2 angolo via marconi; (z.d. 1)";VIA ;DOGANA;2;341;1;;non alimentare;;3664;2092
+"CSO LODI num.098; accesso: accesso esterno; (z.d. 4)";;;;;;carrefour;"alimentare;non alimentare";;3202;2100
+"CSO VERCELLI N. 8 ; isolato:217; accesso: accesso esterno; (z.d. 7)";CSO ;VERCELLI;8;6193;7;united colors of benetton;non alimentare;;2228;2228
+"VIA F.LLI ANTONA TRAVERSI N. 18 ; isolato:061; accesso: accesso esterno; (z.d. 8)";VIA ;F.LLI ANTONA TRAVERSI;18;7354;8;sma;"alimentare;non alimentare";;3288;2272
+"PLE CHIESA DAMIANO N. 2 ; isolato:039; accesso: accesso esterno; (z.d. 8)";PLE ;CHIESA DAMIANO;2;7164;8;;non alimentare;;3277;2277
+"VIA DOGANA N. 2 angolo via marconi;via dogana 002; isolato:450; (z.d. 1)";VIA ;DOGANA;2;341;1;mondadori multicenter;non alimentare;;4208;2300
+"p.i.i. garibaldi repubblica  
+edificio podio
+u.i. u1";;;;;;;"Alimentare;Non Alimentare";;4222;2300
+"VLE TROYA CARLO N. 18 ; isolato:166; accesso: accesso interno; (z.d. 6)";VLE ;TROYA CARLO;18;5140;6;media world;non alimentare;;11200;2350
+"CSO BUENOS AIRES N. 19 aff. a tempo indeterminato; isolato:078; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;19;2129;3;benetton;"alimentare;non alimentare";;2700;2351
+GLL DEL CORSO N. 4 (z.d. 1);GLL ;DEL CORSO;4;305;1;;"Alimentare;Non Alimentare";;3306;2381
+"VIA DE AMICIS EDMONDO N. 29 1152+1242 al 31;via de amicis edmondo 023; isolato:128; accesso: accesso interno; (z.d. 1)";VIA ;DE AMICIS EDMONDO;29;574;1;;non alimentare;;2394;2394
+"VIA GIOVANNI DA PROCIDA ang. v. arona 15 num.000; isolato:040; accesso: accesso esterno; (z.d. 8)";;;;;;longoni sport punto giall;"alimentare;non alimentare";;2400;2400
+"PLE LORETO N. 5 ; isolato:357; accesso: accesso esterno; (z.d. 2)";PLE ;LORETO;5;2264;2;upim;"alimentare;non alimentare";;3597;2416
+"VLE CORSICA ang.via terenzio (pii 11) num.000; ()";VLE ;CORSICA;;3262;4;;"alimentare;non alimentare";;3011;2439
+"GLL DEL CORSO N. 2 ang.vitt.emanuele interno;cso vittorio emanuele ii 022; isolato:360; accesso: accesso esterno; (z.d. 1)";GLL ;DEL CORSO;2;305;1;messaggerie musicali;"alimentare;non alimentare";1010;3450;2440
+"VIA SARPI FRA' PAOLO N. 33 ; isolato:113; accesso: accesso esterno; (z.d. 1)";VIA ;SARPI FRA' PAOLO;33;7210;1;carrefour;"alimentare;non alimentare";;4898;2442
+"VIA CICOGNARA LEOPOLDO N. 2 ; isolato:183; accesso: accesso esterno; (z.d. 3)";VIA ;CICOGNARA LEOPOLDO;2;3106;3;standa superfresco;"alimentare;non alimentare";;4367;2469
+PZA DUCA D'AOSTA interno stazione centrale;PZA ;DUCA D'AOSTA;;1200;2;;Non Alimentare;;3858;2470
+"VIA NOVARA N. 86 ; isolato:129; accesso: accesso esterno; (z.d. 7)";VIA ;NOVARA;86;6624;7;esselunga;"alimentare;non alimentare";;3976;2490
+"VIA MARIANI POMPEO N. 2 ; isolato:120; accesso: accesso esterno; (z.d. 2)";VIA ;MARIANI POMPEO;2;2490;2;cityper sma;"alimentare;non alimentare";;2495;2495
+"CSO VITTORIO EMANUELE II N. 11 ;cso vittorio emanuele ii 011; isolato:361; accesso: accesso esterno; (z.d. 1)";CSO ;VITTORIO EMANUELE II;11;214;1;;"alimentare;non alimentare";;2500;2500
+"VLE UMBRIA N. 28 ; isolato:179; accesso: accesso esterno; (z.d. 4)";VLE ;UMBRIA;28;3145;4;esselunga spa.;"alimentare;non alimentare";;4307;2500
+VLE SUZZANI GIOVANNI N. 221 (z.d. 9);VLE ;SUZZANI GIOVANNI;221;1446;9;;"alimentare;non alimentare";;5234;2500
+"VIA BENADIR N. 5 ang. v. palmanova; isolato:288; accesso: accesso esterno; (z.d. 2)";VIA ;BENADIR;5;2380;2;;"alimentare;non alimentare";;2500;2500
+"VIA ADRIANO PUBLIO ELIO udc vi.2a pii ar.marelli num.000; ()";;;;;;;non alimentare;;3502;2500
+"VIA ADRIANO PUBLIO ELIO udc vi.2b pii ar.marelli casci num.000; ()";;;;;;;non alimentare;;3706;2500
+"VIA CADUTI DI MARCINELLE num.002/1; accesso: accesso esterno; (z.d. 3)";;;;;;;non alimentare;;2500;2500
+"VLE FAMAGOSTA p.p.famagosta area ms 16.10 num.000; ()";;;;;;;"alimentare;non alimentare";;3160;2500
+VIA ROSSI PELLEGRINO snc;;;;;;;"Alimentare;Non Alimentare";;2959;2500
+"VIA CUNEO N. 2 ; isolato:214; accesso: accesso esterno; (z.d. 7)";VIA ;CUNEO;2;6281;7;upim;"alimentare;non alimentare";;4908;2585
+"VIA POLESINE N. 39 ; isolato:055; accesso: accesso esterno; (z.d. 4)";VIA ;POLESINE;39;4159;4;upim;"alimentare;non alimentare";;3777;2637
+"VIA LORENTEGGIO ang. v. redaelli 2 num.000; isolato:125; accesso: accesso esterno;";;;;;;oviesse;;;2830;2830
+"FOR BUONAPARTE N. 74 ;for buonaparte 074; isolato:240; accesso: accesso esterno; (z.d. 1)";FOR ;BUONAPARTE;74;711;1;decathlon;"alimentare;non alimentare";;4200;2850
+"VIA ISOTTA CESARE N. 7 ; isolato:077; accesso: accesso esterno; (z.d. 5)";VIA ;ISOTTA CESARE;7;4354;5;esselunga;"alimentare;non alimentare";;2900;2900
+"VIA SORESINA GIOVANNI BATTISTA N. 14 ; isolato:240; accesso: accesso esterno; (z.d. 7)";VIA ;SORESINA GIOVANNI BATTISTA;14;6207;7;;non alimentare;40;3040;3000
+"PZA FRATTINI PIETRO N. 4 ; isolato:124; accesso: accesso esterno; (z.d. 6)";PZA ;FRATTINI PIETRO;4;5389;6;sma supermercati alimenta;"alimentare;non alimentare";;4134;3010
+"CSO BUENOS AIRES N. 21 ; isolato:078; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;21;2129;3;upim;"alimentare;non alimentare";;4607;3030
+"CSO BUENOS AIRES N. 35 ; isolato:059; accesso: accesso esterno; (z.d. 3)";CSO ;BUENOS AIRES;35;2129;3;oviesse;"alimentare;non alimentare";;3803;3100
+"VIA CASSINIS GIOVANNI BATTISTA N. 23 ; isolato:071; accesso: accesso esterno; (z.d. 4)";VIA ;CASSINIS GIOVANNI BATTISTA;23;4309;4;;non alimentare;;3163;3163
+"VIA TRIVULZIO ANTONIO TOLOMEO N. 12 ; isolato:007; accesso: accesso esterno; (z.d. 7)";VIA ;TRIVULZIO ANTONIO TOLOMEO;12;6277;7;iperstanda;"alimentare;non alimentare";2164;5570;3200
+"VIA DEI MISSAGLIA N. 22 ; isolato:056; accesso: accesso esterno; (z.d. 5)";VIA ;DEI MISSAGLIA;22;5340;5;standa superfresco;"alimentare;non alimentare";;5427;3213
+"VIA PALMANOVA N. 65 ; isolato:287; accesso: accesso esterno; (z.d. 2)";VIA ;PALMANOVA;65;2390;2;standa superfresco;"alimentare;non alimentare";;3323;3323
+"PLE CANTORE ANTONIO N. 12 ; isolato:040; accesso: accesso esterno; (z.d. 6)";PLE ;CANTORE ANTONIO;12;5103;6;coin;"alimentare;non alimentare";;4755;3470
+"CSO SAN GOTTARDO num.029/31; isolato:095; accesso: accesso esterno; (z.d. 5)";CSO ;SAN GOTTARDO;;5203;5;upim sma;"alimentare;non alimentare";;3863;3470
+"CSO VERCELLI num.030; isolato:216; accesso: accesso esterno; (z.d. 7)";CSO ;VERCELLI;;6193;7;coin;"alimentare;non alimentare";1300;5880;3500
+"VIA FARINI CARLO N. 79 ; isolato:153; accesso: accesso esterno; (z.d. 9)";VIA ;FARINI CARLO;79;1114;9;upim;"alimentare;non alimentare";;5285;3643
+"VIA PITTERI RICCARDO p.r.u. 8.1 pitteri-rubatino num.084; isolato:134; accesso: accesso esterno; (z.d. 3)";;;;;;esselunga;"alimentare;non alimentare";;6050;3800
+"VIA QUARENGHI GIACOMO N. 23 ; isolato:300; accesso: accesso interno; (z.d. 8)";VIA ;QUARENGHI GIACOMO;23;7478;8;ipercoop;"alimentare;non alimentare";;3990;3990
+"VIA NOVARA N. 15 ; isolato:105; accesso: accesso esterno; (z.d. 7)";VIA ;NOVARA;15;6624;7;sma;"alimentare;non alimentare";;6042;4009
+"PLE LODI N. 3 viale umbria ang. v.p.colletta; accesso: accesso interno; (z.d. 4)";PLE ;LODI;3;4249;4;ipercoop;"Alimentare;Non Alimentare";;4125;4125
+"VIA ORNATO LUIGI ang. via del regno italico num.000; (z.d. 9)";;;;;;;"alimentare;non alimentare";;5474;4280
+VIA LORENTEGGIO N. 219 (z.d. 6);VIA ;LORENTEGGIO;219;5132;6;;"alimentare;non alimentare";;7997;4300
+"VIA ADRIANO PUBLIO ELIO pii.marelli-cascina s.giuseppe num.000; (z.d. 7)";;;;;;;"alimentare;non alimentare";;6500;4413
+"VIA LORENTEGGIO N. 219 giordani 7 (pru 3.6); accesso: accesso esterno; (z.d. 6)";VIA ;LORENTEGGIO;219;5132;6;esselunga centro commerci;"alimentare;Non Alimentare";;7997;4500
+"VIA DE ANGELI CARLO N. 1 ex v. pompeo leoni 18 pru 1.1; accesso: accesso interno; (z.d. 5)";VIA ;DE ANGELI CARLO;1;4326;5;esselunga;"alimentare;non alimentare";;6269;4649
+"VIA DELLA PALLA N. 2 ;via torino 047; isolato:427; accesso: accesso esterno; (z.d. 1)";VIA ;DELLA PALLA;2;586;1;fnac e standa superfresco;"alimentare;non alimentare";;4720;4720
+"VIA DE ANGELI CARLO N. 1 ex v. pompeo leoni 18 pru 1.1; accesso: accesso interno; (z.d. 5)";VIA ;DE ANGELI CARLO;1;4326;5;licenza madre ce de angel;"alimentare;non alimentare";;8985;4900
+VIA PALIZZI FILIPPO N. 69 (z.d. 8);VIA ;PALIZZI FILIPPO;69;7451;8;esselunga;"alimentare;non alimentare";;6913;5040
+"VIA PALAZZOLO DON LUIGI N. 20 area ex portello; isolato:249; accesso: accesso esterno; (z.d. 8)";VIA ;PALAZZOLO DON LUIGI;20;7522;8;iper portello;"alimentare;non alimentare";;6500;5403
+"VIA BICOCCA DEGLI ARCIMBOLDI zona speciale z4-bicocca num.000; accesso: accesso esterno; (z.d. 9)";VIA ;BICOCCA DEGLI ARCIMBOLDI;;1728;9;;"alimentare;non alimentare";;9796;5500
+"VIA GOZZOLI BENOZZO N. 130 centro commerciale iper coop; accesso: accesso esterno; (z.d. 7)";VIA ;GOZZOLI BENOZZO;130;6789;7;ipercoop;"alimentare;non alimentare";;8000;5660
+"VIA PALIZZI FILIPPO N. 69 ; accesso: accesso esterno; (z.d. 8)";VIA ;PALIZZI FILIPPO;69;7451;8;licenza madre ce palizzi;"alimentare;non alimentare";;10000;5960
+"VIA GOZZOLI BENOZZO N. 130 lic. unitaria c.c. la torre; (z.d. 7)";VIA ;GOZZOLI BENOZZO;130;6789;7;;"alimentare;non alimentare";2000;8000;6000
+"VLE CERTOSA N. 29 ; isolato:330; accesso: accesso esterno; (z.d. 8)";VLE ;CERTOSA;29;7174;8;la rinascente s.p.a.;"alimentare;non alimentare";;10020;6350
+"PZA CINQUE GIORNATE num.001/a; isolato:032; accesso: accesso esterno;";;;;;;coin;"alimentare;non alimentare";;13202;6538
+"VIA PADOVA ang. v. olgettina num.000; isolato:176; accesso: accesso esterno; ()";;;;;;;"alimentare;non alimentare";;10000;7000
+"VIA ROGOREDO (in cassaforte) num.000; (z.d. 4)";VIA ;ROGOREDO;;4373;4;;;;15930;15930
+"VIA SANTA RADEGONDA N. 3 11 piani (10 f.t. e 1 int.);via santa radegonda 003; isolato:417; accesso: accesso esterno; (z.d. 1)";VIA ;SANTA RADEGONDA;3;208;1;la rinascente s.p.a.;;;20340;20340
+"VIA BONFADINI ROMUALDO localita' morsenchio num.000; ()";VIA ;BONFADINI ROMUALDO;;3341;4;;;;43000;24600
+"VIA DAIMLER GOTTLIEB WILHELM area cascina merlata num.000; ()";VIA ;DAIMLER GOTTLIEB WILHELM;;7587;8;;"alimentare;non alimentare";;44582;33000
+"VIA DAIMLER GOTTLIEB WILHELM area cascina merlata num.000; ()";VIA ;DAIMLER GOTTLIEB WILHELM;;7587;8;;"alimentare;non alimentare";;44582;33000

@@ -60,7 +60,14 @@ end
 
 def get_coordinate geojson
 	coordinates =  geojson['geometry']['coordinates'] if geojson['geometry']['type'] == 'Point'
-	coordinates.nil? ? "" : "#{coordinates[0]},#{coordinates[1]}"
+	return "" if coordinates.nil?
+	lat = coordinates[0].to_f
+	lon = coordinates[1].to_f
+	if(lat.between?(-90,90) && lon.between?(-180,180))
+		"#{coordinates[0]},#{coordinates[1]}"
+	else
+		return ''
+	end
 end
 
 def get_line_string geojson
@@ -115,7 +122,9 @@ end
 
 data.write(data_items.to_json)
 
-solr_testing = RSolr.connect :url => "http://localhost:8080/solr2/collection1" #"http://geoportal-dev.ies.jrc.it:8090/solr"
+solr_testing = RSolr.connect(:read_timeout => 120, :open_timeout => 120, :url => "http://localhost:8080/solr2/collection1") #"http://geoportal-dev.ies.jrc.it:8090/solr"
+
+
 
 solr_testing_response = solr_testing.get 'select', :params => {:q  => '*:*', :start => 2, :rows => 10000}
 solr_testing_response["response"]["docs"].each do |document|
@@ -123,13 +132,5 @@ solr_testing_response["response"]["docs"].each do |document|
   solr_testing.commit
 end
 
-data_items.each do |data_item|
-begin
-		solr_testing.add data_item
-		solr_testing.commit
-	
-rescue Exception => e
-	puts data_item.inspect
-	File.open('test','w').write(e)
-end
-end
+solr_testing.add data_items
+solr_testing.commit
