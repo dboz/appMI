@@ -1,0 +1,92 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "Id": "01", "Nome": "via Legnano", "Label": "LEGNANO", "Tipo": "Pedaggio", "ID_atm": 58 }, "geometry": { "type": "Point", "coordinates": [ 9.181094996099102, 45.476947913570655 ] } }
+,
+{ "type": "Feature", "id": 1, "properties": { "Id": "02", "Nome": "via di Porta Tenaglia", "Label": "PORTA TENAGLIA", "Tipo": "Pedaggio", "ID_atm": 57 }, "geometry": { "type": "Point", "coordinates": [ 9.181736387055363, 45.477615016755934 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "Id": "03", "Nome": "via della Moscova", "Label": "MOSCOVA", "Tipo": "Pedaggio", "ID_atm": 59 }, "geometry": { "type": "Point", "coordinates": [ 9.181902909864949, 45.478282962052511 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "Id": "04", "Nome": "via Volta", "Label": "VOLTA", "Tipo": "Pedaggio", "ID_atm": 60 }, "geometry": { "type": "Point", "coordinates": [ 9.182924909605417, 45.480523187776882 ] } }
+,
+{ "type": "Feature", "id": 4, "properties": { "Id": "05", "Nome": "corso Garibaldi", "Label": "GARIBALDI", "Tipo": "Pedaggio", "ID_atm": 61 }, "geometry": { "type": "Point", "coordinates": [ 9.18652972237672, 45.480148121091659 ] } }
+,
+{ "type": "Feature", "id": 5, "properties": { "Id": "06", "Nome": "via Milazzo", "Label": "MILAZZO", "Tipo": "Pedaggio", "ID_atm": 62 }, "geometry": { "type": "Point", "coordinates": [ 9.187838561801012, 45.479920813770903 ] } }
+,
+{ "type": "Feature", "id": 6, "properties": { "Id": "07", "Nome": "via Castelfidardo", "Label": "CASTELFIDARDO", "Tipo": "Pedaggio", "ID_atm": 63 }, "geometry": { "type": "Point", "coordinates": [ 9.191496914826532, 45.479455867797284 ] } }
+,
+{ "type": "Feature", "id": 7, "properties": { "Id": "08", "Nome": "via Turati", "Label": "TURATI", "Tipo": "Pedaggio", "ID_atm": 64 }, "geometry": { "type": "Point", "coordinates": [ 9.195748794193282, 45.477219957129179 ] } }
+,
+{ "type": "Feature", "id": 8, "properties": { "Id": "09", "Nome": "corso Venezia", "Label": "VENEZIA", "Tipo": "Pedaggio", "ID_atm": 65 }, "geometry": { "type": "Point", "coordinates": [ 9.204510521600636, 45.473999653299877 ] } }
+,
+{ "type": "Feature", "id": 9, "properties": { "Id": "10", "Nome": "via Baretti", "Label": "BARETTI", "Tipo": "Pedaggio", "ID_atm": 66 }, "geometry": { "type": "Point", "coordinates": [ 9.205037675733541, 45.471545364907705 ] } }
+,
+{ "type": "Feature", "id": 10, "properties": { "Id": "11", "Nome": "via Vitali", "Label": "VITALI", "Tipo": "Pedaggio", "ID_atm": 67 }, "geometry": { "type": "Point", "coordinates": [ 9.205062980382133, 45.470842190942065 ] } }
+,
+{ "type": "Feature", "id": 11, "properties": { "Id": "12", "Nome": "via Rossini", "Label": "ROSSINI", "Tipo": "Pedaggio", "ID_atm": 68 }, "geometry": { "type": "Point", "coordinates": [ 9.205282377750283, 45.469437339913739 ] } }
+,
+{ "type": "Feature", "id": 12, "properties": { "Id": "13", "Nome": "corso Monforte", "Label": "MONFORTE", "Tipo": "Pedaggio", "ID_atm": 69 }, "geometry": { "type": "Point", "coordinates": [ 9.20546401718209, 45.467746462601177 ] } }
+,
+{ "type": "Feature", "id": 13, "properties": { "Id": "14", "Nome": "via Mascagni", "Label": "MASCAGNI", "Tipo": "Pedaggio", "ID_atm": 70 }, "geometry": { "type": "Point", "coordinates": [ 9.205584650561978, 45.466513587576571 ] } }
+,
+{ "type": "Feature", "id": 14, "properties": { "Id": "15", "Nome": "corso di Porta Vittoria", "Label": "PORTA VITTORIA", "Tipo": "Pedaggio", "ID_atm": 71 }, "geometry": { "type": "Point", "coordinates": [ 9.206365640644162, 45.462396268964824 ] } }
+,
+{ "type": "Feature", "id": 15, "properties": { "Id": "16", "Nome": "corso di Porta Vittoria (TPL)", "Label": "PORTA VITTORIA", "Tipo": "Tpl", "ID_atm": 71 }, "geometry": { "type": "Point", "coordinates": [ 9.206353791616513, 45.462270657535036 ] } }
+,
+{ "type": "Feature", "id": 16, "properties": { "Id": "17", "Nome": "via Besana", "Label": "BESANA", "Tipo": "Pedaggio", "ID_atm": 72 }, "geometry": { "type": "Point", "coordinates": [ 9.206074303552686, 45.460102735090501 ] } }
+,
+{ "type": "Feature", "id": 17, "properties": { "Id": "18", "Nome": "via Lamarmora", "Label": "LAMARMORA", "Tipo": "Tpl", "ID_atm": 73 }, "geometry": { "type": "Point", "coordinates": [ 9.204113712817414, 45.457392003391291 ] } }
+,
+{ "type": "Feature", "id": 18, "properties": { "Id": "19", "Nome": "via Curtatone", "Label": "CURTATONE", "Tipo": "Pedaggio", "ID_atm": 74 }, "geometry": { "type": "Point", "coordinates": [ 9.202753493782714, 45.455151478039312 ] } }
+,
+{ "type": "Feature", "id": 19, "properties": { "Id": "20", "Nome": "corso di Porta Romana", "Label": "PORTA ROMANA", "Tipo": "Pedaggio", "ID_atm": 75 }, "geometry": { "type": "Point", "coordinates": [ 9.201568374741781, 45.452564866504879 ] } }
+,
+{ "type": "Feature", "id": 20, "properties": { "Id": "21", "Nome": "via Madre Cabrini", "Label": "CABRINI", "Tipo": "Pedaggio", "ID_atm": 76 }, "geometry": { "type": "Point", "coordinates": [ 9.198915249633643, 45.452296644872156 ] } }
+,
+{ "type": "Feature", "id": 21, "properties": { "Id": "22", "Nome": "corso di Porta Vigentina", "Label": "PORTA VIGENTINA", "Tipo": "Tpl", "ID_atm": 77 }, "geometry": { "type": "Point", "coordinates": [ 9.196444820338307, 45.45230739257822 ] } }
+,
+{ "type": "Feature", "id": 22, "properties": { "Id": "23", "Nome": "via Bianca di Savoia", "Label": "BIANCA DI SAVOIA", "Tipo": "Pedaggio", "ID_atm": 78 }, "geometry": { "type": "Point", "coordinates": [ 9.191054355986738, 45.452287541602921 ] } }
+,
+{ "type": "Feature", "id": 23, "properties": { "Id": "24", "Nome": "via Melegnano", "Label": "MELEGNANO", "Tipo": "Pedaggio", "ID_atm": 79 }, "geometry": { "type": "Point", "coordinates": [ 9.188654920207737, 45.452368018384611 ] } }
+,
+{ "type": "Feature", "id": 24, "properties": { "Id": "25", "Nome": "corso Italia", "Label": "ITALIA", "Tipo": "Tpl", "ID_atm": 80 }, "geometry": { "type": "Point", "coordinates": [ 9.186817087948011, 45.452589631390929 ] } }
+,
+{ "type": "Feature", "id": 25, "properties": { "Id": "26", "Nome": "via Aurispa", "Label": "AURISPA", "Tipo": "Pedaggio", "ID_atm": 81 }, "geometry": { "type": "Point", "coordinates": [ 9.18441186068975, 45.452808260801625 ] } }
+,
+{ "type": "Feature", "id": 26, "properties": { "Id": "27", "Nome": "corso di Porta Ticinese", "Label": "PORTA TICINESE", "Tipo": "Tpl", "ID_atm": 82 }, "geometry": { "type": "Point", "coordinates": [ 9.180274006207315, 45.4532553794878 ] } }
+,
+{ "type": "Feature", "id": 27, "properties": { "Id": "28", "Nome": "via Panzeri", "Label": "PANZERI", "Tipo": "Pedaggio", "ID_atm": 83 }, "geometry": { "type": "Point", "coordinates": [ 9.17837663908078, 45.453210925252257 ] } }
+,
+{ "type": "Feature", "id": 28, "properties": { "Id": "29", "Nome": "via Ronzoni", "Label": "RONZONI", "Tipo": "Pedaggio", "ID_atm": 84 }, "geometry": { "type": "Point", "coordinates": [ 9.176284002346909, 45.4543321753981 ] } }
+,
+{ "type": "Feature", "id": 29, "properties": { "Id": "30", "Nome": "corso Genova", "Label": "GENOVA", "Tipo": "Pedaggio", "ID_atm": 85 }, "geometry": { "type": "Point", "coordinates": [ 9.173768939229037, 45.455982749448808 ] } }
+,
+{ "type": "Feature", "id": 30, "properties": { "Id": "31", "Nome": "via Ausonio", "Label": "AUSONIO", "Tipo": "Pedaggio", "ID_atm": 86 }, "geometry": { "type": "Point", "coordinates": [ 9.171371667531465, 45.457606542824962 ] } }
+,
+{ "type": "Feature", "id": 31, "properties": { "Id": "32", "Nome": "piazza Sant'Agostino", "Label": "SANT'AGOSTINO", "Tipo": "Pedaggio", "ID_atm": 87 }, "geometry": { "type": "Point", "coordinates": [ 9.16975259571795, 45.458653346542604 ] } }
+,
+{ "type": "Feature", "id": 32, "properties": { "Id": "33", "Nome": "via Servio Tullio", "Label": "SERVIO TULLIO", "Tipo": "Pedaggio", "ID_atm": 88 }, "geometry": { "type": "Point", "coordinates": [ 9.16862245643641, 45.459318099506056 ] } }
+,
+{ "type": "Feature", "id": 33, "properties": { "Id": "34", "Nome": "via degli Olivetani", "Label": "OLIVETANI", "Tipo": "Tpl", "ID_atm": 89 }, "geometry": { "type": "Point", "coordinates": [ 9.166913496300273, 45.460318647697953 ] } }
+,
+{ "type": "Feature", "id": 34, "properties": { "Id": "35", "Nome": "via Bandello", "Label": "BANDELLO", "Tipo": "Pedaggio", "ID_atm": 90 }, "geometry": { "type": "Point", "coordinates": [ 9.165291601196847, 45.462839327351496 ] } }
+,
+{ "type": "Feature", "id": 35, "properties": { "Id": "36", "Nome": "via San Vittore", "Label": "SAN VITTORE", "Tipo": "Pedaggio", "ID_atm": 91 }, "geometry": { "type": "Point", "coordinates": [ 9.165995139086304, 45.46464000546289 ] } }
+,
+{ "type": "Feature", "id": 36, "properties": { "Id": "37", "Nome": "corso Magenta", "Label": "MAGENTA", "Tipo": "Tpl", "ID_atm": 92 }, "geometry": { "type": "Point", "coordinates": [ 9.166377240185405, 45.465949774872321 ] } }
+,
+{ "type": "Feature", "id": 37, "properties": { "Id": "38", "Nome": "via Boccaccio", "Label": "BOCCACCIO", "Tipo": "Pedaggio", "ID_atm": 93 }, "geometry": { "type": "Point", "coordinates": [ 9.166924009988726, 45.467469980405703 ] } }
+,
+{ "type": "Feature", "id": 38, "properties": { "Id": "39", "Nome": "via Venti Settembre", "Label": "XX SETTEMBRE", "Tipo": "Pedaggio", "ID_atm": 94 }, "geometry": { "type": "Point", "coordinates": [ 9.166857913975694, 45.467771559215841 ] } }
+,
+{ "type": "Feature", "id": 39, "properties": { "Id": "40", "Nome": "via Bazzoni", "Label": "BAZZONI", "Tipo": "Pedaggio", "ID_atm": 95 }, "geometry": { "type": "Point", "coordinates": [ 9.166434544399989, 45.467898348268541 ] } }
+,
+{ "type": "Feature", "id": 40, "properties": { "Id": "41", "Nome": "via Mascheroni", "Label": "MASCHERONI", "Tipo": "Pedaggio", "ID_atm": 96 }, "geometry": { "type": "Point", "coordinates": [ 9.166058626350262, 45.469423585165579 ] } }
+,
+{ "type": "Feature", "id": 41, "properties": { "Id": "42", "Nome": "via Monti", "Label": "MONTI", "Tipo": "Pedaggio", "ID_atm": 97 }, "geometry": { "type": "Point", "coordinates": [ 9.169087591444692, 45.470916212659155 ] } }
+,
+{ "type": "Feature", "id": 42, "properties": { "Id": "43", "Nome": "viale Milton", "Label": "MILTON", "Tipo": "Pedaggio", "ID_atm": 98 }, "geometry": { "type": "Point", "coordinates": [ 9.170103305624739, 45.473806596716813 ] } }
+
+]
+}
