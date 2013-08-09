@@ -124,15 +124,15 @@ t = File.open('test_address','w')
 table.each do |row|
 	address = "#{address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy".split(' ').join('+')
 	#address = "Milano #{row['UBICAZIONE']}".gsub('.','').gsub('/','').gsub(';','').split('(')[0].split(' ').join('+')
-	#request = "http://maps.googleapis.com/maps/api/geocode/json?address=#{address}&sensor=false"
-	request = "http://www.datasciencetoolkit.org/maps/api/geocode/json?sensor=false&address=#{address}"
-	'http://www.datasciencetoolkit.org/maps/api/geocode/json?sensor=false&address=1600+Amphitheatre+Parkway,+Mountain+View,+CA'
+	request = "http://maps.googleapis.com/maps/api/geocode/json?address=#{address}&sensor=false"
+	#request = "http://www.datasciencetoolkit.org/maps/api/geocode/json?sensor=false&address=#{address}"
+	#request =  "http://www.mapquestapi.com/geocoding/v1/address?location=#{address}&key=Fmjtd%7Cluub25612h%2C70%3Do5-9u8lh0&country=italy"
 	#puts address
 	content = JSON.parse(open(request).read)
-	
+	puts content.inspect
 	begin
-	lat =  content['results'][0]['geometry']['location']['lat']
-	lon =  content['results'][0]['geometry']['location']['lng']
+	#lat =  content['results'][0]['geometry']['location']['lat']
+	#lon =  content['results'][0]['geometry']['location']['lng']
 	#puts content.inspect
 	rescue Exception => e
 		#puts address
@@ -144,7 +144,7 @@ table.each do |row|
 	end
 	
 	
-	puts "#{lat.to_f},#{lon.to_f}"
+	#puts "#{lat.to_f},#{lon.to_f}"
 	element =  {}
 	element['address'] = row['UBICAZIONE'].split(';')[0]
 	element['name'] = row['INSEGNA'] || 'Servizio pubblico'
@@ -157,7 +157,7 @@ table.each do |row|
 	element['number_of_stars'] = row['CATEGORIA'] unless row['CATEGORIA'].nil?
 	data_items << element
 	i += 1
-	
+	break
 end
 	t.close
 =begin
