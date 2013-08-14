@@ -18,7 +18,7 @@ end
 
 puts data_items.length
 
-solr_testing = RSolr.connect(:read_timeout => 120, :open_timeout => 120, :url => "http://localhost:8080/solr2/collection1") #"http://geoportal-dev.ies.jrc.it:8090/solr"
+solr_testing = RSolr.connect(:read_timeout => 120, :open_timeout => 120, :url => "http://localhost:8080/solr/app-mi") #"http://geoportal-dev.ies.jrc.it:8090/solr"
 
 solr_testing.update :data => '<delete><query>*:*</query></delete>'
 solr_testing.commit
