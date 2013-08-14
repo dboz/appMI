@@ -218,8 +218,3 @@ end
 
 data.write(data_items.to_json)
 data.close
-
-=begin
-	
-sanità, farmacie, cittadino, servizi	
-end

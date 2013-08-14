@@ -19,35 +19,64 @@ UTF8_REGEX = /\A(
    )*\Z/nx;
 
 i = 0
-data_items = Array.new
-data = File.open("data2.json",'w')
 
-=begin
-table = DBF::Table.new("E:/github/appMI/dbf_data/ServiziAllaPersona.dbf")
-columns = Array.new
-table.columns.each do |column|
-	columns << column.name
+$address_mapping = {
+	"CSO" => 'Corso',
+	"GLL" => 'Galleria',
+	"LGO" => "Largo",
+	"PLE" => 'Piazzale',
+	"PZA" => 'Piazza',
+	"VIA" => 'Via',
+	"ALZ" => 'Via',
+	"VLE" => 'Viale'
+}
+
+def __getLatLon(row)
+	address = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy".split(' ').join('+')
+	request = "http://maps.googleapis.com/maps/api/geocode/json?address=#{address}&sensor=false"
+	content = JSON.parse(open(request).read)
+	begin
+	lat =  content['results'][0]['geometry']['location']['lat']
+	lon =  content['results'][0]['geometry']['location']['lng']
+	rescue Exception => e
+		open('log', 'a') do |f|
+  			f << "#{e.inspect} \n"
+  			f << "#{row.inspect} \n"
+		end
+	end
+	sleep 3
+	return "#{lat.to_f},#{lon.to_f}"
 end
+
+def getLatLon(row)
+	""
+end
+
+#SERVIZI ALLA PESONA
+data = File.open("ServiziAllaPersona.json",'w')
+data_items = Array.new
+table = DBF::Table.new("E:/github/appMI/dbf_data/ServiziAllaPersona.dbf")
 
 table.each do |row|
 	element =  {}
-	element['address'] = row['UBICAZIONE'].split(';')[0]
+	element['address'] = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
 	element['name'] = row['TIPO_ESER_'].split(';')[0]
 	element['zone'] = row['ZD'].to_i.to_s
-	element['category'] = "ServizioPubblico"
-	element['sub_category'] = "ServizioAllaPersona"
-	element['description'] = row['TIPO_ESER_'].split(';')
+	element['category'] = "ServizioAllaPersona"
+	element['sub_category'] = row['TIPO_ESER_'].split(';')
+	element['description'] =  "#{row['UBICAZIONE']}".split(';') + ["Superfice esercizio: #{row['SUPERFICI2'].to_i}"]
 	element['id'] = i
+	element['place'] = getLatLon(row)
 	data_items << element
 	i += 1
 end
+data.write(data_items.to_json)
+data.close
 
-
+#SITI OPEN WI-FI
+data = File.open("siti_openwifi2.json",'w')
+data_items = Array.new
 table = DBF::Table.new("E:/github/appMI/dbf_data/siti_openwifi2.dbf")
-columns = Array.new
-table.columns.each do |column|
-	columns << column.name
-end
 
 table.each do |row|
 	element =  {}
@@ -60,155 +89,115 @@ table.each do |row|
 	data_items << element
 	i += 1
 end
+data.write(data_items.to_json)
+data.close
 
-
+#SOMMINISTRAZIONE FUORI PIANO
+data = File.open("SomministrazioneFuoriPiano.json",'w')
+data_items = Array.new
 table = DBF::Table.new("E:/github/appMI/dbf_data/SomministrazioneFuoriPiano.dbf")
-columns = Array.new
-table.columns.each do |column|
-	columns << column.name
-end
 
 table.each do |row|
 	element =  {}
-	element['address'] = row['UBICAZIONE'].split(';')[0]
+	element['address'] = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
 	element['name'] = row['INSEGNA'] || 'Servizio pubblico'
 	element['zone'] = row['ZD'].to_i.to_s
-	element['category'] = "ServizioPubblico"
-	element['sub_category'] = "SomministrazioneFuoriPiano"
-	element['description'] = ["Forma commerciale: #{row['FORMA_COMM']}","Forma vendita: #{row['FORMA_VEND']}" ]
+	element['category'] = "PubblicoEsercizio"
+	element['sub_category'] = ["Pubblici Esercizi Fuori Piano"]
+	element['description'] = ["Forma commerciale: #{row['FORMA_COMM']}","Forma vendita: #{row['FORMA_VEND']}", "Superfice esercizio: #{row['SUPERFICIE'].to_i}" ] + "#{row['UBICAZIONE']}".split(';')
 	element['id'] = i
+	element['place'] = getLatLon(row)
 	data_items << element
 	i += 1
 end
+data.write(data_items.to_json)
+data.close
 
+# SOMMINISTRAZIONE IN PIANO
+data = File.open("SomministrazioneInPiano.json",'w')
+data_items = Array.new
 table = DBF::Table.new("E:/github/appMI/dbf_data/SomministrazioneInPiano.dbf")
-columns = Array.new
-table.columns.each do |column|
-	columns << column.name
-end
 
 table.each do |row|
 	element =  {}
-	element['address'] = row['UBICAZIONE'].split(';')[0]
+	element['address'] = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
 	element['name'] = row['TIPO_ESER_'] || 'Servizio pubblico'
 	element['zone'] = row['ZD'].to_i.to_s
-	element['category'] = "ServizioPubblico"
-	element['sub_category'] = ["SomministrazioneInPiano"]
-	element['description'] = ["Forma commerciale: #{row['FORMA_COMM']}","Forma vendita: #{row['FORMA_VEND']}", "#{row['SETTORE_ST']}"]
+	element['category'] = "PubblicoEsercizio"
+	element['sub_category'] = ["Pubblici Esercizi In Piano"]
+	element['description'] = ["Forma commerciale: #{row['FORMA_COMM']}","Forma vendita: #{row['FORMA_VEND']}", "#{row['SETTORE_ST']}"] + "#{row['UBICAZIONE']}".split(';')
 	element['id'] = i
+	element['place'] = getLatLon(row)
 	data_items << element
 	i += 1
 end
-=end
+data.write(data_items.to_json)
+data.close
 
-
-
+#STRUTTURE ALBERGHIERE
+data = File.open("StruttureAlberghiere.json",'w')
+data_items = Array.new
 table = DBF::Table.new("E:/github/appMI/dbf_data/StruttureAlberghiere.dbf")
-columns = Array.new
-table.columns.each do |column|
-	columns << column.name
-end
 
-address_mapping = {
-	"CSO" => 'Corso',
-	"GLL" => 'Galleria',
-	"LGO" => "Largo",
-	"PLE" => 'Piazzale',
-	"PZA" => 'Piazza',
-	"VIA" => 'Via',
-	"ALZ" => 'Via',
-	"VLE" => 'Viale'
-}
-
-t = File.open('test_address','w')
 table.each do |row|
-	address = "#{address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy".split(' ').join('+')
-	#address = "Milano #{row['UBICAZIONE']}".gsub('.','').gsub('/','').gsub(';','').split('(')[0].split(' ').join('+')
-	request = "http://maps.googleapis.com/maps/api/geocode/json?address=#{address}&sensor=false"
-	#request = "http://www.datasciencetoolkit.org/maps/api/geocode/json?sensor=false&address=#{address}"
-	#request =  "http://www.mapquestapi.com/geocoding/v1/address?location=#{address}&key=Fmjtd%7Cluub25612h%2C70%3Do5-9u8lh0&country=italy"
-	#puts address
-	content = JSON.parse(open(request).read)
-	puts content.inspect
-	begin
-	#lat =  content['results'][0]['geometry']['location']['lat']
-	#lon =  content['results'][0]['geometry']['location']['lng']
-	#puts content.inspect
-	rescue Exception => e
-		#puts address
-		#puts e.message
-		puts 'ko'
-		t.write(address)
-		t.write(content.to_json)
-
-	end
-	
-	
-	#puts "#{lat.to_f},#{lon.to_f}"
 	element =  {}
-	element['address'] = row['UBICAZIONE'].split(';')[0]
-	element['name'] = row['INSEGNA'] || 'Servizio pubblico'
+	element['address'] = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
+	element['name'] = row['INSEGNA'] || ''
 	element['zone'] = row['ZD'].to_i.to_s
-	element['category'] = "ServizioPubblico"
-	element['sub_category'] = ["StruttureAlberghiere", row['TIPO_ATT_']]
-	element['description'] = ["Numero camere #{row['CAMERE']}", "Stelle: #{row['CATEGORIA']}"]
+	element['category'] = "StruttureRicettiveAlberghiere"
+	element['sub_category'] = [row['TIPO_ATT_S']]
+	element['description'] = ["Numero camere #{row['CAMERE'].to_i}", "Stelle: #{row['CATEGORIA'].to_i}"] + "#{row['UBICAZIONE']}".split(';')
 	element['id'] = i
-	element['number_of_rooms'] = row['CAMERE'] unless row['CAMERE'].nil?
-	element['number_of_stars'] = row['CATEGORIA'] unless row['CATEGORIA'].nil?
+	element['number_of_rooms'] = "#{row['CAMERE'].to_i}" unless row['CAMERE'].nil?
+	element['number_of_stars'] = "#{row['CATEGORIA'].to_i}" unless row['CATEGORIA'].nil?
+	element['place'] = getLatLon(row)
 	data_items << element
 	i += 1
-	break
 end
-	t.close
-=begin
+data.write(data_items.to_json)
+data.close	
 
+
+#VENDITA SEDE FISSA
+data = File.open("VenditaSedeFissa_EV.json",'w')
+data_items = Array.new
 table = DBF::Table.new("E:/github/appMI/dbf_data/VenditaSedeFissa_EV.dbf")
-columns = Array.new
-table.columns.each do |column|
-	columns << column.name
-end
 
 table.each do |row|
 	element =  {}
-	element['address'] = row['UBICAZIONE'].split(';')[0]
+	element['address'] = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
 	element['name'] = row['INSEGNA'] || 'Piccola-Media attività commericale'
 	element['zone'] = row['ZD'].to_i.to_s
-	element['category'] = "ServizioPubblico"
-	element['sub_category'] = ["AttivitaCommerciale"]
-	element['description'] = ["Piccola-Media attività commericale", "#{row['SETTORE_ME']}", row['UBICAZIONE'] ]
+	element['category'] = "AttivitàCommerciale"
+	element['sub_category'] = "#{row['SETTORE_ME']}".split(";") 
+	element['description'] = ["Piccola-Media attività commericale"] + "#{row['UBICAZIONE']}".split(';')
 	element['id'] = i
+	element['place'] = getLatLon(row)
 	data_items << element
 	i += 1
 end
+data.write(data_items.to_json)
+data.close
 
+#VENDITA SEDE FISSA MG
+data = File.open("VenditaSedeFissa_EV-MG.json",'w')
+data_items = Array.new
 table = DBF::Table.new("E:/github/appMI/dbf_data/VenditaSedeFissa_EV-MG.dbf")
-columns = Array.new
-table.columns.each do |column|
-	columns << column.name
-end
 
 table.each do |row|
 	element =  {}
-	element['address'] = row['UBICAZIONE'].split(';')[0]
+	element['address'] = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
 	element['name'] = row['INSEGNA'] || 'Grande attività commericale'
 	element['zone'] = row['ZD'].to_i.to_s
 	element['category'] = "ServizioPubblico"
-	element['sub_category'] = ["AttivitaCommerciale"]
-	element['description'] = ["Grande attività commericale", "#{row['SETTORE_ME']}" ]
+	element['sub_category'] = "#{row['SETTORE_ME']}".split(";") 
+	element['description'] = ["Grande attività commericale" ]  + "#{row['UBICAZIONE']}".split(';')
 	element['id'] = i
+	element['place'] = getLatLon(row)
 	data_items << element
 	i += 1
 end
-=end
 data.write(data_items.to_json)
-
-
-	
-
-
-
-
-
-
-
 data.close
+
+
