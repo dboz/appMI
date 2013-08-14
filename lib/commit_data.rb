@@ -6,7 +6,7 @@ require 'rsolr'
 i = 0
 
 data_items = Array.new
-Dir.glob("E:/github/appMI/lib/**.json").each do |file|
+Dir.glob("/var/appMI/lib/**.json").each do |file|
 	json = JSON.parse(File.open(file,'r').read)
 	json.each do |element|
 		element['id'] = i
