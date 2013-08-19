@@ -257,9 +257,9 @@ end
 
 
 servizi_alla_presona
-#wi_fi
-#somministrazione_fuori_piano
-#somministrazione_in_piano
+wi_fi
+somministrazione_fuori_piano
+somministrazione_in_piano
 #strutture_alberghiere
 #vendita_sede_fissa
 #vendita_sede_fissa_mg
