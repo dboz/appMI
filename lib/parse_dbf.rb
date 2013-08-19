@@ -220,11 +220,11 @@ def vendita_sede_fissa
 		info = getLatLon(row)
 		element =  {}
 		element['address'] = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
-		element['name'] = row['INSEGNA'] || 'Piccola-Media attività commericale'
+		element['name'] = row['INSEGNA'] || 'Piccola-Media attivita commericale'
 		element['zone'] = row['ZD'].to_i.to_s
-		element['category'] = "AttivitàCommerciale"
+		element['category'] = "attivitaCommerciale"
 		element['sub_category'] = "#{row['SETTORE_ME']}".split(";") 
-		element['description'] = ["Piccola-Media attività commericale"] + "#{row['UBICAZIONE']}".split(';')
+		element['description'] = ["Piccola-Media attivita commericale"] + "#{row['UBICAZIONE']}".split(';')
 		element['place'] = info[1]
 		element['cap'] = info[2]
 		data_items << element
@@ -247,11 +247,11 @@ def vendita_sede_fissa_mg
 		info = getLatLon(row)
 		element =  {}
 		element['address'] = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
-		element['name'] = row['INSEGNA'] || 'Grande attività commericale'
+		element['name'] = row['INSEGNA'] || 'Grande attivita commericale'
 		element['zone'] = row['ZD'].to_i.to_s
 		element['category'] = "ServizioPubblico"
 		element['sub_category'] = "#{row['SETTORE_ME']}".split(";") 
-		element['description'] = ["Grande attività commericale" ]  + "#{row['UBICAZIONE']}".split(';')
+		element['description'] = ["Grande attivita commericale" ]  + "#{row['UBICAZIONE']}".split(';')
 		element['place'] = info[1]
 		element['cap'] = info[2]
 		data_items << element
