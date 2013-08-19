@@ -1,0 +1,16 @@
+#viewer{
+ width: 800px;
+ height: 500px;
+ margin: auto;
+ position: relative;
+ border: 1px solid red;
+ 
+}
+
+#map-viewer{
+ width: 800px;
+ height: 500px;
+ margin: auto;
+ border: 1px solid red;
+ 
+}
