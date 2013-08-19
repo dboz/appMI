@@ -35,7 +35,7 @@ $address_mapping = {
 
 class Geocoding
 	include Geocoder
-	Geocoder.configure(:lookup => :yandex)	
+	Geocoder.configure(:lookup => :yandex, :timeout => 5)	
 	def getLatLon(address)
 		Geocoder.search(address)
 	end
@@ -219,7 +219,7 @@ def vendita_sede_fissa
 		pbar.set(count)
 		info = getLatLon(row)
 		element =  {}
-		element['address'] = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
+		element['address'] = info[0]#"#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
 		element['name'] = row['INSEGNA'] || 'Piccola-Media attivita commericale'
 		element['zone'] = row['ZD'].to_i.to_s
 		element['category'] = "attivitaCommerciale"
@@ -246,7 +246,7 @@ def vendita_sede_fissa_mg
 		pbar.set(count)
 		info = getLatLon(row)
 		element =  {}
-		element['address'] = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
+		element['address'] = info[0]#{}"#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
 		element['name'] = row['INSEGNA'] || 'Grande attivita commericale'
 		element['zone'] = row['ZD'].to_i.to_s
 		element['category'] = "ServizioPubblico"
