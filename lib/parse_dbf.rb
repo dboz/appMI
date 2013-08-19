@@ -5,6 +5,7 @@ require 'dbf'
 require 'open-uri'
 require 'geocoder'
 require "./progressbar.rb"
+require "./geocoding.rb"
 
 
 UTF8_REGEX = /\A(
@@ -33,19 +34,6 @@ $address_mapping = {
 	"VLE" => 'Viale'
 }
 
-class Geocoding
-	include Geocoder
-		
-	def getLatLon(address)
-		Geocoder.configure(:lookup => :yandex, :timeout => 5)
-		Geocoder.search(address)
-	end
-
-	def getLatLonByGoogle(address)
-		Geocoder.configure(:lookup => :google, :timeout => 5)
-		Geocoder.search(address)
-	end
-end
 
 $geocoding = Geocoding.new
 
@@ -67,51 +55,19 @@ def __getLatLon(row)
 end
 
 def getLatLon(row)
-	begin
-		address = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']} #{row['CIVICO'].to_i}, Milan, Milan, Italy"
-		results =  $geocoding.getLatLon(address.downcase)
-	rescue Exception => e
-		open('log', 'a') do |f|
-  			f << "#{e.inspect} \n"
-  			f << "#{row.inspect} \n"
-		end
-	end
-	response = Array.new
-
-	results.each do |result|
-		if !result.nil? && result.city == 'Milan'
-			response << "#{result.address}"
-			response << "#{result.latitude.to_f},#{results.first.longitude}"
-			response << "#{result.postal_code}"
-		end	
-	end
-	
-	if response.length == 0
-		begin
-			address = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']} #{row['CIVICO'].to_i}, Milan, Milan, Italy"
-			results =  $geocoding.getLatLonByGoogle(address.downcase)
-		rescue Exception => e
-			open('log', 'a') do |f|
-  				f << "#{e.inspect} \n"
-  				f << "#{row.inspect} \n"
-			end
-		end
-		results.each do |result|
-		if !result.nil? &&  result.city == 'Milan'
-				response << "#{result.address}"
-				response << "#{result.latitude.to_f},#{results.first.longitude}"
-				response << "#{result.postal_code}"
-			end	
-		end
-	end
-
+	address = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']} #{row['CIVICO'].to_i}, Milan, Milan, Italy"
+	response =  $geocoding.getLatLon(address.downcase)
+	response =  $geocoding.getLatLonByBing(address.downcase) if response.length == 0
+	response =  $geocoding.getLatLonByGoogle(address.downcase) if response.length == 0
 	if response.length == 0
 		response << "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milano, Milano, Italia"
 		response << ""
 		response << ""
-		puts address
+		open('missing', 'a') do |f|
+  			f << "#{row.inspect} \n"
+		end
 	end
-	sleep 0.5
+	
 	response
 end
 
