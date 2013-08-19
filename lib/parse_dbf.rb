@@ -4,7 +4,7 @@ require 'json'
 require 'dbf'
 require 'open-uri'
 require 'geocoder'
-require "progressbar.rb"
+require "./progressbar.rb"
 
 
 UTF8_REGEX = /\A(
