@@ -35,8 +35,14 @@ $address_mapping = {
 
 class Geocoding
 	include Geocoder
-	Geocoder.configure(:lookup => :yandex, :timeout => 5)	
+		
 	def getLatLon(address)
+		Geocoder.configure(:lookup => :yandex, :timeout => 5)
+		Geocoder.search(address)
+	end
+
+	def getLatLonByGoogle(address)
+		Geocoder.configure(:lookup => :google, :timeout => 5)
 		Geocoder.search(address)
 	end
 end
@@ -54,7 +60,7 @@ def __getLatLon(row)
 		open('log', 'a') do |f|
   			f << "#{e.inspect} \n"
   			f << "#{row.inspect} \n"
-		end
+			end
 	end
 	sleep 1
 	return "#{lat.to_f},#{lon.to_f}"
@@ -62,19 +68,51 @@ end
 
 def getLatLon(row)
 	begin
-		address = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
-		results =  $geocoding.getLatLon(address)
+		address = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']} #{row['CIVICO'].to_i}, Milan, Milan, Italy"
+		results =  $geocoding.getLatLon(address.downcase)
 	rescue Exception => e
 		open('log', 'a') do |f|
   			f << "#{e.inspect} \n"
   			f << "#{row.inspect} \n"
 		end
 	end
-	if results.first.nil?
-		return ["#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy",'','']
-	else
-		return ["#{results.first.address}","#{results.first.latitude.to_f},#{results.first.longitude}", "#{results.first.postal_code}"]
+	response = Array.new
+
+	results.each do |result|
+		if !result.nil? && result.city == 'Milan'
+			response << "#{result.address}"
+			response << "#{result.latitude.to_f},#{results.first.longitude}"
+			response << "#{result.postal_code}"
+		end	
 	end
+	
+	if response.length == 0
+		begin
+			address = "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']} #{row['CIVICO'].to_i}, Milan, Milan, Italy"
+			results =  $geocoding.getLatLonByGoogle(address.downcase)
+		rescue Exception => e
+			open('log', 'a') do |f|
+  				f << "#{e.inspect} \n"
+  				f << "#{row.inspect} \n"
+			end
+		end
+		results.each do |result|
+		if !result.nil? &&  result.city == 'Milan'
+				response << "#{result.address}"
+				response << "#{result.latitude.to_f},#{results.first.longitude}"
+				response << "#{result.postal_code}"
+			end	
+		end
+	end
+
+	if response.length == 0
+		response << "#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milano, Milano, Italia"
+		response << ""
+		response << ""
+		puts address
+	end
+	sleep 0.5
+	response
 end
 
 def servizi_alla_presona
@@ -220,11 +258,11 @@ def vendita_sede_fissa
 		info = getLatLon(row)
 		element =  {}
 		element['address'] = info[0]#"#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
-		element['name'] = row['INSEGNA'] || 'Piccola-Media attivita commericale'
+		element['name'] = row['INSEGNA'] || 'Piccola-Media Attività commericale'
 		element['zone'] = row['ZD'].to_i.to_s
-		element['category'] = "attivitaCommerciale"
+		element['category'] = "AttivitàCommerciale"
 		element['sub_category'] = "#{row['SETTORE_ME']}".split(";") 
-		element['description'] = ["Piccola-Media attivita commericale"] + "#{row['UBICAZIONE']}".split(';')
+		element['description'] = ["Piccola-Media attività commericale"] + "#{row['UBICAZIONE']}".split(';')
 		element['place'] = info[1]
 		element['cap'] = info[2]
 		data_items << element
@@ -247,11 +285,11 @@ def vendita_sede_fissa_mg
 		info = getLatLon(row)
 		element =  {}
 		element['address'] = info[0]#{}"#{$address_mapping[row['TIPOVIA']] unless row['TIPOVIA'].nil? } #{row['DESCRIZION']}, #{row['CIVICO'].to_i}, Milan, Italy"
-		element['name'] = row['INSEGNA'] || 'Grande attivita commericale'
+		element['name'] = row['INSEGNA'] || 'Grande attività commericale'
 		element['zone'] = row['ZD'].to_i.to_s
 		element['category'] = "ServizioPubblico"
 		element['sub_category'] = "#{row['SETTORE_ME']}".split(";") 
-		element['description'] = ["Grande attivita commericale" ]  + "#{row['UBICAZIONE']}".split(';')
+		element['description'] = ["Grande attività commericale" ]  + "#{row['UBICAZIONE']}".split(';')
 		element['place'] = info[1]
 		element['cap'] = info[2]
 		data_items << element
@@ -263,9 +301,9 @@ end
 
 
 servizi_alla_presona
-wi_fi
-somministrazione_fuori_piano
-somministrazione_in_piano
-strutture_alberghiere
-vendita_sede_fissa
-vendita_sede_fissa_mg
+#wi_fi
+#somministrazione_fuori_piano
+#somministrazione_in_piano
+#strutture_alberghiere
+#vendita_sede_fissa
+#vendita_sede_fissa_mg
