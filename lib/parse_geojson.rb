@@ -77,7 +77,7 @@ def get_category(geojson,resource_type)
 		category = resource_type
 	end
 	unless geojson['properties']['BIKE_SH'].nil?
-		return "Traporti"
+		return "Trasporti"
 	end
 	return "Traffico" if resource_type == "Car"
 	if resource_type == "Ciclabili"
