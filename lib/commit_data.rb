@@ -23,7 +23,7 @@ solr_testing = RSolr.connect(:read_timeout => 120, :open_timeout => 120, :url =>
 solr_testing.update :data => '<delete><query>*:*</query></delete>'
 solr_testing.commit
 
-errors = File.open("errors",'w')
+errors = File.open("solr_errors",'w')
 data_items.each_with_index do |data_item,index|
 	begin		
 		solr_testing.add data_item

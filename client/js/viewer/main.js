@@ -27,9 +27,7 @@ function createMapViewer(div){
   // Create controls
   var controls = new Array();
     
-  controls.push(new OpenLayers.Control.PanZoomBar({
-    zoomWorldIcon: true
-  }));
+  controls.push(new OpenLayers.Control.PanZoomBar());
     
   var mousePosition = new OpenLayers.Control.MousePosition({
     div: document.getElementById('mouse-position'),
@@ -57,18 +55,20 @@ function createMapViewer(div){
   
   //Set map
   mapViewer.addDiv(div);
-  mapViewer.addControls(controls);
+  
   var panel = new OpenLayers.Control.Panel();
   panel.addControls([new OpenLayers.Control.FullScreen()]);
     
   //Create map
   mapViewer.createMap();
+  mapViewer.addControls(controls);
   mapViewer.addControl(panel);
   mapViewer.setProjection(new OpenLayers.Projection('EPSG:900913'));
+  
   mapViewer.setMaxExtent(new OpenLayers.Bounds(-180, -90, 180, 90)); 
   mapViewer.setMaxResolution('auto');
   mapViewer.setMinResolution('auto');
-  //var restricted_extent = new OpenLayers.Bounds(conf.restricted_extent.west, conf.restricted_extent.south, conf.restricted_extent.east, conf.restricted_extent.north );
+  //var restricted_extent = new OpenLayers.Bounds(45.40736,9.07683,45.547058,9.2763);
   //mapViewer.map.restrictedExtent = restricted_extent;
   //mapViewer.setResolutions(resolutions);
                         
@@ -90,7 +90,10 @@ function createMapViewer(div){
   //mapViewer.addLayer(satellite.getBasemap());
   mapViewer.addBasemap(baseMap);
   //mapViewer.addBasemap(openStreetMap);
-  mapViewer.setCenterWithZoom(19.5,46,5);
+  var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+  var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+  var position       = new OpenLayers.LonLat(9.189,45.47).transform( fromProjection, toProjection);
+  mapViewer.map.setCenter(position,11);
   
   
   
