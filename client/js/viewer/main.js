@@ -12,7 +12,9 @@ function createMapViewer(div){
   checkMapViewer = false;
   
   //create basemap
-  var baseMap = new OpenLayers.Layer.OSM();;
+  var baseMap = new OpenLayers.Layer.OSM();
+  baseMap.numZoomLevels = 11;
+  console.log(baseMap);
    
   // Configuring scales
   //var scales = conf.scales;
@@ -52,18 +54,20 @@ function createMapViewer(div){
   controls.push(new OpenLayers.Control.ProgressBar({
     div: document.getElementById('progress-bar-content')
   }));
-  
+    var panel = new OpenLayers.Control.Panel();
+  panel.addControls([new OpenLayers.Control.FullScreen()]);
+
   //Set map
   mapViewer.addDiv(div);
-  
-  var panel = new OpenLayers.Control.Panel();
-  panel.addControls([new OpenLayers.Control.FullScreen()]);
+  mapViewer.createMap();
+  mapViewer.setProjection(new OpenLayers.Projection('EPSG:900913'));
+  mapViewer.map.displayProjection = new OpenLayers.Projection('EPSG:4326');
+
     
   //Create map
-  mapViewer.createMap();
+  
   mapViewer.addControls(controls);
   mapViewer.addControl(panel);
-  mapViewer.setProjection(new OpenLayers.Projection('EPSG:900913'));
   
   mapViewer.setMaxExtent(new OpenLayers.Bounds(-180, -90, 180, 90)); 
   mapViewer.setMaxResolution('auto');

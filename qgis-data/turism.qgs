@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-903170.345217</xmin>
-            <ymin>4648537.220938</ymin>
-            <xmax>1377071.655424</xmax>
-            <ymax>6383282.992599</ymax>
+            <xmin>1011171.578853</xmin>
+            <ymin>5689983.454066</ymin>
+            <xmax>1032540.569572</xmax>
+            <ymax>5706240.397971</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -24,143 +24,148 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="false">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ZoneDecentramento" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="ZoneDecentramento20130820161458500" visible="1"/>
+            </filegroup>
+        </legendlayer>
         <legendgroup open="false" checked="Qt::Unchecked" name="Turism">
-            <legendlayer drawingOrder="12" open="true" checked="Qt::Unchecked" name="Cinema2007_00_00" showFeatureCount="0">
+            <legendlayer drawingOrder="14" open="true" checked="Qt::Unchecked" name="Cinema2007_00_00" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Cinema2007_00_0020130805161900714" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="13" open="true" checked="Qt::Unchecked" name="CentriAggregazioneGiovanileCAG2009_00_00" showFeatureCount="0">
+            <legendlayer drawingOrder="15" open="true" checked="Qt::Unchecked" name="CentriAggregazioneGiovanileCAG2009_00_00" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="CentriAggregazioneGiovanileCAG2009_00_0020130805162559821" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="14" open="true" checked="Qt::Unchecked" name="CentriAggregazioneMultifunzioneCAM2009_00_00" showFeatureCount="0">
+            <legendlayer drawingOrder="16" open="true" checked="Qt::Unchecked" name="CentriAggregazioneMultifunzioneCAM2009_00_00" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="CentriAggregazioneMultifunzioneCAM2009_00_0020130805162707404" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="15" open="true" checked="Qt::Unchecked" name="CentriCongressi2009_00_00" showFeatureCount="0">
+            <legendlayer drawingOrder="17" open="true" checked="Qt::Unchecked" name="CentriCongressi2009_00_00" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="CentriCongressi2009_00_0020130805162717544" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="16" open="true" checked="Qt::Unchecked" name="Impianti Sportivi" showFeatureCount="0">
+            <legendlayer drawingOrder="18" open="true" checked="Qt::Unchecked" name="Impianti Sportivi" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Impianti_Sportivi20130805162724196" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="17" open="true" checked="Qt::Unchecked" name="MuseiSpaziEspositivi2007_00_00" showFeatureCount="0">
+            <legendlayer drawingOrder="19" open="true" checked="Qt::Unchecked" name="MuseiSpaziEspositivi2007_00_00" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="MuseiSpaziEspositivi2007_00_0020130805162729445" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="18" open="true" checked="Qt::Unchecked" name="piscine" showFeatureCount="0">
+            <legendlayer drawingOrder="20" open="true" checked="Qt::Unchecked" name="piscine" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="piscine20130805162735052" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="19" open="true" checked="Qt::Unchecked" name="TeatriAuditorium2007_00_00" showFeatureCount="0">
+            <legendlayer drawingOrder="21" open="true" checked="Qt::Unchecked" name="TeatriAuditorium2007_00_00" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="TeatriAuditorium2007_00_0020130805162740297" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendlayer drawingOrder="20" open="false" checked="Qt::Checked" name="osm" showFeatureCount="0">
+        <legendlayer drawingOrder="22" open="false" checked="Qt::Checked" name="osm" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="osm20130805163937798" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendgroup open="false" checked="Qt::Unchecked" name="TrafficoTrasporti">
-            <legendlayer drawingOrder="1" open="true" checked="Qt::Unchecked" name="Park_interscambio" showFeatureCount="0">
+            <legendlayer drawingOrder="3" open="true" checked="Qt::Unchecked" name="Park_interscambio" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Park_interscambio20130806141829328" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="2" open="true" checked="Qt::Unchecked" name="VARCHI" showFeatureCount="0">
+            <legendlayer drawingOrder="4" open="true" checked="Qt::Unchecked" name="VARCHI" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="VARCHI20130806141957410" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="3" open="true" checked="Qt::Unchecked" name="MM_LINEE" showFeatureCount="0">
+            <legendlayer drawingOrder="5" open="true" checked="Qt::Unchecked" name="MM_LINEE" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="MM_LINEE20130806141558419" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="4" open="true" checked="Qt::Unchecked" name="MM_FERMATE" showFeatureCount="0">
+            <legendlayer drawingOrder="6" open="true" checked="Qt::Unchecked" name="MM_FERMATE" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="MM_FERMATE20130806141501707" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="5" open="true" checked="Qt::Unchecked" name="Ferrovie_Stazioni_Milano" showFeatureCount="0">
+            <legendlayer drawingOrder="7" open="true" checked="Qt::Unchecked" name="Ferrovie_Stazioni_Milano" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Ferrovie_Stazioni_Milano20130806141359511" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="6" open="true" checked="Qt::Unchecked" name="Ferrovie_Milano_SDF" showFeatureCount="0">
+            <legendlayer drawingOrder="8" open="true" checked="Qt::Unchecked" name="Ferrovie_Milano_SDF" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Ferrovie_Milano_SDF20130806141250382" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="7" open="true" checked="Qt::Unchecked" name="CICLABILI" showFeatureCount="0">
+            <legendlayer drawingOrder="9" open="true" checked="Qt::Unchecked" name="CICLABILI" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="CICLABILI20130806141025749" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="8" open="true" checked="Qt::Unchecked" name="CAR_SH" showFeatureCount="0">
+            <legendlayer drawingOrder="10" open="true" checked="Qt::Unchecked" name="CAR_SH" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="CAR_SH20130806140835937" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="9" open="true" checked="Qt::Unchecked" name="BIKE_SH" showFeatureCount="0">
+            <legendlayer drawingOrder="11" open="true" checked="Qt::Unchecked" name="BIKE_SH" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="BIKE_SH20130806140014023" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="10" open="true" checked="Qt::Unchecked" name="AP_ZTL_05_2011" showFeatureCount="0">
+            <legendlayer drawingOrder="12" open="true" checked="Qt::Unchecked" name="AP_ZTL_05_2011" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="AP_ZTL_05_201120130806135925085" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="11" open="true" checked="Qt::Unchecked" name="AMBITI_SOS" showFeatureCount="0">
+            <legendlayer drawingOrder="13" open="true" checked="Qt::Unchecked" name="AMBITI_SOS" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="AMBITI_SOS20130806135707011" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="Culture">
-            <legendlayer drawingOrder="21" open="true" checked="Qt::Unchecked" name="BibliotecheArchivi2007_00_00" showFeatureCount="0">
+            <legendlayer drawingOrder="23" open="true" checked="Qt::Unchecked" name="BibliotecheArchivi2007_00_00" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="BibliotecheArchivi2007_00_0020130806133345951" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="22" open="true" checked="Qt::Unchecked" name="AssociazioniCulturalieArte" showFeatureCount="0">
+            <legendlayer drawingOrder="24" open="true" checked="Qt::Unchecked" name="AssociazioniCulturalieArte" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="AssociazioniCulturalieArte20130806133333534" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Unchecked" name="Sociale">
-            <legendlayer drawingOrder="0" open="true" checked="Qt::Unchecked" name="Farmacie" showFeatureCount="0">
+            <legendlayer drawingOrder="2" open="true" checked="Qt::Unchecked" name="Farmacie" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Farmacie20130809093447339" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="ParchiGiardini">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="aree_fruizione_cani" showFeatureCount="0">
+        <legendgroup open="false" checked="Qt::Unchecked" name="ParchiGiardini">
+            <legendlayer drawingOrder="0" open="true" checked="Qt::Unchecked" name="aree_fruizione_cani" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="aree_fruizione_cani20130809095213445" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="aree_fruizione_cani20130809095213445" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Parchi" showFeatureCount="0">
+            <legendlayer drawingOrder="1" open="true" checked="Qt::Unchecked" name="Parchi" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="Parchi20130809094944273" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="Parchi20130809094944273" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
     </legend>
-    <projectlayers layercount="25">
+    <projectlayers layercount="26">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>AMBITI_SOS20130806135707011</id>
             <datasource>../dati.comune.milano/traffico_e_trasporti/AMBITI_SOS/AMBITI_SOS.shp</datasource>
@@ -943,7 +948,7 @@
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield></displayfield>
+            <displayfield>COD_VIA</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -965,9 +970,9 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
@@ -1402,7 +1407,7 @@
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield></displayfield>
+            <displayfield>ZONA</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -1424,9 +1429,9 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
@@ -1625,20 +1630,20 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>aree_fruizione_cani20130809095213445</id>
-            <datasource>../dati.comune.milano/parchi_giardini/aree_fruizione_cani/aree_fruizione_cani.dbf</datasource>
+            <id>ZoneDecentramento20130820161458500</id>
+            <datasource>../layers/ZoneDecentramento.shp</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>aree_fruizione_cani</layername>
+            <layername>ZoneDecentramento</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
-                    <srsid>3116</srsid>
-                    <srid>32632</srid>
-                    <authid>EPSG:32632</authid>
-                    <description>WGS 84 / UTM zone 32N</description>
-                    <projectionacronym>utm</projectionacronym>
-                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <proj4>+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=1500000 +y_0=0 +ellps=intl +towgs84=-104.1,-49.1,-9.9,0.971,-2.917,0.714,-11.68 +units=m +no_defs</proj4>
+                    <srsid>968</srsid>
+                    <srid>3003</srid>
+                    <authid>EPSG:3003</authid>
+                    <description>Monte Mario / Italy zone 1</description>
+                    <projectionacronym>tmerc</projectionacronym>
+                    <ellipsoidacronym>intl</ellipsoidacronym>
                     <geographicflag>false</geographicflag>
                 </spatialrefsys>
             </srs>
@@ -1649,7 +1654,7 @@
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="41,129,188,255"/>
+                            <prop k="color" v="64,61,201,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -1687,6 +1692,71 @@
             <editform></editform>
             <editforminit></editforminit>
             <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>aree_fruizione_cani20130809095213445</id>
+            <datasource>../dati.comune.milano/parchi_giardini/aree_fruizione_cani/aree_fruizione_cani.dbf</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>aree_fruizione_cani</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+                    <srsid>3116</srsid>
+                    <srid>32632</srid>
+                    <authid>EPSG:32632</authid>
+                    <description>WGS 84 / UTM zone 32N</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="41,129,188,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>ZONA</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="MS Shell Dlg 2"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">

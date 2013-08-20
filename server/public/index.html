@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rss Feeds Server</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/rssFeedsServer.js"></script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div style="width: 800px;margin: auto;">
+
+
+      <h1>Rss Feeds Server</h1>
+      <h4>Install ruby and rubygems</h4>
+      <pre>Install ruby 1.8.7 from source (http://www.ruby-lang.org/en/news/2013/06/27/ruby-1-8-7-p374-is-released/) or repository (for example apt-get)</pre>
+      <pre>Install rubygems from http://rubygems.org/</pre>
+      <h4>Install Sinatra and dependencies</h4>
+      <pre>
+gem install sinatra
+gem install sinatra-reloader
+<s>gem install sinatra-json</s>
+gem install sinatra-jsonp
+gem install json
+gem install multi_json
+<s>gem install yaml</s>
+gem install yaml_config
+gem install thin
+      </pre>
+      <h4>Configuration provided by config.yaml</h4>
+      <pre>
+server: 
+    port: 8881
+    enviroment: production
+    public_folder: public
+    rack_server: thin
+
+scheduler:
+    timer: 600
+
+resources:
+  resource_path: rss_feeds
+  
+rss_feeds:
+    mercury: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Mercury&language=en"
+    magnesium: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Magnesium&language=en"
+    chromium: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Chromium&language=en"
+    styrene: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Styrene&language=en"
+    potassium: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Potassium&language=en"
+    benzene: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Benzene&language=en"
+    nitrogen: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Nitrogen&language=en"
+    xylene: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Xylene&language=en"
+    copper: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Copper&language=en"</pre>
+      <h4>Install rssFeeds Service</h4>
+      <pre>svn co http://vap-sdisvn.ies.jrc.it/svn/rdsi_v2/trunk/rssFeedService rssFeedService</pre>
+      <h4>Run scheduler</h4>
+      <pre>ruby rssFeedScheduler.rb</pre>
+      <h4>Run Server</h4>
+      <pre>ruby rssFeedServer.rb</pre>
+
+      <h3>Client</h3>
+      <h4>Request the first 5 elements from all rss feeds</h4>
+      <pre>
+var request = $.ajax({
+  type: "GET",
+  url: 'http://localhost:8081/getAllFeedRss/5',
+  dataType: "jsonp",
+  contentType: "application/jsonp; charset=utf-8",
+  jsonp: 'callback',
+  jsonpCallback: 'parseResponse',
+  crossDomain: true
+});
+      </pre>
+      <h4>Response</h4>
+      <div id="client_response_1"></div>
+      <h4>Request the first 5 element from benzene category</h4>
+      <pre>
+var request2 = $.ajax({
+  type: "GET",
+  url: '/getFeedRss/benzene/5',
+  dataType: "jsonp",
+  contentType: "application/jsonp; charset=utf-8",
+  jsonp: 'callback',
+  jsonpCallback: 'parseResponse',
+  crossDomain: true
+});
+      </pre>
+      <h4>Response</h4>
+      <div id="client_response_2"></div>
+      <h4>This documentation</h4>
+      <pre>http://localhost:8081</pre>
+    </div>
+  </body>
+</html>
