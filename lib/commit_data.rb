@@ -14,16 +14,19 @@ end
 i = 0
 
 data_items = Array.new
-Dir.glob("/var/appMI/lib/**.json").each do |file|
+Dir.glob("**.json").each do |file|
+	puts file
 	json = JSON.parse(File.open(file,'r').read)
 	json.each do |element|
 		element['id'] = i
 		element['category'] = humanize(element['category'])
 		sub_categories = Array.new
+		unless element['sub_category'].nil?
 		element['sub_category'].each do |e|
 			sub_categories << humanize(e)
 		end
 		element['sub_category'] = sub_categories
+		end
 		data_items << element
 		i += 1
 	end
@@ -32,7 +35,7 @@ end
 
 puts data_items.length
 
-solr_testing = RSolr.connect(:read_timeout => 120, :open_timeout => 120, :url => "http://localhost:8080/solr/appmi") #"http://geoportal-dev.ies.jrc.it:8090/solr"
+solr_testing = RSolr.connect(:read_timeout => 120, :open_timeout => 120, :url => "http://localhost:8080/solr/appmi")
 
 solr_testing.update :data => '<delete><query>*:*</query></delete>'
 solr_testing.commit
