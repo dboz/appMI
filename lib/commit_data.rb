@@ -2,6 +2,9 @@ require 'rubygems'
 require "json"
 require 'rsolr'
 
+#export LC_CTYPE=en_US.UTF-8
+
+
 def humanize(str)
   if str.nil?
    return ""
@@ -15,8 +18,8 @@ i = 0
 
 data_items = Array.new
 Dir.glob("**.json").each do |file|
-	
-	json = JSON.parse(File.open(file,'r').read)
+	file = File.open(file,'r').read
+	json = JSON.parse(file.encode("utf-8"))
 	json.each do |element|
 		element['id'] = i
 		element['category'] = humanize(element['category'])
