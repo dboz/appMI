@@ -149,9 +149,7 @@
    <field name="content" type="text_general" indexed="false" stored="true" multiValued="true"/>
    
 
-   <!-- catchall field, containing all other searchable text fields (implemented
-        via copyField further on in this schema  -->
-   <field name="text" type="text_general" indexed="true" stored="false" multiValued="true"/>
+   
 
    <!-- catchall text field that indexes tokens both normally and in reverse for efficient
         leading wildcard queries. -->
@@ -239,6 +237,7 @@
    <field name="address" type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="sub_category" type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="description" type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="text" type="text" indexed="true" stored="true" multiValued="true"/>
 
  </fields>
 
