@@ -1,0 +1,305 @@
+/* 
+=================================================================== */
+/*  Green 		#99cc66
+	Green Dark 	#80a859
+	Green RGBA 	rgba(153,204,102, 0.8)
+=================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+}
+
+.title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
+	border-bottom: 5px double #99cc66;
+	margin-bottom: -4px;
+	display: inline-block;
+	padding: 0px 10px;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#wrapper {
+
+}
+
+a, a:visited {
+	color: #99cc66;
+}
+/* Header
+=================================================================== */
+ 
+#under-header {
+	background: #99cc66;
+}
+
+#close-contact:hover {
+	background: #99cc66 url(../../images/icons/eject.png) no-repeat 9px 9px;
+}
+
+/* Navigation
+=================================================================== */
+
+#navigation ul li a:hover {
+	background: #99cc66;
+	color: #000;
+}
+
+#navigation ul ul {
+	background: #99cc66;
+}
+
+#navigation ul ul li a {color: #fff;}
+
+#navigation ul ul li:hover > a {
+	color: #fff;
+	background-color: #80a859 !important;
+}
+
+#navigation ul li a:hover, 
+#navigation ul li:hover > a {
+	background: #99cc66 !important;
+	color: #fff !important;
+}
+
+#navigation ul li a.active, 
+#navigation ul li.active > a {
+	color: #fff;
+}
+
+#navigation ul li a.active:hover, 
+#navigation ul li.active > a:hover {
+	background: #99cc66;
+	color: #fff;
+}
+
+#navigation ul ul li a.active, 
+#navigation ul ul li.active > a {
+	background: #99cc66;
+}
+
+/* Page title
+=================================================================== */
+
+#page-title h2 {
+	background: #99cc66;
+	outline: 1px solid #99cc66;
+
+}
+
+/* Slider
+=================================================================== */
+
+.flex-direction-nav .flex-prev:hover, 
+.flex-direction-nav .flex-next:hover, 
+#scroll-top-top a, 
+.post-icon {
+	background-color:#99cc66;
+}
+
+.mr-rotato-prev:hover, 
+.mr-rotato-next:hover,
+li.current, 
+.tags a:hover {
+	background-color: #99cc66;
+	border-color: #99cc66;
+}
+
+#filters a:hover, 
+.selected, 
+#portfolio-navi a:hover {
+	background-color: #99cc66 !important;
+	border: 1px solid #99cc66 !important;
+}
+
+.flickr-widget a:hover {border-color: #99cc66;}
+
+.field label span {color:#99cc66; font-weight: bold}
+
+.flex-direction-nav a {
+	background: rgba(153,204,102, 0.8);
+}
+
+.slide-caption {
+	background: rgba(153,204,102, 0.8);
+}
+
+.slide-caption.n {
+	background: rgba(153,204,102, 0.8);
+}
+
+/* Team
+=================================================================== */
+
+.team-name span {
+	font-size: 12px;
+	font-weight: bold;
+	color: #99cc66;
+}
+
+/* Pricing Table
+=================================================================== */
+
+.pricing-table .color-custom h3, .color-custom .buy {background-color: #80a859;}
+.pricing-table .color-custom h4 {background-color: #99cc66;}
+
+.testimonials-author {
+	color: #99cc66;
+}
+
+a.post-entry {
+	color: #99cc66;
+}
+
+/* Pictures
+=================================================================== */
+
+.image-overlay-link,
+.image-overlay-zoom {
+	background-color: #99cc66;
+	background: rgba(153,204,102, 0.7);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+.image-overlay-link {
+	background-image: url(../../images/overlay-icon-01.png);
+}
+
+.image-overlay-zoom {
+	background-image: url(../../images/overlay-icon-02.png);
+}
+
+/* Progress Bar
+=================================================================== */
+
+.meter > span:after, 
+.animate > span > spans li.current {
+	background:#99cc66;
+}
+
+
+/* Notice
+=================================================================== */
+
+.large-notice {
+	border-left: 4px solid #99cc66;
+}
+
+.bcolor {
+	color: #99cc66;
+}
+
+/* List styles
+=================================================================== */	
+
+.check_list li {background: url(../../images/icons/list/green/list_check.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
+.plus_list  li {background: url(../../images/icons/list/green/list_plus.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
+.minus_list  li {background: url(../../images/icons/list/green/list_minus.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
+.star_list  li {background: url(../../images/icons/list/green/list_star.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.arrow_list  li {background: url(../../images/icons/list/green/list_arrow.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.square_list  li {background: url(../../images/icons/list/green/list_square.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.circle_list  li {background: url(../../images/icons/list/green/list_circle.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.cross_list  li {background: url(../../images/icons/list/green/list_cross.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+
+.project-info strong {
+	color: #99cc66;
+}
+
+/* Buttons
+=================================================================== */
+
+.button.color {color:#fff; background:#99cc66;}
+.button.color:hover {background:#aaa;}
+
+input[type="button"] {
+	background: #99cc66;
+	color: #fff;
+}
+
+/* Dropcap
+=================================================================== */
+
+.dropcap.color {
+	background: #99cc66;
+	color: #fff;
+}
+
+/* Icons
+=================================================================== */
+
+.ico-color {
+	background-image: url("../../images/icons/green/glyphicons.png");
+	opacity: 1;
+}
+
+.mini-color {
+  background-image: url("../../images/icons/green/glyphicons-mini.png");
+  opacity: 1;
+}
+
+.circle {
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+	background-color: #99cc66 !important;
+	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+	   -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+		    box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+	margin: 0 auto;
+}
+
+.big {
+	border: 15px solid #99cc66 !important;
+}
+
+/* Footer
+=================================================================== */
+
+#footer h3 {
+
+}
+
+/* Quotes
+=================================================================== */
+
+.quote, .author {
+	background: #99cc66;
+}
+
+/* Slider Parallax
+=================================================================== */
+
+.da-slider{
+	background: transparent url(../../images/green/slider.jpg) repeat 0% 0%;
+	border: 1px solid #99cc66;
+}
+
+.da-slide p{
+	color: #99cc66;
+}
+
+.da-dots span{
+	background: #99cc66;
+}
+
+.da-arrows span{
+	background: #99cc66;
+}
+
+/* Hover
+=================================================================== */
+
+.view h2 {
+   background: #99cc66;
+}
+
+.view a.info {
+   background: #99cc66;
+}
+
+.view-portfolio .mask {
+   background: rgba(153,204,102, 0.7);
+}
+
+.view-team .mask {
+   background-color: rgba(153,204,102, 1);
+}

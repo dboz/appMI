@@ -1,0 +1,305 @@
+/* 
+=================================================================== */
+/* 	Navy 		#aaad8e
+	Dark Navy 	#8f9277
+	Navy RGBA 	rgba(170, 173, 142, 0.8);
+=================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+}
+
+.title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
+	border-bottom: 5px double #aaad8e;
+	margin-bottom: -4px;
+	display: inline-block;
+	padding: 0px 10px;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#wrapper {
+
+}
+
+a, a:visited {
+	color: #aaad8e;
+}
+/* Header
+=================================================================== */
+ 
+#under-header {
+	background: #aaad8e;
+}
+
+#close-contact:hover {
+	background: #aaad8e url(../../images/icons/eject.png) no-repeat 9px 9px;
+}
+
+/* Navigation
+=================================================================== */
+
+#navigation ul li a:hover {
+	background: #aaad8e;
+	color: #000;
+}
+
+#navigation ul ul {
+	background: #aaad8e;
+}
+
+#navigation ul ul li a {color: #fff;}
+
+#navigation ul ul li:hover > a {
+	color: #fff;
+	background-color: #8f9277 !important;
+}
+
+#navigation ul li a:hover, 
+#navigation ul li:hover > a {
+	background: #aaad8e !important;
+	color: #fff !important;
+}
+
+#navigation ul li a.active, 
+#navigation ul li.active > a {
+	color: #fff;
+}
+
+#navigation ul li a.active:hover, 
+#navigation ul li.active > a:hover {
+	background: #aaad8e;
+	color: #fff;
+}
+
+#navigation ul ul li a.active, 
+#navigation ul ul li.active > a {
+	background: #aaad8e;
+}
+
+/* Page title
+=================================================================== */
+
+#page-title h2 {
+	background: #aaad8e;
+	outline: 1px solid #aaad8e;
+
+}
+
+/* Slider
+=================================================================== */
+
+.flex-direction-nav .flex-prev:hover, 
+.flex-direction-nav .flex-next:hover, 
+#scroll-top-top a, 
+.post-icon {
+	background-color:#aaad8e;
+}
+
+.mr-rotato-prev:hover, 
+.mr-rotato-next:hover,
+li.current, 
+.tags a:hover {
+	background-color: #aaad8e;
+	border-color: #aaad8e;
+}
+
+#filters a:hover, 
+.selected, 
+#portfolio-navi a:hover {
+	background-color: #aaad8e !important;
+	border: 1px solid #aaad8e !important;
+}
+
+.flickr-widget a:hover {border-color: #aaad8e;}
+
+.field label span {color:#aaad8e; font-weight: bold}
+
+.flex-direction-nav a {
+	background: rgba(170, 173, 142, 0.8);
+}
+
+.slide-caption {
+	background: rgba(170, 173, 142, 0.8);
+}
+
+.slide-caption.n {
+	background: rgba(170, 173, 142, 0.8);
+}
+
+/* Team
+=================================================================== */
+
+.team-name span {
+	font-size: 12px;
+	font-weight: bold;
+	color: #aaad8e;
+}
+
+/* Pricing Table
+=================================================================== */
+
+.pricing-table .color-custom h3, .color-custom .buy {background-color: #8f9277;}
+.pricing-table .color-custom h4 {background-color: #aaad8e;}
+
+.testimonials-author {
+	color: #aaad8e;
+}
+
+a.post-entry {
+	color: #aaad8e;
+}
+
+/* Pictures
+=================================================================== */
+
+.image-overlay-link,
+.image-overlay-zoom {
+	background-color: #aaad8e;
+	background: rgba(170, 173, 142, 0.7);
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+.image-overlay-link {
+	background-image: url(../../images/overlay-icon-01.png);
+}
+
+.image-overlay-zoom {
+	background-image: url(../../images/overlay-icon-02.png);
+}
+
+/* Progress Bar
+=================================================================== */
+
+.meter > span:after, 
+.animate > span > spans li.current {
+	background:#aaad8e;
+}
+
+
+/* Notice
+=================================================================== */
+
+.large-notice {
+	border-left: 4px solid #aaad8e;
+}
+
+.bcolor {
+	color: #aaad8e;
+}
+
+/* List styles
+=================================================================== */	
+
+.check_list li {background: url(../../images/icons/list/navy/list_check.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
+.plus_list  li {background: url(../../images/icons/list/navy/list_plus.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
+.minus_list  li {background: url(../../images/icons/list/navy/list_minus.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
+.star_list  li {background: url(../../images/icons/list/navy/list_star.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.arrow_list  li {background: url(../../images/icons/list/navy/list_arrow.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.square_list  li {background: url(../../images/icons/list/navy/list_square.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.circle_list  li {background: url(../../images/icons/list/navy/list_circle.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.cross_list  li {background: url(../../images/icons/list/navy/list_cross.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+
+.project-info strong {
+	color: #aaad8e;
+}
+
+/* Buttons
+=================================================================== */
+
+.button.color {color:#fff; background:#aaad8e;}
+.button.color:hover {background:#aaa;}
+
+input[type="button"] {
+	background: #aaad8e;
+	color: #fff;
+}
+
+/* Dropcap
+=================================================================== */
+
+.dropcap.color {
+	background: #aaad8e;
+	color: #fff;
+}
+
+/* Icons
+=================================================================== */
+
+.ico-color {
+	background-image: url("../../images/icons/navy/glyphicons.png");
+	opacity: 1;
+}
+
+.mini-color {
+  background-image: url("../../images/icons/navy/glyphicons-mini.png");
+  opacity: 1;
+}
+
+.circle {
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+	background-color: #aaad8e !important;
+	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+	   -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+		    box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+	margin: 0 auto;
+}
+
+.big {
+	border: 15px solid #aaad8e !important;
+}
+
+/* Footer
+=================================================================== */
+
+#footer h3 {
+
+}
+
+/* Quotes
+=================================================================== */
+
+.quote, .author {
+	background: #aaad8e;
+}
+
+/* Slider Parallax
+=================================================================== */
+
+.da-slider{
+	background: transparent url(../../images/navy/slider.jpg) repeat 0% 0%;
+	border: 1px solid #aaad8e;
+}
+
+.da-slide p{
+	color: #8f9277;
+}
+
+.da-dots span{
+	background: #aaad8e;
+}
+
+.da-arrows span{
+	background: #aaad8e;
+}
+
+/* Hover
+=================================================================== */
+
+.view h2 {
+   background: #aaad8e;
+}
+
+.view a.info {
+   background: #aaad8e;
+}
+
+.view-portfolio .mask {
+   background: rgba(170, 173, 142, 0.7);
+}
+
+.view-team .mask {
+   background-color: rgba(170, 173, 142, 1);
+}
