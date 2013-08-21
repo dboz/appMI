@@ -37,7 +37,7 @@
         }
 
       });
-      var params = ['q=*:*&facet=true&facet.limit=10&facet.mincount=1&facet.sort=count&json.nl=map'];
+      var params = ['q=*:*&facet=true&facet.limit=20&facet.mincount=1&facet.sort=count&json.nl=map'];
       for (var i = 0; i < self.fields.length; i++) {
         params.push('facet.field=' + self.fields[i]);
       }
@@ -98,7 +98,7 @@
                   var p = 'facet.field=' + self.fields[i] + '&f.' + self.fields[i] + '.facet.prefix=' + t_ci;// + '&fq=text:' + t_ci;
                   //var params = [ 'q=' + createBBoxQuery(),fq, 'facet=true&facet.limit=10&facet.mincount=1&facet.sort=count&json.nl=map' ];
                   //var params = [ 'q=*:*',fq, 'facet=true&facet.limit=10&facet.mincount=1&facet.sort=count&json.nl=map' ];
-                  var params = ['facet=true&facet.limit=10&facet.mincount=1&facet.sort=count&json.nl=map'];
+                  var params = ['facet=true&facet.limit=50&facet.mincount=1&facet.sort=count&json.nl=map'];
                   params.push(p);
                   params.push('q=*:*');
                   

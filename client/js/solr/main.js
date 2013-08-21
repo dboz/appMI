@@ -24,7 +24,7 @@ var solrUrl = 'http://www.insidemilan.it/solr/appmi/';
       id: 'text',
       target: '#search',
       field: 'text',
-      fields: ['address', 'name']
+      fields: ['text']
     }));
    
    /*
