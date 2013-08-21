@@ -15,7 +15,7 @@ i = 0
 
 data_items = Array.new
 Dir.glob("**.json").each do |file|
-	puts file
+	
 	json = JSON.parse(File.open(file,'r').read)
 	json.each do |element|
 		element['id'] = i
