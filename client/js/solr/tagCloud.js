@@ -40,7 +40,7 @@
    items.sort(function(a, b) {
     return ((a.count < b.count) ? -1 : ((a.count > b.count) ? 1 : 0));
    });
-   console.log(items)
+
 
 
 

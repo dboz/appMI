@@ -263,42 +263,17 @@
   globally here.  The "q.op" request parameter takes precedence over this.
  <solrQueryParser defaultOperator="OR"/> -->
 
-  <!-- copyField commands copy one field to another at the time a document
-        is added to the index.  It's used either to index the same field differently,
-        or to add multiple fields to the same field for easier/faster searching.  -->
+  <copyField source="name" dest="text"/>
+  <copyField source="cap" dest="text"/>
+  <copyField source="url" dest="text"/>
+  <copyField source="email" dest="text"/>
+  <copyField source="telephone" dest="text"/>
+  <copyField source="fax" dest="text"/>
+  <copyField source="address" dest="text"/>
+  <copyField source="category" dest="text"/>
+  <copyField source="sub_category" dest="text"/>
+  <copyField source="description" dest="text"/>
 
-   <copyField source="cat" dest="text"/>
-   <copyField source="name" dest="text"/>
-   <copyField source="manu" dest="text"/>
-   <copyField source="features" dest="text"/>
-   <copyField source="includes" dest="text"/>
-   <copyField source="manu" dest="manu_exact"/>
-
-   <!-- Copy the price into a currency enabled field (default USD) -->
-   <copyField source="price" dest="price_c"/>
-
-   <!-- Text fields from SolrCell to search by default in our catch-all field -->
-   <copyField source="title" dest="text"/>
-   <copyField source="author" dest="text"/>
-   <copyField source="description" dest="text"/>
-   <copyField source="keywords" dest="text"/>
-   <copyField source="content" dest="text"/>
-   <copyField source="content_type" dest="text"/>
-   <copyField source="resourcename" dest="text"/>
-   <copyField source="url" dest="text"/>
-
-   <!-- Create a string version of author for faceting -->
-   <copyField source="author" dest="author_s"/>
-	
-   <!-- Above, multiple source fields are copied to the [text] field. 
-	  Another way to map multiple source fields to the same 
-	  destination field is to use the dynamic field syntax. 
-	  copyField also supports a maxChars to copy setting.  -->
-	   
-   <!-- <copyField source="*_t" dest="text" maxChars="3000"/> -->
-
-   <!-- copy name to alphaNameSort, a field designed for sorting by name -->
-   <!-- <copyField source="name" dest="alphaNameSort"/> -->
  
   <types>
 
@@ -1121,6 +1096,25 @@
         <filter class="solr.TurkishLowerCaseFilterFactory"/>
         <filter class="solr.StopFilterFactory" ignoreCase="false" words="lang/stopwords_tr.txt" />
         <filter class="solr.SnowballPorterFilterFactory" language="Turkish"/>
+      </analyzer>
+    </fieldType>
+
+    <fieldType name="text" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.PatternReplaceFilterFactory" pattern="[\-\(\)\{\}\:\,\;\.]" replacement="" replace="all"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" enablePositionIncrements="true" />
+        <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" tokenSeparator=" "/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.PatternReplaceFilterFactory" pattern="[\-\(\)\{\}\:\,\;\.]" replacement="" replace="all"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" enablePositionIncrements="true" />
+        <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
       </analyzer>
     </fieldType>
 

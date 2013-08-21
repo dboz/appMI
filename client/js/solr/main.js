@@ -1,4 +1,4 @@
-
+var fl = ['name'];
 
 
 var solrUrl = 'http://www.insidemilan.it/solr/appmi/';
@@ -19,6 +19,13 @@ var solrUrl = 'http://www.insidemilan.it/solr/appmi/';
         target: '#tag-cloud',
         field: 'category'
      }));
+     
+     Manager.addWidget(new AjaxSolr.AutocompleteWidget({
+      id: 'text',
+      target: '#search',
+      field: 'text',
+      fields: ['address', 'name']
+    }));
    
    /*
    Manager.addWidget(new AjaxSolr.ResultWidget({
