@@ -111,7 +111,8 @@ var solrUrl = 'http://www.insidemilan.it/solr/appmi/';
       //'facet.query': '-memberStateCountryCode:[* TO *]',
       'facet.mincount': 1,
       'json.nl': 'map',
-      'ht': 'true'
+      'ht': 'true',
+      'fl': 'name'
       //'sort': getSortClause()
       //'fq': filterQuery.filterQuery
     };

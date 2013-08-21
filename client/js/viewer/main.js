@@ -4,12 +4,11 @@ var mapViewer;
 $(document).ready(function() {
   mapViewer = new GeneralMap();
   console.log('test');
-  createMapViewer('map-viewer');
+  //createMapViewer('map-viewer');
  
 });
 
 function createMapViewer(div){
-  checkMapViewer = false;
   
   //create basemap
   var baseMap = new OpenLayers.Layer.OSM();
