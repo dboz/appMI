@@ -1,6 +1,6 @@
 server: 
     port: 8881
-    enviroment: production
+    enviroment: development
     public_folder: public
     rack_server: thin
 
@@ -8,16 +8,6 @@ scheduler:
     timer: 600
 
 resources:
-  resource_path: rss_feeds
-  
-rss_feeds:
-    mercury: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Mercury&language=en"
-    magnesium: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Magnesium&language=en"
-    chromium: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Chromium&language=en"
-    styrene: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Styrene&language=en"
-    potassium: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Potassium&language=en"
-    benzene: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Benzene&language=en"
-    nitrogen: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Nitrogen&language=en"
-    xylene: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Xylene&language=en"
-    copper: "http://medusa.jrc.it/rss?type=category&id=IPCHEM_Copper&language=en"
+  resource_path: layers
+  zones: "zones.geojson"
   

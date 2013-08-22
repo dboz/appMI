@@ -6,18 +6,18 @@ require "sinatra/jsonp"
 require 'json'
 require 'multi_json'
 require 'yaml'
-require 'rssFeedParser.rb'
+require 'geojsonParser.rb'
 
 
 
 
 config = YAML.load_file("config.yml")
-rss_feeds_path = config['resources']['resource_path'] #path to cache rss feeds
+
 port = config['server']['port']
 enviroment = config['server']['enviroment']
 public_folder = config['server']['public_folder']
 rack_server = config['server']['rack_server']
-rss_feeds = config['rss_feeds']
+geojson_zone = config['resources']['zones']
 
 set :port, port
 set :environment, enviroment
@@ -30,12 +30,8 @@ get "/" do
 	redirect '/index.html'
 end
 
-get '/getAllFeedRss/:number' do
-  if(params[:number].nil?)
-    return json({"response" => {:error => "number parameter is missing"}}, :encoder => :to_json, :content_type => :js)
-  end
-  response = get_all_sorted_rss(params[:number].to_i - 1,rss_feeds, rss_feeds_path)
-  jsonp response, 'parseResponse'
+get '/getZone' do
+  geojson_zone = config['resources']['zones']
 end
 
 get '/getFeedRss/:category/:number' do

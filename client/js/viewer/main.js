@@ -3,8 +3,7 @@ var mapViewer;
 
 $(document).ready(function() {
   mapViewer = new GeneralMap();
-  console.log('test');
-  //createMapViewer('map-viewer');
+  createMapViewer('map-viewer');
  
 });
 
@@ -48,11 +47,11 @@ function createMapViewer(div){
   controls.push(doubleScaleLine);
   controls.push(new OpenLayers.Control.ArgParser());
   controls.push(new OpenLayers.Control.Attribution());
-  controls.push(new OpenLayers.Control.LoadingPanel({notification:false}));
+ // controls.push(new OpenLayers.Control.LoadingPanel({notification:false}));
   controls.push(new OpenLayers.Control.Navigation());
-  controls.push(new OpenLayers.Control.ProgressBar({
-    div: document.getElementById('progress-bar-content')
-  }));
+  //controls.push(new OpenLayers.Control.ProgressBar({
+  //  div: document.getElementById('progress-bar-content')
+  //}));
     var panel = new OpenLayers.Control.Panel();
   panel.addControls([new OpenLayers.Control.FullScreen()]);
 
@@ -91,7 +90,19 @@ function createMapViewer(div){
   // Add basemaps
   
   //mapViewer.addLayer(satellite.getBasemap());
+  
+  var geojson_layer = new OpenLayers.Layer.Vector("GeoJSON", {
+  projection: new OpenLayers.Projection("EPSG:4326"),         
+  strategies: [new OpenLayers.Strategy.Fixed()],
+            protocol: new OpenLayers.Protocol.HTTP({
+                url: "http://localhost/client/zones.geojson",
+                format: new OpenLayers.Format.GeoJSON()
+            })
+        });
+  console.log(geojson_layer);
+  
   mapViewer.addBasemap(baseMap);
+  mapViewer.addBasemap(geojson_layer);
   //mapViewer.addBasemap(openStreetMap);
   var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
   var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
