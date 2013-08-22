@@ -108,7 +108,6 @@
         
    <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" /> 
    <field name="sku" type="text_en_splitting_tight" indexed="true" stored="true" omitNorms="true"/>
-   <field name="name" type="text_general" indexed="true" stored="true"/>
    <field name="manu" type="text_general" indexed="true" stored="true" omitNorms="true"/>
    <field name="cat" type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="features" type="text_general" indexed="true" stored="true" multiValued="true"/>
@@ -224,6 +223,7 @@
         unknown fields indexed and/or stored by default --> 
    <!--dynamicField name="*" type="ignored" multiValued="true" /-->
 
+   <field name="name" type="text" indexed="true" stored="true"/>
    <field name="place" type="location" indexed="true" stored="true" multiValued="false"/>
    <field name="line_string" type="shape" indexed="true" stored="true" multiValued="false"/>
    <field name="cap" type="string" indexed="true" stored="true" multiValued="false"/>
@@ -233,7 +233,7 @@
    <field name="fax" type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="disabled_peaple" type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="zone" type="string" indexed="true" stored="true" multiValued="false"/>
-   <field name="address" type="string" indexed="true" stored="true" multiValued="false"/>
+   <field name="address" type="text" indexed="true" stored="true" multiValued="false"/>
    <field name="sub_category" type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="description" type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="text" type="text" indexed="true" stored="true" multiValued="true"/>

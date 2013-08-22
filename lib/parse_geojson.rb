@@ -189,6 +189,7 @@ Dir.glob("E:/github/appMI/geojson_data/**.geojson").each do |file|
 	json = JSON.parse(file)
 	
 	json['features'].each do |item|
+
 		data_items << {
 			:id => i,
 			:place => get_coordinate(item),
