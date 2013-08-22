@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'sinatra'
-require 'sinatra/reloader' if development?
+require 'sinatra/reloader'# if development?
 require "sinatra/json"
 require "sinatra/jsonp"
 require 'json'
@@ -17,6 +17,8 @@ port = config['server']['port']
 enviroment = config['server']['enviroment']
 public_folder = config['server']['public_folder']
 rack_server = config['server']['rack_server']
+
+geojson_path = config['resources']['resource_path']
 geojson_zone = config['resources']['zones']
 
 set :port, port
@@ -30,16 +32,14 @@ get "/" do
 	redirect '/index.html'
 end
 
-get '/getZone' do
-  geojson_zone = config['resources']['zones']
+get '/getZones' do
+  get_zone_geojson(geojson_path, geojson_zone)
 end
 
-get '/getFeedRss/:category/:number' do
-  if(params[:number].nil? || params[:category].nil?)
-    return json({"response" => {:error => "number and/or category parameters are missing"}}, :encoder => :to_json, :content_type => :js)
-  end
-  response = get_all_sorted_rss(params[:number].to_i - 1,[params[:category]=>''], rss_feeds_path)
-  jsonp response, 'parseResponse'
+get '/getZone/:number' do
+  response = get_zone_geojson_by_zone(params[:number].to_i, geojson_path, geojson_zone)
+  json(response, :encoder => :to_json, :content_type => :js)
+  #jsonp response, 'parseGeojson'
 end
 
 

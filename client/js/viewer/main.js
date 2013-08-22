@@ -92,10 +92,11 @@ function createMapViewer(div){
   //mapViewer.addLayer(satellite.getBasemap());
   
   var geojson_layer = new OpenLayers.Layer.Vector("GeoJSON", {
-  projection: new OpenLayers.Projection("EPSG:4326"),         
+  projection: new OpenLayers.Projection("EPSG:4326"),
   strategies: [new OpenLayers.Strategy.Fixed()],
             protocol: new OpenLayers.Protocol.HTTP({
-                url: "http://localhost/client/zones.geojson",
+               header: {'Content-Type': 'plain/text'},
+                url: "http://localhost:8081/getZone/1",
                 format: new OpenLayers.Format.GeoJSON()
             })
         });

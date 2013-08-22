@@ -61,7 +61,7 @@
    //http://advitum.de/2012/04/tagcloud-mit-php-und-javascript-erstellen-word-cloud-d3/
    var maxCount = items[items.length - 1].count;
 
-   var wordcloud, size = [1000, 300];
+   var wordcloud, size = [800, 300];
 
    var fill = d3.scale.category20c();
    console.log(d3.scale)
