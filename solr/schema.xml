@@ -235,8 +235,10 @@
    <field name="zone" type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="address" type="text" indexed="true" stored="true" multiValued="false"/>
    <field name="sub_category" type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="description" type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="description" type="text" indexed="true" stored="true" multiValued="true"/>
    <field name="text" type="text" indexed="true" stored="true" multiValued="true"/>
+   <field name="number_of_rooms" type="string" indexed="true" stored="true" multiValued="true"/>
+
 
  </fields>
 
