@@ -39,8 +39,8 @@ end
 
 get '/getZone/:number' do
   response = get_zone_geojson_by_zone(params[:number].to_i, geojson_path, geojson_zone)
-  json(response, :encoder => :to_json, :content_type => :js)
-  #jsonp response, 'parseGeojson'
+  #json(response, :encoder => :to_json, :content_type => :js)
+  jsonp response, 'parseGeojson'
 end
 
 

@@ -225,7 +225,7 @@
 
    <field name="name" type="text" indexed="true" stored="true"/>
    <field name="place" type="location" indexed="true" stored="true" multiValued="false"/>
-   <field name="line_string" type="shape" indexed="true" stored="true" multiValued="false"/>
+   <field name="line_string" type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="cap" type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="url" type="string" indexed="true" stored="true" multiValued="false"/>
    <field name="email" type="string" indexed="true" stored="true" multiValued="false"/>
@@ -277,7 +277,7 @@
  
   <types>
 
-    <fieldType name="shape"   class="solr.SpatialRecursivePrefixTreeFieldType"
+    <fieldType name="shape" class="solr.SpatialRecursivePrefixTreeFieldType"
                spatialContextFactory="com.spatial4j.core.context.jts.JtsSpatialContextFactory"
                distErrPct="0.025"
                maxDistErr="0.000009"
