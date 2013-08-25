@@ -33,7 +33,8 @@ get "/" do
 end
 
 get '/getZones' do
-  get_zone_geojson(geojson_path, geojson_zone)
+  response = get_zone_geojson(geojson_path, geojson_zone)
+  jsonp response, 'parseGeojson'
 end
 
 get '/getZone/:number' do

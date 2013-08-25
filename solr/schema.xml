@@ -238,7 +238,7 @@
    <field name="description" type="text" indexed="true" stored="true" multiValued="true"/>
    <field name="text" type="text" indexed="true" stored="true" multiValued="true"/>
    <field name="number_of_rooms" type="string" indexed="true" stored="true" multiValued="true"/>
-
+   <field name="number_of_stars" type="string" indexed="true" stored="true" multiValued="true"/>
 
  </fields>
 
