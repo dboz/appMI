@@ -114,87 +114,8 @@ function createMapViewer(div) {
 
 
 
-var get_news = $.ajax({
-    type: "GET",
-    url: 'http://localhost:8081/getZones',
-    dataType: "jsonp",
-    contentType: "application/jsonp; charset=utf-8",
-    jsonp: 'callback',
-    jsonpCallback: 'parseGeojson',
-    crossDomain:true
-    });
+   getZones();
 
-
-   /*
-    var get_news = $.ajax({
-    type: "GET",
-    url: 'http://localhost:8081/getZones',
-    dataType: "jsonp",
-    contentType: "application/jsonp; charset=utf-8",
-    jsonp: 'callback',
-    jsonpCallback: 'parseGeojson',
-    crossDomain:true
-    });
-    
-    get_news.done(function(geojson) {
-    
-    
-    var vector_layer = new OpenLayers.Layer.Vector("GeoJSON", {
-    projection: new OpenLayers.Projection("EPSG:4326")
-    });
-    var ol_geojson = new OpenLayers.Format.GeoJSON();
-    var test = ol_geojson.read(geojson);
-    
-    mapViewer.addLayer(vector_layer);
-    
-    vector_layer.addFeatures(test);
-    
-    
-    console.log(vector_layer);
-    
-    new OpenLayers.Protocol.Script({
-    url: "http://jsonpwrapper.com/?urls[]=http://earthquake.usgs.gov/earthquakes/catalogs/7day-M2.5.xml",
-    format: new OpenLayers.Format.GeoRSS(),
-    parseFeatures: function(data) {
-    return this.format.read(data[0]['body'])
-    }
-    
-    
-    });*/
-      
-      var tbPoi = {
-         parseGeojson: function(data){
-            return this.format.read(data);
-         }
-      }
-      
-    
-
-   var geojson_layer = new OpenLayers.Layer.Vector("GeoJSON", {
-      projection: new OpenLayers.Projection("EPSG:4326"),
-      strategies: [new OpenLayers.Strategy.Fixed()],
-      protocol: new OpenLayers.Protocol.Script({
-         url: 'http://localhost:8081/getZones',
-            callback:function(data){
-               console.log(data);
-            },
-            //callbackPrefix: 'parseGeojson&',
-            callbackKey: 'callback',
-         
-         format: new OpenLayers.Format.GeoJSON()//,
-          //parseFeatures: tbPoi.parseGeojson
-          //function(data) {
-        //    console.log(this.format.read(data));
-        //    return this.format.read(data);
-        // }
-      })
-   });
-
-   console.log(geojson_layer);
-   mapViewer.addBasemap(geojson_layer);
-
-
-   mapViewer.addLayer(geojson_layer);
    var allBasemap = mapViewer.getAllBasemap();
    for (var j = 0; j < allBasemap.length; j++) {
       var $button = $('<button></button>');

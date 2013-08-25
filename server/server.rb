@@ -34,11 +34,14 @@ end
 
 get '/getZones' do
   response = get_zone_geojson(geojson_path, geojson_zone)
+  content_type :json
+  #json(response, :encoder => :to_json, :content_type => :js)
   jsonp response, 'parseGeojson'
 end
 
 get '/getZone/:number' do
   response = get_zone_geojson_by_zone(params[:number].to_i, geojson_path, geojson_zone)
+  content_type :json
   #json(response, :encoder => :to_json, :content_type => :js)
   jsonp response, 'parseGeojson'
 end
