@@ -4,7 +4,6 @@ require "sinatra/reloader" if development?
 require "sinatra/json"
 require "sinatra/jsonp"
 require 'json'
-#gem "multi_json", "~> 1.7.9"
 require 'multi_json'
 require 'yaml'
 require './geojsonParser.rb'
