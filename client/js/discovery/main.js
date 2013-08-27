@@ -17,7 +17,7 @@ function createResults() {
 
   var canvasWidth = 800, //width
           canvasHeight = 800, //height
-          outerRadius = 150, //radius
+          outerRadius = 160, //radius
           color = d3.scale.category20(); //builtin range of colors;
 
   var vis = d3.select("#results_2")
