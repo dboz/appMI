@@ -4,9 +4,10 @@ require "sinatra/reloader" if development?
 require "sinatra/json"
 require "sinatra/jsonp"
 require 'json'
+#gem "multi_json", "~> 1.7.9"
 require 'multi_json'
 require 'yaml'
-require 'geojsonParser.rb'
+require './geojsonParser.rb'
 
 register Sinatra::Reloader
 
@@ -22,10 +23,10 @@ geojson_path = config['resources']['resource_path']
 geojson_zone = config['resources']['zones']
 
 set :port, port
-set :environment, :development
+set :environment, enviroment
 set :session, false
 set :run, true
-set :server, :webrick
+set :server, rack_server
 set :public_folder, public_folder
 
 get "/" do

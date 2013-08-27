@@ -1,0 +1,29 @@
+RSolr::Error::Http - 400 Bad Request
+Error: {'responseHeader'=>{'status'=>400,'QTime'=>1},'error'=>{'msg'=>'com.spatial4j.core.exception.InvalidShapeException: Invalid longitude: longitudes are range -180 to 180: provided lon: [9162.0]','code'=>400}}
+
+Request Data: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><add><doc><field name=\"zone\">8.0</field><field name=\"address\">Via della Pecetta 29</field><field name=\"category\">wi- fi</field><field name=\"place\">45.0,9162.0</field><field name=\"name\">Wi-Fi E1015</field><field name=\"id\">37971</field></doc></add>"
+
+Backtrace: /usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:268:in `adapt_response'
+/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:175:in `execute'
+/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:161:in `send_and_receive'
+(eval):2:in `post'
+/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:67:in `update'
+/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:87:in `add'
+commit_data.rb:49:in `block in <main>'
+commit_data.rb:47:in `each'
+commit_data.rb:47:in `each_with_index'
+commit_data.rb:47:in `<main>'["/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:268:in `adapt_response'", "/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:175:in `execute'", "/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:161:in `send_and_receive'", "(eval):2:in `post'", "/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:67:in `update'", "/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:87:in `add'", "commit_data.rb:49:in `block in <main>'", "commit_data.rb:47:in `each'", "commit_data.rb:47:in `each_with_index'", "commit_data.rb:47:in `<main>'"]{"zone"=>8.0, "address"=>"Via della Pecetta 29", "category"=>"wi- fi", "place"=>"45.0,9162.0", "name"=>"Wi-Fi E1015", "id"=>37971}RSolr::Error::Http - 400 Bad Request
+Error: {'responseHeader'=>{'status'=>400,'QTime'=>1},'error'=>{'msg'=>'com.spatial4j.core.exception.InvalidShapeException: Invalid longitude: longitudes are range -180 to 180: provided lon: [9187.0]','code'=>400}}
+
+Request Data: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><add><doc><field name=\"zone\">1.0</field><field name=\"address\">Via Marsala 8</field><field name=\"category\">wi- fi</field><field name=\"place\">45.0,9187.0</field><field name=\"name\">Wi-Fi E0483</field><field name=\"id\">37999</field></doc></add>"
+
+Backtrace: /usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:268:in `adapt_response'
+/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:175:in `execute'
+/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:161:in `send_and_receive'
+(eval):2:in `post'
+/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:67:in `update'
+/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:87:in `add'
+commit_data.rb:49:in `block in <main>'
+commit_data.rb:47:in `each'
+commit_data.rb:47:in `each_with_index'
+commit_data.rb:47:in `<main>'["/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:268:in `adapt_response'", "/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:175:in `execute'", "/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:161:in `send_and_receive'", "(eval):2:in `post'", "/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:67:in `update'", "/usr/lib/ruby/gems/1.9.1/gems/rsolr-1.0.9/lib/rsolr/client.rb:87:in `add'", "commit_data.rb:49:in `block in <main>'", "commit_data.rb:47:in `each'", "commit_data.rb:47:in `each_with_index'", "commit_data.rb:47:in `<main>'"]{"zone"=>1.0, "address"=>"Via Marsala 8", "category"=>"wi- fi", "place"=>"45.0,9187.0", "name"=>"Wi-Fi E0483", "id"=>37999}
