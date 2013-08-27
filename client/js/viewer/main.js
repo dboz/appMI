@@ -114,7 +114,7 @@ function createMapViewer(div) {
 
 
 
-   getZones();
+   //getZones();
 
    var allBasemap = mapViewer.getAllBasemap();
    for (var j = 0; j < allBasemap.length; j++) {

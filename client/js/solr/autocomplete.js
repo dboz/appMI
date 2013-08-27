@@ -72,6 +72,7 @@
               });
               //self.manager.store.addByValue('fq', '(text:"' + value + '" OR text_multilingual:"' + value + '" )');
               self.manager.store.addByValue('fq', multiFilterQuery.getFilterQueryOR());
+              
               self.manager.doRequest(0);
               self.requestSent = true;
               $(this).autocomplete("close");
@@ -113,7 +114,8 @@
           },
           select: function(event, ui) {
             // Click on element of the list  
-            // var value = $(this).val().trim();  
+            // var value = $(this).val().trim();
+            
             var value = ui.item.value;
             var field = ui.item.field;
             if (value !== undefined && field !== undefined) {
@@ -124,6 +126,7 @@
                   self.requestSent = true;
                   $(this).autocomplete("close");
                   $(this).val('');
+                  createResults();
                 }
               }
             }

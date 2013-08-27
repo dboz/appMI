@@ -59,13 +59,12 @@
     
     }*/
    //http://advitum.de/2012/04/tagcloud-mit-php-und-javascript-erstellen-word-cloud-d3/
-   var maxCount = items[items.length - 1].count;
+   //var maxCount = items[items.length - 1].count;
 
    var wordcloud, size = [800, 300];
 
    var fill = d3.scale.category20c();
-   console.log(d3.scale)
-
+   console.log('tagcloud')
    function draw(words) {
     wordcloud = d3.select('#tag-cloud').append("svg")
             .attr("width", size[0])
