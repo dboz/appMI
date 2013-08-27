@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SINATRA_HOME=/var/www/rdsi/rssFeedService; export SINATRA_HOME
+SINATRA_HOME=/var/appMi/server; export SINATRA_HOME
 SINATRA_OWNER=root; export SINATRA_OWNER
 
 SINATRA_1="ruby server.rb"; export SINATRA_1
