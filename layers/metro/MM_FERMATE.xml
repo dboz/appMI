@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dato>
+    <titolo>MM - fermate</titolo> 
+    <descrizione>Fermate della metropolitana, collocate in corrispondenza dei nodi del grafo delle linee metropolitane.</descrizione>
+    <tipoDato>Dato geografico</tipoDato>
+    <licenza>CC-BY</licenza> 
+    <URLlicenza>http://creativecommons.org/licenses/by/3.0/</URLlicenza>
+    <URLServizio></URLServizio>
+    <dataCreazione>martedì 12 giugno 2012 17:21:48</dataCreazione>
+    <dataModificaDato>martedì 19 febbraio 2013 17:21:49</dataModificaDato>
+    <dataModificaMetadato>giovedì 06 giugno 2013 12:29:43</dataModificaMetadato>
+    <dataScadenza>martedì 31 dicembre 2013 12:00:00</dataScadenza>
+    <frequenzaAgg>Annuale</frequenzaAgg>
+    <fileURL>MM_FERMATE</fileURL>
+    <fileTipo>SHP</fileTipo> 
+    <fileDimensione></fileDimensione>
+    <fileDescrizione />
+    <sistemaRiferimento>Gauss-Boaga fuso ovest</sistemaRiferimento>
+    <scala>1:5000</scala>
+    <enti>
+        <ente>AMAT - Agenzia Mobilità Ambiente e Territorio del Comune di Milano</ente>
+    </enti>
+    <argomenti>
+        <argomento>Mobilità</argomento>
+    </argomenti>
+    <tags>
+        <tag>mobilità</tag>
+    </tags>
+    
+    
+</dato>

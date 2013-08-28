@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dato>
+    <titolo>Piste ciclabili</titolo> 
+    <descrizione>Tracciati delle piste ciclabili e dei relativi attraversamenti.</descrizione>
+    <tipoDato>Dato geografico</tipoDato>
+    <licenza>CC-BY</licenza> 
+    <URLlicenza>http://creativecommons.org/licenses/by/3.0/</URLlicenza>
+    <URLServizio></URLServizio>
+    <dataCreazione>martedì 12 giugno 2012 17:18:32</dataCreazione>
+    <dataModificaDato>lunedì 15 aprile 2013 17:18:34</dataModificaDato>
+    <dataModificaMetadato>giovedì 06 giugno 2013 12:04:47</dataModificaMetadato>
+    <dataScadenza>martedì 15 ottobre 2013 12:00:00</dataScadenza>
+    <frequenzaAgg>Semestrale</frequenzaAgg>
+    <fileURL>CICLABILI</fileURL>
+    <fileTipo>SHP</fileTipo> 
+    <fileDimensione></fileDimensione>
+    <fileDescrizione />
+    <sistemaRiferimento>Gauss-Boaga fuso ovest</sistemaRiferimento>
+    <scala>1:2000</scala>
+    <enti>
+        <ente>AMAT - Agenzia Mobilità Ambiente e Territorio del Comune di Milano</ente>
+    </enti>
+    <argomenti>
+        <argomento>Mobilità</argomento>
+    </argomenti>
+    <tags>
+        <tag>mobilità</tag>
+    </tags>
+    
+    
+</dato>

@@ -1,6 +1,6 @@
 server: 
     port: 8081
-    enviroment: :production
+    enviroment: :development
     public_folder: public
     rack_server: :thin
 
@@ -10,4 +10,12 @@ scheduler:
 resources:
   resource_path: layers
   zones: "zones.geojson"
+  train_station: "stations.geojson"
+  rails: "rails.geojson"
+  metro_lines: "metro_lines.geojson"
+  metro_stations: "metro_stations.geojson"
+  dog_zone: "dog_zone.geojson"
+  parks: "parks.geojson"
+  bike_parking: "bike_parking.geojson"
+  bike_paths: "bike_paths.geojson"
   
