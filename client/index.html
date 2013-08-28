@@ -11,6 +11,7 @@
     <!-- start: CSS -->
     <link rel="stylesheet" type="text/css" href="js/lib/jquery-ui-1.10.3.black-tie/css/black-tie/jquery-ui-1.10.3.custom.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/inside-milan.css"/>
+    <link rel="stylesheet" type="text/css" href="css/text-search.css"/>
     <link rel="stylesheet" type="text/css" href="js/lib/jquery.bxslider/jquery.bxslider.css"/>
     <!-- end: CSS -->
 
@@ -47,6 +48,7 @@
     <script type="text/javascript" src="js/solr/main.js"></script>
     <script type="text/javascript" src="js/solr/tagCloud.js"></script>
     <script type="text/javascript" src="js/solr/autocomplete.js"></script>
+    <script type="text/javascript" src="js/solr/results.js"></script>
 
     <!-- start: geographical search -->
     <script type="text/javascript" src="js/geographical_search/map.js"></script>
@@ -56,8 +58,8 @@
     <script type="text/javascript" src="js/geographical_search/fullscreen-api-polyfill.js"></script>
     
     <!-- start: test search -->
-    <script type="text/javascript" src="js/text_search/main.js"></script>
-
+    <script type="text/javascript" src="js/text_search/text_search.js"></script>
+    <script type="text/javascript" src="js/text_search/text_search.results.js"></script>
 
     <script src="js/lib/jquery.bxslider/jquery.bxslider.min.js"></script>
 
@@ -93,14 +95,13 @@
         <div id="container">
           <div  id="logo">
             <div>
-              <a href="#"><img src="images/logo.png" alt="logo" /></a>
+              <!--<a href="#"><img src="images/logo.png" alt="logo" /></a>-->
             </div>
 
           </div>
 
-          <div id="header-menu">
-
-          </div>
+          <div id="header-menu"></div>
+          
 
         </div>
       </div>
@@ -123,7 +124,7 @@
 
 
 
-              <div id="result-by-test">
+              <div id="results-by-text-search">
 
               </div>
             </div>

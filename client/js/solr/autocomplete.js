@@ -126,7 +126,7 @@
                   self.requestSent = true;
                   $(this).autocomplete("close");
                   $(this).val('');
-                  createResults();
+                 // createResults();
                 }
               }
             }
