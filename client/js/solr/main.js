@@ -1,15 +1,12 @@
 var fl = ['name'];
-
-
 var solrUrl = 'http://www.insidemilan.it/solr/appmi/';
 
+var Manager;
 
 (function($) {
 
   $(function() {
-
-
-
+   
     Manager = new AjaxSolr.Manager({
       solrUrl: solrUrl
     });
@@ -26,84 +23,6 @@ var solrUrl = 'http://www.insidemilan.it/solr/appmi/';
       field: 'text',
       fields: ['text']
     }));
-/*
-    Manager.addWidget(new AjaxSolr.PagerWidget({
-      id: 'result',
-      target: '#result',
-      prevLabel: '&lt;',
-      nextLabel: '&gt;',
-      innerWindow: 1,
-      renderHeader: function(perPage, offset, total) {
-        console.log($('#pager-header'));
-        $('#pager-header').html($('<span></span>').text('displaying ' + Math.min(total, offset + 1) + ' to ' + Math.min(total, offset + perPage) + ' of ' + total));
-      }
-    }));
-*/
-    /*
-     Manager.addWidget(new AjaxSolr.ResultWidget({
-     id: 'result',
-     target: '#list_of_documents'
-     }));
-     Manager.addWidget(new AjaxSolr.PagerWidget({
-     id: 'pager',
-     target: '#pager',
-     prevLabel: '&lt;',
-     nextLabel: '&gt;',
-     innerWindow: 1,
-     renderHeader: function(perPage, offset, total) {
-     $('#pager-header').html($('<span/>').text('displaying ' + Math.min(total, offset + 1) + ' to ' + Math.min(total, offset + perPage) + ' out of ' + total + ' results'));
-     }
-     }));
-     
-     for (var i = 0, l = tag_fields.length; i < l; i++) {
-     Manager.addWidget(new AjaxSolr.TagcloudWidget({
-     id: tag_fields[i],
-     target_body: '#' + tag_fields[i] + '-body',
-     target: '#' + tag_fields[i],
-     field: tag_fields[i],
-     gfield: gtag_fields[i]
-     }));
-     }
-     Manager.addWidget(new AjaxSolr.CurrentSearchWidget({
-     id: 'currentsearch',
-     target: '#selection'
-     }));
-     Manager.addWidget(new AjaxSolr.CurrentSearchWidgetFreeText({
-     id: 'currentfreetextsearch',
-     target: '#current-search-box'
-     }));
-     Manager.addWidget(new AjaxSolr.AutocompleteWidget({
-     id: 'text',
-     target: '#search',
-     field: 'text',
-     fields: ['text', 'text_multilingual']
-     }));
-     Manager.addWidget(new AjaxSolr.TextWidget({
-     id: 'freeText',
-     target: '#searchFreeText'
-     }));
-     Manager.addWidget(new AjaxSolr.CountryCodeWidget({
-     id: 'countries',
-     target: '#countries',
-     field: 'countryCodes'
-     }));
-     Manager.addWidget(new AjaxSolr.ResourceTypeWidget({
-     id: 'resource-type-panel',
-     target: '#resource-type-panel',
-     field: 'geoportalResourceType'
-     }));
-     if(checkIEVersion())
-     Manager.addWidget(new AjaxSolr.CirclePacking({
-     id: 'circle-packing',
-     target: '#circle-packing'
-     }));
-     /*
-     Manager.addWidget(new AjaxSolr.CalendarWidget({
-     id: 'timeline',
-     target: '#timeline',
-     field: 'dateOfPublication'
-     }));
-     */
 
     var hashStore = new AjaxSolr.ParameterHashStore();
     Manager.setStore(hashStore);
@@ -112,28 +31,14 @@ var solrUrl = 'http://www.insidemilan.it/solr/appmi/';
     Manager.init();
     Manager.store.addByValue('q', '*:*');
 
-    //filterQuery = new FilterQuery('{!tag=grt}' + conf.default_field_for_filter);
-    /*    
-     filterQuery.addFilterQueryOR('dataset');
-     filterQuery.addFilterQueryOR('series');
-     */
-    //for (var i = 0; i < conf.defaultORFilters.length; i++) {
-    //  filterQuery.addFilterQueryOR(conf.defaultORFilters[i]);
-    //}
-    //filterQuery.addFilterQueryOR('layer');
-    //filterQuery.addFilterQueryOR('service');
-
-
     var params = {
       'facet': true,
       'facet.field': ['category', 'sub_category'],
-      //'facet.query': '-memberStateCountryCode:[* TO *]',
       'facet.mincount': 1,
       'json.nl': 'map',
       'ht': 'true',
-      'fl': 'name'
-              //'sort': getSortClause()
-              //'fq': filterQuery.filterQuery
+      'fl': fl
+      //'sort':
     };
 
     for (var name in params) {
@@ -141,8 +46,5 @@ var solrUrl = 'http://www.insidemilan.it/solr/appmi/';
     }
     Manager.doRequest();
   });
-
-
-
 })(jQuery);
 

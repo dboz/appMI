@@ -2,9 +2,9 @@ function createResults() {
   var $results = $('#result-by-test');
 
   var data = [];
-  for (var facet in Manager.response.facet_counts.facet_fields['category']) {
+  for (var facet in ManagerTextSearch.response.facet_counts.facet_fields['category']) {
     var label = facet;
-    var count = parseInt(Manager.response.facet_counts.facet_fields['category'][facet]);
+    var count = parseInt(ManagerTextSearch.response.facet_counts.facet_fields['category'][facet]);
     if (label.length > 0) {
       data.push({
         legendLabel: facet,
