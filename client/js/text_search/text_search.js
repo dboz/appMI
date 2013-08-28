@@ -20,6 +20,17 @@ var ManagerTextSearch;
       target: '#results-by-text-search'
     }));
 
+    ManagerTextSearch.addWidget(new AjaxSolr.PagerWidget({
+      id: 'pager',
+      target: '#pager',
+      prevLabel: '&lt;',
+      nextLabel: '&gt;',
+      innerWindow: 1,
+      renderHeader: function(perPage, offset, total) {
+        $('#navigation-text-search').html($('<span></span>').text(Math.min(total, offset + 1) + ' - ' + Math.min(total, offset + perPage) + ' (' + total + ')'));
+      }
+    }));
+
     var hashStore = new AjaxSolr.ParameterHashStore();
     ManagerTextSearch.setStore(hashStore);
     //ManagerTextSearch.store.exposed = ['fq', 'q', 'start', 'facet', 'facet.query', 'facet.field', 'facet.mincount', 'facet.count'];
@@ -33,7 +44,7 @@ var ManagerTextSearch;
       'facet.mincount': 1,
       'json.nl': 'map',
       'ht': 'true',
-      'fl': ['name','description','category', 'place'],
+      'fl': ['name', 'description', 'category', 'place', 'sub_category', 'url', 'email', 'telephone', 'fax', 'address', 'zone'],
       'sort': 'name desc'
     };
 
