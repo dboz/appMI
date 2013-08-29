@@ -153,8 +153,8 @@ end
 def get_coordinate geojson
 	coordinates =  geojson['geometry']['coordinates'] if geojson['geometry']['type'] == 'Point'
 	return "" if coordinates.nil?
-	lat = coordinates[0].to_f
-	lon = coordinates[1].to_f
+	lat = coordinates[1].to_f
+	lon = coordinates[0].to_f
 	if(lat.between?(-90,90) && lon.between?(-180,180))
 		"#{coordinates[0]},#{coordinates[1]}"
 	else

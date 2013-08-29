@@ -44,7 +44,7 @@ var ManagerTextSearch;
       'facet.mincount': 1,
       'json.nl': 'map',
       'ht': 'true',
-      'fl': ['name', 'description', 'category', 'place', 'sub_category', 'url', 'email', 'telephone', 'fax', 'address', 'zone'],
+      'fl': ['name', 'description', 'category', 'place', 'sub_category', 'url', 'email', 'telephone', 'fax', 'address', 'zone', 'place'],
       'sort': 'name desc'
     };
 

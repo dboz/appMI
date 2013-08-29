@@ -17,7 +17,7 @@ class Geocoding
 			results.each do |result|
 				if result.city == 'Milan'
 					response << "#{result.address}"
-					response << "#{result.latitude.to_f},#{results.first.longitude}"
+					response << "#{result.latitude.to_f},#{result.longitude.to_f}"
 					response << "#{result.postal_code}"
 				end
 			end
@@ -41,7 +41,7 @@ class Geocoding
 			results.each do |result|
 				if result.city == 'Milan'
 					response << "#{result.address}"
-					response << "#{result.latitude.to_f},#{results.first.longitude}"
+					response << "#{result.latitude.to_f},#{result.longitude.to_f}"
 					response << "#{result.postal_code}"
 				end
 			end
@@ -63,7 +63,7 @@ class Geocoding
 			results.each do |result|
 				if result.city == 'Milan'
 					response << "#{result.address}"
-					response << "#{result.latitude.to_f},#{results.first.longitude}"
+					response << "#{result.latitude.to_f},#{result.longitude.to_f}"
 					response << "#{result.postal_code}"
 				end
 			end

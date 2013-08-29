@@ -66,14 +66,16 @@ function generateItem(solrDocument) {
   $left.append($description);
   
   var $contact = $('<div></div>');
-  if(solrDocument.email !== undefined || solrDocument.email === 'empty')
+  if(solrDocument.email !== undefined || solrDocument.email !== 'empty')
     $contact.append($('<p></p>').append('E-mail: ' + solrDocument.email));
-  if(solrDocument.telephone !== undefined || solrDocument.telephone === 'empty')
+  if(solrDocument.telephone !== undefined || solrDocument.telephone !== 'empty')
     $contact.append($('<p></p>').append('Telefono: ' + solrDocument.telephone));
-  if(solrDocument.fax !== undefined || solrDocument.fax === 'empty')
+  if(solrDocument.fax !== undefined || solrDocument.fax !== 'empty')
     $contact.append($('<p></p>').append('Fax: ' + solrDocument.fax));
-  if(solrDocument.url !== undefined || solrDocument.url === 'empty')
+  if(solrDocument.url !== undefined || solrDocument.url !== 'empty')
     $contact.append($('<p></p>').append('Website: ' + solrDocument.url));
+  if(solrDocument.place !== undefined || solrDocument.place === 'empty')
+    $contact.append($('<p></p>').append('Coordinates: ' + solrDocument.place));
   $left.append($contact);
   
   $content.append($left);

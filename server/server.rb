@@ -6,6 +6,10 @@ require "sinatra/jsonp"
 require 'json'
 require 'multi_json'
 require 'yaml'
+require 'oauth'
+require 'oauth/consumer'
+require 'twitter'
+
 require './geojsonParser.rb'
 
 register Sinatra::Reloader
@@ -102,3 +106,39 @@ get '/getBikePaths' do
   content_type :json
   jsonp response, 'parseGeojson'
 end
+
+def prepare_access_token(oauth_token, oauth_token_secret)
+  consumer = OAuth::Consumer.new("2eNpwKU11Xx1crG22GrIQ", "M8VjMF0cfT8GNy5oIZASjklaU0x2xwHHAl0a5FgqedA",
+    { :site => "http://api.twitter.com",
+      :scheme => :header
+    })
+  # now create the access token object from passed values
+  token_hash = { :oauth_token => oauth_token,
+                 :oauth_token_secret => oauth_token_secret
+               }
+  access_token = OAuth::AccessToken.from_hash(consumer, token_hash )
+  return access_token
+end
+ 
+
+
+get '/getInfoByTwitter/:query/:lat/:long' do
+  query = params[:query]
+  lat = params[:lat].to_f
+  long = params[:long].to_f
+
+  # Exchange our oauth_token and oauth_token secret for the AccessToken instance.
+  access_token = prepare_access_token("1710070567-X8Sjm16ThO5ehcf0kxLUCIJ7whBBzf1THY5gwpk", "zMmDvu5vclQfsLqvUP6yyF6lwDShCS0L0QoijbPYY")
+# use the access token as an agent to get the home timeline
+  #url = "https://api.twitter.com/1.1/geo/search.json?lat=#{lat}&long=#{long}"
+  url = "https://api.twitter.com/1.1/search/tweets.json?q=#{query}&geocode=#{lat},#{long},1km"
+  response = access_token.request(:get, url)
+  return  JSON.parse(response.body).to_json
+
+end
+
+
+
+
+
+
