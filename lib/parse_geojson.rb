@@ -156,7 +156,7 @@ def get_coordinate geojson
 	lat = coordinates[1].to_f
 	lon = coordinates[0].to_f
 	if(lat.between?(-90,90) && lon.between?(-180,180))
-		"#{coordinates[0]},#{coordinates[1]}"
+		"#{lat},#{lon}"
 	else
 		return ''
 	end
@@ -175,7 +175,7 @@ end
 
 
 
-empty = "empty"
+empty = ""
 
 
 i = 0
