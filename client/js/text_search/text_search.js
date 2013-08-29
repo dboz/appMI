@@ -51,6 +51,7 @@ var ManagerTextSearch;
     for (var name in params) {
       ManagerTextSearch.store.addByValue(name, params[name]);
     }
+    console.log('do_request');
     ManagerTextSearch.doRequest();
   });
 })(jQuery);
