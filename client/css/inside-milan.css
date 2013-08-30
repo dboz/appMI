@@ -74,22 +74,40 @@
   height: 10px;
 }
 
-#viewer{
- width: 800px;
- height: 500px;
- margin: auto;
- position: relative;
+/* Maps */
+
+#map{
+ position: absolute;
+ top: 60px;
+ bottom: 50px;
+ left: 50px;
+ right: 50px;
  border: 1px solid red;
  
 }
 
-#map-viewer{
- width: 800px;
- height: 500px;
- margin: auto;
+#map-controls{
+ position: absolute;
+ top: 60px;
+ bottom: 50px;
+ right: 0px;
+ width: 130px;
  border: 1px solid red;
- 
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #tag-cloud{
  width: 800px;
