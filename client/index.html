@@ -59,6 +59,7 @@
     <!-- start: geographical search -->
     <script type="text/javascript" src="js/geographical_search/map.js"></script>
     <script type="text/javascript" src="js/geographical_search/map.zones.js"></script>
+    <script type="text/javascript" src="js/geographical_search/map.layers.js"></script>
     <script type="text/javascript" src="js/geographical_search/main.js"></script>
 
     <!-- start: test search -->
@@ -72,6 +73,15 @@
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/layout.js"></script>
     <!-- end: client -->
+
+    <script type="text/javascript"> var head = document.getElementsByTagName("head")[0];
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = "http://useresponse.insidemilan.it/public/themes/default/assets/css/widget.css";
+      link.media = "all";
+      head.appendChild(link);
+    </script>
 
     <!-- start: Google analytics-->
     <script>
@@ -120,10 +130,7 @@
     </div>
 
     <div id="map"></div>
-    <div id="layers-overlay-button"></div>
-    <div id="layers-overlay" style="display: none;">
-      <div id="layers-overlay-content"></div>
-    </div>
+    
 
     <div id="discovery">
       <div id="discovery-button"></div>
@@ -145,20 +152,18 @@
       <div id="mouse-position"></div>
       <div id="extended-scale"></div>
       <div id="double-scale-line"></div>
-      <div id="copyright">
-
-   <!-- start: Container -->
-   <div id="footer">
-      <img src="images/copyright-left.png" alt="logo" />
-     
-      &copy; 2013, insideMilan. e-mail: info@insidemilan.it 
-      <a><img src="images/twitter.png" alt="logo" /></a>
-      <a><img src="images/facebook.png" alt="logo" /></a>
+      <div id="layers-overlay"></div>
       
-     <img src="images/copyright-right.png" alt="logo" />
-    
-   </div>
-  </div>	
+      <div id="copyright">
+        <div id="footer">
+          <img src="images/copyright-left.png" alt="logo" />  
+          &copy; 2013, insideMilan. e-mail: info@insidemilan.it 
+          <a><img src="images/twitter.png" alt="logo" /></a>
+          <a><img src="images/facebook.png" alt="logo" /></a>
+          <img src="images/copyright-right.png" alt="logo" />
+        </div>
+
+      </div>	
     </div>
 
   </body>

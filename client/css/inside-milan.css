@@ -117,30 +117,36 @@ a, a:visited {
 }
 
 #layers-overlay{
- position: absolute;
- bottom:80px;
- height: 300px;
- right: 0px;
- left: 0px;
+ position: relative;
+ padding-top: 10px;
+ height: 30px;
+ width: 800px;
+ margin: auto;
  z-index: 10;
  background-color: #3F484F;
- border: 1px solid white;
+ text-align: center;
 }
 
-
-
-.layer-item{
-    background-color: #3F484F;
+.navigation-button-layer-style{
+  margin-bottom: 5px;
+  width: 60px;
+  height: 25px;
+  font-size: 15px;
+  color: #3F484F;
+  cursor: pointer;
+  cursor: hand;
+  margin-right: 10px;
+  background-color: #959899 ;
+  padding: 5px;
+  /*border-radius*/
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+  -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+  box-shadow: 0px 1px 1px rgba(0,0,0,.25);
 }
 
-.layer-svg{
-  width:600px;
-  height:300px;
-  padding: 20px;
-  border:1px solid red;
-  margin: auto;
-  background-color: #3F484F;
-}
 
 .layer-title{
  position: absolute;
@@ -168,7 +174,7 @@ a, a:visited {
   position: absolute;
   top:400px;
   bottom: 60px;
-  left: 0px;
+  left: 5px;
   z-index: 500;
   overflow: hidden;
 }
@@ -192,6 +198,8 @@ a, a:visited {
   box-shadow: 0px 1px 1px rgba(0,0,0,.25);
 }
 
+
+
 .basemap-button{
     height: 50px !important;
     
@@ -201,13 +209,22 @@ a, a:visited {
 
 
 
-#footer{
+#copyright{
+  position: absolute;
+  bottom: -30px;
   margin: auto;
   width: 500px;
   color: #E2E2E2;
+  display: none;
 }
 
-
+#useresponse{
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  padding: 3px;
+  border: 1px solid #E2E2E2;
+}
 
 
 

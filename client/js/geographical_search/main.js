@@ -119,12 +119,11 @@ function createMapViewer(div) {
 }
 
 var zones;
+var layers;
+
 $(document).ready(function() {
   zones = new Zones();
-  
-  
   var $navigation_left = $('#navigation-left');
-  
   $.each(zones.data_zones, function(index, value){
       var $button = $('<div></div>');
       $button.addClass('navigation-button-style');
@@ -136,106 +135,45 @@ $(document).ready(function() {
       function(evt){
         if(zones.isActiveZone(evt.data.item.value) === false){
           zones.addZoneByIndex(evt.data.item.value);
+          $('.navigation-button-style').css('background-color',"#3F484F").css('color','#959899');
           $(this).css('background-color',"#959899").css('color','#3F484F')
         }else{
           zones.removeZoneByIndex(evt.data.item.value);
-          $(this).css('background-color',"#3F484F").css('color','#959899')
+          $(this).css('background-color',"#3F484F").css('color','#959899');
         }
         
       });
       $navigation_left.append($button);
   });
-  
-  
-var $navigation_botton = $('#navigation-botton');
+});
 
-    var $transport = $('<button></button>');
-  $transport.addClass('navigation-button-style');
-  $transport.append('Trasporti');
-  $transport.button();
-  $transport.click(function(evt){
-    if($('#layers-overlay').is(':visible'))
-     $('#layers-overlay').hide();
-   else
-     $('#layers-overlay').show();
-  });
- 
-  // $navigation_botton.append($transport);
 
-  
-  var $layers_overlay = $('#layers-overlay-content');
-
-  $.each(data_layers, function(index, value) {
-    var $layer = $('<div class="layer-item"></div>');
-    $layer.attr('id', 'layer_' + index);
-    $layer.append($('<div class="layer-title"></div>').append(value.name));
-    $layer.append($('<div></div>').attr('id', 'layer-svg-' + index).addClass('layer-svg'));
-
-    //$layers_overlay.append($layer);
-  });
-  
-  slider = $('#layers-overlay-content').bxSlider({
-    adaptiveHeight: true,
-    pager:false,
-    mode: 'fade',
-    onSlideBefore: function($slideElement, oldIndex, newIndex) { // your code here }
+$(document).ready(function() {
+  layers = new Layers();
+  $.each(layers.data_layers,function(index, value){
+     var $button = $('<span></span>');
+      $button.addClass('navigation-button-layer-style');
+      $button.append(value.name);
       
-      var id = '#' + 'layer-svg-' + newIndex;
-      var url = data_layers[newIndex].url;
-
-      var get_zones = $.ajax({
-        type: "GET",
-        url: url,
-        dataType: "jsonp",
-        contentType: "application/jsonp; charset=utf-8",
-        jsonp: 'callback',
-        jsonpCallback: 'parseGeojson',
-        crossDomain: true
+      $button.click({
+        item:value
+      },
+      function(evt){
+        var layer = evt.data.item;
+        console.log(layer);
+        if(layers.isActive(layer) === false)
+          layers.addLayer(layer);
+        else
+          layers.removeLayer(layer);
       });
-      
-      get_zones.done(function(geojson) {
-
-        
-        var map = new SimpleMapD3({
-          container: id,
-          data: geojson,
-          tooltipOn: true,
-          graticuleOn: true,
-          projection: 'equirectangular',
-          mapDragOn: false,
-          legendDragOn: false,
-          styles: {
-            "stroke-width": 0.05,
-            "stroke": "steelblue",
-            "fill": "none"
-          },
-          stylesBackground:{
-            
-          }
-        });
-
-
-
-
-
-      });
-
-    }
+      $('#layers-overlay').append($button);
+    
   });
-
 });
 
 
 
-var data_layers = [
-  
-  {
-    name: 'Linee metropolitana',
-    url: 'http://www.insidemilan.it/layers/getMetroLines'
-  },
-  {
-    name: 'Ferrovie',
-    url: 'http://www.insidemilan.it/layers/getRails'
-  }
-  
-]
+/*
+ * 
+
+ */
