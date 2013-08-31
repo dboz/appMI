@@ -1,27 +1,11 @@
-//http://theartofasking.com/question/wjucdg6k
-
-var slider;
-$(document).ready(function(){
-  /*
-  console.log('main');
-  console.log($(document));
-console.log($("#wrapper"));
-  slider = $('#bxslider').bxSlider({
-      adaptiveHeight: true,
-  mode: 'fade'
-  });
-  */
-  
-});
-
 $(document).ready(function() {
-  
+
   var $use_response = $('<a>Feedbacks</a>');
-  $use_response.attr('id','useresponse');
+  $use_response.attr('id', 'useresponse');
   $use_response.css('background-color', '#3F484F');
   $use_response.css('border-color', '#E2E2E2');
   $use_response.css('color', '#E2E2E2');
-  $use_response.css( 'cursor', 'pointer');
+  $use_response.css('cursor', 'pointer');
   $use_response.css('cursor', 'hand');
   $use_response.attr('title', 'Feedback');
   $('#header').append($use_response);
@@ -35,7 +19,7 @@ $(document).ready(function() {
       zIndex: 2000,
       stack: false
     };
-    var $dialog = $('<div></div>');    
+    var $dialog = $('<div></div>');
     $('BODY').append($dialog);
     $dialog.append($('<iframe width="650" height="450" />').attr("src", "http://useresponse.insidemilan.it/widget?type=feedback")).dialog(dialogOptions);
 
