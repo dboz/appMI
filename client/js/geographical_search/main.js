@@ -2,7 +2,7 @@ var checkMapViewer = true;
 var mapViewer;
 
 $(document).ready(function() {
-  mapViewer = new GeneralMap();
+  mapViewer = new MapOL();
   createMapViewer('map');
 
 });
@@ -132,6 +132,44 @@ function createMapViewer(div) {
 }
 
 $(document).ready(function() {
+  var $navigation_botton = $('#navigation-botton');
+  
+  var $transport = $('<button></button>');
+  $transport.addClass('navigation-button-style');
+  $transport.append('Trasporti');
+  $transport.button();
+  $transport.click(function(evt){
+    if($('#layers-overlay').is(':visible'))
+     $('#layers-overlay').hide();
+   else
+     $('#layers-overlay').show();
+  });
+  $navigation_botton.append($transport);
+  
+  $.each(data_zones, function(index, value){
+      var $button = $('<button></button>');
+      $button.addClass('navigation-button-style');
+      $button.append(value.name);
+      $button.button();
+      $button.click({
+        item:value
+      },
+      function(evt){
+        console.log(evt.data.item.value)
+        if(evt.data.item.active === false){
+          addZoneByIndex(evt.data.item.value);
+        evt.data.item.active = true;
+        }else{
+          removeZoneByIndex(evt.data.item.value);
+          evt.data.item.active = false;
+        }
+        
+      });
+      $navigation_botton.append($button);
+  });
+  
+ 
+  
   var $layers_overlay = $('#layers-overlay-content');
 
   $.each(data_layers, function(index, value) {
@@ -148,8 +186,7 @@ $(document).ready(function() {
     pager:false,
     mode: 'fade',
     onSlideBefore: function($slideElement, oldIndex, newIndex) { // your code here }
-      console.log($slideElement);
-
+      
       var id = '#' + 'layer-svg-' + newIndex;
       var url = data_layers[newIndex].url;
 
@@ -195,6 +232,8 @@ $(document).ready(function() {
 
 });
 
+
+
 var data_layers = [
   /*{
     name: 'Zona 1',
@@ -231,11 +270,16 @@ var data_layers = [
   {
     name: 'Zona 9',
     url: 'http://www.insidemilan.it/layers/getZone/8'
-  },*/
+  },
   {
     name: 'Stazioni Ferroviarie',
     url: 'http://www.insidemilan.it/layers/getTrainStation'
   },
+   {
+    name: 'Ferrovie',
+    url: 'http://www.insidemilan.it/layers/getRails'
+  },
+   **/
   {
     name: 'Linee metropolitana',
     url: 'http://www.insidemilan.it/layers/getMetroLines'
@@ -243,15 +287,12 @@ var data_layers = [
   {
     name: 'Ferrovie',
     url: 'http://www.insidemilan.it/layers/getRails'
-  },
-  {
-    name: 'Stazioni Ferroviarie',
-    url: 'http://www.insidemilan.it/layers/getTrainStation'
-  },
+  }
+  /*,
   {
     name: 'Stazioni metropolitana',
     url: 'http://www.insidemilan.it/layers/getMetroStations'
-  }/*,
+  },
   {
     name: 'Aree cani',
     url: 'http://www.insidemilan.it/layers/getDogZone'

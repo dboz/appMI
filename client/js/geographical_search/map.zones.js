@@ -1,8 +1,10 @@
 var zones = [0,1,2,3,4,5,6,7,8];
 
 function addZoneByIndex(zone) {
-   var url = 'http://localhost:8081/getZone/' + zone;
-   var get_zones = $.ajax({
+  
+   var url = 'http://www.insidemilan.it/layers/getZone/' + zone;
+  console.log(url); 
+  var get_zones = $.ajax({
       type: "GET",
       url: url,
       dataType: "jsonp",
@@ -23,6 +25,12 @@ function addZoneByIndex(zone) {
       mapViewer.map.addLayer(vectorLayer);
       vectorLayer.addFeatures(geojson_format.read(geojson));
    });
+}
+
+function removeZoneByIndex(zone){
+  var layer = mapViewer.map.getLayersByName("Zone:"+zone);
+  mapViewer.map.removeLayer(layer[0]);
+  console.log(layer);
 }
 
 function addAllZoneByIndex() {
@@ -50,4 +58,60 @@ function addAllZoneByIndex() {
    });
 }
 
+var data_zones = [
+  {
+    name: 'Zona 1',
+    value:0,
+    active:false,
+    url: 'http://www.insidemilan.it/layers/getZone/0'
+  },
+  {
+    name: 'Zona 2',
+    value:1,
+    active:false,
+     url: 'http://www.insidemilan.it/layers/getZone/1'
+  },
+  {
+    name: 'Zona 3',
+    value:2,
+    active:false,
+     url: 'http://www.insidemilan.it/layers/getZone/2'
+  },
+  {
+    name: 'Zona 4',
+    value:3,
+    active:false,
+     url: 'http://www.insidemilan.it/layers/getZone/3'
+  },
+  {
+    name: 'Zona 5',
+    value:4,
+    active:false,
+     url: 'http://www.insidemilan.it/layers/getZone/4'
+  },
+  {
+    name: 'Zona 6',
+    value:5,
+    active:false,
+     url: 'http://www.insidemilan.it/layers/getZone/5'
+  },
+  {
+    name: 'Zona 7',
+    value:6,
+    active:false,
+     url: 'http://www.insidemilan.it/layers/getZone/6'
+  },
+  {
+    name: 'Zona 8',
+    value:7,
+    active:false,
+     url: 'http://www.insidemilan.it/layers/getZone/7'
+  },
+  {
+    name: 'Zona 9',
+    value:8,
+    active:false,
+     url: 'http://www.insidemilan.it/layers/getZone/8'
+  }
+];
 
