@@ -16,17 +16,13 @@ AjaxSolr.Manager = AjaxSolr.AbstractManager.extend(
   /** @lends AjaxSolr.Manager.prototype */
   {
   executeRequest: function (servlet, string, handler, errorHandler) {
-    /*
+    
     if (this.store.params.fq === undefined || this.store.params.fq.length < 0){
       $('#results-by-text-search').hide();
-    
-    
-    
-    
     }else{
       $('#results-by-text-search').show();
     }
-    */
+    
     var self = this,
         options = {dataType: 'json'};
     string = string || this.store.string();

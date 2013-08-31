@@ -95,7 +95,7 @@ function createMapViewer(div) {
   var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
   var toProjection = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
   var position = new OpenLayers.LonLat(9.189, 45.47).transform(fromProjection, toProjection);
-  mapViewer.map.setCenter(position, 11);
+  mapViewer.map.setCenter(position, 12);
 
 
 
@@ -131,7 +131,9 @@ function createMapViewer(div) {
 
 }
 
+var zones;
 $(document).ready(function() {
+  zones = new Zones();
   var $navigation_botton = $('#navigation-botton');
   
   var $transport = $('<button></button>');
@@ -146,7 +148,7 @@ $(document).ready(function() {
   });
   $navigation_botton.append($transport);
   
-  $.each(data_zones, function(index, value){
+  $.each(zones.data_zones, function(index, value){
       var $button = $('<button></button>');
       $button.addClass('navigation-button-style');
       $button.append(value.name);
@@ -155,13 +157,11 @@ $(document).ready(function() {
         item:value
       },
       function(evt){
-        console.log(evt.data.item.value)
-        if(evt.data.item.active === false){
-          addZoneByIndex(evt.data.item.value);
-        evt.data.item.active = true;
+        
+        if(zones.isActiveZone(evt.data.item.value) === false){
+          zones.addZoneByIndex(evt.data.item.value);
         }else{
-          removeZoneByIndex(evt.data.item.value);
-          evt.data.item.active = false;
+          zones.removeZoneByIndex(evt.data.item.value);
         }
         
       });

@@ -44,19 +44,17 @@
 /* FINDING */
 
 
-#wrapper{
+#discovery{
   position: absolute;
-  top: 150px;
-  left: 0px;
+  top: 100px;
   right: 0px;
+  width: 400px;
+  background-color: #3F484F;
+  overflow:auto;
+  height: 500px;
 }
 
-#content-discovery{
- width: 800px;
- margin: auto;
- position: relative;
- padding-bottom: 30px; 
-}
+
 
 #content-query{
  padding-top: 10px;

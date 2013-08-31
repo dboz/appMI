@@ -1,17 +1,22 @@
 .result-item{
   border: 1px dashed gray;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
   position: relative;
   height: auto;
 }
 
 .result-left{
-  width: 500px;
+  width: 400px;
   left: 0px;
   top:0px;
   border:1px solid red;
+}
+
+.result-left h3{
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .result-category{

@@ -66,12 +66,12 @@
             }
             else if (event.keyCode === $.ui.keyCode.ENTER) {
               var value = $(this).val().trim();
-              var multiFilterQuery = new MultiFilterQuery();
-              $.each(self.fields, function(index,element){
-                multiFilterQuery.addFilter(element, value);
-              });
+              //var multiFilterQuery = new MultiFilterQuery();
+              //$.each(self.fields, function(index,element){
+              //  multiFilterQuery.addFilter(element, value);
+              //});
               //self.manager.store.addByValue('fq', '(text:"' + value + '" OR text_multilingual:"' + value + '" )');
-              self.manager.store.addByValue('fq', multiFilterQuery.getFilterQueryOR());
+              //self.manager.store.addByValue('fq', multiFilterQuery.getFilterQueryOR());
               
               self.manager.doRequest(0);
               self.requestSent = true;
@@ -100,6 +100,10 @@
                   //var params = [ 'q=' + createBBoxQuery(),fq, 'facet=true&facet.limit=10&facet.mincount=1&facet.sort=count&json.nl=map' ];
                   //var params = [ 'q=*:*',fq, 'facet=true&facet.limit=10&facet.mincount=1&facet.sort=count&json.nl=map' ];
                   var params = ['facet=true&facet.limit=50&facet.mincount=1&facet.sort=count&json.nl=map'];
+                  $.each(ManagerTextSearch.store.values('fq'), function(index, fq) {
+                      params.push('fq=' + fq);
+                    });
+                    
                   params.push(p);
                   params.push('q=*:*');
                   
@@ -126,7 +130,7 @@
                   self.requestSent = true;
                   $(this).autocomplete("close");
                   $(this).val('');
-                 // createResults();
+                  console.log('autocomlite');
                 }
               }
             }
@@ -152,6 +156,8 @@
       }
 
       jQuery.getJSON(self.manager.solrUrl + 'select?' + params.join('&') + '&rows=0&wt=json&json.wrf=?', {}, callback);
+      console.log('query');
+      
     },
     createSuggester: function(urls, response) {
       var queue = urls;
@@ -163,6 +169,7 @@
         }
         else {
           var url = queue[0];
+          console.log(url);
           var request = $.ajax({
             type: "GET",
             url: url,
