@@ -45,7 +45,7 @@
           $(this.target).append(generateItem(doc));
 
         }
-        slider.reloadSlider();
+
       }
       ,
               init: function() {

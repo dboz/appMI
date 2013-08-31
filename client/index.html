@@ -28,6 +28,10 @@
 
     <script type="text/javascript" src="js/lib/d3/d3.min.js"></script>
     <script type="text/javascript" src="js/lib/d3-cloud/d3.layout.cloud.js"></script>
+    <script src="js/lib/d3-simple-map/bower_components/topojson/topojson.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="js/lib/d3-simple-map/dist/simple-map-d3.css">
+
+  <script src="js/lib/d3-simple-map/dist/simple-map-d3.js" charset="utf-8"></script>
 
 
     <!-- start_ Ajax-solr  -->
@@ -110,8 +114,15 @@
     
     <div id="map"></div>
     <div id="map-controls"></div>
-    <div id="layers-overlay"></div>
+    <div id="layers-overlay">
+      <div id="layers-overlay-content"></div>
+    </div>
     
+    <div id="content-query" class="ui-widget">
+                <label for="query"></label>
+                <input type="text" id="query" name="query" />
+
+              </div>
     
     <div id="wrapper">
       

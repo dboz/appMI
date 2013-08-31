@@ -96,6 +96,41 @@
   
 }
 
+#layers-overlay{
+ position: absolute;
+ bottom:0px;
+ height: 300px;
+ right: 0px;
+ left: 0px;
+ border: 1px solid green;
+ z-index: 10;
+ background-color: #E2E2E2;
+  
+}
+
+.layer-item{
+  position: absolute;
+  border: 1px solid magenta;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+    
+}
+
+.layer-svg{
+  width:600px;
+  height:300px;
+  border:1px solid red;
+  margin: auto;
+}
+
+.layer-title{
+ position: absolute;
+ bottom: 20px;
+ left: 50px;
+  border: 1px solid blue;
+}
+
 
 
 

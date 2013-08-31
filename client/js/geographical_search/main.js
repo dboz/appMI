@@ -19,11 +19,13 @@ function createMapViewer(div) {
     "http://otile4.mqcdn.com/tiles/1.0.0/map/${z}/${x}/${y}.jpg"];
 
   var mapQuest = new OpenLayers.Layer.OSM("TOPO", arrayOSM);
-  var baseAerial = new OpenLayers.Layer.Bing('AERIAL', {
-    key: 'AtvXwjiVtL1UiVgtKFRXEPjLwZ5-6HAFodUF2vdj1tCjdzmDKHvIiQgX1dGH6P8R',
-    type: "Aerial"
-  });
-  baseAerial.name = 'SATELLITE';
+  /*
+   var baseAerial = new OpenLayers.Layer.Bing('AERIAL', {
+   key: 'AtvXwjiVtL1UiVgtKFRXEPjLwZ5-6HAFodUF2vdj1tCjdzmDKHvIiQgX1dGH6P8R',
+   type: "Aerial"
+   });
+   //baseAerial.name = 'SATELLITE'; per bing vedere http://trac.osgeo.org/openlayers/changeset/11059
+   */
   var clearBaseLayer = new OpenLayers.Layer("Minimal", {isBaseLayer: true});
 
   // Configuring scales
@@ -86,8 +88,8 @@ function createMapViewer(div) {
 
 
   mapViewer.addBasemap(baseMap);
-  mapViewer.addBasemap(mapQuest);
-  mapViewer.addBasemap(baseAerial);
+  //mapViewer.addBasemap(mapQuest);
+  //mapViewer.addBasemap(baseAerial);
 
   //mapViewer.addBasemap(openStreetMap);
   var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
@@ -130,6 +132,136 @@ function createMapViewer(div) {
 }
 
 $(document).ready(function() {
-  var $layers_overlay = $('#layers-overlay');
+  var $layers_overlay = $('#layers-overlay-content');
+
+  $.each(data_layers, function(index, value) {
+    var $layer = $('<div class="layer-item"></div>');
+    $layer.attr('id', 'layer_' + index);
+    $layer.append($('<div class="layer-title"></div>').append(value.name));
+    $layer.append($('<div></div>').attr('id', 'layer-svg-' + index).addClass('layer-svg'));
+
+    $layers_overlay.append($layer);
+  });
   
+  slider = $('#layers-overlay-content').bxSlider({
+    adaptiveHeight: true,
+    pager:false,
+    mode: 'fade',
+    onSlideBefore: function($slideElement, oldIndex, newIndex) { // your code here }
+      console.log($slideElement);
+
+      var id = '#' + 'layer-svg-' + newIndex;
+      var url = data_layers[newIndex].url;
+
+      var get_zones = $.ajax({
+        type: "GET",
+        url: url,
+        dataType: "jsonp",
+        contentType: "application/jsonp; charset=utf-8",
+        jsonp: 'callback',
+        jsonpCallback: 'parseGeojson',
+        crossDomain: true
+      });
+      
+      get_zones.done(function(geojson) {
+
+        
+        var map = new SimpleMapD3({
+          container: id,
+          data: geojson,
+          tooltipOn: true,
+          graticuleOn: true,
+          projection: 'equirectangular',
+          mapDragOn: false,
+          legendDragOn: false,
+          styles: {
+            "stroke-width": 0.05,
+            "stroke": "steelblue",
+            "fill": "none"
+          },
+          stylesBackground:{
+            
+          }
+        });
+
+
+
+
+
+      });
+
+    }
+  });
+
 });
+
+var data_layers = [
+  /*{
+    name: 'Zona 1',
+    url: 'http://www.insidemilan.it/layers/getZone/0'
+  },
+  {
+    name: 'Zona 2',
+    url: 'http://www.insidemilan.it/layers/getZone/1'
+  },
+  {
+    name: 'Zona 3',
+    url: 'http://www.insidemilan.it/layers/getZone/2'
+  },
+  {
+    name: 'Zona 4',
+    url: 'http://www.insidemilan.it/layers/getZone/3'
+  },
+  {
+    name: 'Zona 5',
+    url: 'http://www.insidemilan.it/layers/getZone/4'
+  },
+  {
+    name: 'Zona 6',
+    url: 'http://www.insidemilan.it/layers/getZone/5'
+  },
+  {
+    name: 'Zona 7',
+    url: 'http://www.insidemilan.it/layers/getZone/6'
+  },
+  {
+    name: 'Zona 8',
+    url: 'http://www.insidemilan.it/layers/getZone/7'
+  },
+  {
+    name: 'Zona 9',
+    url: 'http://www.insidemilan.it/layers/getZone/8'
+  },*/
+  {
+    name: 'Stazioni Ferroviarie',
+    url: 'http://www.insidemilan.it/layers/getTrainStation'
+  },
+  {
+    name: 'Linee metropolitana',
+    url: 'http://www.insidemilan.it/layers/getMetroLines'
+  },
+  {
+    name: 'Ferrovie',
+    url: 'http://www.insidemilan.it/layers/getRails'
+  },
+  {
+    name: 'Stazioni Ferroviarie',
+    url: 'http://www.insidemilan.it/layers/getTrainStation'
+  },
+  {
+    name: 'Stazioni metropolitana',
+    url: 'http://www.insidemilan.it/layers/getMetroStations'
+  }/*,
+  {
+    name: 'Aree cani',
+    url: 'http://www.insidemilan.it/layers/getDogZone'
+  },
+  {
+    name: 'Parchi',
+    url: 'http://www.insidemilan.it/layers/getParks'
+  },
+  {
+    name: 'Piste Ciclabili',
+    url: 'http://www.insidemilan.it/layers/getBikePaths'
+  }*/
+]

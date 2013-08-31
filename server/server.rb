@@ -63,6 +63,7 @@ end
 get '/getTrainStation' do
    response = get_train_station_geojson(geojson_path, geojson_train_station)
    content_type :json
+   jsonp response, 'parseGeojson'
 end
 
 get '/getRails' do
