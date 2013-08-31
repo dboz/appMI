@@ -1,6 +1,6 @@
 server: 
     port: 8081
-    enviroment: :development
+    enviroment: :production
     public_folder: public
     rack_server: :thin
 
