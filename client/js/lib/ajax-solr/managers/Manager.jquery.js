@@ -18,9 +18,9 @@ AjaxSolr.Manager = AjaxSolr.AbstractManager.extend(
   executeRequest: function (servlet, string, handler, errorHandler) {
     
     if (this.store.params.fq === undefined || this.store.params.fq.length < 0){
-      $('#results-by-text-search').hide();
+      //$('#results-by-text-search').hide();
     }else{
-      $('#results-by-text-search').show();
+      //$('#results-by-text-search').show();
     }
     
     var self = this,

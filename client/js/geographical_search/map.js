@@ -72,8 +72,8 @@ function MapOL() {
 
 
 
-  this.addMarker = function(lat, lon, zoom, name) {
-    var coordinate = new OpenLayers.LonLat(lon, lat);
+  this.addMarker = function(coordinate, zoom, content) {
+    //var coordinate = new OpenLayers.LonLat(lon, lat);
     this.map.setCenter(coordinate, zoom);
     if (this.markers === undefined) {
       this.markers = new OpenLayers.Layer.Markers('Markers');
@@ -81,8 +81,8 @@ function MapOL() {
     }
 
     var icon = this.createMarkerIcon();
-    var marker = new OpenLayers.Marker(new OpenLayers.LonLat(lon, lat), icon);
-    var remove_marker = $('<a href=geosearch >Remove Marker</a>');
+    var marker = new OpenLayers.Marker(coordinate, icon);
+    var remove_marker = $('<a href="" >Rimuovi marker</a>');
     var id = 'remove_marker_' + this.map.popups.length;
     remove_marker.attr('id', id);
 
@@ -90,7 +90,7 @@ function MapOL() {
             'popup_' + this.map.popups.length,
             coordinate,
             new OpenLayers.Size(100, 100),
-            '<p>' + name + '<br/> LAT: ' + lat + ', LON: ' + lon + '</p>' + remove_marker[0].outerHTML,
+            content + remove_marker[0].outerHTML,
             null,
             true,
             function() {

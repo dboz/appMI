@@ -69,9 +69,9 @@ function generateItem(solrDocument) {
     $name.append(solrDocument.name);
   $left.append($name);
   
-  var $address = $('<div></div>');
-  $address.append(solrDocument.address);
-  $left.append($address);
+  //var $address = $('<p></p>');
+  //$address.append(solrDocument.address);
+  //$left.append($address);
   //var $description = $('<div></div>');
   //$.each(solrDocument.description, function(index, d) {
   //  $description.append($('<p></p>').append(d));
@@ -87,23 +87,46 @@ function generateItem(solrDocument) {
     $contact.append($('<p></p>').append('Fax: ' + solrDocument.fax));
   if (solrDocument.url !== undefined)
     $contact.append($('<p></p>').append('Website: ' + solrDocument.url));
-  if (solrDocument.place !== undefined)
-    $contact.append($('<p></p>').append('Coordinates: ' + solrDocument.place));
+  //if (solrDocument.place !== undefined)
+  //  $contact.append($('<p></p>').append('Coordinates: ' + solrDocument.place));
   $left.append($contact);
 
   $content.append($left);
 
 
   var $category = $('<div class="result-category"></div>');
-  $category.append(solrDocument.category);
+  var categories = [];
+  categories.push(solrDocument.category);
   if (solrDocument.sub_category !== undefined)
-    $.each(solrDocument.sub_category, function(index, sc) {
-      $category.append('<br/>');
-      $category.append(sc);
+    categories = _.union(solrDocument.sub_category, categories);
+  
+  $.each(_.uniq(categories), function(index, sc) {
+      $category.append('<spa style="padding-right:10px">' + _.capitalize(sc) + '</span>');
+      $category.append();
     });
 
   $content.append($category);
-
+  
+  $content.css('cursor', 'pointer').css('cursor','hand');
+  $content.click({document:solrDocument},function(evt){
+    var place = evt.data.document.place;
+    var name = evt.data.document.name;
+    var address = evt.data.document.address;
+    var lat = place.split(',')[0];
+    var long = place.split(',')[1];
+    var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+    var toProjection = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+    var position = new OpenLayers.LonLat(long, lat).transform(fromProjection, toProjection);
+    var content = $('<div></div>');
+    content.append($('<h3></h3>').append(name));
+    content.append($('<p></p>').append(address));
+    content.append('<p>LAT: ' + lat + ', LON: ' + long + '</p>');
+    
+    
+    mapViewer.addMarker(position, 12, content[0].outerHTML);
+    
+  })
+  
   return $content;
 
 }

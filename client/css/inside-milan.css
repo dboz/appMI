@@ -1,3 +1,8 @@
+/* STYLE */
+a, a:visited {
+	color: #aaad8e;
+}
+
 /* HEADER */
 #wrap-header{
    width: 100%;
@@ -44,15 +49,6 @@
 /* FINDING */
 
 
-#discovery{
-  position: absolute;
-  top: 100px;
-  right: 0px;
-  width: 400px;
-  background-color: #3F484F;
-  overflow:auto;
-  height: 500px;
-}
 
 
 
