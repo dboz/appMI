@@ -82,7 +82,7 @@ function MapOL() {
 
     var icon = this.createMarkerIcon();
     var marker = new OpenLayers.Marker(coordinate, icon);
-    var remove_marker = $('<a href="" >Rimuovi marker</a>');
+    var remove_marker = $('<a style="cursor:hand;">Rimuovi marker</a>');
     var id = 'remove_marker_' + this.map.popups.length;
     remove_marker.attr('id', id);
 
