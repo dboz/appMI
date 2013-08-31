@@ -40,7 +40,8 @@
         $navigation_category.append($button);
       }
 */
-        for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
+      console.log(this.manager.response.response.docs.length);  
+      for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
           var doc = this.manager.response.response.docs[i];
           $(this.target).append(generateItem(doc));
 

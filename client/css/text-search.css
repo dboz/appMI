@@ -17,6 +17,20 @@
 
 }
 
+#discovery-button{
+  position:absolute;
+    top:5px;
+    left:0px;
+    bottom: 0px;
+    font-size: 15px;
+    width:20px;
+    z-index:150;
+    height: 100px;
+    cursor: pointer;
+    cursor: hand;
+    padding-left: 5px;
+}
+
 .result-item{
   border: 1px dashed gray;
   margin-top: 5px;

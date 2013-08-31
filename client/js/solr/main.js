@@ -1,6 +1,7 @@
+
 var fl = ['name'];
 var solrUrl = 'http://www.insidemilan.it/solr/appmi/';
-
+/*
 var Manager;
 
 (function($) {
@@ -47,4 +48,4 @@ var Manager;
     Manager.doRequest();
   });
 })(jQuery);
-
+*/

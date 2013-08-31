@@ -66,13 +66,7 @@
             }
             else if (event.keyCode === $.ui.keyCode.ENTER) {
               var value = $(this).val().trim();
-              //var multiFilterQuery = new MultiFilterQuery();
-              //$.each(self.fields, function(index,element){
-              //  multiFilterQuery.addFilter(element, value);
-              //});
-              //self.manager.store.addByValue('fq', '(text:"' + value + '" OR text_multilingual:"' + value + '" )');
-              //self.manager.store.addByValue('fq', multiFilterQuery.getFilterQueryOR());
-              
+              self.manager.store.addByValue('fq', 'text:"' + value +'"');
               self.manager.doRequest(0);
               self.requestSent = true;
               $(this).autocomplete("close");

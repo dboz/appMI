@@ -17,10 +17,12 @@ AjaxSolr.Manager = AjaxSolr.AbstractManager.extend(
   {
   executeRequest: function (servlet, string, handler, errorHandler) {
     
-    if (this.store.params.fq === undefined || this.store.params.fq.length < 0){
-      //$('#results-by-text-search').hide();
+    if (this.store.params.fq === undefined || this.store.params.fq.length == 0){
+      $('#discovery-content').hide();
+      $('#discovery').css('width','30px');
     }else{
-      //$('#results-by-text-search').show();
+      $('#discovery-content').show();
+      $('#discovery').animate({width:"450px"},400);
     }
     
     var self = this,

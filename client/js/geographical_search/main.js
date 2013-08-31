@@ -106,17 +106,25 @@ function createMapViewer(div) {
 
 
 
-  //getZones();
-
+  
+  /*
   var allBasemap = mapViewer.getAllBasemap();
   for (var j = 0; j < allBasemap.length; j++) {
     var $button = $('<button></button>');
+    
     $button.attr('id', 'basemap_button_' + j);
-    $button.attr('class', 'basemap_button');
+    $button.addClass('basemap_button');
     $button.append(allBasemap[j].name);
     $button.button();
-    $button.css('font-size', '10px');
-    $button.css('width', '120px');
+    $button.css({
+      '-webkit-transform': 'rotate(90deg) !important',
+    '-moz-transform': 'rotate(90deg) !important',
+    '-o-transform': 'rotate(90deg) !important',
+    '-ms-transform': 'rotate(90deg) !important',
+    'transform': 'rotate(90deg) !important' 
+    })
+    //$button.css('font-size', '10px');
+    //$button.css('width', '120px');
     $($button).click({
       basemap: allBasemap[j]
     },
@@ -128,7 +136,7 @@ function createMapViewer(div) {
 
     $('#map-controls').append($button);
   }
-
+*/
 }
 
 var zones;
