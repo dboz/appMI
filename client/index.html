@@ -27,7 +27,7 @@
     <script type="text/javascript" src="js/lib/underscore/underscore-min.js"></script>
     <script type="text/javascript" src="js/lib/underscore/underscore.string-min.js"></script>
     <script type="text/javascript"> _.mixin(_.str.exports())</script>
-    
+
     <script type="text/javascript" src="js/lib/d3/d3.min.js"></script>
     <script type="text/javascript" src="js/lib/d3-cloud/d3.layout.cloud.js"></script>
     <script src="js/lib/d3-simple-map/bower_components/topojson/topojson.js" charset="utf-8"></script>
@@ -60,8 +60,6 @@
     <script type="text/javascript" src="js/geographical_search/map.js"></script>
     <script type="text/javascript" src="js/geographical_search/map.zones.js"></script>
     <script type="text/javascript" src="js/geographical_search/main.js"></script>
-    <script type="text/javascript" src="js/geographical_search/full-screen.js"></script>
-    <script type="text/javascript" src="js/geographical_search/fullscreen-api-polyfill.js"></script>
 
     <!-- start: test search -->
     <script type="text/javascript" src="js/text_search/text_search.js"></script>
@@ -122,94 +120,46 @@
     </div>
 
     <div id="map"></div>
-    <!--<div id="map-controls"></div>-->
     <div id="layers-overlay-button"></div>
     <div id="layers-overlay" style="display: none;">
       <div id="layers-overlay-content"></div>
     </div>
 
-
-
     <div id="discovery">
       <div id="discovery-button"></div>
       <div id="discovery-content">
-      <div id="navigation-category">
+        <div id="navigation-category">
 
-      </div>
-      <div id="pager"></div>
-      <div id="navigation-text-search"></div>
-      <div id="results-by-text-search">
+        </div>
+        <div id="pager"></div>
+        <div id="navigation-text-search"></div>
+        <div id="results-by-text-search">
 
-      </div>
+        </div>
       </div>
     </div>
 
 
+    <div id="navigation-left"></div>
+    <div id="navigation-botton">
+      <div id="mouse-position"></div>
+      <div id="extended-scale"></div>
+      <div id="double-scale-line"></div>
+      <div id="copyright">
 
-    <div id="navigation-botton"></div>
-    <!--
-        <div id="wrapper">
-          <div id="wrapper-inner">
-            
-            <ul id="bxslider">
+   <!-- start: Container -->
+   <div id="footer">
+      <img src="images/copyright-left.png" alt="logo" />
+     
+      &copy; 2013, insideMilan. e-mail: info@insidemilan.it 
+      <a><img src="images/twitter.png" alt="logo" /></a>
+      <a><img src="images/facebook.png" alt="logo" /></a>
+      
+     <img src="images/copyright-right.png" alt="logo" />
     
-              <li>
-                <div id="content-discovery">
-                  <div id="navigation-category">
-                    
-                  </div>
-                  
-                  <div id="content-query" class="ui-widget">
-                    <label for="query"></label>
-                    <input type="text" id="query" name="query" />
-    
-                  </div>
-    
-                  <div id="pager"></div>
-                  <div id="navigation-text-search"></div>
-                  <div id="results-by-text-search">
-    
-                  </div>
-                </div>
-    
-              </li>
-              <li>
-                <div id="tag-cloud-content">
-                  <div id="tag-cloud"></div>
-                </div>
-              </li>
-              <li>
-    
-    
-                <div  id="viewer">
-                  <div id="page-content-viewer">
-    
-                    <div id="map-viewer"></div>
-    
-                    <div id="map-controls">
-                      <div id="basemap-controls"></div>
-                      <div id="mouse-position"></div>
-                      <div id="double-scale-line"></div>
-                      <div id="extended-scale"></div>
-                      <div id="progress-bar-content"></div>
-                    </div>
-    
-                  </div>
-                </div>
-    
-              </li>
-    
-            </ul>
-    
-    
-    
-          </div>
-        </div>	
-    
-    -->
-
-
-
+   </div>
+  </div>	
+    </div>
 
   </body>
 </html>
