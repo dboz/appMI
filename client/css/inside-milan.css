@@ -30,7 +30,7 @@ a, a:visited {
 #container{
    width: 1080px;
    position: absolute;
-   left: 200px;
+   left: 180px;
    z-index: 2;
 }
 
@@ -202,8 +202,6 @@ a, a:visited {
 
 .basemap-button{
     height: 50px !important;
-    
- 
 }
 
 
@@ -214,14 +212,13 @@ a, a:visited {
   top:10px;
   left: 10px;
   width: 200px;
-  
-  
 }
 
 #useresponse{
   position: absolute;
-  right: 10px;
-  top: 20px;
+  right: -30px;
+  top: 10px;
+  width: 70px;
   padding: 3px;
   border: 1px solid #E2E2E2;
 }
