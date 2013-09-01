@@ -127,8 +127,6 @@ get '/getInfoByTwitter/:query/:lat/:long' do
   query = params[:query]
   lat = params[:lat].to_f
   long = params[:long].to_f
-
-  # Exchange our oauth_token and oauth_token secret for the AccessToken instance.
   access_token = prepare_access_token("1710070567-X8Sjm16ThO5ehcf0kxLUCIJ7whBBzf1THY5gwpk", "zMmDvu5vclQfsLqvUP6yyF6lwDShCS0L0QoijbPYY")
 # use the access token as an agent to get the home timeline
   #url = "https://api.twitter.com/1.1/geo/search.json?lat=#{lat}&long=#{long}"
