@@ -29,8 +29,8 @@ a, a:visited {
 
 #container{
    width: 1080px;
-   position: relative;
-   margin: auto;
+   position: absolute;
+   left: 200px;
    z-index: 2;
 }
 
