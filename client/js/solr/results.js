@@ -27,29 +27,15 @@
 
       $(this.target).empty();
 
-/*
-      var $navigation_category = $('#navigation-category');
-      
-      
-      for (var facet in this.manager.response.facet_counts.facet_fields['category']) {
-        var label = facet;
-        var count = parseInt(this.manager.response.facet_counts.facet_fields['category'][facet]);
-        var $button = $('<button></button>');
-        $button.append(label + '(' + count + ')');
-        $button.button();
-        $navigation_category.append($button);
-      }
-*/
-      console.log(this.manager.response.response.docs.length);  
       for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
-          var doc = this.manager.response.response.docs[i];
-          $(this.target).append(generateItem(doc));
-
-        }
+        var doc = this.manager.response.response.docs[i];
+        $(this.target).append(generateItem(doc));
 
       }
-      ,
-              init: function() {
+
+    }
+    ,
+    init: function() {
       //TODO
     }
   });
@@ -69,7 +55,7 @@ function generateItem(solrDocument) {
   else
     $name.append(solrDocument.name);
   $left.append($name);
-  
+
   //var $address = $('<p></p>');
   //$address.append(solrDocument.address);
   //$left.append($address);
@@ -100,16 +86,16 @@ function generateItem(solrDocument) {
   categories.push(solrDocument.category);
   if (solrDocument.sub_category !== undefined)
     categories = _.union(solrDocument.sub_category, categories);
-  
+
   $.each(_.uniq(categories), function(index, sc) {
-      $category.append('<spa style="padding-right:10px">' + _.capitalize(sc) + '</span>');
-      $category.append();
-    });
+    $category.append('<spa style="padding-right:10px">' + _.capitalize(sc) + '</span>');
+    $category.append();
+  });
 
   $content.append($category);
-  
-  $content.css('cursor', 'pointer').css('cursor','hand');
-  $content.click({document:solrDocument},function(evt){
+
+  $content.css('cursor', 'pointer').css('cursor', 'hand');
+  $content.click({document: solrDocument}, function(evt) {
     var place = evt.data.document.place;
     var name = evt.data.document.name;
     var address = evt.data.document.address;
@@ -122,12 +108,12 @@ function generateItem(solrDocument) {
     content.append($('<h3></h3>').append(name));
     content.append($('<p></p>').append(address));
     content.append('<p>LAT: ' + lat + ', LON: ' + long + '</p>');
-    
-    
+
+
     mapViewer.addMarker(position, 12, content[0].outerHTML);
-    
+
   })
-  
+
   return $content;
 
 }

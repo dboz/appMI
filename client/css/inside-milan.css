@@ -167,7 +167,6 @@ a, a:visited {
  z-index: 300;
  background-color: #3F484F;
  height: 50px;
- border: 1px solid red;
 }
 
 #navigation-left{
@@ -233,6 +232,5 @@ a, a:visited {
 #tag-cloud{
  width: 800px;
  height: 300px;
- border: 1px solid red;
  margin: auto;
 }

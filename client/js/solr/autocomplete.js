@@ -24,7 +24,6 @@
       });
 
       $("#query").bind({
-        // don't navigate away from the field on tab when selecting an item
         keydown: function(event) {
           if (event.keyCode === $.ui.keyCode.TAB && $(this).data("autocomplete").menu.active) {
             event.preventDefault();
@@ -44,7 +43,6 @@
       var url = self.manager.solrUrl + 'select?' + params.join('&') + '&fl=' + fl.join(',') + '&wt=json&json.wrf=?';
     },
     afterRequest: function() {
-      //      $(this.target).find('input').val('');
       var self = this;
       var callback = function(response) {
         var list = [];
@@ -66,7 +64,12 @@
             }
             else if (event.keyCode === $.ui.keyCode.ENTER) {
               var value = $(this).val().trim();
-              self.manager.store.addByValue('fq', 'text:"' + value +'"');
+              $.each(self.manager.store.values('fq'), function(index, value) {
+                if (_.str.include(value, "text:") === true) {
+                  self.manager.store.removeByValue('fq', value);
+                }
+              });
+              self.manager.store.addByValue('fq', 'text:"' + value + '"');
               self.manager.doRequest(0);
               self.requestSent = true;
               $(this).autocomplete("close");
@@ -81,26 +84,26 @@
               response([]);
             }
             else {
-              var terms = [t];//t.split(" ");
+              var terms = [t];
               var queue = [];
-              //var fq = 'fq=' + filterQuery.filterQuery;
-              
-
               for (var i = 0; i < self.fields.length; i++) {
                 for (var j = 0; j < terms.length; j++) {
-                  //var p = 'facet.field=' + self.fields[i] + '&f.' + self.fields[i] + '.facet.prefix=' + t;
                   var t_ci = terms[j].toLowerCase();
                   var p = 'facet.field=' + self.fields[i] + '&f.' + self.fields[i] + '.facet.prefix=' + t_ci;// + '&fq=text:' + t_ci;
-                  //var params = [ 'q=' + createBBoxQuery(),fq, 'facet=true&facet.limit=10&facet.mincount=1&facet.sort=count&json.nl=map' ];
-                  //var params = [ 'q=*:*',fq, 'facet=true&facet.limit=10&facet.mincount=1&facet.sort=count&json.nl=map' ];
                   var params = ['facet=true&facet.limit=50&facet.mincount=1&facet.sort=count&json.nl=map'];
+                  $.each(ManagerTextSearch.store.values('fq'), function(index, value) {
+                    if (_.str.include(value, "text:") === true) {
+                      ManagerTextSearch.store.removeByValue('fq', value);
+                    }
+                  });
+
                   $.each(ManagerTextSearch.store.values('fq'), function(index, fq) {
-                      params.push('fq=' + fq);
-                    });
-                    
+                    params.push('fq=' + fq);
+                  });
+
                   params.push(p);
                   params.push('q=*:*');
-                  
+
 
                   var url = self.manager.solrUrl + 'select?' + params.join('&') + '&fl=' + fl.join(',') + '&wt=json&json.wrf=?';
                   queue.push(url);
@@ -112,8 +115,7 @@
           },
           select: function(event, ui) {
             // Click on element of the list  
-            // var value = $(this).val().trim();
-            
+
             var value = ui.item.value;
             var field = ui.item.field;
             if (value !== undefined && field !== undefined) {
@@ -141,7 +143,7 @@
         });
         return;
       }
-      //var params = [ 'q=' + createBBoxQuery(), 'facet=true&facet.limit=-1&facet.mincount=1&json.nl=map' ];
+
       var params = ['q=*:*', 'facet=true&facet.limit=-1&facet.mincount=1&json.nl=map'];
       for (var i = 0; i < this.fields.length; i++) {
         if ($('#query').val().trim().length > 0) {
@@ -151,7 +153,7 @@
 
       jQuery.getJSON(self.manager.solrUrl + 'select?' + params.join('&') + '&rows=0&wt=json&json.wrf=?', {}, callback);
       console.log('query');
-      
+
     },
     createSuggester: function(urls, response) {
       var queue = urls;
