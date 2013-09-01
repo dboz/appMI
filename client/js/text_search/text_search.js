@@ -1,4 +1,5 @@
 var ManagerTextSearch;
+var solrUrl = 'http://www.insidemilan.it/solr/appmi/';
 
 (function($) {
 
