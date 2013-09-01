@@ -126,7 +126,6 @@
                   self.requestSent = true;
                   $(this).autocomplete("close");
                   $(this).val('');
-                  console.log('autocomlite');
                 }
               }
             }
@@ -152,7 +151,6 @@
       }
 
       jQuery.getJSON(self.manager.solrUrl + 'select?' + params.join('&') + '&rows=0&wt=json&json.wrf=?', {}, callback);
-      console.log('query');
 
     },
     createSuggester: function(urls, response) {
@@ -165,7 +163,6 @@
         }
         else {
           var url = queue[0];
-          console.log(url);
           var request = $.ajax({
             type: "GET",
             url: url,

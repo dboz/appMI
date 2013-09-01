@@ -210,11 +210,11 @@ a, a:visited {
 
 #copyright{
   position: absolute;
-  bottom: -30px;
-  margin: auto;
-  width: 500px;
-  color: #E2E2E2;
-  display: none;
+  top:10px;
+  left: 10px;
+  width: 200px;
+  
+  
 }
 
 #useresponse{

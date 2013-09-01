@@ -93,13 +93,13 @@ function generateItem(solrDocument) {
   });
 
   $content.append($category);
-  
+
   var $to_map = $('<a></a>');
-  $to_map.attr('title','Visualizza sulla mappa');
-  $to_map.css('position','absolute').css('top','5px').css('right','40px').css('z-index','50').css('cursor', 'pointer').css('cursor', 'hand');
+  $to_map.attr('title', 'Visualizza sulla mappa');
+  $to_map.css('position', 'absolute').css('top', '5px').css('right', '40px').css('z-index', '50').css('cursor', 'pointer').css('cursor', 'hand');
   var $to_map_icon = $('<img height="28" width="28" src="images/globe_grey.png"></img>');
   $to_map.append($to_map_icon);
-  
+
   $to_map.click({document: solrDocument}, function(evt) {
     var place = evt.data.document.place;
     var name = evt.data.document.name;
@@ -116,62 +116,62 @@ function generateItem(solrDocument) {
     mapViewer.addMarker(position, 12, content[0].outerHTML);
 
   });
-  
-  var $twitts = $('<a></a>');
-  $twitts.attr('title','Twitts');
-  $twitts.css('position','absolute').css('top','5px').css('right','5px').css('z-index','50').css('cursor', 'pointer').css('cursor', 'hand');
-  var $twitts_icon = $('<img src="images/twitter_grey.png"></img>');
-  
-  $twitts.append($twitts_icon);
-  
-  $content.append($to_map);
-  $content.append($twitts);
-  
-  $twitts.click({document:solrDocument},function(evt){
-    var document = evt.data.document;
-    var name = document.name;
-    var place = document.place;
-    var lat = place.split(',')[0];
-    var long = place.split(',')[1];
-    
-    var query = name.split('.').join('').split('/').join('').split(':').join('') ;
-    query = query.split(' ').join('+');
 
-    var get_twitts = $.ajax({
-      type: "GET",
-      url:'http://www.insidemilan.it/layers/getInfoByTwitter/' + query + '/' +  lat + '/' + long,
-      dataType: "jsonp",
-      contentType: "application/jsonp; charset=utf-8",
-      jsonp: 'callback',
-      jsonpCallback: 'parseTwitts',
-      crossDomain: true
+  if (solrDocument.name !== undefined) {
+    var $twitts = $('<a></a>');
+    $twitts.attr('title', 'Twitts');
+    $twitts.css('position', 'absolute').css('top', '5px').css('right', '5px').css('z-index', '50').css('cursor', 'pointer').css('cursor', 'hand');
+    var $twitts_icon = $('<img src="images/twitter_grey.png"></img>');
+
+    $twitts.append($twitts_icon);
+
+    $content.append($to_map);
+    $content.append($twitts);
+
+    $twitts.click({document: solrDocument}, function(evt) {
+      var document = evt.data.document;
+      var name = document.name;
+      var place = document.place;
+      var lat = place.split(',')[0];
+      var long = place.split(',')[1];
+
+      var query = name.split('.').join('').split('/').join('').split(':').join('');
+      query = query.split(' ').join('+');
+
+      var get_twitts = $.ajax({
+        type: "GET",
+        url: 'http://www.insidemilan.it/layers/getInfoByTwitter/' + query + '/' + lat + '/' + long,
+        dataType: "jsonp",
+        contentType: "application/jsonp; charset=utf-8",
+        jsonp: 'callback',
+        jsonpCallback: 'parseTwitts',
+        crossDomain: true
+      });
+
+      get_twitts.done(function(twitts) {
+        var values = twitts['statuses'];
+        $('.response_twitts').remove();
+        var $response_twitts = $('<div class="response_twitts"></div>');
+        $content.append($response_twitts);
+
+        if (values === undefined) {
+          $response_twitts.append('Nessun twitts per questa risorsa');
+        } else {
+          if (values.length > 0) {
+            $.each(twitts['statuses'], function(index, value) {
+              $response_twitts.append(value.text);
+              $response_twitts.append(value.source);
+            });
+          } else {
+            $response_twitts.append('Nessun twitts per questa risorsa');
+          }
+        }
+
+      });
     });
-    
-    get_twitts.done(function(twitts){
-      var values = twitts['statuses'];
-      var $response_twitts = $('<div class="response_twitts"></div>');
-      $content.append($response_twitts);
-        
-      if(values === undefined){
-        $response_twitts.append('Nessun twitts per questa risorsa');
-      }else{
-        console.log(values);
-      if(values.length > 0){
-        $.each(twitts['statuses'], function(index, value){
-          console.log(value.text);
-        });
-        console.log($content);
-      
-        
-      
-    }
-      }
-      
-    });
-  });
-  
-  
-  
+  }
+
+
   return $content;
 
 }
