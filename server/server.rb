@@ -132,7 +132,7 @@ get '/getInfoByTwitter/:query/:lat/:long' do
   #url = "https://api.twitter.com/1.1/geo/search.json?lat=#{lat}&long=#{long}"
   url = "https://api.twitter.com/1.1/search/tweets.json?q=#{query}&geocode=#{lat},#{long},1km"
   response = access_token.request(:get, url)
-  return  jsonp JSON.parse(response.body).to_hash.to_json, 'parseTwitts'
+  return  jsonp JSON.parse(response.body).to_hash, 'parseTwitts'
 
 end
 

@@ -25,21 +25,5 @@ $(document).ready(function() {
 
   });
   
-  
-    var get_twitts = $.ajax({
-      type: "GET",
-      url: 'http://www.insidemilan.it/layers/getInfoByTwitter/hoepli/45.4726581976162/9.20250857605316',
-      dataType: "jsonp",
-      contentType: "application/jsonp; charset=utf-8",
-      jsonp: 'callback',
-      jsonpCallback: 'parseGeojson',
-      crossDomain: true
-    });
-    
-    get_twitts.done(function(twitts){
-      console.log(twitts)
-      
-    });
-  
-  
+ 
 });
