@@ -99,7 +99,8 @@ function generateItem(solrDocument) {
   $to_map.css('position', 'absolute').css('top', '5px').css('right', '40px').css('z-index', '50').css('cursor', 'pointer').css('cursor', 'hand');
   var $to_map_icon = $('<img height="28" width="28" src="images/globe_grey.png"></img>');
   $to_map.append($to_map_icon);
-
+  $content.append($to_map);
+  
   $to_map.click({document: solrDocument}, function(evt) {
     var place = evt.data.document.place;
     var name = evt.data.document.name;
@@ -116,16 +117,15 @@ function generateItem(solrDocument) {
     mapViewer.addMarker(position, 12, content[0].outerHTML);
 
   });
-
-  if (solrDocument.name !== undefined) {
+  
+  
+  if (solrDocument.name !== undefined && solrDocument.name !== undefined) {
     var $twitts = $('<a></a>');
     $twitts.attr('title', 'Twitts');
     $twitts.css('position', 'absolute').css('top', '5px').css('right', '5px').css('z-index', '50').css('cursor', 'pointer').css('cursor', 'hand');
     var $twitts_icon = $('<img src="images/twitter_grey.png"></img>');
 
     $twitts.append($twitts_icon);
-
-    $content.append($to_map);
     $content.append($twitts);
 
     $twitts.click({document: solrDocument}, function(evt) {
@@ -159,8 +159,7 @@ function generateItem(solrDocument) {
         } else {
           if (values.length > 0) {
             $.each(twitts['statuses'], function(index, value) {
-              $response_twitts.append(value.text);
-              $response_twitts.append(value.source);
+              $response_twitts.append('<p>' + value.text + '</p>');
             });
           } else {
             $response_twitts.append('Nessun twitts per questa risorsa');
